@@ -1,0 +1,38 @@
+{
+    "startSymbol": "S",
+    "N": [
+        "S", "EXP",
+        "JSON", "OBJECT", "ARRAY", "KEY_VALUES", "LIST_VALUES"
+    ],
+    "T": [
+        "variable",
+        "string", "number", "true", "false", "null",
+        "leftBrace", "rightBrace", "leftBracket", "rightBracket", "colon", "comma"
+    ],
+    "productions": [
+        ["S", ["EXP"]],
+
+        ["EXP", ["JSON"]],
+        ["EXP", ["variable"]],
+
+        ["JSON", ["string"]],
+        ["JSON", ["number"]],
+        ["JSON", ["OBJECT"]],
+        ["JSON", ["ARRAY"]],
+        ["JSON", ["true"]],
+        ["JSON", ["false"]],
+        ["JSON", ["null"]],
+
+        ["OBJECT", ["leftBrace", "KEY_VALUES", "rightBrace"]],
+        ["OBJECT", ["leftBrace", "rightBrace"]],
+
+        ["KEY_VALUES", ["string", "colon", "JSON"]],
+        ["KEY_VALUES", ["string", "colon", "JSON", "comma", "KEY_VALUES"]],
+
+        ["ARRAY", ["leftBracket", "rightBracket"]],
+        ["ARRAY", ["leftBracket", "LIST_VALUES", "rightBracket"]],
+
+        ["LIST_VALUES", ["JSON"]],
+        ["LIST_VALUES", ["JSON", "comma", "LIST_VALUES"]]
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "nenc",
+  "version": "0.0.1",
+  "description": "A Simple Language Which Used to Compile To Other Platform Languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveKino/nenc.git"
+  },
+  "keywords": [
+    "language",
+    "compiler"
+  ],
+  "author": "ddchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoveKino/nenc/issues"
+  },
+  "homepage": "https://github.com/LoveKino/nenc#readme",
+  "dependencies": {
+    "cl-fsm": "0.0.2",
+    "cl-jsoneq": "0.0.3",
+    "lodash.template": "^4.4.0",
+    "stream-token-parser": "0.0.3",
+    "syntaxer": "0.0.2"
+  },
+  "devDependencies": {
+    "es6-promisify": "^5.0.0",
+    "mocha": "^3.3.0"
+  }
+}
