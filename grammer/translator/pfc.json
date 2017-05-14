@@ -5,9 +5,33 @@
     [
         ["EXP", ["variable"]], "sys_variable(\"<%= $1%>\")"
     ],
+
+    [
+        ["EXP", ["ABSTRACTION"]], "<%= $1%>"
+    ],
+
+    [
+        ["ABSTRACTION", ["leftParenthesis", "rightParenthesis", "arrow", "EXP"]],
+        "sys_abstraction(sys_void(), <%= $4%>)"
+    ],
+
+    [
+        ["ABSTRACTION", ["leftParenthesis", "LIST_VARIABLES", "rightParenthesis", "arrow", "EXP"]],
+        "sys_abstraction(<%= $2%>, <%= $5%>)"
+    ],
+
+    [
+        ["LIST_VARIABLES", ["variable"]], "sys_variable(\"<%= $1%>\")"
+    ],
+
+    [
+        ["LIST_VARIABLES", ["variable", "comma", "LIST_VARIABLES"]], "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
+    ],
+
     [
         ["EXP", ["JSON"]], "<%= $1%>"
     ],
+
     [
         ["JSON", ["string"]], "sys_string(<%= $1%>)"
     ],

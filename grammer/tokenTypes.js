@@ -37,6 +37,24 @@ module.exports = [
 
     {
         priority: 1,
+        match: '->',
+        name: 'arrow'
+    },
+
+    {
+        priority: 1,
+        match: '(',
+        name: 'leftParenthesis'
+    },
+
+    {
+        priority: 1,
+        match: ')',
+        name: 'rightParenthesis'
+    },
+
+    {
+        priority: 1,
         match: 'true',
         name: 'true'
     }, {

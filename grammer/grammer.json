@@ -2,10 +2,14 @@
     "startSymbol": "S",
     "N": [
         "S", "EXP",
+        "ABSTRACTION", "LIST_VARIABLES",
         "JSON", "OBJECT", "ARRAY", "KEY_VALUES", "LIST_VALUES"
     ],
     "T": [
         "variable",
+        "leftParenthesis",
+        "rightParenthesis",
+        "arrow",
         "string", "number", "true", "false", "null",
         "leftBrace", "rightBrace", "leftBracket", "rightBracket", "colon", "comma"
     ],
@@ -14,6 +18,12 @@
 
         ["EXP", ["JSON"]],
         ["EXP", ["variable"]],
+        ["EXP", ["ABSTRACTION"]],
+
+        ["ABSTRACTION", ["leftParenthesis", "rightParenthesis", "arrow", "EXP"]],
+        ["ABSTRACTION", ["leftParenthesis", "LIST_VARIABLES", "rightParenthesis", "arrow", "EXP"]],
+        ["LIST_VARIABLES", ["variable"]],
+        ["LIST_VARIABLES", ["variable", "comma", "LIST_VARIABLES"]],
 
         ["JSON", ["string"]],
         ["JSON", ["number"]],
