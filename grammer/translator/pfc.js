@@ -11,6 +11,46 @@ module.exports = [
     ],
 
     [
+        ["EXP", ["APPLICATION"]], "<%= $1%>"
+    ],
+
+    [
+        ["APPLICATION", ["CALLER", "leftParenthesis", "rightParenthesis"]], "sys_application(<%= $1%>, sys_void())"
+    ],
+
+    [
+        ["APPLICATION", ["CALLER", "PARAMS"]], "sys_application(<%= $1%>, <%= $2%>)"
+    ],
+
+    [
+        ["APPLICATION", ["CALLER", "leftParenthesis", "EXP_LIST", "rightParenthesis"]], "sys_application(<%= $1%>, <%= $3%>)"
+    ],
+
+    [
+        ["CALLER", ["variable"]], "sys_variable(<%= $1%>)"
+    ],
+
+    [
+        ["CALLER", ["APPLICATION"]], "<%= $1%>"
+    ],
+
+    [
+        ["CALLER", ["leftParenthesis", "ABSTRACTION", "rightParenthesis"]], "<%= $2%>"
+    ],
+
+    [
+        ["PARAMS", ["leftParenthesis", "EXP_LIST", "rightParenthesis"]], "<%= $2%>"
+    ],
+
+    [
+        ["EXP_LIST", ["EXP"]], "<%= $1%>"
+    ],
+
+    [
+        ["EXP_LIST", ["EXP", "comma", "EXP_LIST"]], "sys_pair(<%= $1%>, <%= $3%>)"
+    ],
+
+    [
         ["ABSTRACTION", ["leftParenthesis", "rightParenthesis", "arrow", "EXP"]],
         "sys_abstraction(sys_void(), <%= $4%>)"
     ],

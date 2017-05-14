@@ -38,12 +38,37 @@ var isPair = function(v) {
     return v instanceof Pair;
 };
 
+var Variable = function(variableName) {
+    this.variableName = variableName;
+};
+var isVarible = function(v) {
+    return v instanceof Variable;
+};
+
+var Abstraction = function(variables, bodyExp) {
+    this.variables = variables;
+    this.bodyExp = bodyExp;
+};
+
+var isAbstraction = function(v) {
+    return v instanceof Abstraction;
+};
+
 /**************************************************************
  * main interfaces
  **************************************************************/
 
-var sys_variable = function() {};
+var sys_variable = function(varName) {
+    return new Variable(varName);
+};
 
+var sys_abstraction = function(params, body) {
+    var variables = [];
+    if (!isVoid(params)) {
+        variables = params.getValueList();
+    }
+    return new Abstraction(variables, body);
+};
 
 var sys_void = function() {
     return Void;
@@ -105,6 +130,7 @@ var result = {
     sys_pair,
 
     sys_variable,
+    sys_abstraction,
 
     sys_string,
     sys_number,

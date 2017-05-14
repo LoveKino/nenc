@@ -1,6 +1,7 @@
 // require system library
 // support to es3
-var sys_void, sys_pair, sys_variable, sys_string, sys_number, sys_true, sys_false, sys_null, sys_object, sys_array;
+var sys_void, sys_pair, sys_variable, sys_abstraction,
+    sys_string, sys_number, sys_true, sys_false, sys_null, sys_object, sys_array;
     
 !(function(module) {
     try {
@@ -8,6 +9,7 @@ var sys_void, sys_pair, sys_variable, sys_string, sys_number, sys_true, sys_fals
         sys_void = _.sys_void; 
         sys_pair = _.sys_pair; 
         sys_variable = _.sys_variable; 
+        sys_abstraction = _.sys_abstraction;
         sys_string = _.sys_string; 
         sys_number = _.sys_number; 
         sys_true = _.sys_true; 

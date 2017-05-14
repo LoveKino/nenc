@@ -3,6 +3,7 @@
     "N": [
         "S", "EXP",
         "ABSTRACTION", "LIST_VARIABLES",
+        "APPLICATION", "CALLER", "EXP_LIST",
         "JSON", "OBJECT", "ARRAY", "KEY_VALUES", "LIST_VALUES"
     ],
     "T": [
@@ -19,6 +20,17 @@
         ["EXP", ["JSON"]],
         ["EXP", ["variable"]],
         ["EXP", ["ABSTRACTION"]],
+        ["EXP", ["APPLICATION"]],
+
+        ["APPLICATION", ["CALLER", "leftParenthesis", "rightParenthesis"]],
+        ["APPLICATION", ["CALLER", "leftParenthesis", "EXP_LIST", "rightParenthesis"]],
+
+        ["CALLER", ["variable"]],
+        ["CALLER", ["APPLICATION"]],
+        ["CALLER", ["leftParenthesis", "ABSTRACTION", "rightParenthesis"]],
+
+        ["EXP_LIST", ["EXP"]],
+        ["EXP_LIST", ["EXP", "comma", "EXP_LIST"]],
 
         ["ABSTRACTION", ["leftParenthesis", "rightParenthesis", "arrow", "EXP"]],
         ["ABSTRACTION", ["leftParenthesis", "LIST_VARIABLES", "rightParenthesis", "arrow", "EXP"]],
