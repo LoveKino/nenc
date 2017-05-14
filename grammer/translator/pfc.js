@@ -35,17 +35,17 @@ module.exports = [
         ["OBJECT", ["leftBrace", "KEY_VALUES", "rightBrace"]], "sys_object(<%= $2%>)"
     ],
     [
-        ["OBJECT", ["leftBrace", "rightBrace"]], "sys_object()"
+        ["OBJECT", ["leftBrace", "rightBrace"]], "sys_object(sys_void())"
     ],
     [
-        ["KEY_VALUES", ["string", "colon", "JSON"]], "sys_string(<%= $1%>), <%= $3%>"
+        ["KEY_VALUES", ["string", "colon", "JSON"]], "sys_pair(sys_string(<%= $1%>), <%= $3%>)"
     ],
     [
-        ["KEY_VALUES", ["string", "colon", "JSON", "comma", "KEY_VALUES"]], "sys_string(<%= $1%>), <%= $3%>, <%=$5%>"
+        ["KEY_VALUES", ["string", "colon", "JSON", "comma", "KEY_VALUES"]], "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)"
     ],
 
     [
-        ["ARRAY", ["leftBracket", "rightBracket"]], "sys_array()"
+        ["ARRAY", ["leftBracket", "rightBracket"]], "sys_array(sys_void())"
     ],
     [
         ["ARRAY", ["leftBracket", "LIST_VALUES", "rightBracket"]], "sys_array(<%= $2%>)"
@@ -54,6 +54,6 @@ module.exports = [
         ["LIST_VALUES", ["JSON"]], "<%= $1%>"
     ],
     [
-        ["LIST_VALUES", ["JSON", "comma", "LIST_VALUES"]], "<%= $1%>, <%= $3%>"
+        ["LIST_VALUES", ["JSON", "comma", "LIST_VALUES"]], "sys_pair(<%= $1%>, <%= $3%>)"
     ]
 ]

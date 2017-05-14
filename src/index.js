@@ -39,10 +39,10 @@ let processTokens = (rawTokens) => {
 /**
  * chunk string
  */
-let processer = (target = 'js') => {
+let processer = (target = 'js', opts) => {
     let {
         translate, getCode
-    } = translator(target);
+    } = translator(target, opts);
 
     let lrParse = LR(ACTION, GOTO, {
         // when reduce prodcution, translate at the sametime
@@ -68,8 +68,8 @@ let processer = (target = 'js') => {
 };
 
 // for test
-let compile = (str, target) => {
-    let process = processer(target);
+let compile = (str, target, opts) => {
+    let process = processer(target, opts);
     process(str, target);
     return process(null);
 };

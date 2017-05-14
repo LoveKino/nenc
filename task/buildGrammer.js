@@ -32,16 +32,28 @@ let jsonToJsModule = (jsonPath, jsPath) => {
     });
 };
 
+let textToJsModule = (codePath, jsPath) => {
+    return readFile(codePath, 'utf-8').then((str) => {
+        let code = `module.exports = ${JSON.stringify(str)}`;
+
+        return writeFile(jsPath, code, 'utf-8');
+    });
+};
+
 //
 const grammerPath = path.join(__dirname, '../grammer/grammer.json');
 const LR1TablePath = path.join(__dirname, '../grammer/LR1Table.json');
 const LR1TableJsPath = path.join(__dirname, '../grammer/LR1Table.js');
 
-const jsTranslatorJsonPath = path.join(__dirname, '../grammer/translator/js.json');
-const jsTranslatorJsPath = path.join(__dirname, '../grammer/translator/js.js');
 const pfcTranslatorJsonPath = path.join(__dirname, '../grammer/translator/pfc.json');
 const pfcTranslatorJsPath = path.join(__dirname, '../grammer/translator/pfc.js');
 
+const jsSystemCodePath = path.join(__dirname, '../grammer/library/system.js');
+const targetJsSystemCodePath = path.join(__dirname, '../grammer/library/system.js.js');
+const jsJoinTplPath = path.join(__dirname, '../grammer/library/join.js.tpl');
+const targetJsJoinTplPath = path.join(__dirname, '../grammer/library/join.js.tpl.js');
+
 generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath);
-jsonToJsModule(jsTranslatorJsonPath, jsTranslatorJsPath);
 jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath);
+textToJsModule(jsSystemCodePath, targetJsSystemCodePath);
+textToJsModule(jsJoinTplPath, targetJsJoinTplPath);

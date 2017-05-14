@@ -8,14 +8,20 @@ let assert = require('assert');
 
 describe('basic', () => {
     it('variable', () => {
-        assert.equal(compile('_abc', 'pfc'), 'sys_variable("_abc")');
+        assert.equal(compile('_abc', 'pfc', {
+            pureMiddleCode: true
+        }), 'sys_variable("_abc")');
     });
 
     it('null', () => {
-        assert.equal(compile('null', 'pfc'), 'sys_null("null")');
+        assert.equal(compile('null', 'pfc', {
+            pureMiddleCode: true
+        }), 'sys_null("null")');
     });
 
     it('number', () => {
-        assert.equal(compile('1234', 'pfc'), 'sys_number("1234")');
+        assert.equal(compile('1234', 'pfc', {
+            pureMiddleCode: true
+        }), 'sys_number("1234")');
     });
 });
