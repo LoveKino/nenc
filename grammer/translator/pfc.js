@@ -27,7 +27,7 @@ module.exports = [
     ],
 
     [
-        ["CALLER", ["variable"]], "sys_variable(<%= $1%>)"
+        ["CALLER", ["variable"]], "sys_variable(\"<%= $1%>\")"
     ],
 
     [
@@ -36,10 +36,6 @@ module.exports = [
 
     [
         ["CALLER", ["leftParenthesis", "ABSTRACTION", "rightParenthesis"]], "<%= $2%>"
-    ],
-
-    [
-        ["PARAMS", ["leftParenthesis", "EXP_LIST", "rightParenthesis"]], "<%= $2%>"
     ],
 
     [

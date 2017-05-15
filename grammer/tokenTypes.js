@@ -19,10 +19,12 @@ let {
 
 let whitespace = union(' ', '\f', '\n', '\r', '\t', '\v', '\u00a0', '\u1680', '\u180e', '\u2000-', '\u200a', '\u2028', '\u2029', '\u202f', '\u205f', '\u3000', '\ufeff');
 
+let operations = union('+', '-', '*', '/');
+
 let variable = g(sequence(
-    union('_',
+    union('_', operations,
         range('a', 'z'), range('A', 'Z')),
-    circle(union('_', range('a', 'z'), range('A', 'Z'), range('0', '9')))
+    circle(union('_', operations, range('a', 'z'), range('A', 'Z'), range('0', '9')))
 ));
 
 // TODO graphDSL to JSON, used to store and recovery

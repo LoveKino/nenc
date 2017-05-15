@@ -27,7 +27,7 @@
     ],
 
     [
-        ["CALLER", ["variable"]], "sys_variable(<%= $1%>)"
+        ["CALLER", ["variable"]], "sys_variable(\"<%= $1%>\")"
     ],
 
     [

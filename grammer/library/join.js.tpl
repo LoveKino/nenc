@@ -1,6 +1,8 @@
 // require system library
 // support to es3
 var sys_void, sys_pair, sys_variable, sys_abstraction,
+    sys_application,
+    sys_runProgram,
     sys_string, sys_number, sys_true, sys_false, sys_null, sys_object, sys_array;
     
 !(function(module) {
@@ -17,6 +19,8 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
         sys_null = _.sys_null; 
         sys_object = _.sys_object; 
         sys_array = _.sys_array;
+        sys_runProgram = _.sys_runProgram;
+        sys_application = _.sys_application;
     }
     catch(err) {
         if(typeof console !== 'undefined') {
@@ -28,4 +32,4 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
 
 <%= custom_code %>
 
-<%= middle_code %>
+sys_runProgram(<%= middle_code %>)

@@ -35,4 +35,13 @@ describe('system.js', () => {
             }
         });
     });
+
+    it('meta', () => {
+        let jsCode = compile('+(1, 2)', 'js');
+        let script = new vm.Script(jsCode);
+        let v = script.runInContext(vm.createContext({
+            console
+        }));
+        assert.equal(v, 3);
+    });
 });
