@@ -107,6 +107,18 @@ var sys_runProgram = function(program) {
 var defaultContextMap = {
     '+': new MetaMethod(function(v1, v2) {
         return v1 + v2;
+    }),
+
+    '-': new MetaMethod(function(v1, v2) {
+        return v1 - v2;
+    }),
+
+    '*': new MetaMethod(function(v1, v2) {
+        return v1 * v2;
+    }),
+
+    '/': new MetaMethod(function(v1, v2) {
+        return v1 / v2;
     })
 };
 
@@ -220,7 +232,11 @@ var sys_variable = function(varName) {
 var sys_abstraction = function(params, body) {
     var variables = [];
     if (!isVoid(params)) {
-        variables = params.getValueList();
+        if (isVarible(params)) {
+            variables = [params];
+        } else {
+            variables = params.getValueList();
+        }
     }
     return new Abstraction(variables, body);
 };

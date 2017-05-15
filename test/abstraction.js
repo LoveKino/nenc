@@ -30,4 +30,10 @@ describe('abstraction', () => {
             pureMiddleCode: true
         }), 'sys_abstraction(sys_pair(sys_variable("a"), sys_pair(sys_variable("b"), sys_variable("c"))), sys_number("1"))');
     });
+
+    it('high order', () => {
+        assert.deepEqual(compile('(a) -> (b) -> 1', 'pfc', {
+            pureMiddleCode: true
+        }), 'sys_abstraction(sys_variable("a"), sys_abstraction(sys_variable("b"), sys_number("1")))');
+    });
 });
