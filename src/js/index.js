@@ -10,9 +10,9 @@ let translator = require('./translator');
 
 let {
     ACTION, GOTO
-} = require('../grammer/LR1Table');
+} = require('../../grammer-js/LR1Table');
 
-let tokenTypes = require('../grammer/tokenTypes');
+let tokenTypes = require('../../grammer-js/tokenTypes');
 
 let tokenSpliter = streamTokenSpliter.parser(tokenTypes);
 

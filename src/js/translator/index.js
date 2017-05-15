@@ -2,7 +2,7 @@
 
 let jsoneq = require('cl-jsoneq');
 let template = require('lodash.template');
-let pfcTranslator = require('../../grammer/translator/pfc');
+let pfcTranslator = require('../../../grammer-js/translator/pfc');
 let libraryMap = require('./library');
 
 /**

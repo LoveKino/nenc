@@ -8,4 +8,4 @@
  *  e -> λv.e
  *  e -> e1e2
  */
-module.exports = require('./src');
+module.exports = require('./src/js');
