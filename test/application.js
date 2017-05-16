@@ -22,18 +22,18 @@ describe('application', () => {
     it('param', () => {
         assert.deepEqual(compile('a(1)', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_number("1"))');
+        }), 'sys_application(sys_variable("a"), sys_data(sys_number("1")))');
     });
 
     it('param: boolean', () => {
         assert.deepEqual(compile('a(true)', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_true("true"))');
+        }), 'sys_application(sys_variable("a"), sys_data(sys_true("true")))');
     });
 
     it('abstraction', () => {
         assert.deepEqual(compile('((x) -> x)(true)', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_true("true"))');
+        }), 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_data(sys_true("true")))');
     });
 });

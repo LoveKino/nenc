@@ -62,4 +62,9 @@ describe('system.js', () => {
     it('compose new high order function', () => {
         equalApp('((x) -> (y) -> +(x, y))(3)(3)', 6);
     });
+
+    it('empty params', () => {
+        equalApp('(() -> 10)()', 10);
+    });
+
 });

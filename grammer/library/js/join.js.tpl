@@ -1,9 +1,11 @@
+'use strict';
+
 // require system library
 // support to es3
 var sys_void, sys_pair, sys_variable, sys_abstraction,
     sys_application,
     sys_runProgram,
-    sys_string, sys_number, sys_true, sys_false, sys_null, sys_object, sys_array;
+    sys_data, sys_object, sys_array, sys_string, sys_number, sys_true, sys_false, sys_null;
     
 !(function(module) {
     try {
@@ -12,6 +14,8 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
         sys_pair = _.sys_pair; 
         sys_variable = _.sys_variable; 
         sys_abstraction = _.sys_abstraction;
+
+        sys_data = _.sys_data;
         sys_string = _.sys_string; 
         sys_number = _.sys_number; 
         sys_true = _.sys_true; 
@@ -19,6 +23,7 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
         sys_null = _.sys_null; 
         sys_object = _.sys_object; 
         sys_array = _.sys_array;
+
         sys_runProgram = _.sys_runProgram;
         sys_application = _.sys_application;
     }

@@ -16,12 +16,12 @@ describe('basic', () => {
     it('null', () => {
         assert.equal(compile('null', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_null("null")');
+        }), 'sys_data(sys_null("null"))');
     });
 
     it('number', () => {
         assert.equal(compile('1234', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_number("1234")');
+        }), 'sys_data(sys_number("1234"))');
     });
 });

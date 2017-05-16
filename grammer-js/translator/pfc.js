@@ -65,7 +65,7 @@ module.exports = [
     ],
 
     [
-        ["EXP", ["JSON"]], "<%= $1%>"
+        ["EXP", ["JSON"]], "sys_data(<%= $1%>)"
     ],
 
     [

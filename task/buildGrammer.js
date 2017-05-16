@@ -48,12 +48,19 @@ const LR1TableJsPath = path.join(__dirname, '../grammer-js/LR1Table.js');
 const pfcTranslatorJsonPath = path.join(__dirname, '../grammer/translator/pfc.json');
 const pfcTranslatorJsPath = path.join(__dirname, '../grammer-js/translator/pfc.js');
 
-const jsSystemCodePath = path.join(__dirname, '../grammer/library/system.js');
-const targetJsSystemCodePath = path.join(__dirname, '../grammer-js/library/system.js.js');
-const jsJoinTplPath = path.join(__dirname, '../grammer/library/join.js.tpl');
-const targetJsJoinTplPath = path.join(__dirname, '../grammer-js/library/join.js.tpl.js');
+// system library
+const jsSystemCodePath = path.join(__dirname, '../grammer/library/js/system.js');
+const jsTargetJsSystemCodePath = path.join(__dirname, '../grammer-js/library/js/system.js.js');
+const jsJoinTplPath = path.join(__dirname, '../grammer/library/js/join.js.tpl');
+const jsTargetJsJoinTplPath = path.join(__dirname, '../grammer-js/library/js/join.js.tpl.js');
+const cSystemCodePath = path.join(__dirname, '../grammer/library/c/system.c');
+const jsTargetCSystemCodePath = path.join(__dirname, '../grammer-js/library/c/system.c.js');
+const cJoinTplPath = path.join(__dirname, '../grammer/library/c/join.c.tpl');
+const jsTargetCJoinTplPath = path.join(__dirname, '../grammer-js/library/c/join.c.tpl.js');
 
 generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath);
 jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath);
-textToJsModule(jsSystemCodePath, targetJsSystemCodePath);
-textToJsModule(jsJoinTplPath, targetJsJoinTplPath);
+textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath);
+textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath);
+textToJsModule(cSystemCodePath, jsTargetCSystemCodePath);
+textToJsModule(cJoinTplPath, jsTargetCJoinTplPath);

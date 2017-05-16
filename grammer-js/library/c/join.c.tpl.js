@@ -1,0 +1,1 @@
+module.exports = "<%= system_code %>\n\n<%= custom_code %>\n\nsys_runProgram(<%= middle_code %>);\n"
