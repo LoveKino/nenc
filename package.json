@@ -28,6 +28,7 @@
     "syntaxer": "0.0.2"
   },
   "devDependencies": {
+    "del": "^2.2.2",
     "es6-promisify": "^5.0.0",
     "mocha": "^3.3.0"
   }
