@@ -324,25 +324,8 @@ var sys_array = function(v) {
     return getPairValueList(v);
 };
 
-// basic data types
-var sys_string = function(str) {
-    return str;
-};
-
-var sys_number = function(numberStr) {
-    return Number(numberStr);
-};
-
-var sys_true = function() {
-    return true;
-};
-
-var sys_false = function() {
-    return false;
-};
-
-var sys_null = function() {
-    return null;
+var sys_string = function(v) {
+    return v;
 };
 
 var result = {
@@ -357,10 +340,6 @@ var result = {
     sys_object,
     sys_array,
     sys_string,
-    sys_number,
-    sys_true,
-    sys_false,
-    sys_null,
 
     sys_runProgram
 };

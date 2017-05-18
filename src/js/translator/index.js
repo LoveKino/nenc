@@ -14,14 +14,14 @@ let defaultExportNameMap = {
  */
 module.exports = (target, opts = {}) => {
     let {
-        systemSource, joinTpl
+        systemSource, joinTpl, optTranslator
     } = libraryMap[target] || {};
 
     let tplFun = template(joinTpl);
 
     let translate = (production, midNode) => {
         let prodcutionTranslater = getTranslateFun(production, pfcTranslator);
-        let code = translateProdcution(prodcutionTranslater, midNode, target);
+        let code = translateProdcution(prodcutionTranslater, midNode, target, optTranslator);
         midNode.values = midNode.values || [];
         midNode.values[target] = code;
     };
@@ -45,7 +45,7 @@ module.exports = (target, opts = {}) => {
     };
 };
 
-let translateProdcution = (prodcutionTranslater, midNode, target) => {
+let translateProdcution = (prodcutionTranslater, midNode, target, optTranslator) => {
     let params = {};
     let children = midNode.children;
     for (let i = 0; i < children.length; i++) {
@@ -59,7 +59,14 @@ let translateProdcution = (prodcutionTranslater, midNode, target) => {
         params[`$${i + 1}`] = childValue;
     }
 
-    return template(prodcutionTranslater)(params);
+    // TODO replace prodcutionTranslater for specific optimazation to target language
+
+    let translator = prodcutionTranslater;
+    if (optTranslator && optTranslator[translator]) {
+        translator = optTranslator[translator];
+    }
+
+    return template(translator)(params);
 };
 
 let getTranslateFun = (production, targetTranslator) => {

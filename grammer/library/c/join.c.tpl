@@ -2,7 +2,7 @@
 
 <%= custom_code %>
 
-void* main() {
+void* <%= exportName %>() {
     void* (*sys_runProgram) (void *);
     void* (*sys_data) (void *);
     void* (*sys_number) (void *);
@@ -12,7 +12,6 @@ void* main() {
     sys_number = NencSystemLibrary.sys_number;
 
     void* result = sys_runProgram(<%= middle_code %>);
-    printf("%d", result);
 
     return result;
 }

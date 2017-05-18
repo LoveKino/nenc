@@ -48,6 +48,12 @@ const LR1TableJsPath = path.join(__dirname, '../grammer-js/LR1Table.js');
 const pfcTranslatorJsonPath = path.join(__dirname, '../grammer/translator/pfc.json');
 const pfcTranslatorJsPath = path.join(__dirname, '../grammer-js/translator/pfc.js');
 
+// opt translator
+const jsOptTranslatorJsonPath = path.join(__dirname, '../grammer/library/js/optTranslator.json');
+const jsOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/js/optTranslator.js');
+const cOptTranslatorJsonPath = path.join(__dirname, '../grammer/library/c/optTranslator.json');
+const cOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/c/optTranslator.js');
+
 // system library
 const jsSystemCodePath = path.join(__dirname, '../grammer/library/js/system.js');
 const jsTargetJsSystemCodePath = path.join(__dirname, '../grammer-js/library/js/system.js.js');
@@ -64,3 +70,5 @@ textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath);
 textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath);
 textToJsModule(cSystemCodePath, jsTargetCSystemCodePath);
 textToJsModule(cJoinTplPath, jsTargetCJoinTplPath);
+jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath);
+jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath);

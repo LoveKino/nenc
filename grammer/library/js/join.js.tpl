@@ -5,7 +5,7 @@
 var sys_void, sys_pair, sys_variable, sys_abstraction,
     sys_application,
     sys_runProgram,
-    sys_data, sys_object, sys_array, sys_string, sys_number, sys_true, sys_false, sys_null;
+    sys_data, sys_object, sys_array, sys_string;
     
 !(function(module) {
     try {
@@ -16,13 +16,9 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
         sys_abstraction = _.sys_abstraction;
 
         sys_data = _.sys_data;
-        sys_string = _.sys_string; 
-        sys_number = _.sys_number; 
-        sys_true = _.sys_true; 
-        sys_false = _.sys_false; 
-        sys_null = _.sys_null; 
         sys_object = _.sys_object; 
         sys_array = _.sys_array;
+        sys_string = _.sys_string;
 
         sys_runProgram = _.sys_runProgram;
         sys_application = _.sys_application;
