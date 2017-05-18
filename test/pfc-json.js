@@ -16,13 +16,13 @@ describe('pfc-json', () => {
         }), 'sys_data(sys_number("123"))');
         assert.equal(compile(JSON.stringify(null), 'pfc', {
             pureMiddleCode: true
-        }), 'sys_data(sys_null("null"))');
+        }), 'sys_data(sys_null())');
         assert.equal(compile(JSON.stringify(true), 'pfc', {
             pureMiddleCode: true
-        }), 'sys_data(sys_true("true"))');
+        }), 'sys_data(sys_true())');
         assert.equal(compile(JSON.stringify(false), 'pfc', {
             pureMiddleCode: true
-        }), 'sys_data(sys_false("false"))');
+        }), 'sys_data(sys_false())');
     });
 
     it('object', () => {
@@ -49,7 +49,7 @@ describe('pfc-json', () => {
             c: null
         }), 'pfc', {
             pureMiddleCode: true
-        }), 'sys_data(sys_object(sys_pair(sys_pair(sys_string("a"), sys_number("1")), sys_pair(sys_pair(sys_string("b"), sys_string("2")), sys_pair(sys_string("c"), sys_null("null"))))))');
+        }), 'sys_data(sys_object(sys_pair(sys_pair(sys_string("a"), sys_number("1")), sys_pair(sys_pair(sys_string("b"), sys_string("2")), sys_pair(sys_string("c"), sys_null())))))');
     });
 
     it('array', () => {

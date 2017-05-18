@@ -5,6 +5,10 @@ let template = require('lodash.template');
 let pfcTranslator = require('../../../grammer-js/translator/pfc');
 let libraryMap = require('./library');
 
+let defaultExportNameMap = {
+    'c': 'main'
+};
+
 /**
  * translate ast to target middle code
  */
@@ -30,7 +34,8 @@ module.exports = (target, opts = {}) => {
         return tplFun({
             system_code: opts.system_code || systemSource,
             custom_code: opts.custom_code || '',
-            middle_code: middleCode
+            middle_code: middleCode,
+            exportName: opts.exportName || defaultExportNameMap[target]
         });
     };
 

@@ -16,7 +16,7 @@ describe('basic', () => {
     it('null', () => {
         assert.equal(compile('null', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_data(sys_null("null"))');
+        }), 'sys_data(sys_null())');
     });
 
     it('number', () => {

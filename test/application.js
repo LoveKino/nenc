@@ -28,12 +28,12 @@ describe('application', () => {
     it('param: boolean', () => {
         assert.deepEqual(compile('a(true)', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_data(sys_true("true")))');
+        }), 'sys_application(sys_variable("a"), sys_data(sys_true()))');
     });
 
     it('abstraction', () => {
         assert.deepEqual(compile('((x) -> x)(true)', 'pfc', {
             pureMiddleCode: true
-        }), 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_data(sys_true("true")))');
+        }), 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_data(sys_true()))');
     });
 });

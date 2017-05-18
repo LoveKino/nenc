@@ -75,13 +75,13 @@ module.exports = [
         ["JSON", ["number"]], "sys_number(\"<%= $1%>\")"
     ],
     [
-        ["JSON", ["true"]], "sys_true(\"<%= $1%>\")"
+        ["JSON", ["true"]], "sys_true()"
     ],
     [
-        ["JSON", ["false"]], "sys_false(\"<%= $1%>\")"
+        ["JSON", ["false"]], "sys_false()"
     ],
     [
-        ["JSON", ["null"]], "sys_null(\"<%= $1%>\")"
+        ["JSON", ["null"]], "sys_null()"
     ],
 
     [

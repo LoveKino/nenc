@@ -23,10 +23,12 @@ let runCCode = async(code) => {
     let filePath = FIXTURE_DIR + '/' + filename;
 
     await writeFile(filePath, code, 'utf-8');
-
-    await exec(`gcc ${filename} -o ${outputfilename} ${NENC_SYSTEM_DIR}/*.c -I${NENC_SYSTEM_DIR}`, {
+    let result = await exec(`gcc ${filename} -o ${outputfilename} ${NENC_SYSTEM_DIR}/*.c -I${NENC_SYSTEM_DIR} && ./${outputfilename}`, {
         cwd: FIXTURE_DIR
     });
+    console.log( // eslint-disable-line
+        result
+    );
 
     await del([filePath, path.join(FIXTURE_DIR, outputfilename)]);
 };
