@@ -40,19 +40,19 @@ module.exports = [
     {
         priority: 1,
         match: '->',
-        name: 'arrow'
+        name: '->'
     },
 
     {
         priority: 1,
         match: '(',
-        name: 'leftParenthesis'
+        name: '('
     },
 
     {
         priority: 1,
         match: ')',
-        name: 'rightParenthesis'
+        name: ')'
     },
 
     {
@@ -80,19 +80,19 @@ module.exports = [
     {
         priority: 1,
         match: '{',
-        name: 'leftBrace'
+        name: '{'
     }, {
         priority: 1,
         match: '}',
-        name: 'rightBrace'
+        name: '}'
     }, {
         priority: 1,
         match: '[',
-        name: 'leftBracket'
+        name: '['
     }, {
         priority: 1,
         match: ']',
-        name: 'rightBracket'
+        name: ']'
     }, {
         priority: 1,
         match: ':',
@@ -100,7 +100,7 @@ module.exports = [
     }, {
         priority: 1,
         match: ',',
-        name: 'comma'
+        name: ','
     }, {
         priority: 1,
         match: buildFSM(g(

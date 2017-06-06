@@ -1,23 +1,29 @@
+# be careful: space between symbols
+
 S := EXP
 
 EXP := JSON | variable | ABSTRACTION | APPLICATION
 
-APPLICATION := CALLER leftParenthesis rightParenthesis | CALLER leftParenthesis EXP_LIST rightParenthesis
+APPLICATION := CALLER ( ) | CALLER ( EXP_LIST )
 
-CALLER := variable | APPLICATION | leftParenthesis ABSTRACTION rightParenthesis
+# CALLER stands for any thing which can used directly as a function
 
-EXP_LIST := EXP | EXP comma EXP_LIST
+CALLER := variable | APPLICATION | ( ABSTRACTION )
 
-ABSTRACTION := leftParenthesis rightParenthesis arrow EXP | leftParenthesis LIST_VARIABLES rightParenthesis arrow EXP
+EXP_LIST := EXP | EXP , EXP_LIST
 
-LIST_VARIABLES := variable | variable comma LIST_VARIABLES
+ABSTRACTION := ( ) -> EXP | ( LIST_VARIABLES ) -> EXP
+
+LIST_VARIABLES := variable | variable , LIST_VARIABLES
+
+# below is the definition of ordinary json
 
 JSON := string | number | OBJECT | ARRAY | true | false | null
 
-OBJECT := leftBrace KEY_VALUES rightBrace | leftBrace rightBrace
+OBJECT := { KEY_VALUES } | { }
 
-KEY_VALUES := string colon JSON | string colon JSON comma KEY_VALUES
+KEY_VALUES := string colon JSON | string colon JSON , KEY_VALUES
 
-ARRAY := leftBracket rightBracket | leftBracket LIST_VALUES rightBracket
+ARRAY := [ ] | [ LIST_VALUES ]
 
-LIST_VALUES := JSON | JSON comma LIST_VALUES
+LIST_VALUES := JSON | JSON , LIST_VALUES

@@ -2,7 +2,7 @@
 
 let {
     compile
-} = require('..');
+} = require('../..');
 
 let assert = require('assert');
 
