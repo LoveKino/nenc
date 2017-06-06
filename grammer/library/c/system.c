@@ -17,12 +17,11 @@
 /**************************************************************
  * main interfaces
  **************************************************************/
-
 static void *sys_runProgram (void *program) {
     return NULL;
 }
 
-static void* sys_void (void* value) {
+static void* sys_void () {
     return NULL;
 }
 
@@ -57,26 +56,6 @@ static void* sys_array (void* arr) {
     return NULL;
 }
 
-static char* sys_string (char* str) {
-    return str;
-}
-
-static void* sys_number (void *num) {
-    return NULL;
-}
-
-static int sys_true () {
-    return 1;
-}
-
-static int sys_false () {
-    return 0;
-}
-
-static void* sys_null () {
-    return NULL;
-}
-
 const struct nencSystemLibrary NencSystemLibrary = {
     .sys_runProgram = sys_runProgram,
 
@@ -89,12 +68,7 @@ const struct nencSystemLibrary NencSystemLibrary = {
 
     .sys_data = sys_data,
     .sys_object = sys_object,
-    .sys_array = sys_array,
-    .sys_string = sys_string,
-    .sys_number = sys_number,
-    .sys_true = sys_true,
-    .sys_false = sys_false,
-    .sys_null = sys_null
+    .sys_array = sys_array
 };
 
 #endif

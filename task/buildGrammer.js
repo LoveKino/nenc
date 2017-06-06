@@ -6,6 +6,7 @@ let promisify = require('es6-promisify');
 let {
     buildLR1Table
 } = require('syntaxer');
+let bnfer = require('bnfer');
 
 let readFile = promisify(fs.readFile);
 let writeFile = promisify(fs.writeFile);
@@ -40,7 +41,14 @@ let textToJsModule = (codePath, jsPath) => {
     });
 };
 
+let generateGrammer = (txtFile, jsonFile) => {
+    return readFile(txtFile, 'utf-8').then((str) => {
+        writeFile(jsonFile, JSON.stringify(bnfer.parse(str)), 'utf-8');
+    });
+};
+
 //
+const grammerTxtPath = path.join(__dirname, '../grammer/grammer.txt');
 const grammerPath = path.join(__dirname, '../grammer/grammer.json');
 const LR1TablePath = path.join(__dirname, '../grammer/LR1Table.json');
 const LR1TableJsPath = path.join(__dirname, '../grammer-js/LR1Table.js');
@@ -64,11 +72,19 @@ const jsTargetCSystemCodePath = path.join(__dirname, '../grammer-js/library/c/sy
 const cJoinTplPath = path.join(__dirname, '../grammer/library/c/join.c.tpl');
 const jsTargetCJoinTplPath = path.join(__dirname, '../grammer-js/library/c/join.c.tpl.js');
 
-generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath);
-jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath);
-textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath);
-textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath);
-textToJsModule(cSystemCodePath, jsTargetCSystemCodePath);
-textToJsModule(cJoinTplPath, jsTargetCJoinTplPath);
-jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath);
-jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath);
+let build = () => {
+    return generateGrammer(grammerTxtPath, grammerPath).then(() => {
+        return Promise.all([
+            generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath),
+            jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
+            textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath),
+            textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
+            textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
+            textToJsModule(cJoinTplPath, jsTargetCJoinTplPath),
+            jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
+            jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
+        ]);
+    });
+};
+
+build();

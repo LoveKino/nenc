@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/LoveKino/nenc#readme",
   "dependencies": {
+    "bnfer": "0.0.2",
     "cl-fsm": "0.0.2",
     "cl-jsoneq": "0.0.3",
     "lodash.template": "^4.4.0",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "del": "^2.2.2",
     "es6-promisify": "^5.0.0",
-    "mocha": "^3.3.0"
+    "mocha": "^3.3.0",
+    "uuid": "^3.0.1"
   }
 }

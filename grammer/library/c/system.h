@@ -10,6 +10,11 @@ struct nencSystemLibraryData {
     void* content;
 };
 
+struct nencSystemLibraryPair {
+    void* v1;
+    void* v2;
+};
+
 struct nencSystemLibrary {
     void* (*sys_runProgram) (void* program);
 
@@ -28,16 +33,6 @@ struct nencSystemLibrary {
     void* (*sys_object) (void* obj);
 
     void* (*sys_array) (void* arr);
-
-    char* (*sys_string) (char* str);
-
-    void* (*sys_number) (void* num);
-
-    int (*sys_true) ();
-    
-    int (*sys_false) ();
-
-    void* (*sys_null) ();
 };
 
 extern const struct nencSystemLibrary NencSystemLibrary;

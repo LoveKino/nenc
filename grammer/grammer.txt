@@ -1,0 +1,23 @@
+S := EXP
+
+EXP := JSON | variable | ABSTRACTION | APPLICATION
+
+APPLICATION := CALLER leftParenthesis rightParenthesis | CALLER leftParenthesis EXP_LIST rightParenthesis
+
+CALLER := variable | APPLICATION | leftParenthesis ABSTRACTION rightParenthesis
+
+EXP_LIST := EXP | EXP comma EXP_LIST
+
+ABSTRACTION := leftParenthesis rightParenthesis arrow EXP | leftParenthesis LIST_VARIABLES rightParenthesis arrow EXP
+
+LIST_VARIABLES := variable | variable comma LIST_VARIABLES
+
+JSON := string | number | OBJECT | ARRAY | true | false | null
+
+OBJECT := leftBrace KEY_VALUES rightBrace | leftBrace rightBrace
+
+KEY_VALUES := string colon JSON | string colon JSON comma KEY_VALUES
+
+ARRAY := leftBracket rightBracket | leftBracket LIST_VALUES rightBracket
+
+LIST_VALUES := JSON | JSON comma LIST_VALUES

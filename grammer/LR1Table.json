@@ -3,9 +3,9 @@
         {
             "S": 10,
             "EXP": 11,
-            "ABSTRACTION": 12,
-            "APPLICATION": 13,
-            "CALLER": 14,
+            "APPLICATION": 12,
+            "CALLER": 13,
+            "ABSTRACTION": 14,
             "JSON": 15,
             "OBJECT": 16,
             "ARRAY": 17
@@ -68,10 +68,10 @@
         {},
         {
             "EXP": 63,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
-            "EXP_LIST": 67,
+            "APPLICATION": 64,
+            "CALLER": 65,
+            "EXP_LIST": 66,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
@@ -83,9 +83,9 @@
         {},
         {
             "EXP": 74,
-            "ABSTRACTION": 12,
-            "APPLICATION": 13,
-            "CALLER": 14,
+            "APPLICATION": 12,
+            "CALLER": 13,
+            "ABSTRACTION": 14,
             "JSON": 15,
             "OBJECT": 16,
             "ARRAY": 17
@@ -140,9 +140,9 @@
         {},
         {
             "EXP": 107,
-            "ABSTRACTION": 108,
-            "APPLICATION": 109,
-            "CALLER": 110,
+            "APPLICATION": 108,
+            "CALLER": 109,
+            "ABSTRACTION": 110,
             "JSON": 111,
             "OBJECT": 112,
             "ARRAY": 113
@@ -151,9 +151,9 @@
         {},
         {
             "EXP": 115,
-            "ABSTRACTION": 12,
-            "APPLICATION": 13,
-            "CALLER": 14,
+            "APPLICATION": 12,
+            "CALLER": 13,
+            "ABSTRACTION": 14,
             "JSON": 15,
             "OBJECT": 16,
             "ARRAY": 17
@@ -186,20 +186,20 @@
         {},
         {
             "EXP": 63,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
+            "APPLICATION": 64,
+            "CALLER": 65,
             "EXP_LIST": 125,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
         },
         {
             "EXP": 63,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
+            "APPLICATION": 64,
+            "CALLER": 65,
             "EXP_LIST": 127,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
@@ -233,9 +233,9 @@
         {},
         {
             "EXP": 133,
-            "ABSTRACTION": 108,
-            "APPLICATION": 109,
-            "CALLER": 110,
+            "APPLICATION": 108,
+            "CALLER": 109,
+            "ABSTRACTION": 110,
             "JSON": 111,
             "OBJECT": 112,
             "ARRAY": 113
@@ -250,9 +250,9 @@
         },
         {
             "EXP": 137,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
+            "APPLICATION": 64,
+            "CALLER": 65,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
@@ -269,10 +269,10 @@
         {},
         {
             "EXP": 63,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
+            "APPLICATION": 64,
+            "CALLER": 65,
             "EXP_LIST": 143,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
@@ -284,9 +284,9 @@
         {},
         {
             "EXP": 144,
-            "ABSTRACTION": 64,
-            "APPLICATION": 65,
-            "CALLER": 66,
+            "APPLICATION": 64,
+            "CALLER": 65,
+            "ABSTRACTION": 67,
             "JSON": 68,
             "OBJECT": 69,
             "ARRAY": 70
@@ -493,17 +493,6 @@
                 "production": [
                     "EXP",
                     [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
                         "APPLICATION"
                     ]
                 ]
@@ -522,6 +511,17 @@
             "leftParenthesis": {
                 "type": "shift",
                 "state": 38
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
             }
         },
         {
@@ -1332,26 +1332,6 @@
                 "production": [
                     "EXP",
                     [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "comma": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "rightParenthesis": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
                         "APPLICATION"
                     ]
                 ]
@@ -1385,6 +1365,26 @@
             "rightParenthesis": {
                 "type": "shift",
                 "state": 97
+            }
+        },
+        {
+            "rightParenthesis": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "comma": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
             }
         },
         {
@@ -2145,17 +2145,6 @@
                 "production": [
                     "EXP",
                     [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "rightParenthesis": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
                         "APPLICATION"
                     ]
                 ]
@@ -2174,6 +2163,17 @@
             "leftParenthesis": {
                 "type": "shift",
                 "state": 132
+            }
+        },
+        {
+            "rightParenthesis": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
             }
         },
         {

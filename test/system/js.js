@@ -66,5 +66,4 @@ describe('system.js', () => {
     it('empty params', () => {
         equalApp('(() -> 10)()', 10);
     });
-
 });
