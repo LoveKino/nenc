@@ -11,7 +11,7 @@ let importJsLibrary = (libraries) => {
     let code = '';
     for (let i = 0; i < libraries.length; i++) {
         let library = libraries[i];
-        code += `require("${library}");\n`;
+        code += `require("${library}")(addMetaMethod);\n`;
     }
 
     return code;

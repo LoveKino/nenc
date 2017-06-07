@@ -29,8 +29,8 @@ let equalJsJson = (jsonObject) => {
     assert.deepEqual(v, jsonObject);
 };
 
-let equalJsApp = (nencCode, result) => {
-    let jsCode = compile(nencCode, 'js');
+let equalJsApp = (nencCode, result, options) => {
+    let jsCode = compile(nencCode, 'js', options);
     let script = new vm.Script(jsCode);
     let v = script.runInContext(vm.createContext({
         console,

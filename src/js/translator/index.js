@@ -32,8 +32,8 @@ module.exports = (target, opts = {}) => {
 
         let libraryImportCode = '';
 
-        if (opts.librarys && importLibrary) {
-            libraryImportCode = importLibrary(opts.libraries);
+        if (opts.library && importLibrary) {
+            libraryImportCode = importLibrary(opts.library);
         }
 
         return tplFun({

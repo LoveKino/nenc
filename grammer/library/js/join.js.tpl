@@ -4,7 +4,8 @@
 var sys_void, sys_pair, sys_variable, sys_abstraction,
     sys_application,
     sys_runProgram,
-    sys_data, sys_object, sys_array, sys_string;
+    sys_data, sys_object, sys_array, sys_string,
+    addMetaMethod;
 
 // require system library
 var nencJsInterpreter = require('nenc-js-interpreter');
@@ -24,6 +25,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
 
         sys_runProgram = _.sys_runProgram;
         sys_application = _.sys_application;
+        addMetaMethod = _.addMetaMethod;
     }
     catch(err) {
         if(typeof console !== 'undefined') {
@@ -33,7 +35,12 @@ var nencJsInterpreter = require('nenc-js-interpreter');
     }
 })();
 
+try {
 <%= libraryImportCode %>
+} catch(err) {
+    console.log('error happened when try to import library code.');
+    throw err;
+}
 
 <%= custom_code %>
 

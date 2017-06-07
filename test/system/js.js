@@ -5,6 +5,8 @@ let {
     equalJsJson
 } = require('../util');
 
+let path = require('path');
+
 let testData = {
     '+(1, 2)': 3,
     '-(1, 2)': -1,
@@ -41,4 +43,10 @@ describe('system.js', () => {
             equalJsApp(name, target);
         });
     }
+
+    it('import library', () => {
+        equalJsApp('__(10, 20)', 600, {
+            library: [path.join(__dirname, './fixture/test0.js')]
+        });
+    });
 });
