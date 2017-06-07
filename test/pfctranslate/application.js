@@ -1,39 +1,21 @@
 'use strict';
 
 let {
-    compile
-} = require('../..');
+    equalPfcTranslate
+} = require('../util');
 
-let assert = require('assert');
+let testData = {
+    'a()': 'sys_application(sys_variable("a"), sys_void())',
+    'a()()': 'sys_application(sys_application(sys_variable("a"), sys_void()), sys_void())',
+    'a(1)': 'sys_application(sys_variable("a"), sys_data(sys_number("1")))',
+    'a(true)': 'sys_application(sys_variable("a"), sys_data(sys_true()))',
+    '((x) -> x)(true)': 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_data(sys_true()))'
+};
 
 describe('application', () => {
-    it('variable calling', () => {
-        assert.deepEqual(compile('a()', 'pfc', {
-            pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_void())');
-    });
-
-    it('variable calling in row', () => {
-        assert.deepEqual(compile('a()()', 'pfc', {
-            pureMiddleCode: true
-        }), 'sys_application(sys_application(sys_variable("a"), sys_void()), sys_void())');
-    });
-
-    it('param', () => {
-        assert.deepEqual(compile('a(1)', 'pfc', {
-            pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_data(sys_number("1")))');
-    });
-
-    it('param: boolean', () => {
-        assert.deepEqual(compile('a(true)', 'pfc', {
-            pureMiddleCode: true
-        }), 'sys_application(sys_variable("a"), sys_data(sys_true()))');
-    });
-
-    it('abstraction', () => {
-        assert.deepEqual(compile('((x) -> x)(true)', 'pfc', {
-            pureMiddleCode: true
-        }), 'sys_application(sys_abstraction(sys_variable("x"), sys_variable("x")), sys_data(sys_true()))');
-    });
+    for (let name in testData) {
+        it(name, () => {
+            equalPfcTranslate(name, testData[name]);
+        });
+    }
 });

@@ -6,15 +6,15 @@ let {
 
 let assert = require('assert');
 
-let equalPfcTranslate = (source, target) => {
-    assert.deepEqual(compile(source, 'pfc', {
+let equalPfcTranslate = (source, target, lang = 'pfc') => {
+    assert.deepEqual(compile(source, lang, {
         pureMiddleCode: true
     }), target);
 };
 
-let equalPfcTranslateMap = (map) => {
+let equalPfcTranslateMap = (map, lang) => {
     for (let name in map) {
-        equalPfcTranslate(name, map[name]);
+        equalPfcTranslate(name, map[name], lang);
     }
 };
 

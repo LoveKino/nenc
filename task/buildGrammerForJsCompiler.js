@@ -37,15 +37,24 @@ const jsTargetJsJoinTplPath = path.join(__dirname, '../grammer-js/library/js/joi
 const jsTargetCSystemCodePath = path.join(__dirname, '../grammer-js/library/c/system.c.js');
 const jsTargetCJoinTplPath = path.join(__dirname, '../grammer-js/library/c/join.c.tpl.js');
 
+let systemLibJsModule = () => {
+    return Promise.all([
+        textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath),
+        textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
+        textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
+        textToJsModule(cJoinTplPath, jsTargetCJoinTplPath)
+    ]);
+};
+
 module.exports = () => {
     return generateGrammer(grammerTxtPath, grammerPath).then(() => {
         return Promise.all([
             generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath),
+
             jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
-            textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath),
-            textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
-            textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
-            textToJsModule(cJoinTplPath, jsTargetCJoinTplPath),
+
+            systemLibJsModule(),
+
             jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
             jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
         ]);

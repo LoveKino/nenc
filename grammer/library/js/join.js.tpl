@@ -35,6 +35,7 @@ var sys_void, sys_pair, sys_variable, sys_abstraction,
 
 (function() {
     var __program__result__ = sys_runProgram(<%= middle_code %>);
+    // exports result
     if(typeof module === 'object' && module) {
         module.exports = __program__result__;
     }

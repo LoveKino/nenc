@@ -1,8 +1,7 @@
 'use strict';
 
-let jsoneq = require('cl-jsoneq');
 let template = require('lodash.template');
-let pfcTranslator = require('./pfcTranslator');
+let getTranslateFun = require('./pfcTranslator');
 let libraryMap = require('./library');
 
 let defaultExportNameMap = {
@@ -20,8 +19,8 @@ module.exports = (target, opts = {}) => {
     let tplFun = template(joinTpl);
 
     let translate = (production, midNode) => {
-        let prodcutionTranslater = getTranslateFun(production, pfcTranslator);
-        let code = translateProdcution(prodcutionTranslater, midNode, target, optTranslator);
+        let productionTranslater = getTranslateFun(production);
+        let code = translateProdcution(productionTranslater, midNode, target, optTranslator);
         midNode.values = midNode.values || [];
         midNode.values[target] = code;
     };
@@ -45,7 +44,7 @@ module.exports = (target, opts = {}) => {
     };
 };
 
-let translateProdcution = (prodcutionTranslater, midNode, target, optTranslator) => {
+let translateProdcution = (productionTranslater, midNode, target, optTranslator) => {
     let params = {};
     let children = midNode.children;
     for (let i = 0; i < children.length; i++) {
@@ -59,29 +58,12 @@ let translateProdcution = (prodcutionTranslater, midNode, target, optTranslator)
         params[`$${i + 1}`] = childValue;
     }
 
-    // TODO replace prodcutionTranslater for specific optimazation to target language
+    // TODO replace productionTranslater for specific optimazation to target language
 
-    let translator = prodcutionTranslater;
+    let translator = productionTranslater;
     if (optTranslator && optTranslator[translator]) {
         translator = optTranslator[translator];
     }
 
     return template(translator)(params);
-};
-
-let getTranslateFun = (production, targetTranslator) => {
-    let prodcutionTranslater = null;
-
-    // find production translator
-    for (let i = 0; i < targetTranslator.length; i++) {
-        let tar = targetTranslator[i];
-        if (jsoneq(tar[0], production)) {
-            prodcutionTranslater = tar[1];
-        }
-    }
-    if (!prodcutionTranslater) {
-        throw new Error(`missing production translator for ${JSON.stringify(production)}`);
-    }
-
-    return prodcutionTranslater;
 };
