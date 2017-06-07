@@ -13,7 +13,7 @@ let defaultExportNameMap = {
  */
 module.exports = (target, opts = {}) => {
     let {
-        systemSource, joinTpl, optTranslator
+        systemSource, joinTpl, optTranslator, importLibrary
     } = libraryMap[target] || {};
 
     let tplFun = template(joinTpl);
@@ -30,10 +30,17 @@ module.exports = (target, opts = {}) => {
 
         if (opts.pureMiddleCode) return middleCode;
 
+        let libraryImportCode = '';
+
+        if (opts.librarys && importLibrary) {
+            libraryImportCode = importLibrary(opts.libraries);
+        }
+
         return tplFun({
             system_code: opts.system_code || systemSource,
             custom_code: opts.custom_code || '',
             middle_code: middleCode,
+            libraryImportCode,
             exportName: opts.exportName || defaultExportNameMap[target]
         });
     };

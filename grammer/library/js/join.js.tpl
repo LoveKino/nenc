@@ -33,6 +33,8 @@ var nencJsInterpreter = require('nenc-js-interpreter');
     }
 })();
 
+<%= libraryImportCode %>
+
 <%= custom_code %>
 
 (function() {
