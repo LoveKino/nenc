@@ -7,9 +7,10 @@ let vm = require('vm');
 let assert = require('assert');
 
 let equalPfcTranslate = (source, target, lang = 'pfc') => {
-    assert.deepEqual(compile(source, lang, {
+    let code = compile(source, lang, {
         pureMiddleCode: true
-    }), target);
+    });
+    assert.deepEqual(code, target);
 };
 
 let equalPfcTranslateMap = (map, lang) => {

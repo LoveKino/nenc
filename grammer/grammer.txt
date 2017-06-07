@@ -1,13 +1,17 @@
 # be careful: space between symbols
 
-S := EXP
+S := STATEMENTS
+
+STATEMENTS := STATEMENT | STATEMENT ; STATEMENT
+
+STATEMENT := EXP | EPSILON
 
 EXP := JSON | variable | ABSTRACTION | APPLICATION
 
+# standard math style function calling, eg: f(1, 2)
 APPLICATION := CALLER ( ) | CALLER ( EXP_LIST )
 
 # CALLER stands for any thing which can used directly as a function
-
 CALLER := variable | APPLICATION | ( ABSTRACTION )
 
 EXP_LIST := EXP | EXP , EXP_LIST

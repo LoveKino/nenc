@@ -51,26 +51,29 @@ let processer = (target = 'js', opts) => {
         }
     });
 
-    return (chunk) => {
+    let process = (chunk) => {
         let str = chunk && chunk.toString();
-
         let tokens = processTokens(tokenSpliter(str));
+
 
         for (let i = 0; i < tokens.length; i++) {
             lrParse(tokens[i]);
         }
 
+        // means finished chunks
         if (chunk === null) {
             let ast = lrParse(null);
             return getCode(ast);
         }
     };
+
+    return process;
 };
 
 // for test
 let compile = (str, target, opts) => {
     let process = processer(target, opts);
-    process(str, target);
+    process(str);
     return process(null);
 };
 

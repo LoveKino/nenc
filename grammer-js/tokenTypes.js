@@ -53,9 +53,7 @@ module.exports = [
         priority: 1,
         match: ')',
         name: ')'
-    },
-
-    {
+    }, {
         priority: 1,
         match: 'true',
         name: 'true'
@@ -75,9 +73,11 @@ module.exports = [
         priority: 1,
         match: buildFSM(numberGraph),
         name: 'number'
-    },
-
-    {
+    }, {
+        priority: 1,
+        match: ';',
+        name: ';'
+    }, {
         priority: 1,
         match: '{',
         name: '{'
@@ -101,12 +101,13 @@ module.exports = [
         priority: 1,
         match: ',',
         name: ','
-    }, {
+    },
+
+    {
         priority: 1,
         match: buildFSM(g(
             c(whitespace)
         )),
         name: 'whitespace'
     }
-
 ];

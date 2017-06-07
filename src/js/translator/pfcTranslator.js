@@ -25,7 +25,7 @@ let getTranslateFun = (production) => {
             productionTranslater = tar[1];
         }
     }
-    if (!productionTranslater) {
+    if (productionTranslater === null) {
         throw new Error(`missing production translator for ${JSON.stringify(production)}`);
     }
 
