@@ -4,7 +4,8 @@
   "description": "A Simple Language Which Used to Compile To Other Platform Languages.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"test/**/*.js\""
+    "test": "mocha \"test/**/*.js\"",
+    "build": "node task/buildGrammer.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "del": "^2.2.2",
     "es6-promisify": "^5.0.0",
     "mocha": "^3.3.0",
+    "nenc-js-interpreter": "git+https://github.com/LoveKino/nenc-js-interpreter.git",
     "uuid": "^3.0.1"
   }
 }

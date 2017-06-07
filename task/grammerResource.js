@@ -13,7 +13,6 @@ const jsOptTranslatorJsonPath = path.join(__dirname, '../grammer/library/js/optT
 const cOptTranslatorJsonPath = path.join(__dirname, '../grammer/library/c/optTranslator.json');
 
 // system library
-const jsSystemCodePath = path.join(__dirname, '../grammer/library/js/system.js');
 const jsJoinTplPath = path.join(__dirname, '../grammer/library/js/join.js.tpl');
 const cSystemCodePath = path.join(__dirname, '../grammer/library/c/system.c');
 const cJoinTplPath = path.join(__dirname, '../grammer/library/c/join.c.tpl');
@@ -25,7 +24,6 @@ module.exports = {
     pfcTranslatorJsonPath,
     jsOptTranslatorJsonPath,
     cOptTranslatorJsonPath,
-    jsSystemCodePath,
     jsJoinTplPath,
     cSystemCodePath,
     cJoinTplPath

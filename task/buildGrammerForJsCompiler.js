@@ -7,7 +7,6 @@ let {
     pfcTranslatorJsonPath,
     jsOptTranslatorJsonPath,
     cOptTranslatorJsonPath,
-    jsSystemCodePath,
     jsJoinTplPath,
     cSystemCodePath,
     cJoinTplPath
@@ -32,14 +31,12 @@ const jsOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/js/opt
 const cOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/c/optTranslator.js');
 
 // system library
-const jsTargetJsSystemCodePath = path.join(__dirname, '../grammer-js/library/js/system.js.js');
 const jsTargetJsJoinTplPath = path.join(__dirname, '../grammer-js/library/js/join.js.tpl.js');
 const jsTargetCSystemCodePath = path.join(__dirname, '../grammer-js/library/c/system.c.js');
 const jsTargetCJoinTplPath = path.join(__dirname, '../grammer-js/library/c/join.c.tpl.js');
 
 let systemLibJsModule = () => {
     return Promise.all([
-        textToJsModule(jsSystemCodePath, jsTargetJsSystemCodePath),
         textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
         textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
         textToJsModule(cJoinTplPath, jsTargetCJoinTplPath)

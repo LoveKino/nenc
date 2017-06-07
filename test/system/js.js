@@ -1,42 +1,32 @@
 'use strict';
 
 let {
-    compile
-} = require('../..');
-let assert = require('assert');
-let vm = require('vm');
+    equalJsApp,
+    equalJsJson
+} = require('../util');
 
-let equalJson = (jsonObject) => {
-    let jsCode = compile(JSON.stringify(jsonObject), 'js');
-    let script = new vm.Script(jsCode);
-    let v = script.runInContext(vm.createContext({
-        console
-    }));
-
-    assert.deepEqual(v, jsonObject);
-};
-
-let equalApp = (nencCode, result) => {
-    let jsCode = compile(nencCode, 'js');
-    let script = new vm.Script(jsCode);
-    let v = script.runInContext(vm.createContext({
-        console
-    }));
-    assert.equal(v, result);
+let testData = {
+    '+(1, 2)': 3,
+    '-(1, 2)': -1,
+    '+(1, +(3, 4))': 8,
+    '-(1, +(3, 4))': -6,
+    '((x, y) -> +(x, -(y, 1)))(3, 4)': 6,
+    '((x) -> (y) -> +(x, y))(3)(3)': 6,
+    '(() -> 10)()': 10
 };
 
 describe('system.js', () => {
-    it('base', () => {
-        equalJson(1);
-        equalJson(null);
-        equalJson('abc');
-        equalJson(true);
-        equalJson(false);
-        equalJson({
+    it('json', () => {
+        equalJsJson(1);
+        equalJsJson(null);
+        equalJsJson('abc');
+        equalJsJson(true);
+        equalJsJson(false);
+        equalJsJson({
             a: 1
         });
-        equalJson([2, 4]);
-        equalJson({
+        equalJsJson([2, 4]);
+        equalJsJson({
             a: {
                 b: {
                     c: [1, 2, 3]
@@ -45,25 +35,10 @@ describe('system.js', () => {
         });
     });
 
-    it('meta', () => {
-        equalApp('+(1, 2)', 3);
-        equalApp('-(1, 2)', -1);
-    });
-
-    it('compose meta method', () => {
-        equalApp('+(1, +(3, 4))', 8);
-        equalApp('-(1, +(3, 4))', -6);
-    });
-
-    it('compose new function', () => {
-        equalApp('((x, y) -> +(x, -(y, 1)))(3, 4)', 6);
-    });
-
-    it('compose new high order function', () => {
-        equalApp('((x) -> (y) -> +(x, y))(3)(3)', 6);
-    });
-
-    it('empty params', () => {
-        equalApp('(() -> 10)()', 10);
-    });
+    for (let name in testData) {
+        let target = testData[name];
+        it(name, () => {
+            equalJsApp(name, target);
+        });
+    }
 });

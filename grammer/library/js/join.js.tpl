@@ -1,15 +1,17 @@
 'use strict';
 
-// require system library
 // support to es3
 var sys_void, sys_pair, sys_variable, sys_abstraction,
     sys_application,
     sys_runProgram,
     sys_data, sys_object, sys_array, sys_string;
+
+// require system library
+var nencJsInterpreter = require('nenc-js-interpreter');
     
 !(function(module) {
     try {
-        var _ = (function(){<%= system_code %>})();
+        var _ = nencJsInterpreter;
         sys_void = _.sys_void; 
         sys_pair = _.sys_pair; 
         sys_variable = _.sys_variable; 

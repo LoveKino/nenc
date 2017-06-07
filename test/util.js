@@ -3,7 +3,7 @@
 let {
     compile
 } = require('..');
-
+let vm = require('vm');
 let assert = require('assert');
 
 let equalPfcTranslate = (source, target, lang = 'pfc') => {
@@ -18,7 +18,30 @@ let equalPfcTranslateMap = (map, lang) => {
     }
 };
 
+let equalJsJson = (jsonObject) => {
+    let jsCode = compile(JSON.stringify(jsonObject), 'js');
+    let script = new vm.Script(jsCode);
+    let v = script.runInContext(vm.createContext({
+        console,
+        require
+    }));
+
+    assert.deepEqual(v, jsonObject);
+};
+
+let equalJsApp = (nencCode, result) => {
+    let jsCode = compile(nencCode, 'js');
+    let script = new vm.Script(jsCode);
+    let v = script.runInContext(vm.createContext({
+        console,
+        require
+    }));
+    assert.equal(v, result);
+};
+
 module.exports = {
     equalPfcTranslate,
-    equalPfcTranslateMap
+    equalPfcTranslateMap,
+    equalJsApp,
+    equalJsJson
 };

@@ -1,6 +1,5 @@
 'use strict';
 
-let jsSystemCode = require('../../../grammer-js/library/js/system.js.js');
 let jsLinkTpl = require('../../../grammer-js/library/js/join.js.tpl.js');
 let jsOptTranslator = require('../../../grammer-js/library/js/optTranslator.js');
 
@@ -10,7 +9,6 @@ let cOptTransltor = require('../../../grammer-js/library/c/optTranslator.js');
 
 module.exports = {
     js: {
-        systemSource: jsSystemCode,
         joinTpl: jsLinkTpl,
         optTranslator: jsOptTranslator
     },
