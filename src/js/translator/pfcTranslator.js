@@ -4,7 +4,7 @@ let {
     parse
 } = require('bnfer');
 let jsoneq = require('cl-jsoneq');
-let pfcsource = require('../../../grammer-js/translator/pfc');
+let pfcsource = require('../../../grammer-host/grammer-js/translator/pfc');
 
 let pfctarget = [];
 

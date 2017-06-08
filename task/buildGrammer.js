@@ -1,5 +1,9 @@
 'use strict';
 
+let generateGrammer = require('./generateGrammer');
+
 let buildGrammerForJsCompiler = require('./buildGrammerForJsCompiler');
 
-buildGrammerForJsCompiler();
+generateGrammer().then(() => {
+    buildGrammerForJsCompiler();
+});

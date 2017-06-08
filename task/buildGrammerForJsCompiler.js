@@ -1,7 +1,6 @@
 'use strict';
 
 let {
-    grammerTxtPath,
     grammerPath,
     LR1TablePath,
     pfcTranslatorJsonPath,
@@ -15,25 +14,27 @@ let {
 let {
     generateLR1Table,
     jsonToJsModule,
-    textToJsModule,
-    generateGrammer
+    textToJsModule
 } = require('./util');
 
 let path = require('path');
 
-//
-const LR1TableJsPath = path.join(__dirname, '../grammer-js/LR1Table.js');
+let grammerJsDir = path.join(__dirname, '../grammer-host/grammer-js');
 
-const pfcTranslatorJsPath = path.join(__dirname, '../grammer-js/translator/pfc.js');
+//
+const LR1TableJsPath = path.join(grammerJsDir, 'LR1Table.js');
+
+const pfcTranslatorJsPath = path.join(grammerJsDir, 'translator/pfc.js');
 
 // opt translator
-const jsOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/js/optTranslator.js');
-const cOptTranslatorJsPath = path.join(__dirname, '../grammer-js/library/c/optTranslator.js');
+const jsOptTranslatorJsPath = path.join(grammerJsDir, 'library/js/optTranslator.js');
+const cOptTranslatorJsPath = path.join(grammerJsDir, 'library/c/optTranslator.js');
 
 // system library
-const jsTargetJsJoinTplPath = path.join(__dirname, '../grammer-js/library/js/join.js.tpl.js');
-const jsTargetCSystemCodePath = path.join(__dirname, '../grammer-js/library/c/system.c.js');
-const jsTargetCJoinTplPath = path.join(__dirname, '../grammer-js/library/c/join.c.tpl.js');
+const jsTargetJsJoinTplPath = path.join(grammerJsDir, 'library/js/join.js.tpl.js');
+
+const jsTargetCSystemCodePath = path.join(grammerJsDir, 'library/c/system.c.js');
+const jsTargetCJoinTplPath = path.join(grammerJsDir, 'library/c/join.c.tpl.js');
 
 let systemLibJsModule = () => {
     return Promise.all([
@@ -44,16 +45,14 @@ let systemLibJsModule = () => {
 };
 
 module.exports = () => {
-    return generateGrammer(grammerTxtPath, grammerPath).then(() => {
-        return Promise.all([
-            generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath),
+    return Promise.all([
+        generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath),
 
-            jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
+        jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
 
-            systemLibJsModule(),
+        systemLibJsModule(),
 
-            jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
-            jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
-        ]);
-    });
+        jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
+        jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
+    ]);
 };
