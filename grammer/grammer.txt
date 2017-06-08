@@ -1,6 +1,8 @@
 # be careful: space between symbols
 
-S := STATEMENTS
+S := PROGRAM
+
+PROGRAM := STATEMENTS
 
 STATEMENTS := STATEMENT | STATEMENT ; STATEMENTS
 
@@ -16,7 +18,7 @@ CALLER := variable | APPLICATION | ( ABSTRACTION )
 
 EXP_LIST := EXP | EXP , EXP_LIST
 
-ABSTRACTION := ( ) -> EXP | ( LIST_VARIABLES ) -> EXP
+ABSTRACTION := ( ) -> EXP | ( LIST_VARIABLES ) -> EXP | ( ) -> { PROGRAM } | ( LIST_VARIABLES ) -> { PROGRAM }
 
 LIST_VARIABLES := variable | variable , LIST_VARIABLES
 
