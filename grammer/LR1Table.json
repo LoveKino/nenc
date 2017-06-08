@@ -71,32 +71,33 @@
         {},
         {},
         {
-            "STATEMENT": 65,
-            "EXP": 66,
-            "APPLICATION": 67,
-            "CALLER": 68,
-            "ABSTRACTION": 69,
-            "JSON": 70,
-            "OBJECT": 71,
-            "ARRAY": 72
+            "STATEMENTS": 56,
+            "STATEMENT": 12,
+            "EXP": 13,
+            "APPLICATION": 14,
+            "CALLER": 15,
+            "ABSTRACTION": 16,
+            "JSON": 17,
+            "OBJECT": 18,
+            "ARRAY": 19
         },
         {
-            "EXP": 83,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "EXP_LIST": 86,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
+            "EXP": 67,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "EXP_LIST": 70,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
         {
-            "LIST_VARIABLES": 91
+            "LIST_VARIABLES": 75
         },
         {},
         {},
         {
-            "EXP": 94,
+            "EXP": 78,
             "APPLICATION": 14,
             "CALLER": 15,
             "ABSTRACTION": 16,
@@ -107,9 +108,9 @@
         {},
         {},
         {
-            "JSON": 103,
-            "OBJECT": 104,
-            "ARRAY": 105
+            "JSON": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
         },
         {},
         {},
@@ -120,40 +121,14 @@
             "JSON": 36,
             "OBJECT": 37,
             "ARRAY": 38,
-            "LIST_VALUES": 108
+            "LIST_VALUES": 92
         },
-        {},
-        {},
-        {
-            "ABSTRACTION": 23,
-            "LIST_VARIABLES": 110
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "KEY_VALUES": 112
-        },
-        {
-            "JSON": 36,
-            "OBJECT": 37,
-            "ARRAY": 38,
-            "LIST_VALUES": 114
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
         {
             "ABSTRACTION": 23,
-            "LIST_VARIABLES": 117
+            "LIST_VARIABLES": 94
         },
         {},
         {},
@@ -162,13 +137,13 @@
         {},
         {},
         {
-            "KEY_VALUES": 119
+            "KEY_VALUES": 96
         },
         {
             "JSON": 36,
             "OBJECT": 37,
             "ARRAY": 38,
-            "LIST_VALUES": 121
+            "LIST_VALUES": 98
         },
         {},
         {},
@@ -180,18 +155,18 @@
         {},
         {},
         {
-            "EXP": 134,
-            "APPLICATION": 135,
-            "CALLER": 136,
-            "ABSTRACTION": 137,
-            "JSON": 138,
-            "OBJECT": 139,
-            "ARRAY": 140
+            "EXP": 111,
+            "APPLICATION": 112,
+            "CALLER": 113,
+            "ABSTRACTION": 114,
+            "JSON": 115,
+            "OBJECT": 116,
+            "ARRAY": 117
         },
         {},
         {},
         {
-            "EXP": 142,
+            "EXP": 119,
             "APPLICATION": 14,
             "CALLER": 15,
             "ABSTRACTION": 16,
@@ -205,13 +180,13 @@
         {},
         {},
         {
-            "KEY_VALUES": 144
+            "KEY_VALUES": 121
         },
         {
             "JSON": 36,
             "OBJECT": 37,
             "ARRAY": 38,
-            "LIST_VALUES": 146
+            "LIST_VALUES": 123
         },
         {},
         {},
@@ -226,40 +201,24 @@
         {},
         {},
         {
-            "EXP": 83,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "EXP_LIST": 153,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 83,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "EXP_LIST": 158,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
+            "EXP": 67,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "EXP_LIST": 129,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
         {
-            "EXP": 83,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "EXP_LIST": 160,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
+            "EXP": 67,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "EXP_LIST": 131,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
         {},
         {},
@@ -273,13 +232,13 @@
         {},
         {},
         {
-            "KEY_VALUES": 162
+            "KEY_VALUES": 133
         },
         {
             "JSON": 36,
             "OBJECT": 37,
             "ARRAY": 38,
-            "LIST_VALUES": 164
+            "LIST_VALUES": 135
         },
         {},
         {},
@@ -289,13 +248,13 @@
         {},
         {},
         {
-            "EXP": 166,
-            "APPLICATION": 135,
-            "CALLER": 136,
-            "ABSTRACTION": 137,
-            "JSON": 138,
-            "OBJECT": 139,
-            "ARRAY": 140
+            "EXP": 137,
+            "APPLICATION": 112,
+            "CALLER": 113,
+            "ABSTRACTION": 114,
+            "JSON": 115,
+            "OBJECT": 116,
+            "ARRAY": 117
         },
         {},
         {},
@@ -303,30 +262,16 @@
         {},
         {},
         {
-            "KEY_VALUES": 169
+            "KEY_VALUES": 140
         },
         {
-            "EXP": 170,
-            "APPLICATION": 67,
-            "CALLER": 68,
-            "ABSTRACTION": 69,
-            "JSON": 70,
-            "OBJECT": 71,
-            "ARRAY": 72
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 173,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
+            "EXP": 141,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
         {},
         {},
@@ -339,14 +284,14 @@
         {},
         {},
         {
-            "EXP": 83,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "EXP_LIST": 179,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
+            "EXP": 67,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "EXP_LIST": 147,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
         {},
         {},
@@ -354,26 +299,14 @@
         {},
         {},
         {
-            "EXP": 180,
-            "APPLICATION": 67,
-            "CALLER": 68,
-            "ABSTRACTION": 69,
-            "JSON": 70,
-            "OBJECT": 71,
-            "ARRAY": 72
+            "EXP": 148,
+            "APPLICATION": 68,
+            "CALLER": 69,
+            "ABSTRACTION": 71,
+            "JSON": 72,
+            "OBJECT": 73,
+            "ARRAY": 74
         },
-        {},
-        {},
-        {
-            "EXP": 181,
-            "APPLICATION": 84,
-            "CALLER": 85,
-            "ABSTRACTION": 87,
-            "JSON": 88,
-            "OBJECT": 89,
-            "ARRAY": 90
-        },
-        {},
         {},
         {},
         {},
@@ -1100,83 +1033,90 @@
                     []
                 ]
             },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "STATEMENT",
+                    []
+                ]
+            },
             "variable": {
                 "type": "shift",
-                "state": 56
+                "state": 1
             },
             "string": {
                 "type": "shift",
-                "state": 58
+                "state": 3
             },
             "number": {
                 "type": "shift",
-                "state": 59
+                "state": 4
             },
             "true": {
                 "type": "shift",
-                "state": 60
+                "state": 5
             },
             "false": {
                 "type": "shift",
-                "state": 61
+                "state": 6
             },
             "null": {
                 "type": "shift",
-                "state": 62
+                "state": 7
             },
             "(": {
                 "type": "shift",
-                "state": 57
+                "state": 2
             },
             "{": {
                 "type": "shift",
-                "state": 63
+                "state": 8
             },
             "[": {
                 "type": "shift",
-                "state": 64
+                "state": 9
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 75
+                "state": 59
             },
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 57
             },
             "string": {
                 "type": "shift",
-                "state": 76
+                "state": 60
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 61
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 62
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 63
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
@@ -1188,13 +1128,13 @@
         {
             "->": {
                 "type": "shift",
-                "state": 92
+                "state": 76
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 93
+                "state": 77
             }
         },
         {
@@ -1251,37 +1191,37 @@
         {
             "->": {
                 "type": "shift",
-                "state": 95
+                "state": 79
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 96
+                "state": 80
             },
             "number": {
                 "type": "shift",
-                "state": 97
+                "state": 81
             },
             "true": {
                 "type": "shift",
-                "state": 98
+                "state": 82
             },
             "false": {
                 "type": "shift",
-                "state": 99
+                "state": 83
             },
             "null": {
                 "type": "shift",
-                "state": 100
+                "state": 84
             },
             "{": {
                 "type": "shift",
-                "state": 101
+                "state": 85
             },
             "[": {
                 "type": "shift",
-                "state": 102
+                "state": 86
             }
         },
         {
@@ -1333,7 +1273,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 106
+                "state": 90
             }
         },
         {
@@ -1361,7 +1301,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 107
+                "state": 91
             }
         },
         {
@@ -1416,139 +1356,6 @@
                         "]"
                     ]
                 ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 109
-            },
-            "variable": {
-                "type": "shift",
-                "state": 20
-            },
-            "(": {
-                "type": "shift",
-                "state": 21
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 111
-            },
-            "string": {
-                "type": "shift",
-                "state": 25
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 113
-            },
-            "string": {
-                "type": "shift",
-                "state": 28
-            },
-            "number": {
-                "type": "shift",
-                "state": 29
-            },
-            "true": {
-                "type": "shift",
-                "state": 30
-            },
-            "false": {
-                "type": "shift",
-                "state": 31
-            },
-            "null": {
-                "type": "shift",
-                "state": 32
-            },
-            "{": {
-                "type": "shift",
-                "state": 33
-            },
-            "[": {
-                "type": "shift",
-                "state": 34
             }
         },
         {
@@ -1559,88 +1366,7 @@
                     [
                         "STATEMENT",
                         ";",
-                        "STATEMENT"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENT",
-                    [
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 115
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
+                        "STATEMENTS"
                     ]
                 ]
             }
@@ -1677,7 +1403,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 116
+                "state": 93
             },
             "variable": {
                 "type": "shift",
@@ -1826,7 +1552,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 118
+                "state": 95
             },
             "string": {
                 "type": "shift",
@@ -1836,7 +1562,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 120
+                "state": 97
             },
             "string": {
                 "type": "shift",
@@ -1879,7 +1605,7 @@
             },
             ",": {
                 "type": "shift",
-                "state": 122
+                "state": 99
             }
         },
         {
@@ -1914,13 +1640,13 @@
         {
             "(": {
                 "type": "shift",
-                "state": 123
+                "state": 100
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 124
+                "state": 101
             }
         },
         {
@@ -2019,45 +1745,45 @@
         {
             "variable": {
                 "type": "shift",
-                "state": 125
+                "state": 102
             },
             "string": {
                 "type": "shift",
-                "state": 127
+                "state": 104
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 105
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 106
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 107
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 108
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 132
+                "state": 109
             },
             "[": {
                 "type": "shift",
-                "state": 133
+                "state": 110
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 141
+                "state": 118
             }
         },
         {
@@ -2227,7 +1953,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 143
+                "state": 120
             },
             "string": {
                 "type": "shift",
@@ -2237,7 +1963,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 145
+                "state": 122
             },
             "string": {
                 "type": "shift",
@@ -2282,7 +2008,7 @@
             },
             ",": {
                 "type": "shift",
-                "state": 147
+                "state": 124
             }
         },
         {
@@ -2389,103 +2115,13 @@
         {
             "->": {
                 "type": "shift",
-                "state": 148
+                "state": 125
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 149
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 150
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 151
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 152
-            },
-            "variable": {
-                "type": "shift",
-                "state": 73
-            },
-            "string": {
-                "type": "shift",
-                "state": 76
-            },
-            "number": {
-                "type": "shift",
-                "state": 77
-            },
-            "true": {
-                "type": "shift",
-                "state": 78
-            },
-            "false": {
-                "type": "shift",
-                "state": 79
-            },
-            "null": {
-                "type": "shift",
-                "state": 80
-            },
-            "(": {
-                "type": "shift",
-                "state": 74
-            },
-            "{": {
-                "type": "shift",
-                "state": 81
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 154
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 155
+                "state": 126
             }
         },
         {
@@ -2513,7 +2149,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 156
+                "state": 127
             }
         },
         {
@@ -2541,87 +2177,87 @@
         {
             "]": {
                 "type": "shift",
-                "state": 157
+                "state": 128
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 57
             },
             "string": {
                 "type": "shift",
-                "state": 76
+                "state": 60
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 61
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 62
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 63
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 159
+                "state": 130
             },
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 57
             },
             "string": {
                 "type": "shift",
-                "state": 76
+                "state": 60
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 61
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 62
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 63
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
@@ -2754,7 +2390,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 161
+                "state": 132
             },
             "string": {
                 "type": "shift",
@@ -2764,7 +2400,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 163
+                "state": 134
             },
             "string": {
                 "type": "shift",
@@ -2832,7 +2468,7 @@
         {
             "(": {
                 "type": "shift",
-                "state": 165
+                "state": 136
             }
         },
         {
@@ -2882,39 +2518,39 @@
         {
             "variable": {
                 "type": "shift",
-                "state": 125
+                "state": 102
             },
             "string": {
                 "type": "shift",
-                "state": 127
+                "state": 104
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 105
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 106
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 107
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 108
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 132
+                "state": 109
             },
             "[": {
                 "type": "shift",
-                "state": 133
+                "state": 110
             }
         },
         {
@@ -2970,7 +2606,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 167
+                "state": 138
             }
         },
         {
@@ -2998,7 +2634,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 168
+                "state": 139
             }
         },
         {
@@ -3010,145 +2646,45 @@
         {
             "variable": {
                 "type": "shift",
-                "state": 56
+                "state": 57
             },
             "string": {
-                "type": "shift",
-                "state": 58
-            },
-            "number": {
-                "type": "shift",
-                "state": 59
-            },
-            "true": {
                 "type": "shift",
                 "state": 60
             },
-            "false": {
+            "number": {
                 "type": "shift",
                 "state": 61
             },
-            "null": {
+            "true": {
                 "type": "shift",
                 "state": 62
             },
-            "(": {
-                "type": "shift",
-                "state": 57
-            },
-            "{": {
+            "false": {
                 "type": "shift",
                 "state": 63
             },
-            "[": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 171
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 172
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 73
-            },
-            "string": {
-                "type": "shift",
-                "state": 76
-            },
-            "number": {
-                "type": "shift",
-                "state": 77
-            },
-            "true": {
-                "type": "shift",
-                "state": 78
-            },
-            "false": {
-                "type": "shift",
-                "state": 79
-            },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 174
+                "state": 142
             }
         },
         {
@@ -3250,7 +2786,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 175
+                "state": 143
             }
         },
         {
@@ -3268,7 +2804,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 176
+                "state": 144
             }
         },
         {
@@ -3286,49 +2822,49 @@
         {
             "]": {
                 "type": "shift",
-                "state": 177
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 178
+                "state": 146
             },
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 57
             },
             "string": {
                 "type": "shift",
-                "state": 76
+                "state": 60
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 61
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 62
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 63
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
@@ -3410,84 +2946,6 @@
             }
         },
         {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 56
-            },
-            "string": {
-                "type": "shift",
-                "state": 58
-            },
-            "number": {
-                "type": "shift",
-                "state": 59
-            },
-            "true": {
-                "type": "shift",
-                "state": 60
-            },
-            "false": {
-                "type": "shift",
-                "state": 61
-            },
-            "null": {
-                "type": "shift",
-                "state": 62
-            },
-            "(": {
-                "type": "shift",
-                "state": 57
-            },
-            "{": {
-                "type": "shift",
-                "state": 63
-            },
-            "[": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
             ")": {
                 "type": "reduce",
                 "production": [
@@ -3516,39 +2974,39 @@
         {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 57
             },
             "string": {
                 "type": "shift",
-                "state": 76
+                "state": 60
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 61
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 62
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 63
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 64
             },
             "(": {
                 "type": "shift",
-                "state": 74
+                "state": 58
             },
             "{": {
                 "type": "shift",
-                "state": 81
+                "state": 65
             },
             "[": {
                 "type": "shift",
-                "state": 82
+                "state": 66
             }
         },
         {
@@ -3642,22 +3100,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 182
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
+                "state": 149
             }
         },
         {

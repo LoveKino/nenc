@@ -2,7 +2,7 @@
     "S := STATEMENTS": "sys_statements(<%= $1%>)",
 
     "STATEMENTS := STATEMENT": "<%= $1%>",
-    "STATEMENTS := STATEMENT ; STATEMENT": "sys_pair(<%= $1%>, <%= $3 %>)",
+    "STATEMENTS := STATEMENT ; STATEMENTS": "sys_pair(<%= $1%>, <%= $3 %>)",
 
     "STATEMENT := EPSILON": "sys_void()",
     "STATEMENT := EXP": "sys_exp(<%= $1%>)",
