@@ -2,8 +2,8 @@
 
 // support to es3
 var sys_void, sys_pair, 
-    sys_statements, sys_exp, sys_variable, sys_abstraction, sys_application,
-    sys_runProgram,
+    sys_application, sys_statements, sys_exp, sys_variable, sys_abstraction,
+    sys_runProgram, sys_letBinding,
     sys_data, sys_object, sys_array, sys_string,
     addMetaMethod;
 
@@ -16,6 +16,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         sys_void = _.sys_void; 
         sys_pair = _.sys_pair; 
 
+        sys_letBinding = _.sys_letBinding;
         sys_statements = _.sys_statements;
         sys_exp = _.sys_exp;
         sys_variable = _.sys_variable; 

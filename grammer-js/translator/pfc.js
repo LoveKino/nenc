@@ -7,6 +7,17 @@ module.exports = {
 
     "STATEMENT := EPSILON": "sys_void()",
     "STATEMENT := EXP": "sys_exp(<%= $1%>)",
+    "STATEMENT := LET_EXPRESSION": "<%= $1%>",
+
+    "LET_EXPRESSION := let VARIABLE_DEFINITION_LIST": "sys_letBinding(<%= $2%>)",
+
+    "VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION": "<%= $1%>",
+
+    "VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
+
+    "VARIABLE_DEFINITION := variable": "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())",
+
+    "VARIABLE_DEFINITION := variable = EXP": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",
 
     "EXP := JSON": "sys_data(<%= $1%>)",
     "EXP := variable": "sys_variable(\"<%= $1%>\")",
