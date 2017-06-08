@@ -3,7 +3,7 @@
 let {
     equalJsApp,
     equalJsJson
-} = require('../util');
+} = require('../../util');
 
 let path = require('path');
 

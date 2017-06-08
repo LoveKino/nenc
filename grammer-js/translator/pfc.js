@@ -1,11 +1,11 @@
 module.exports = {
-    "S := STATEMENTS": "<%= $1%>",
+    "S := STATEMENTS": "sys_statements(<%= $1%>)",
 
     "STATEMENTS := STATEMENT": "<%= $1%>",
-    "STATEMENTS := STATEMENT ; STATEMENT": "<%= $1%>",
+    "STATEMENTS := STATEMENT ; STATEMENT": "sys_pair(<%= $1%>, <%= $3 %>)",
 
     "STATEMENT := EPSILON": "sys_void()",
-    "STATEMENT := EXP": "<%= $1%>",
+    "STATEMENT := EXP": "sys_exp(<%= $1%>)",
 
     "EXP := JSON": "sys_data(<%= $1%>)",
     "EXP := variable": "sys_variable(\"<%= $1%>\")",

@@ -32,12 +32,18 @@ let equalJsJson = (jsonObject) => {
 
 let equalJsApp = (nencCode, result, options) => {
     let jsCode = compile(nencCode, 'js', options);
-    let script = new vm.Script(jsCode);
-    let v = script.runInContext(vm.createContext({
-        console,
-        require
-    }));
-    assert.equal(v, result);
+    try {
+        let script = new vm.Script(jsCode);
+        let v = script.runInContext(vm.createContext({
+            console,
+            require
+        }));
+        assert.equal(v, result);
+    } catch (err) {
+        console.log(`[nenc code] ${nencCode}`);
+        console.log(`[js code] ${jsCode}`);
+        throw err;
+    }
 };
 
 module.exports = {

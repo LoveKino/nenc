@@ -5,9 +5,9 @@ let {
 } = require('../util');
 
 let testData = {
-    '_abc': 'sys_variable("_abc")',
-    'null': 'sys_data(sys_null())',
-    '1234': 'sys_data(sys_number("1234"))',
+    '_abc': 'sys_statements(sys_exp(sys_variable("_abc")))',
+    'null': 'sys_statements(sys_exp(sys_data(sys_null())))',
+    '1234': 'sys_statements(sys_exp(sys_data(sys_number("1234"))))',
 };
 
 describe('basic', () => {

@@ -5,11 +5,11 @@ let {
 } = require('../util');
 
 let testData = {
-    '1': 'sys_data(1)',
-    '1.3e10': 'sys_data(1.3e10)',
-    'true': 'sys_data(true)',
-    'false': 'sys_data(false)',
-    '"abc"': 'sys_data("abc")'
+    '1': 'sys_statements(sys_exp(sys_data(1)))',
+    '1.3e10': 'sys_statements(sys_exp(sys_data(1.3e10)))',
+    'true': 'sys_statements(sys_exp(sys_data(true)))',
+    'false': 'sys_statements(sys_exp(sys_data(false)))',
+    '"abc"': 'sys_statements(sys_exp(sys_data("abc")))'
 };
 
 describe('basic', () => {
