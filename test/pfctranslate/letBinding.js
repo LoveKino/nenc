@@ -16,7 +16,7 @@ let testData = {
     'let x = 1; + (x, 1)': 'sys_statements(sys_pair(sys_letBinding(sys_pair(sys_variable("x"), sys_data(sys_number("1")))), sys_exp(sys_application(sys_variable("+"), sys_pair(sys_variable("x"), sys_data(sys_number("1")))))))'
 };
 
-describe('basic', () => {
+describe('letbinding', () => {
     for (let name in testData) {
         it(name, () => {
             equalPfcTranslate(name, testData[name]);

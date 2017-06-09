@@ -32,15 +32,21 @@ let variable = g(sequence(
 module.exports = [
 
     {
-        priority: 1,
-        match: 'let',
-        name: 'let'
-    },
-
-    {
         priority: 0, // null, false, true etc has a higher priority
         match: buildFSM(variable),
         name: 'variable'
+    },
+
+    {
+        priority: 1,
+        match: 'import',
+        name: 'import'
+    },
+
+    {
+        priority: 1,
+        match: 'let',
+        name: 'let'
     },
 
     {

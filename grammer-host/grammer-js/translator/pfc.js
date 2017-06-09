@@ -8,6 +8,9 @@ module.exports = {
     "STATEMENT := EPSILON": "sys_void()",
     "STATEMENT := EXP": "sys_exp(<%= $1%>)",
     "STATEMENT := LET_EXPRESSION": "<%= $1%>",
+    "STATEMENT := IMPORT_EXPRESSION": "<%= $1%>",
+
+    "IMPORT_EXPRESSION := import string": "sys_import(<%= $2%>)",
 
     "LET_EXPRESSION := let VARIABLE_DEFINITION_LIST": "sys_letBinding(<%= $2%>)",
 
