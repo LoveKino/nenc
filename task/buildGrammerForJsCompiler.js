@@ -4,6 +4,7 @@ let {
     grammerPath,
     LR1TablePath,
     pfcTranslatorJsonPath,
+    pfcModuleWrapperTplPath,
     jsOptTranslatorJsonPath,
     cOptTranslatorJsonPath,
     jsJoinTplPath,
@@ -25,6 +26,7 @@ let grammerJsDir = path.join(__dirname, '../grammer-host/grammer-js');
 const LR1TableJsPath = path.join(grammerJsDir, 'LR1Table.js');
 
 const pfcTranslatorJsPath = path.join(grammerJsDir, 'translator/pfc.js');
+const pfcModuleWrapperTplJsPath = path.join(grammerJsDir, 'translator/pfc_module_wrapper.tpl.js');
 
 // opt translator
 const jsOptTranslatorJsPath = path.join(grammerJsDir, 'library/js/optTranslator.js');
@@ -50,9 +52,12 @@ module.exports = () => {
 
         jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
 
+        textToJsModule(pfcModuleWrapperTplPath, pfcModuleWrapperTplJsPath),
+
         systemLibJsModule(),
 
         jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
+
         jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
     ]);
 };

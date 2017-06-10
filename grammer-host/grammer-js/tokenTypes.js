@@ -45,6 +45,12 @@ module.exports = [
 
     {
         priority: 1,
+        match: 'as',
+        name: 'as'
+    },
+
+    {
+        priority: 1,
         match: 'let',
         name: 'let'
     },

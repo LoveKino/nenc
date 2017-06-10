@@ -1,83 +1,110 @@
 'use strict';
 
-let streamTokenSpliter = require('stream-token-parser');
+let processer = require('./processer');
+let path = require('path');
 
-let {
-    LR
-} = require('syntaxer');
-
-let translator = require('./translator');
-
-let {
-    ACTION, GOTO
-} = require('../../grammer-host/grammer-js/LR1Table');
-
-let tokenTypes = require('../../grammer-host/grammer-js/tokenTypes');
-
-let tokenSpliter = streamTokenSpliter.parser(tokenTypes);
-
-let processTokens = (rawTokens) => {
-    let tokens = [];
-    for (let i = 0; i < rawTokens.length; i++) {
-        let {
-            text, tokenType
-        } = rawTokens[i];
-
-        let name = tokenType.name;
-
-        if (name !== 'whitespace') { // ignore white space
-            tokens.push({
-                text,
-                name
-            });
-        }
-    }
-
-    return tokens;
+// for test, a better way is to compile from stream
+let compile = (str, target, opts) => {
+    let virtualFilePath = path.join(process.cwd(), 'repl');
+    let {
+        handleChunk, assembleWithTpl
+    } = processer(target, opts, {
+        currentFile: virtualFilePath
+    });
+    handleChunk(str);
+    return assembleWithTpl(handleChunk(null), virtualFilePath);
 };
 
 /**
- * chunk string
+ * only support for nodeJs, not for browser
  */
-let processer = (target = 'js', opts) => {
+let compileFile = (indexPath, target, opts) => {
+    let tasks = {},
+        count = 0,
+        code = '';
+
+    let errored = false;
+    let cwd = process.cwd();
+    indexPath = path.resolve(cwd, indexPath);
+
     let {
-        translate, getCode
-    } = translator(target, opts);
+        assembleWithTpl
+    } = processer(target, opts);
 
-    let lrParse = LR(ACTION, GOTO, {
-        // when reduce prodcution, translate at the sametime
-        reduceHandler: (production, reducedTokens, ast) => {
-            translate(production, reducedTokens, ast);
-        }
+    return new Promise((resolve, reject) => {
+        let loadModule = (modulePath) => {
+            if (errored) return;
+
+            tasks[modulePath] = compileFileTask(modulePath, target, opts, {
+                loadModule
+            });
+            count++;
+
+            tasks[modulePath].then((moduleCode) => {
+                code += moduleCode;
+                count--;
+                delete tasks[modulePath];
+
+                if (count === 0) {
+                    resolve(assembleWithTpl(code, indexPath));
+                }
+            }).catch(err => {
+                count--;
+                delete tasks[modulePath];
+                errored = true;
+                reject(err);
+            });
+        };
+
+        loadModule(indexPath);
     });
-
-    let process = (chunk) => {
-        let str = chunk && chunk.toString();
-        let tokens = processTokens(tokenSpliter(str));
-
-
-        for (let i = 0; i < tokens.length; i++) {
-            lrParse(tokens[i]);
-        }
-
-        // means finished chunks
-        if (chunk === null) {
-            let ast = lrParse(null);
-            return getCode(ast);
-        }
-    };
-
-    return process;
 };
 
-// for test
-let compile = (str, target, opts) => {
-    let process = processer(target, opts);
-    process(str);
-    return process(null);
+// TODO max io configuration
+let compileFileTask = (filePath, target, opts, {
+    loadModule
+}) => {
+    let {
+        handleChunk
+    } = processer(target, opts, {
+        loadModule, currentFile: filePath
+    });
+
+    let fs = eval('require("fs")');
+
+    let stream = fs.createReadStream(filePath, {
+        encoding: 'utf-8',
+        autoClose: true
+    });
+
+    return new Promise((resolve, reject) => {
+        stream.on('data', (chunk) => {
+            try {
+                let part = chunk.toString();
+                // compile those part string
+                handleChunk(part);
+            } catch (err) {
+                reject(err);
+            }
+        });
+
+        stream.on('end', () => {
+            try {
+                let ret = handleChunk(null);
+                resolve(ret);
+            } catch (err) {
+                reject(err);
+            }
+        });
+
+        stream.on('error', (err) => {
+            reject(err);
+        });
+    });
 };
 
 module.exports = {
     processer,
-    compile
+    compile,
+    compileFile
 };

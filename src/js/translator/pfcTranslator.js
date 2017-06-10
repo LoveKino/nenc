@@ -1,10 +1,12 @@
 'use strict';
 
+let template = require('lodash.template');
 let {
     parse
 } = require('bnfer');
 let jsoneq = require('cl-jsoneq');
 let pfcsource = require('../../../grammer-host/grammer-js/translator/pfc');
+let pfcModuleWrapper = require('../../../grammer-host/grammer-js/translator/pfc_module_wrapper.tpl.js');
 
 let pfctarget = [];
 
@@ -32,4 +34,16 @@ let getTranslateFun = (production) => {
     return productionTranslater;
 };
 
-module.exports = getTranslateFun;
+let wrapperTplFun = template(pfcModuleWrapper);
+
+let wrapModule = (modulePath, moduleCode) => {
+    return wrapperTplFun({
+        modulePath,
+        moduleCode
+    });
+};
+
+module.exports = {
+    getTranslateFun,
+    wrapModule
+};

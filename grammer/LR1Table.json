@@ -17,11 +17,11 @@
         },
         {},
         {},
+        {},
         {
             "VARIABLE_DEFINITION_LIST": 27,
             "VARIABLE_DEFINITION": 28
         },
-        {},
         {
             "ABSTRACTION": 32,
             "LIST_VARIABLES": 33
@@ -58,7 +58,7 @@
         {},
         {},
         {
-            "LIST_VARIABLES": 55
+            "LIST_VARIABLES": 56
         },
         {},
         {},
@@ -68,7 +68,7 @@
         {},
         {},
         {
-            "KEY_VALUES": 62
+            "KEY_VALUES": 63
         },
         {},
         {},
@@ -78,7 +78,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 64
+            "LIST_VALUES": 65
         },
         {},
         {},
@@ -86,7 +86,7 @@
         {},
         {},
         {
-            "STATEMENTS": 67,
+            "STATEMENTS": 68,
             "STATEMENT": 15,
             "IMPORT_EXPRESSION": 16,
             "LET_EXPRESSION": 17,
@@ -99,35 +99,36 @@
             "ARRAY": 24
         },
         {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 81,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 82,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
+        },
+        {},
+        {
+            "EXP": 97,
+            "APPLICATION": 98,
+            "CALLER": 99,
+            "ABSTRACTION": 100,
+            "JSON": 101,
+            "OBJECT": 102,
+            "ARRAY": 103
         },
         {
-            "EXP": 95,
-            "APPLICATION": 96,
-            "CALLER": 97,
-            "ABSTRACTION": 98,
-            "JSON": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 102,
+            "VARIABLE_DEFINITION_LIST": 104,
             "VARIABLE_DEFINITION": 28
         },
         {
-            "LIST_VARIABLES": 103
+            "LIST_VARIABLES": 105
         },
         {},
         {},
         {
-            "EXP": 107,
+            "EXP": 109,
             "APPLICATION": 19,
             "CALLER": 20,
             "ABSTRACTION": 21,
@@ -138,9 +139,9 @@
         {},
         {},
         {
-            "JSON": 116,
-            "OBJECT": 117,
-            "ARRAY": 118
+            "JSON": 118,
+            "OBJECT": 119,
+            "ARRAY": 120
         },
         {},
         {},
@@ -151,7 +152,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 121
+            "LIST_VALUES": 123
         },
         {},
         {},
@@ -159,11 +160,11 @@
         {},
         {
             "ABSTRACTION": 32,
-            "LIST_VARIABLES": 123
+            "LIST_VARIABLES": 125
         },
         {},
         {
-            "KEY_VALUES": 125
+            "KEY_VALUES": 127
         },
         {},
         {},
@@ -173,8 +174,9 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 127
+            "LIST_VALUES": 129
         },
+        {},
         {},
         {},
         {},
@@ -187,10 +189,10 @@
         {},
         {
             "ABSTRACTION": 32,
-            "LIST_VARIABLES": 132
+            "LIST_VARIABLES": 134
         },
         {
-            "KEY_VALUES": 134
+            "KEY_VALUES": 136
         },
         {},
         {},
@@ -200,7 +202,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 136
+            "LIST_VALUES": 138
         },
         {},
         {},
@@ -212,33 +214,33 @@
         {},
         {},
         {
-            "EXP": 147,
-            "APPLICATION": 148,
-            "CALLER": 149,
-            "ABSTRACTION": 150,
-            "JSON": 151,
-            "OBJECT": 152,
-            "ARRAY": 153
+            "EXP": 149,
+            "APPLICATION": 150,
+            "CALLER": 151,
+            "ABSTRACTION": 152,
+            "JSON": 153,
+            "OBJECT": 154,
+            "ARRAY": 155
         },
         {},
         {
-            "PROGRAM": 166,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
+            "PROGRAM": 168,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
             "KEY_VALUES": 36,
-            "ARRAY": 177
+            "ARRAY": 179
         },
         {},
         {
-            "EXP": 179,
+            "EXP": 181,
             "APPLICATION": 19,
             "CALLER": 20,
             "ABSTRACTION": 21,
@@ -248,7 +250,7 @@
         },
         {},
         {
-            "KEY_VALUES": 181
+            "KEY_VALUES": 183
         },
         {},
         {},
@@ -258,7 +260,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 183
+            "LIST_VALUES": 185
         },
         {},
         {},
@@ -273,24 +275,24 @@
         {},
         {},
         {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 189,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
-        },
-        {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
             "EXP_LIST": 191,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
+        },
+        {
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 193,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
         {},
         {},
@@ -300,35 +302,35 @@
         {},
         {},
         {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 197,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 199,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
         {},
         {},
         {
             "ABSTRACTION": 32,
-            "LIST_VARIABLES": 55
+            "LIST_VARIABLES": 56
         },
         {
-            "PROGRAM": 199,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 200,
-            "ARRAY": 177
+            "PROGRAM": 201,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 202,
+            "ARRAY": 179
         },
         {},
         {},
@@ -338,7 +340,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 202
+            "LIST_VALUES": 204
         },
         {},
         {},
@@ -348,27 +350,27 @@
         {},
         {},
         {
-            "EXP": 205,
-            "APPLICATION": 148,
-            "CALLER": 149,
-            "ABSTRACTION": 150,
-            "JSON": 151,
-            "OBJECT": 152,
-            "ARRAY": 153
+            "EXP": 207,
+            "APPLICATION": 150,
+            "CALLER": 151,
+            "ABSTRACTION": 152,
+            "JSON": 153,
+            "OBJECT": 154,
+            "ARRAY": 155
         },
+        {},
         {},
         {},
         {
-            "VARIABLE_DEFINITION_LIST": 208,
-            "VARIABLE_DEFINITION": 209
+            "VARIABLE_DEFINITION_LIST": 210,
+            "VARIABLE_DEFINITION": 211
         },
-        {},
         {
             "ABSTRACTION": 32,
-            "LIST_VARIABLES": 211
+            "LIST_VARIABLES": 213
         },
         {
-            "KEY_VALUES": 213
+            "KEY_VALUES": 215
         },
         {},
         {},
@@ -378,7 +380,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 215
+            "LIST_VALUES": 217
         },
         {},
         {},
@@ -393,19 +395,19 @@
         {},
         {},
         {
-            "PROGRAM": 219,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
+            "PROGRAM": 221,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
             "KEY_VALUES": 36,
-            "ARRAY": 177
+            "ARRAY": 179
         },
         {},
         {},
@@ -413,36 +415,17 @@
         {},
         {},
         {
-            "KEY_VALUES": 222
+            "KEY_VALUES": 224
         },
         {
-            "EXP": 224,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "EXP": 226,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 228,
-            "APPLICATION": 96,
-            "CALLER": 97,
-            "ABSTRACTION": 98,
-            "JSON": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
-        },
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
@@ -450,32 +433,14 @@
         {},
         {},
         {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 235,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "EXP": 230,
+            "APPLICATION": 98,
+            "CALLER": 99,
+            "ABSTRACTION": 100,
+            "JSON": 101,
+            "OBJECT": 102,
+            "ARRAY": 103
         },
-        {
-            "PROGRAM": 236,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 200,
-            "ARRAY": 177
-        },
-        {},
-        {},
         {},
         {},
         {},
@@ -487,113 +452,120 @@
         {},
         {},
         {
-            "STATEMENTS": 244,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 237,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
         {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 246,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
+            "PROGRAM": 238,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 202,
+            "ARRAY": 179
         },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {},
         {},
         {},
         {},
         {
-            "PROGRAM": 248,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 125,
-            "ARRAY": 177
+            "STATEMENTS": 247,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "ARRAY": 179
+        },
+        {
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 249,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
         {},
-        {
-            "EXP": 250,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
-        },
+        {},
+        {},
         {},
         {
             "PROGRAM": 251,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 134,
-            "ARRAY": 177
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 127,
+            "ARRAY": 179
         },
         {},
         {
             "EXP": 253,
-            "APPLICATION": 96,
-            "CALLER": 97,
-            "ABSTRACTION": 98,
-            "JSON": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {
-            "EXP": 265,
-            "APPLICATION": 266,
-            "CALLER": 267,
-            "ABSTRACTION": 268,
-            "JSON": 269,
-            "OBJECT": 270,
-            "ARRAY": 271
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 272,
-            "VARIABLE_DEFINITION": 209
-        },
-        {
-            "EXP": 274,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
+            "PROGRAM": 254,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 136,
+            "ARRAY": 179
         },
         {},
+        {
+            "EXP": 256,
+            "APPLICATION": 98,
+            "CALLER": 99,
+            "ABSTRACTION": 100,
+            "JSON": 101,
+            "OBJECT": 102,
+            "ARRAY": 103
+        },
         {},
         {},
         {},
@@ -603,37 +575,69 @@
         {},
         {},
         {
-            "PROGRAM": 278,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 125,
-            "ARRAY": 177
+            "EXP": 269,
+            "APPLICATION": 270,
+            "CALLER": 271,
+            "ABSTRACTION": 272,
+            "JSON": 273,
+            "OBJECT": 274,
+            "ARRAY": 275
+        },
+        {
+            "VARIABLE_DEFINITION_LIST": 276,
+            "VARIABLE_DEFINITION": 211
+        },
+        {
+            "EXP": 278,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "ARRAY": 179
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 282,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 127,
+            "ARRAY": 179
         },
         {},
         {},
         {
-            "PROGRAM": 280,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 134,
-            "ARRAY": 177
+            "PROGRAM": 284,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 136,
+            "ARRAY": 179
         },
+        {},
         {},
         {},
         {},
@@ -641,10 +645,10 @@
         {},
         {
             "ABSTRACTION": 32,
-            "LIST_VARIABLES": 282
+            "LIST_VARIABLES": 286
         },
         {
-            "KEY_VALUES": 284
+            "KEY_VALUES": 288
         },
         {},
         {},
@@ -654,7 +658,7 @@
             "JSON": 45,
             "OBJECT": 46,
             "ARRAY": 47,
-            "LIST_VALUES": 286
+            "LIST_VALUES": 290
         },
         {},
         {},
@@ -665,79 +669,34 @@
         {},
         {},
         {
-            "PROGRAM": 288,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 213,
-            "ARRAY": 177
+            "PROGRAM": 292,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 215,
+            "ARRAY": 179
         },
         {},
         {
-            "EXP": 290,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
+            "EXP": 294,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "ARRAY": 179
         },
         {},
         {},
         {},
         {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 78,
-            "APPLICATION": 79,
-            "CALLER": 80,
-            "EXP_LIST": 298,
-            "ABSTRACTION": 82,
-            "JSON": 83,
-            "OBJECT": 84,
-            "ARRAY": 85
-        },
-        {},
-        {
-            "PROGRAM": 300,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 213,
-            "ARRAY": 177
-        },
-        {},
-        {},
-        {},
-        {
-            "EXP": 302,
-            "APPLICATION": 266,
-            "CALLER": 267,
-            "ABSTRACTION": 268,
-            "JSON": 269,
-            "OBJECT": 270,
-            "ARRAY": 271
-        },
         {},
         {},
         {},
@@ -746,47 +705,92 @@
         {},
         {},
         {
-            "PROGRAM": 306,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 284,
-            "ARRAY": 177
+            "EXP": 79,
+            "APPLICATION": 80,
+            "CALLER": 81,
+            "EXP_LIST": 302,
+            "ABSTRACTION": 83,
+            "JSON": 84,
+            "OBJECT": 85,
+            "ARRAY": 86
         },
         {},
         {
-            "EXP": 308,
-            "APPLICATION": 266,
-            "CALLER": 267,
-            "ABSTRACTION": 268,
-            "JSON": 269,
-            "OBJECT": 270,
-            "ARRAY": 271
+            "PROGRAM": 304,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 215,
+            "ARRAY": 179
         },
+        {},
+        {},
+        {},
+        {
+            "EXP": 306,
+            "APPLICATION": 270,
+            "CALLER": 271,
+            "ABSTRACTION": 272,
+            "JSON": 273,
+            "OBJECT": 274,
+            "ARRAY": 275
+        },
+        {},
+        {},
+        {},
+        {},
         {},
         {},
         {},
         {
             "PROGRAM": 310,
-            "STATEMENTS": 167,
-            "STATEMENT": 168,
-            "IMPORT_EXPRESSION": 169,
-            "LET_EXPRESSION": 170,
-            "EXP": 171,
-            "APPLICATION": 172,
-            "CALLER": 173,
-            "ABSTRACTION": 174,
-            "JSON": 175,
-            "OBJECT": 176,
-            "KEY_VALUES": 284,
-            "ARRAY": 177
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 288,
+            "ARRAY": 179
+        },
+        {},
+        {
+            "EXP": 312,
+            "APPLICATION": 270,
+            "CALLER": 271,
+            "ABSTRACTION": 272,
+            "JSON": 273,
+            "OBJECT": 274,
+            "ARRAY": 275
+        },
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 314,
+            "STATEMENTS": 169,
+            "STATEMENT": 170,
+            "IMPORT_EXPRESSION": 171,
+            "LET_EXPRESSION": 172,
+            "EXP": 173,
+            "APPLICATION": 174,
+            "CALLER": 175,
+            "ABSTRACTION": 176,
+            "JSON": 177,
+            "OBJECT": 178,
+            "KEY_VALUES": 288,
+            "ARRAY": 179
         },
         {},
         {},
@@ -811,11 +815,11 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 4
+                "state": 3
             },
             "let": {
                 "type": "shift",
-                "state": 3
+                "state": 4
             },
             "import": {
                 "type": "shift",
@@ -881,12 +885,6 @@
             }
         },
         {
-            "variable": {
-                "type": "shift",
-                "state": 26
-            }
-        },
-        {
             "$": {
                 "type": "reduce",
                 "production": [
@@ -913,6 +911,12 @@
                         "variable"
                     ]
                 ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 26
             }
         },
         {
@@ -1271,25 +1275,9 @@
             }
         },
         {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string"
-                    ]
-                ]
+            "as": {
+                "type": "shift",
+                "state": 51
             }
         },
         {
@@ -1322,7 +1310,7 @@
             },
             "=": {
                 "type": "shift",
-                "state": 51
+                "state": 52
             }
         },
         {
@@ -1368,7 +1356,7 @@
             },
             ",": {
                 "type": "shift",
-                "state": 52
+                "state": 53
             }
         },
         {
@@ -1383,13 +1371,13 @@
             },
             ",": {
                 "type": "shift",
-                "state": 53
+                "state": 54
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 54
+                "state": 55
             },
             "variable": {
                 "type": "shift",
@@ -1398,12 +1386,6 @@
         },
         {
             "->": {
-                "type": "shift",
-                "state": 56
-            }
-        },
-        {
-            ")": {
                 "type": "shift",
                 "state": 57
             }
@@ -1415,9 +1397,15 @@
             }
         },
         {
-            "colon": {
+            ")": {
                 "type": "shift",
                 "state": 59
+            }
+        },
+        {
+            "colon": {
+                "type": "shift",
+                "state": 60
             }
         },
         {
@@ -1445,7 +1433,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 60
+                "state": 61
             }
         },
         {
@@ -1471,7 +1459,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 61
+                "state": 62
             },
             "string": {
                 "type": "shift",
@@ -1561,7 +1549,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 63
+                "state": 64
             },
             "string": {
                 "type": "shift",
@@ -1626,7 +1614,7 @@
             },
             ",": {
                 "type": "shift",
-                "state": 65
+                "state": 66
             }
         },
         {
@@ -1672,7 +1660,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 66
+                "state": 67
             }
         },
         {
@@ -1692,11 +1680,11 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 4
+                "state": 3
             },
             "let": {
                 "type": "shift",
-                "state": 3
+                "state": 4
             },
             "import": {
                 "type": "shift",
@@ -1738,81 +1726,87 @@
         {
             ")": {
                 "type": "shift",
-                "state": 71
+                "state": 72
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
             "variable": {
                 "type": "shift",
                 "state": 87
-            },
-            "string": {
-                "type": "shift",
-                "state": 86
-            },
-            "number": {
-                "type": "shift",
-                "state": 90
-            },
-            "true": {
-                "type": "shift",
-                "state": 91
-            },
-            "false": {
-                "type": "shift",
-                "state": 92
-            },
-            "null": {
-                "type": "shift",
-                "state": 93
-            },
-            "(": {
-                "type": "shift",
-                "state": 88
-            },
-            "{": {
+            }
+        },
+        {
+            "variable": {
                 "type": "shift",
                 "state": 89
             },
-            "[": {
+            "string": {
+                "type": "shift",
+                "state": 88
+            },
+            "number": {
+                "type": "shift",
+                "state": 92
+            },
+            "true": {
+                "type": "shift",
+                "state": 93
+            },
+            "false": {
                 "type": "shift",
                 "state": 94
+            },
+            "null": {
+                "type": "shift",
+                "state": 95
+            },
+            "(": {
+                "type": "shift",
+                "state": 90
+            },
+            "{": {
+                "type": "shift",
+                "state": 91
+            },
+            "[": {
+                "type": "shift",
+                "state": 96
             }
         },
         {
@@ -1830,23 +1824,23 @@
         {
             "->": {
                 "type": "shift",
-                "state": 104
+                "state": 106
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 105
+                "state": 107
             }
         },
         {
             "{": {
                 "type": "shift",
-                "state": 106
+                "state": 108
             },
             "variable": {
                 "type": "shift",
-                "state": 4
+                "state": 3
             },
             "string": {
                 "type": "shift",
@@ -1893,37 +1887,37 @@
         {
             "->": {
                 "type": "shift",
-                "state": 108
+                "state": 110
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 109
+                "state": 111
             },
             "number": {
                 "type": "shift",
-                "state": 111
+                "state": 113
             },
             "true": {
                 "type": "shift",
-                "state": 112
+                "state": 114
             },
             "false": {
                 "type": "shift",
-                "state": 113
+                "state": 115
             },
             "null": {
                 "type": "shift",
-                "state": 114
+                "state": 116
             },
             "{": {
                 "type": "shift",
-                "state": 110
+                "state": 112
             },
             "[": {
                 "type": "shift",
-                "state": 115
+                "state": 117
             }
         },
         {
@@ -1975,7 +1969,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 119
+                "state": 121
             }
         },
         {
@@ -2003,7 +1997,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 120
+                "state": 122
             }
         },
         {
@@ -2125,7 +2119,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 122
+                "state": 124
             },
             "variable": {
                 "type": "shift",
@@ -2174,7 +2168,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 124
+                "state": 126
             },
             "string": {
                 "type": "shift",
@@ -2264,7 +2258,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 126
+                "state": 128
             },
             "string": {
                 "type": "shift",
@@ -2307,47 +2301,6 @@
             },
             ",": {
                 "type": "shift",
-                "state": 128
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 129
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
                 "state": 130
             }
         },
@@ -2357,6 +2310,47 @@
                 "production": [
                     "EXP",
                     [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 131
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 132
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
                         "ABSTRACTION"
                     ]
                 ]
@@ -2427,6 +2421,32 @@
                     "JSON",
                     [
                         "ARRAY"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
                     ]
                 ]
             }
@@ -2501,7 +2521,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 131
+                "state": 133
             },
             "variable": {
                 "type": "shift",
@@ -2515,7 +2535,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 133
+                "state": 135
             },
             "string": {
                 "type": "shift",
@@ -2641,7 +2661,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 135
+                "state": 137
             },
             "string": {
                 "type": "shift",
@@ -2748,7 +2768,7 @@
         {
             "(": {
                 "type": "shift",
-                "state": 137
+                "state": 139
             }
         },
         {
@@ -2907,45 +2927,45 @@
         {
             "{": {
                 "type": "shift",
-                "state": 141
+                "state": 143
             },
             "variable": {
                 "type": "shift",
-                "state": 139
+                "state": 141
             },
             "string": {
                 "type": "shift",
-                "state": 138
+                "state": 140
             },
             "number": {
                 "type": "shift",
-                "state": 142
+                "state": 144
             },
             "true": {
                 "type": "shift",
-                "state": 143
+                "state": 145
             },
             "false": {
                 "type": "shift",
-                "state": 144
+                "state": 146
             },
             "null": {
                 "type": "shift",
-                "state": 145
+                "state": 147
             },
             "(": {
                 "type": "shift",
-                "state": 140
+                "state": 142
             },
             "[": {
                 "type": "shift",
-                "state": 146
+                "state": 148
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 154
+                "state": 156
             }
         },
         {
@@ -2958,7 +2978,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -2969,43 +2989,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -3037,11 +3057,11 @@
         {
             "{": {
                 "type": "shift",
-                "state": 178
+                "state": 180
             },
             "variable": {
                 "type": "shift",
-                "state": 4
+                "state": 3
             },
             "string": {
                 "type": "shift",
@@ -3095,7 +3115,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 180
+                "state": 182
             },
             "string": {
                 "type": "shift",
@@ -3185,7 +3205,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 182
+                "state": 184
             },
             "string": {
                 "type": "shift",
@@ -3230,7 +3250,7 @@
             },
             ",": {
                 "type": "shift",
-                "state": 184
+                "state": 186
             }
         },
         {
@@ -3337,13 +3357,13 @@
         {
             "->": {
                 "type": "shift",
-                "state": 185
+                "state": 187
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 186
+                "state": 188
             }
         },
         {
@@ -3371,7 +3391,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 187
+                "state": 189
             }
         },
         {
@@ -3399,87 +3419,87 @@
         {
             "]": {
                 "type": "shift",
-                "state": 188
+                "state": 190
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 190
+                "state": 192
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
@@ -3523,13 +3543,13 @@
         {
             "->": {
                 "type": "shift",
-                "state": 192
+                "state": 194
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 193
+                "state": 195
             }
         },
         {
@@ -3567,7 +3587,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 194
+                "state": 196
             }
         },
         {
@@ -3605,49 +3625,49 @@
         {
             "]": {
                 "type": "shift",
-                "state": 195
+                "state": 197
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 196
+                "state": 198
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
@@ -3684,7 +3704,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 54
+                "state": 55
             },
             "variable": {
                 "type": "shift",
@@ -3705,7 +3725,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -3716,43 +3736,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -3802,7 +3822,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 201
+                "state": 203
             },
             "string": {
                 "type": "shift",
@@ -3870,7 +3890,7 @@
         {
             "(": {
                 "type": "shift",
-                "state": 203
+                "state": 205
             }
         },
         {
@@ -3920,51 +3940,51 @@
         {
             "{": {
                 "type": "shift",
-                "state": 204
+                "state": 206
             },
             "variable": {
                 "type": "shift",
-                "state": 139
+                "state": 141
             },
             "string": {
                 "type": "shift",
-                "state": 138
+                "state": 140
             },
             "number": {
                 "type": "shift",
-                "state": 142
+                "state": 144
             },
             "true": {
                 "type": "shift",
-                "state": 143
+                "state": 145
             },
             "false": {
                 "type": "shift",
-                "state": 144
+                "state": 146
             },
             "null": {
                 "type": "shift",
-                "state": 145
+                "state": 147
             },
             "(": {
                 "type": "shift",
-                "state": 140
+                "state": 142
             },
             "[": {
                 "type": "shift",
-                "state": 146
+                "state": 148
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 206
+                "state": 208
             }
         },
         {
             "colon": {
                 "type": "shift",
-                "state": 59
+                "state": 60
             },
             "}": {
                 "type": "reduce",
@@ -3983,12 +4003,6 @@
                         "string"
                     ]
                 ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 207
             }
         },
         {
@@ -4021,9 +4035,15 @@
             }
         },
         {
+            "variable": {
+                "type": "shift",
+                "state": 209
+            }
+        },
+        {
             ")": {
                 "type": "shift",
-                "state": 210
+                "state": 212
             },
             "variable": {
                 "type": "shift",
@@ -4037,7 +4057,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 212
+                "state": 214
             },
             "string": {
                 "type": "shift",
@@ -4127,7 +4147,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 214
+                "state": 216
             },
             "string": {
                 "type": "shift",
@@ -4161,7 +4181,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 216
+                "state": 218
             }
         },
         {
@@ -4187,7 +4207,7 @@
             },
             ";": {
                 "type": "shift",
-                "state": 217
+                "state": 219
             }
         },
         {
@@ -4282,7 +4302,7 @@
         {
             "(": {
                 "type": "shift",
-                "state": 218
+                "state": 220
             }
         },
         {
@@ -4375,7 +4395,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -4386,43 +4406,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -4478,7 +4498,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 220
+                "state": 222
             }
         },
         {
@@ -4506,7 +4526,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 221
+                "state": 223
             }
         },
         {
@@ -4518,45 +4538,45 @@
         {
             "{": {
                 "type": "shift",
-                "state": 223
+                "state": 225
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 225
+                "state": 227
             }
         },
         {
@@ -4658,51 +4678,51 @@
         {
             ")": {
                 "type": "shift",
-                "state": 226
+                "state": 228
             }
         },
         {
             "{": {
                 "type": "shift",
-                "state": 227
+                "state": 229
             },
             "variable": {
                 "type": "shift",
-                "state": 87
+                "state": 89
             },
             "string": {
                 "type": "shift",
-                "state": 86
+                "state": 88
             },
             "number": {
                 "type": "shift",
-                "state": 90
+                "state": 92
             },
             "true": {
                 "type": "shift",
-                "state": 91
+                "state": 93
             },
             "false": {
                 "type": "shift",
-                "state": 92
+                "state": 94
             },
             "null": {
                 "type": "shift",
-                "state": 93
+                "state": 95
             },
             "(": {
                 "type": "shift",
-                "state": 88
+                "state": 90
             },
             "[": {
                 "type": "shift",
-                "state": 94
+                "state": 96
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 229
+                "state": 231
             }
         },
         {
@@ -4824,7 +4844,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 230
+                "state": 232
             }
         },
         {
@@ -4842,13 +4862,13 @@
         {
             "}": {
                 "type": "shift",
-                "state": 231
+                "state": 233
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 232
+                "state": 234
             }
         },
         {
@@ -4866,49 +4886,49 @@
         {
             "]": {
                 "type": "shift",
-                "state": 233
+                "state": 235
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 234
+                "state": 236
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
@@ -4921,7 +4941,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -4932,43 +4952,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -4987,25 +5007,9 @@
             }
         },
         {
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string"
-                    ]
-                ]
+            "as": {
+                "type": "shift",
+                "state": 239
             }
         },
         {
@@ -5038,7 +5042,7 @@
             },
             "=": {
                 "type": "shift",
-                "state": 237
+                "state": 240
             }
         },
         {
@@ -5084,19 +5088,19 @@
             },
             ",": {
                 "type": "shift",
-                "state": 238
+                "state": 241
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 239
+                "state": 242
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 240
+                "state": 243
             }
         },
         {
@@ -5124,7 +5128,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 241
+                "state": 244
             }
         },
         {
@@ -5152,7 +5156,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 242
+                "state": 245
             }
         },
         {
@@ -5202,95 +5206,95 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "string": {
                 "type": "shift",
-                "state": 243
+                "state": 246
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 245
+                "state": 248
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 247
+                "state": 250
             }
         },
         {
@@ -5366,7 +5370,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -5377,43 +5381,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -5445,39 +5449,39 @@
         {
             "{": {
                 "type": "shift",
-                "state": 249
+                "state": 252
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
@@ -5528,7 +5532,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -5539,43 +5543,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -5619,39 +5623,39 @@
         {
             "{": {
                 "type": "shift",
-                "state": 252
+                "state": 255
             },
             "variable": {
                 "type": "shift",
-                "state": 87
+                "state": 89
             },
             "string": {
                 "type": "shift",
-                "state": 86
+                "state": 88
             },
             "number": {
                 "type": "shift",
-                "state": 90
+                "state": 92
             },
             "true": {
                 "type": "shift",
-                "state": 91
+                "state": 93
             },
             "false": {
                 "type": "shift",
-                "state": 92
+                "state": 94
             },
             "null": {
                 "type": "shift",
-                "state": 93
+                "state": 95
             },
             "(": {
                 "type": "shift",
-                "state": 88
+                "state": 90
             },
             "[": {
                 "type": "shift",
-                "state": 94
+                "state": 96
             }
         },
         {
@@ -5773,101 +5777,107 @@
         {
             ")": {
                 "type": "shift",
-                "state": 254
+                "state": 257
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 255
+                "state": 258
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 257
-            },
-            "string": {
-                "type": "shift",
-                "state": 256
-            },
-            "number": {
-                "type": "shift",
-                "state": 260
-            },
-            "true": {
+                "state": 259
+            }
+        },
+        {
+            "variable": {
                 "type": "shift",
                 "state": 261
             },
-            "false": {
-                "type": "shift",
-                "state": 262
-            },
-            "null": {
-                "type": "shift",
-                "state": 263
-            },
-            "(": {
-                "type": "shift",
-                "state": 258
-            },
-            "{": {
-                "type": "shift",
-                "state": 259
-            },
-            "[": {
-                "type": "shift",
-                "state": 264
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 207
-            }
-        },
-        {
-            "{": {
-                "type": "shift",
-                "state": 273
-            },
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
             "string": {
                 "type": "shift",
-                "state": 243
+                "state": 260
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 264
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 265
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 266
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 267
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 262
+            },
+            "{": {
+                "type": "shift",
+                "state": 263
             },
             "[": {
                 "type": "shift",
+                "state": 268
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 209
+            }
+        },
+        {
+            "{": {
+                "type": "shift",
+                "state": 277
+            },
+            "variable": {
+                "type": "shift",
+                "state": 159
+            },
+            "string": {
+                "type": "shift",
+                "state": 246
+            },
+            "number": {
+                "type": "shift",
+                "state": 163
+            },
+            "true": {
+                "type": "shift",
+                "state": 164
+            },
+            "false": {
+                "type": "shift",
                 "state": 165
+            },
+            "null": {
+                "type": "shift",
+                "state": 166
+            },
+            "(": {
+                "type": "shift",
+                "state": 161
+            },
+            "[": {
+                "type": "shift",
+                "state": 167
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 275
+                "state": 279
             }
         },
         {
@@ -5989,7 +5999,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 276
+                "state": 280
             }
         },
         {
@@ -6027,7 +6037,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 277
+                "state": 281
             }
         },
         {
@@ -6040,7 +6050,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -6051,43 +6061,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -6121,7 +6131,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 279
+                "state": 283
             }
         },
         {
@@ -6134,7 +6144,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -6145,43 +6155,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -6264,6 +6274,32 @@
                         "{",
                         "PROGRAM",
                         "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
                     ]
                 ]
             }
@@ -6338,7 +6374,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 281
+                "state": 285
             },
             "variable": {
                 "type": "shift",
@@ -6352,7 +6388,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 283
+                "state": 287
             },
             "string": {
                 "type": "shift",
@@ -6478,7 +6514,7 @@
         {
             "]": {
                 "type": "shift",
-                "state": 285
+                "state": 289
             },
             "string": {
                 "type": "shift",
@@ -6585,7 +6621,7 @@
         {
             "(": {
                 "type": "shift",
-                "state": 287
+                "state": 291
             }
         },
         {
@@ -6738,7 +6774,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -6749,43 +6785,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -6817,39 +6853,39 @@
         {
             "{": {
                 "type": "shift",
-                "state": 289
+                "state": 293
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "string": {
                 "type": "shift",
-                "state": 243
+                "state": 246
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -6923,7 +6959,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 291
+                "state": 295
             }
         },
         {
@@ -6973,19 +7009,19 @@
         {
             "}": {
                 "type": "shift",
-                "state": 292
+                "state": 296
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 293
+                "state": 297
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 294
+                "state": 298
             }
         },
         {
@@ -7023,7 +7059,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 295
+                "state": 299
             }
         },
         {
@@ -7061,55 +7097,55 @@
         {
             "]": {
                 "type": "shift",
-                "state": 296
+                "state": 300
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 297
+                "state": 301
             },
             "variable": {
                 "type": "shift",
-                "state": 69
+                "state": 70
             },
             "string": {
                 "type": "shift",
-                "state": 68
+                "state": 69
             },
             "number": {
                 "type": "shift",
-                "state": 73
+                "state": 74
             },
             "true": {
                 "type": "shift",
-                "state": 74
+                "state": 75
             },
             "false": {
                 "type": "shift",
-                "state": 75
+                "state": 76
             },
             "null": {
                 "type": "shift",
-                "state": 76
+                "state": 77
             },
             "(": {
                 "type": "shift",
-                "state": 70
+                "state": 71
             },
             "{": {
                 "type": "shift",
-                "state": 72
+                "state": 73
             },
             "[": {
                 "type": "shift",
-                "state": 77
+                "state": 78
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 299
+                "state": 303
             }
         },
         {
@@ -7122,7 +7158,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -7133,43 +7169,43 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 167
             }
         },
         {
@@ -7282,45 +7318,45 @@
         {
             "{": {
                 "type": "shift",
-                "state": 301
+                "state": 305
             },
             "variable": {
                 "type": "shift",
-                "state": 257
+                "state": 261
             },
             "string": {
                 "type": "shift",
-                "state": 256
+                "state": 260
             },
             "number": {
                 "type": "shift",
-                "state": 260
+                "state": 264
             },
             "true": {
                 "type": "shift",
-                "state": 261
+                "state": 265
             },
             "false": {
                 "type": "shift",
-                "state": 262
+                "state": 266
             },
             "null": {
                 "type": "shift",
-                "state": 263
+                "state": 267
             },
             "(": {
                 "type": "shift",
-                "state": 258
+                "state": 262
             },
             "[": {
                 "type": "shift",
-                "state": 264
+                "state": 268
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 303
+                "state": 307
             }
         },
         {
@@ -7442,7 +7478,7 @@
         {
             ")": {
                 "type": "shift",
-                "state": 304
+                "state": 308
             }
         },
         {
@@ -7466,230 +7502,6 @@
                     "ABSTRACTION",
                     [
                         "(",
-                        ")",
-                        "->",
-                        "{",
-                        "PROGRAM",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 305
-            }
-        },
-        {
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENT",
-                    []
-                ]
-            },
-            "string": {
-                "type": "shift",
-                "state": 156
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENT",
-                    []
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "let": {
-                "type": "shift",
-                "state": 157
-            },
-            "import": {
-                "type": "shift",
-                "state": 155
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "(": {
-                "type": "shift",
-                "state": 159
-            },
-            "{": {
-                "type": "shift",
-                "state": 160
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            }
-        },
-        {
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "{": {
-                "type": "shift",
-                "state": 307
-            },
-            "variable": {
-                "type": "shift",
-                "state": 257
-            },
-            "string": {
-                "type": "shift",
-                "state": 256
-            },
-            "number": {
-                "type": "shift",
-                "state": 260
-            },
-            "true": {
-                "type": "shift",
-                "state": 261
-            },
-            "false": {
-                "type": "shift",
-                "state": 262
-            },
-            "null": {
-                "type": "shift",
-                "state": 263
-            },
-            "(": {
-                "type": "shift",
-                "state": 258
-            },
-            "[": {
-                "type": "shift",
-                "state": 264
-            }
-        },
-        {
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "{",
-                        "PROGRAM",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
                         ")",
                         "->",
                         "{",
@@ -7715,7 +7527,7 @@
             },
             "string": {
                 "type": "shift",
-                "state": 156
+                "state": 158
             },
             ";": {
                 "type": "reduce",
@@ -7726,43 +7538,267 @@
             },
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 159
             },
             "let": {
                 "type": "shift",
-                "state": 157
+                "state": 160
             },
             "import": {
                 "type": "shift",
-                "state": 155
+                "state": 157
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 163
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 164
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 165
             },
             "null": {
                 "type": "shift",
-                "state": 164
+                "state": 166
             },
             "(": {
                 "type": "shift",
-                "state": 159
+                "state": 161
             },
             "{": {
                 "type": "shift",
-                "state": 160
+                "state": 162
             },
             "[": {
                 "type": "shift",
+                "state": 167
+            }
+        },
+        {
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "{": {
+                "type": "shift",
+                "state": 311
+            },
+            "variable": {
+                "type": "shift",
+                "state": 261
+            },
+            "string": {
+                "type": "shift",
+                "state": 260
+            },
+            "number": {
+                "type": "shift",
+                "state": 264
+            },
+            "true": {
+                "type": "shift",
+                "state": 265
+            },
+            "false": {
+                "type": "shift",
+                "state": 266
+            },
+            "null": {
+                "type": "shift",
+                "state": 267
+            },
+            "(": {
+                "type": "shift",
+                "state": 262
+            },
+            "[": {
+                "type": "shift",
+                "state": 268
+            }
+        },
+        {
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "{",
+                        "PROGRAM",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "{",
+                        "PROGRAM",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 313
+            }
+        },
+        {
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "STATEMENT",
+                    []
+                ]
+            },
+            "string": {
+                "type": "shift",
+                "state": 158
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "STATEMENT",
+                    []
+                ]
+            },
+            "variable": {
+                "type": "shift",
+                "state": 159
+            },
+            "let": {
+                "type": "shift",
+                "state": 160
+            },
+            "import": {
+                "type": "shift",
+                "state": 157
+            },
+            "number": {
+                "type": "shift",
+                "state": 163
+            },
+            "true": {
+                "type": "shift",
+                "state": 164
+            },
+            "false": {
+                "type": "shift",
                 "state": 165
+            },
+            "null": {
+                "type": "shift",
+                "state": 166
+            },
+            "(": {
+                "type": "shift",
+                "state": 161
+            },
+            "{": {
+                "type": "shift",
+                "state": 162
+            },
+            "[": {
+                "type": "shift",
+                "state": 167
             }
         },
         {
@@ -7853,7 +7889,7 @@
         {
             "}": {
                 "type": "shift",
-                "state": 311
+                "state": 315
             }
         },
         {

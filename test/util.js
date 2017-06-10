@@ -1,10 +1,12 @@
 'use strict';
 
 let {
-    compile
+    compile, compileFile
 } = require('..');
 let vm = require('vm');
 let assert = require('assert');
+
+let log = console.log; // eslint-disable-line
 
 let equalPfcTranslate = (source, target, lang = 'pfc') => {
     let code = compile(source, lang, {
@@ -40,15 +42,32 @@ let equalJsApp = (nencCode, result, options) => {
         }));
         assert.equal(v, result);
     } catch (err) {
-        console.log(`[nenc code] ${nencCode}`);
-        console.log(`[js code] ${jsCode}`);
+        log(`[nenc code] ${nencCode}`);
+        log(`[js code] ${jsCode}`);
         throw err;
     }
+};
+
+let equalJsFileApp = (filePath, result, options) => {
+    return compileFile(filePath, 'js', options).then((jsCode) => {
+        try {
+            let script = new vm.Script(jsCode);
+            let v = script.runInContext(vm.createContext({
+                console,
+                require
+            }));
+            assert.equal(v, result);
+        } catch (err) {
+            log(`[js code] ${jsCode}`);
+            throw err;
+        }
+    });
 };
 
 module.exports = {
     equalPfcTranslate,
     equalPfcTranslateMap,
     equalJsApp,
-    equalJsJson
+    equalJsJson,
+    equalJsFileApp
 };

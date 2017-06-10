@@ -7,6 +7,7 @@ const grammerPath = path.join(__dirname, '../grammer/grammer.json');
 const LR1TablePath = path.join(__dirname, '../grammer/LR1Table.json');
 
 const pfcTranslatorJsonPath = path.join(__dirname, '../grammer/translator/pfc.json');
+const pfcModuleWrapperTplPath = path.join(__dirname, '../grammer/translator/pfc_module_wrapper.tpl');
 
 // opt translator
 const jsOptTranslatorJsonPath = path.join(__dirname, '../grammer/library/js/optTranslator.json');
@@ -22,6 +23,7 @@ module.exports = {
     grammerPath,
     LR1TablePath,
     pfcTranslatorJsonPath,
+    pfcModuleWrapperTplPath,
     jsOptTranslatorJsonPath,
     cOptTranslatorJsonPath,
     jsJoinTplPath,

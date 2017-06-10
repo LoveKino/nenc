@@ -1,0 +1,3 @@
+import "./c.nenc" as C;
+
+(x) -> (y, z) -> C(x, y, z)

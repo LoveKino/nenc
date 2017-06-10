@@ -10,7 +10,7 @@ module.exports = {
     "STATEMENT := LET_EXPRESSION": "<%= $1%>",
     "STATEMENT := IMPORT_EXPRESSION": "<%= $1%>",
 
-    "IMPORT_EXPRESSION := import string": "sys_import(<%= $2%>)",
+    "IMPORT_EXPRESSION := import string as variable": "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))",
 
     "LET_EXPRESSION := let VARIABLE_DEFINITION_LIST": "sys_letBinding(<%= $2%>)",
 

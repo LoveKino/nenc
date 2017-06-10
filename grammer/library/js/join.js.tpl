@@ -1,9 +1,11 @@
 'use strict';
 
 // support to es3
-var sys_void, sys_pair, 
-    sys_application, sys_statements, sys_exp, sys_variable, sys_abstraction,
-    sys_runProgram, sys_letBinding,
+var sys_void, sys_pair,
+    sys_module, sys_import,
+    sys_application, sys_statements,
+    sys_exp, sys_variable, sys_abstraction, sys_letBinding,
+    sys_runProgram,
     sys_data, sys_object, sys_array, sys_string,
     addMetaMethod;
 
@@ -16,6 +18,8 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         sys_void = _.sys_void; 
         sys_pair = _.sys_pair; 
 
+        sys_module = _.sys_module;
+        sys_import = _.sys_import;
         sys_letBinding = _.sys_letBinding;
         sys_statements = _.sys_statements;
         sys_exp = _.sys_exp;
@@ -49,7 +53,10 @@ try {
 <%= custom_code %>
 
 (function() {
-    var __program__result__ = sys_runProgram(<%= middle_code %>);
+<%= middle_code %>
+
+    var __program__result__ = sys_runProgram("<%= indexPath %>");
+
     // exports result
     if(typeof module === 'object' && module) {
         module.exports = __program__result__;
