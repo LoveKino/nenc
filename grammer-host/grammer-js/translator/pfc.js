@@ -1,11 +1,14 @@
 module.exports = {
     "S := PROGRAM": "<%= $1%>",
+
     "PROGRAM := STATEMENTS": "sys_statements(<%= $1%>)",
 
-    "STATEMENTS := STATEMENT": "<%= $1%>",
-    "STATEMENTS := STATEMENT ; STATEMENTS": "sys_pair(<%= $1%>, <%= $3 %>)",
+    "STATEMENTS := NONE_EMPTY_STATEMENTS": "<%= $1%>",
+    "STATEMENTS := EPSILON": "sys_void()",
 
-    "STATEMENT := EPSILON": "sys_void()",
+    "NONE_EMPTY_STATEMENTS := STATEMENT": "<%= $1%>",
+    "NONE_EMPTY_STATEMENTS := STATEMENT ; STATEMENTS": "sys_pair(<%= $1%>, <%= $3 %>)",
+
     "STATEMENT := EXP": "sys_exp(<%= $1%>)",
     "STATEMENT := LET_EXPRESSION": "<%= $1%>",
     "STATEMENT := IMPORT_EXPRESSION": "<%= $1%>",
@@ -26,6 +29,9 @@ module.exports = {
     "EXP := variable": "sys_variable(\"<%= $1%>\")",
     "EXP := ABSTRACTION": "<%= $1%>",
     "EXP := APPLICATION": "<%= $1%>",
+    "EXP := CODE_BLOCK_EXP": "<%= $1%>",
+
+    "CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }": "sys_application(sys_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())",
 
     "APPLICATION := CALLER ( )": "sys_application(<%= $1%>, sys_void())",
     "APPLICATION := CALLER PARAMS": "sys_application(<%= $1%>, <%= $2%>)",

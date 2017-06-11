@@ -4,40 +4,74 @@ S := PROGRAM
 
 PROGRAM := STATEMENTS
 
-STATEMENTS := STATEMENT | STATEMENT ; STATEMENTS
+STATEMENTS := NONE_EMPTY_STATEMENTS 
+    | EPSILON
 
-STATEMENT := EXP | EPSILON | LET_EXPRESSION | IMPORT_EXPRESSION
+NONE_EMPTY_STATEMENTS := STATEMENT 
+    | STATEMENT ; STATEMENTS
 
+STATEMENT := EXP 
+    | LET_EXPRESSION 
+    | IMPORT_EXPRESSION
+
+# import module
 IMPORT_EXPRESSION := import string as variable
 
+# let statement
 LET_EXPRESSION := let VARIABLE_DEFINITION_LIST
 
-VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION |  VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST
+VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION 
+    |  VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST
 
-VARIABLE_DEFINITION := variable | variable = EXP
+VARIABLE_DEFINITION := variable 
+    | variable = EXP
 
-EXP := JSON | variable | ABSTRACTION | APPLICATION
+EXP := JSON 
+    | variable 
+    | ABSTRACTION 
+    | APPLICATION
+    | CODE_BLOCK_EXP
+
+CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }
 
 # standard math style function calling, eg: f(1, 2)
-APPLICATION := CALLER ( ) | CALLER ( EXP_LIST )
+APPLICATION := CALLER ( ) 
+    | CALLER ( EXP_LIST )
 
 # CALLER stands for any thing which can used directly as a function
-CALLER := variable | APPLICATION | ( ABSTRACTION )
+CALLER := variable 
+    | APPLICATION 
+    | ( ABSTRACTION )
 
-EXP_LIST := EXP | EXP , EXP_LIST
+EXP_LIST := EXP 
+    | EXP , EXP_LIST
 
-ABSTRACTION := ( ) -> EXP | ( LIST_VARIABLES ) -> EXP | ( ) -> { PROGRAM } | ( LIST_VARIABLES ) -> { PROGRAM }
+ABSTRACTION := ( ) -> EXP 
+    | ( LIST_VARIABLES ) -> EXP 
+    | ( ) -> { PROGRAM } 
+    | ( LIST_VARIABLES ) -> { PROGRAM }
 
-LIST_VARIABLES := variable | variable , LIST_VARIABLES
+LIST_VARIABLES := variable 
+    | variable , LIST_VARIABLES
 
 # below is the definition of ordinary json
 
-JSON := string | number | OBJECT | ARRAY | true | false | null
+JSON := string 
+    | number 
+    | OBJECT 
+    | ARRAY 
+    | true 
+    | false 
+    | null
 
-OBJECT := { KEY_VALUES } | { }
+OBJECT := { KEY_VALUES } 
+    | { }
 
-KEY_VALUES := string colon JSON | string colon JSON , KEY_VALUES
+KEY_VALUES := string colon JSON 
+    | string colon JSON , KEY_VALUES
 
-ARRAY := [ ] | [ LIST_VALUES ]
+ARRAY := [ ] 
+    | [ LIST_VALUES ]
 
-LIST_VALUES := JSON | JSON , LIST_VALUES
+LIST_VALUES := JSON 
+    | JSON , LIST_VALUES
