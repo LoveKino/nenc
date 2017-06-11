@@ -1,6 +1,5 @@
 module.exports = {
     "S := PROGRAM": "<%= $1%>",
-
     "PROGRAM := STATEMENTS": "sys_statements(<%= $1%>)",
 
     "STATEMENTS := NONE_EMPTY_STATEMENTS": "<%= $1%>",
@@ -18,11 +17,9 @@ module.exports = {
     "LET_EXPRESSION := let VARIABLE_DEFINITION_LIST": "sys_letBinding(<%= $2%>)",
 
     "VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION": "<%= $1%>",
-
     "VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
     "VARIABLE_DEFINITION := variable": "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())",
-
     "VARIABLE_DEFINITION := variable = EXP": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",
 
     "EXP := JSON": "sys_data(<%= $1%>)",
@@ -38,7 +35,6 @@ module.exports = {
     "APPLICATION := CALLER ( EXP_LIST )": "sys_application(<%= $1%>, <%= $3%>)",
 
     "CALLER := variable": "sys_variable(\"<%= $1%>\")",
-
     "CALLER := APPLICATION": "<%= $1%>",
     "CALLER := ( ABSTRACTION )": "<%= $2%>",
 

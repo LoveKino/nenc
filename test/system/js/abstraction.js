@@ -5,13 +5,12 @@ let {
 } = require('../../util');
 
 let testData = {
-    '{10}': 10,
-    '{let a = 1; + (a, 10)}': 11,
-    '{(x) -> +(x, 1); -(3, 2)}': 1,
-    'let a = {let b = 3; + (b, 5)}; a': 8
+    'let succ = (x) -> + (x, 1); succ(6)': 7,
+    'let test = (x, y) -> {let tmp = + (x, 5); -(y, tmp)}; test(5, 2)': -8,
+    'let test = (x) -> {let succ = (x) -> +(x, 1); succ(x)}; test(5)': 6
 };
 
-describe('code block', () => {
+describe('abstraction', () => {
     for (let name in testData) {
         let target = testData[name];
         it(name, () => {

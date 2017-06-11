@@ -48,8 +48,6 @@ EXP_LIST := EXP
 
 ABSTRACTION := ( ) -> EXP 
     | ( LIST_VARIABLES ) -> EXP 
-    | ( ) -> { PROGRAM } 
-    | ( LIST_VARIABLES ) -> { PROGRAM }
 
 LIST_VARIABLES := variable 
     | variable , LIST_VARIABLES
