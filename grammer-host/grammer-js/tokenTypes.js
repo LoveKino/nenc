@@ -63,6 +63,12 @@ module.exports = [
 
     {
         priority: 1,
+        match: '?',
+        name: '?'
+    },
+
+    {
+        priority: 1,
         match: '->',
         name: '->'
     },
@@ -120,7 +126,7 @@ module.exports = [
     }, {
         priority: 1,
         match: ':',
-        name: 'colon'
+        name: ':'
     }, {
         priority: 1,
         match: ',',

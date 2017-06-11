@@ -27,6 +27,9 @@
     "EXP := ABSTRACTION": "<%= $1%>",
     "EXP := APPLICATION": "<%= $1%>",
     "EXP := CODE_BLOCK_EXP": "<%= $1%>",
+    "EXP := CONDITION_EXP": "<%= $1%>",
+
+    "CONDITION_EXP := EXP ? EXP : EXP": "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)",
 
     "CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }": "sys_application(sys_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())",
 
@@ -58,8 +61,8 @@
     "JSON := ARRAY": "<%= $1%>",
     "OBJECT := { KEY_VALUES }": "sys_object(<%= $2%>)",
     "OBJECT := { }": "sys_object(sys_void())",
-    "KEY_VALUES := string colon JSON": "sys_pair(sys_string(<%= $1%>), <%= $3%>)",
-    "KEY_VALUES := string colon JSON , KEY_VALUES": "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)",
+    "KEY_VALUES := string : JSON": "sys_pair(sys_string(<%= $1%>), <%= $3%>)",
+    "KEY_VALUES := string : JSON , KEY_VALUES": "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)",
     "ARRAY := [ ]": "sys_array(sys_void())",
     "ARRAY := [ LIST_VALUES ]": "sys_array(<%= $2%>)",
     "LIST_VALUES := JSON": "<%= $1%>",

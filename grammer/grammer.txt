@@ -31,8 +31,11 @@ EXP := JSON
     | ABSTRACTION 
     | APPLICATION
     | CODE_BLOCK_EXP
+    | CONDITION_EXP
 
 CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }
+
+CONDITION_EXP := EXP ? EXP : EXP
 
 # standard math style function calling, eg: f(1, 2)
 APPLICATION := CALLER ( ) 
@@ -65,8 +68,8 @@ JSON := string
 OBJECT := { KEY_VALUES } 
     | { }
 
-KEY_VALUES := string colon JSON 
-    | string colon JSON , KEY_VALUES
+KEY_VALUES := string : JSON 
+    | string : JSON , KEY_VALUES
 
 ARRAY := [ ] 
     | [ LIST_VALUES ]
