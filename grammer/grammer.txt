@@ -56,7 +56,6 @@ LIST_VARIABLES := variable
     | variable , LIST_VARIABLES
 
 # below is the definition of ordinary json
-
 JSON := string 
     | number 
     | OBJECT 
