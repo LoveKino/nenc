@@ -44,10 +44,10 @@ module.exports = {
     "EXP_LIST := EXP": "<%= $1%>",
     "EXP_LIST := EXP , EXP_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
-    "ABSTRACTION := ( ) -> EXP": "sys_abstraction(sys_void(), <%= $4%>)",
-    "ABSTRACTION := ( LIST_VARIABLES ) -> EXP": "sys_abstraction(<%= $2%>, <%= $5%>)",
-    "ABSTRACTION := ( ) -> { PROGRAM }": "sys_abstraction(sys_void(), <%= $5%>)",
-    "ABSTRACTION := ( LIST_VARIABLES ) -> { PROGRAM }": "sys_abstraction(<%= $2 %>, <%= $6%>)",
+    "ABSTRACTION := ( ) -> ABSTRACTION_BODY": "sys_abstraction(sys_void(), <%= $4%>)",
+    "ABSTRACTION := ( LIST_VARIABLES ) -> ABSTRACTION_BODY": "sys_abstraction(<%= $2%>, <%= $5%>)",
+
+    "ABSTRACTION_BODY := EXP": "<%= $1%>",
 
     "LIST_VARIABLES := variable": "sys_variable(\"<%= $1%>\")",
     "LIST_VARIABLES := variable , LIST_VARIABLES": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",

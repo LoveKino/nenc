@@ -44,10 +44,14 @@
     "EXP_LIST := EXP": "<%= $1%>",
     "EXP_LIST := EXP , EXP_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
-    "ABSTRACTION := ( ) -> EXP": "sys_abstraction(sys_void(), <%= $4%>)",
-    "ABSTRACTION := ( LIST_VARIABLES ) -> EXP": "sys_abstraction(<%= $2%>, <%= $5%>)",
-    "ABSTRACTION := ( ) -> { PROGRAM }": "sys_abstraction(sys_void(), <%= $5%>)",
-    "ABSTRACTION := ( LIST_VARIABLES ) -> { PROGRAM }": "sys_abstraction(<%= $2 %>, <%= $6%>)",
+    "ABSTRACTION := GUARDED_ABSTRACTION": "<%= $1%>",
+    "ABSTRACTION := GUARDED_ABSTRACTION verticalBar ABSTRACTION": "<%= $1%>",
+
+    "GUARDED_ABSTRACTION := ABSTRACTION_BODY": "<%= $1%>",
+    "GUARDED_ABSTRACTION := ABSTRACTION_BODY, EXP_LIST": "<%= $1%>",
+
+    "ABSTRACTION_BODY := ( ) -> EXP": "sys_abstraction(sys_void(), <%= $4%>)",
+    "ABSTRACTION_BODY := ( LIST_VARIABLES ) -> EXP": "sys_abstraction(<%= $2%>, <%= $5%>)",
 
     "LIST_VARIABLES := variable": "sys_variable(\"<%= $1%>\")",
     "LIST_VARIABLES := variable , LIST_VARIABLES": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",
