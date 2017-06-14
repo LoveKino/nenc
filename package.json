@@ -26,7 +26,7 @@
     "cl-jsoneq": "0.0.3",
     "lodash.template": "^4.4.0",
     "stream-token-parser": "0.0.3",
-    "syntaxer": "0.0.6"
+    "syntaxer": "0.0.10"
   },
   "devDependencies": {
     "bnfer": "0.0.4",

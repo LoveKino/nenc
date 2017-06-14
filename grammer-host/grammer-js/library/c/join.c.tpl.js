@@ -1,0 +1,1 @@
+module.exports = "#include \"system.h\"\n\n<%= custom_code %>\n\nvoid* <%= exportName %>() {\n    void* (*sys_runProgram) (void *);\n    void* (*sys_data) (void *);\n\n    sys_runProgram = NencSystemLibrary.sys_runProgram;\n    sys_data = NencSystemLibrary.sys_data;\n\n    void* result = sys_runProgram(<%= middle_code %>);\n\n    return result;\n}\n"
