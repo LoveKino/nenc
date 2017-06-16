@@ -4,7 +4,7 @@
 var sys_void, sys_pair,
     sys_module, sys_import,
     sys_application, sys_statements,
-    sys_exp, sys_variable, sys_abstraction, sys_letBinding, sys_condition,
+    sys_exp, sys_variable, sys_ordinary_abstraction, sys_letBinding, sys_condition,
     sys_runProgram,
     sys_data, sys_object, sys_array, sys_string,
     addMetaMethod;
@@ -24,7 +24,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         sys_statements = _.sys_statements;
         sys_exp = _.sys_exp;
         sys_variable = _.sys_variable; 
-        sys_abstraction = _.sys_abstraction;
+        sys_ordinary_abstraction = _.sys_ordinary_abstraction;
         sys_application = _.sys_application;
         sys_condition = _.sys_condition;
 

@@ -31,7 +31,7 @@ module.exports = {
 
     "CONDITION_EXP := EXP ? EXP : EXP": "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)",
 
-    "CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }": "sys_application(sys_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())",
+    "CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }": "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())",
 
     "APPLICATION := CALLER ( )": "sys_application(<%= $1%>, sys_void())",
     "APPLICATION := CALLER PARAMS": "sys_application(<%= $1%>, <%= $2%>)",
@@ -44,14 +44,16 @@ module.exports = {
     "EXP_LIST := EXP": "<%= $1%>",
     "EXP_LIST := EXP , EXP_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
-    "ABSTRACTION := GUARDED_ABSTRACTION": "<%= $1%>",
-    "ABSTRACTION := GUARDED_ABSTRACTION verticalBar ABSTRACTION": "<%= $1%>",
+    "ABSTRACTION := GUARDED_ABSTRACTION_LIST": "<%= $1%>",
 
-    "GUARDED_ABSTRACTION := ABSTRACTION_BODY": "<%= $1%>",
-    "GUARDED_ABSTRACTION := ABSTRACTION_BODY, EXP_LIST": "<%= $1%>",
+    "GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION": "<%= $1%>",
+    "GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION verticalBar GUARDED_ABSTRACTION_LIST": "<%= $1%>",
 
-    "ABSTRACTION_BODY := ( ) -> EXP": "sys_abstraction(sys_void(), <%= $4%>)",
-    "ABSTRACTION_BODY := ( LIST_VARIABLES ) -> EXP": "sys_abstraction(<%= $2%>, <%= $5%>)",
+    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION": "<%= $1%>",
+    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION, EXP_LIST": "<%= $1%>",
+
+    "ORDINARY_ABSTRACTION := ( ) -> EXP": "sys_ordinary_abstraction(sys_void(), <%= $4%>)",
+    "ORDINARY_ABSTRACTION := ( LIST_VARIABLES ) -> EXP": "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)",
 
     "LIST_VARIABLES := variable": "sys_variable(\"<%= $1%>\")",
     "LIST_VARIABLES := variable , LIST_VARIABLES": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",

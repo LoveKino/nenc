@@ -14,144 +14,70 @@ module.exports = {
             "APPLICATION": 23,
             "CALLER": 24,
             "ABSTRACTION": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
+            "GUARDED_ABSTRACTION_LIST": 26,
+            "GUARDED_ABSTRACTION": 27,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 29,
+            "OBJECT": 30,
+            "ARRAY": 31
         },
         {},
         {},
         {},
         {
-            "VARIABLE_DEFINITION_LIST": 33,
-            "VARIABLE_DEFINITION": 34
+            "VARIABLE_DEFINITION_LIST": 34,
+            "VARIABLE_DEFINITION": 35
         },
         {
-            "NONE_EMPTY_STATEMENTS": 48,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 62,
-            "ARRAY": 63
+            "NONE_EMPTY_STATEMENTS": 49,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 64,
+            "ARRAY": 65
         },
         {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 71
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 74
         },
         {
-            "EXP": 82,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "EXP_LIST": 87,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 105
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "VARIABLE_DEFINITION_LIST": 116,
-            "VARIABLE_DEFINITION": 117
-        },
-        {
-            "NONE_EMPTY_STATEMENTS": 119,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 120,
-            "ARRAY": 63
-        },
-        {},
-        {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 122
-        },
-        {
-            "EXP": 133,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "EXP_LIST": 138,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
+            "EXP": 85,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "EXP_LIST": 90,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
         },
         {},
         {},
         {},
         {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 146
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 109
         },
         {},
         {},
@@ -170,77 +96,70 @@ module.exports = {
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {
-            "LIST_VARIABLES": 155
+            "VARIABLE_DEFINITION_LIST": 120,
+            "VARIABLE_DEFINITION": 121
+        },
+        {
+            "NONE_EMPTY_STATEMENTS": 123,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 124,
+            "ARRAY": 65
         },
         {},
         {
-            "EXP": 167,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 172,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 183,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 184,
-            "ARRAY": 63
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 126
         },
         {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 186
-        },
-        {
-            "EXP": 187,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "EXP_LIST": 188,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
+            "EXP": 137,
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "EXP_LIST": 142,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
         },
         {},
         {},
         {},
         {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 190
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 151
         },
         {},
         {},
@@ -255,18 +174,114 @@ module.exports = {
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {
-            "KEY_VALUES": 197
+            "LIST_VARIABLES": 160
+        },
+        {},
+        {
+            "EXP": 172,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 177,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 189,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 190,
+            "ARRAY": 65
+        },
+        {
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 192
+        },
+        {
+            "EXP": 193,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "EXP_LIST": 194,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
         },
         {},
         {},
         {},
         {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 199
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 196
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "KEY_VALUES": 203
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 205
         },
         {},
         {},
@@ -274,7 +289,7 @@ module.exports = {
         {},
         {},
         {
-            "STATEMENTS": 202,
+            "STATEMENTS": 208,
             "NONE_EMPTY_STATEMENTS": 16,
             "STATEMENT": 17,
             "IMPORT_EXPRESSION": 18,
@@ -285,277 +300,71 @@ module.exports = {
             "APPLICATION": 23,
             "CALLER": 24,
             "ABSTRACTION": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
+            "GUARDED_ABSTRACTION_LIST": 26,
+            "GUARDED_ABSTRACTION": 27,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 29,
+            "OBJECT": 30,
+            "ARRAY": 31
         },
         {
-            "EXP": 213,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "EXP": 219,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 238,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 245,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {
-            "ABSTRACTION": 245,
-            "GUARDED_ABSTRACTION": 26,
-            "ABSTRACTION_BODY": 27
-        },
-        {},
-        {
-            "EXP": 255,
-            "CODE_BLOCK_EXP": 256,
-            "CONDITION_EXP": 257,
-            "APPLICATION": 258,
-            "CALLER": 259,
-            "ABSTRACTION": 260,
-            "GUARDED_ABSTRACTION": 261,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 262,
-            "OBJECT": 263,
-            "ARRAY": 264
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 265,
-            "VARIABLE_DEFINITION": 34
+            "GUARDED_ABSTRACTION_LIST": 253,
+            "GUARDED_ABSTRACTION": 27,
+            "ORDINARY_ABSTRACTION": 28
         },
         {},
         {
-            "JSON": 274,
-            "OBJECT": 275,
-            "ARRAY": 276
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 284,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 285,
-            "ARRAY": 63
+            "EXP": 263,
+            "CODE_BLOCK_EXP": 264,
+            "CONDITION_EXP": 265,
+            "APPLICATION": 266,
+            "CALLER": 267,
+            "ABSTRACTION": 268,
+            "GUARDED_ABSTRACTION_LIST": 269,
+            "GUARDED_ABSTRACTION": 270,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 271,
+            "OBJECT": 272,
+            "ARRAY": 273
         },
         {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 287
-        },
-        {
-            "EXP": 288,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "EXP_LIST": 289,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 291
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "STATEMENTS": 298,
-            "NONE_EMPTY_STATEMENTS": 299,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "ARRAY": 63
-        },
-        {
-            "EXP": 300,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 302,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 304,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59
+            "VARIABLE_DEFINITION_LIST": 274,
+            "VARIABLE_DEFINITION": 35
         },
         {},
         {
-            "LIST_VARIABLES": 305
-        },
-        {},
-        {},
-        {
-            "EXP": 316,
-            "CODE_BLOCK_EXP": 317,
-            "CONDITION_EXP": 318,
-            "APPLICATION": 319,
-            "CALLER": 320,
-            "ABSTRACTION": 321,
-            "GUARDED_ABSTRACTION": 322,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 323,
-            "OBJECT": 324,
-            "ARRAY": 325
-        },
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 327,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 328,
-            "ARRAY": 63
-        },
-        {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 330
-        },
-        {
-            "EXP": 331,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 332,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 334
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "ABSTRACTION": 339,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70
+            "JSON": 283,
+            "OBJECT": 284,
+            "ARRAY": 285
         },
         {},
         {},
@@ -568,378 +377,56 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 82,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "EXP_LIST": 347,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
+            "NONE_EMPTY_STATEMENTS": 293,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 294,
+            "ARRAY": 65
         },
         {
-            "EXP": 348,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 296
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 350,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 352,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 355
+            "EXP": 297,
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "EXP_LIST": 298,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
         },
         {},
         {},
         {},
         {},
         {
-            "NONE_EMPTY_STATEMENTS": 357,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 358,
-            "ARRAY": 63
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 300
         },
-        {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 360
-        },
-        {
-            "EXP": 371,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "EXP_LIST": 376,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 384
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 390,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 391,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 393
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 71
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 400,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 401,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 403
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "KEY_VALUES": 409
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 411
-        },
-        {},
-        {},
-        {},
-        {
-            "EXP": 421,
-            "CODE_BLOCK_EXP": 422,
-            "CONDITION_EXP": 423,
-            "APPLICATION": 424,
-            "CALLER": 425,
-            "ABSTRACTION": 426,
-            "GUARDED_ABSTRACTION": 427,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 428,
-            "OBJECT": 429,
-            "ARRAY": 430
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 431,
-            "VARIABLE_DEFINITION": 117
-        },
-        {},
-        {},
-        {
-            "EXP": 440,
-            "CODE_BLOCK_EXP": 441,
-            "CONDITION_EXP": 442,
-            "APPLICATION": 443,
-            "CALLER": 444,
-            "ABSTRACTION": 445,
-            "GUARDED_ABSTRACTION": 446,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 447,
-            "OBJECT": 448,
-            "ARRAY": 449
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 133,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "EXP_LIST": 457,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {
-            "EXP": 458,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 460,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 462,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 122
-        },
-        {},
-        {},
-        {
-            "EXP": 475,
-            "CODE_BLOCK_EXP": 476,
-            "CONDITION_EXP": 477,
-            "APPLICATION": 478,
-            "CALLER": 479,
-            "ABSTRACTION": 480,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482,
-            "JSON": 483,
-            "OBJECT": 484,
-            "ARRAY": 485
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 488,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 489,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 491
-        },
-        {},
-        {},
-        {},
         {},
         {},
         {},
@@ -957,103 +444,134 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 167,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 501,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
+            "STATEMENTS": 307,
+            "NONE_EMPTY_STATEMENTS": 308,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "ARRAY": 65
         },
         {
-            "EXP": 502,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "EXP": 309,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 504,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 311,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {
-            "ABSTRACTION": 506,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175
+            "GUARDED_ABSTRACTION_LIST": 313,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61
         },
         {},
         {
-            "EXP": 507,
-            "CODE_BLOCK_EXP": 317,
-            "CONDITION_EXP": 318,
-            "APPLICATION": 319,
-            "CALLER": 320,
-            "ABSTRACTION": 321,
-            "GUARDED_ABSTRACTION": 322,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 323,
-            "OBJECT": 324,
-            "ARRAY": 325
+            "LIST_VARIABLES": 314
         },
         {},
         {},
         {
-            "EXP": 508,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
+            "EXP": 325,
+            "CODE_BLOCK_EXP": 326,
+            "CONDITION_EXP": 327,
+            "APPLICATION": 328,
+            "CALLER": 329,
+            "ABSTRACTION": 330,
+            "GUARDED_ABSTRACTION_LIST": 331,
+            "GUARDED_ABSTRACTION": 332,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 333,
+            "OBJECT": 334,
+            "ARRAY": 335
         },
-        {},
-        {
-            "EXP": 187,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "EXP_LIST": 510,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
-        },
-        {},
-        {},
-        {},
         {},
         {},
         {
-            "LIST_VARIABLES": 186
+            "NONE_EMPTY_STATEMENTS": 337,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 338,
+            "ARRAY": 65
         },
+        {
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 340
+        },
+        {
+            "EXP": 341,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 342,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 344
+        },
+        {},
+        {},
+        {},
         {},
         {},
         {},
@@ -1066,52 +584,531 @@ module.exports = {
         {},
         {},
         {
-            "NONE_EMPTY_STATEMENTS": 518,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 519,
-            "ARRAY": 63
+            "GUARDED_ABSTRACTION_LIST": 349,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 85,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "EXP_LIST": 357,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
         },
         {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 521
+            "EXP": 358,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 360,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 362,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 365
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 367,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 368,
+            "ARRAY": 65
+        },
+        {
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 370
+        },
+        {
+            "EXP": 381,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "EXP_LIST": 386,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 395
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 401,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 402,
+            "ARRAY": 65
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 404
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "LIST_VARIABLES": 74
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 411,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 412,
+            "ARRAY": 65
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 414
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "KEY_VALUES": 420
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 422
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 432,
+            "CODE_BLOCK_EXP": 433,
+            "CONDITION_EXP": 434,
+            "APPLICATION": 435,
+            "CALLER": 436,
+            "ABSTRACTION": 437,
+            "GUARDED_ABSTRACTION_LIST": 438,
+            "GUARDED_ABSTRACTION": 439,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 440,
+            "OBJECT": 441,
+            "ARRAY": 442
+        },
+        {
+            "VARIABLE_DEFINITION_LIST": 443,
+            "VARIABLE_DEFINITION": 121
+        },
+        {},
+        {},
+        {
+            "EXP": 452,
+            "CODE_BLOCK_EXP": 453,
+            "CONDITION_EXP": 454,
+            "APPLICATION": 455,
+            "CALLER": 456,
+            "ABSTRACTION": 457,
+            "GUARDED_ABSTRACTION_LIST": 458,
+            "GUARDED_ABSTRACTION": 459,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 460,
+            "OBJECT": 461,
+            "ARRAY": 462
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 137,
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "EXP_LIST": 470,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
+        },
+        {
+            "EXP": 471,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 473,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 475,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "LIST_VARIABLES": 126
+        },
+        {},
+        {},
+        {
+            "EXP": 488,
+            "CODE_BLOCK_EXP": 489,
+            "CONDITION_EXP": 490,
+            "APPLICATION": 491,
+            "CALLER": 492,
+            "ABSTRACTION": 493,
+            "GUARDED_ABSTRACTION_LIST": 494,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496,
+            "JSON": 497,
+            "OBJECT": 498,
+            "ARRAY": 499
+        },
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 502,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 503,
+            "ARRAY": 65
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 505
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 172,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 515,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
+        },
+        {
+            "EXP": 516,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 518,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 520,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181
+        },
+        {},
+        {
+            "EXP": 521,
+            "CODE_BLOCK_EXP": 326,
+            "CONDITION_EXP": 327,
+            "APPLICATION": 328,
+            "CALLER": 329,
+            "ABSTRACTION": 330,
+            "GUARDED_ABSTRACTION_LIST": 331,
+            "GUARDED_ABSTRACTION": 332,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 333,
+            "OBJECT": 334,
+            "ARRAY": 335
+        },
+        {},
+        {},
         {
             "EXP": 522,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "EXP_LIST": 523,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
+        },
+        {},
+        {
+            "EXP": 193,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "EXP_LIST": 524,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
         },
         {},
         {},
         {},
         {},
+        {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 525
+            "LIST_VARIABLES": 192
         },
         {},
         {},
@@ -1124,105 +1121,119 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
         {
-            "EXP": 531,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "NONE_EMPTY_STATEMENTS": 532,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 533,
+            "ARRAY": 65
         },
         {
-            "EXP": 532,
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 535
+        },
+        {
+            "EXP": 536,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "EXP_LIST": 537,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 539
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 545,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 546,
             "CODE_BLOCK_EXP": 21,
             "CONDITION_EXP": 22,
             "APPLICATION": 23,
             "CALLER": 24,
             "ABSTRACTION": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
+            "GUARDED_ABSTRACTION_LIST": 26,
+            "GUARDED_ABSTRACTION": 27,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 29,
+            "OBJECT": 30,
+            "ARRAY": 31
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 534,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 548,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {
-            "ABSTRACTION": 536,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 540,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "EXP": 541,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 543,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {},
-        {
-            "ABSTRACTION": 544,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175
+            "GUARDED_ABSTRACTION_LIST": 550,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227
         },
         {},
         {},
@@ -1230,115 +1241,132 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 548,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 554,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 550,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 555,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
         {
-            "ABSTRACTION": 551,
-            "GUARDED_ABSTRACTION": 261,
-            "ABSTRACTION_BODY": 90
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 557,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {},
-        {},
-        {},
-        {},
-        {},
         {
-            "KEY_VALUES": 554
-        },
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 556,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 557,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 559
+            "GUARDED_ABSTRACTION_LIST": 558,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181
         },
         {},
         {},
         {},
         {},
         {},
-        {},
-        {},
-        {},
+        {
+            "EXP": 562,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 564,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 565,
+            "GUARDED_ABSTRACTION": 270,
+            "ORDINARY_ABSTRACTION": 94
+        },
         {},
         {},
         {},
         {},
         {},
         {
-            "NONE_EMPTY_STATEMENTS": 564,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 565,
-            "ARRAY": 63
+            "KEY_VALUES": 568
+        },
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 570,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 571,
+            "ARRAY": 65
         },
         {},
         {},
         {},
         {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 567
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 573
         },
         {},
         {},
@@ -1350,121 +1378,38 @@ module.exports = {
         {},
         {},
         {},
-        {
-            "EXP": 571,
-            "CODE_BLOCK_EXP": 441,
-            "CONDITION_EXP": 442,
-            "APPLICATION": 443,
-            "CALLER": 444,
-            "ABSTRACTION": 445,
-            "GUARDED_ABSTRACTION": 446,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 447,
-            "OBJECT": 448,
-            "ARRAY": 449
-        },
-        {},
-        {},
-        {
-            "EXP": 572,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {},
-        {
-            "EXP": 288,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "EXP_LIST": 574,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {},
         {},
         {},
         {},
         {},
         {
-            "LIST_VARIABLES": 287
-        },
-        {},
-        {
-            "EXP": 577,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 579,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 580,
-            "ARRAY": 63
-        },
-        {
-            "ABSTRACTION": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ABSTRACTION_BODY": 70,
-            "LIST_VARIABLES": 582
-        },
-        {
-            "EXP": 583,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 584,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
+            "NONE_EMPTY_STATEMENTS": 578,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 579,
+            "ARRAY": 65
         },
         {},
         {},
         {},
         {},
         {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 586
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 581
         },
         {},
         {},
@@ -1478,17 +1423,50 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 590,
-            "CODE_BLOCK_EXP": 476,
-            "CONDITION_EXP": 477,
-            "APPLICATION": 478,
-            "CALLER": 479,
-            "ABSTRACTION": 480,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482,
-            "JSON": 483,
-            "OBJECT": 484,
-            "ARRAY": 485
+            "EXP": 585,
+            "CODE_BLOCK_EXP": 453,
+            "CONDITION_EXP": 454,
+            "APPLICATION": 455,
+            "CALLER": 456,
+            "ABSTRACTION": 457,
+            "GUARDED_ABSTRACTION_LIST": 458,
+            "GUARDED_ABSTRACTION": 459,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 460,
+            "OBJECT": 461,
+            "ARRAY": 462
+        },
+        {},
+        {},
+        {
+            "EXP": 586,
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
+        },
+        {},
+        {
+            "EXP": 297,
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "EXP_LIST": 588,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
         },
         {},
         {},
@@ -1496,197 +1474,77 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 594,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 596,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 597,
-            "GUARDED_ABSTRACTION": 322,
-            "ABSTRACTION_BODY": 27
-        },
-        {},
-        {},
-        {
-            "EXP": 598,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
+            "LIST_VARIABLES": 296
         },
         {},
         {
-            "EXP": 331,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 600,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 330
+            "EXP": 591,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "ARRAY": 65
         },
         {},
         {},
         {},
         {
-            "EXP": 603,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
+            "NONE_EMPTY_STATEMENTS": 593,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 594,
+            "ARRAY": 65
         },
-        {},
         {
-            "EXP": 604,
-            "CODE_BLOCK_EXP": 83,
-            "CONDITION_EXP": 84,
-            "APPLICATION": 85,
-            "CALLER": 86,
-            "ABSTRACTION": 88,
-            "GUARDED_ABSTRACTION": 89,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 91,
-            "OBJECT": 92,
-            "ARRAY": 93
+            "ABSTRACTION": 70,
+            "GUARDED_ABSTRACTION_LIST": 71,
+            "GUARDED_ABSTRACTION": 72,
+            "ORDINARY_ABSTRACTION": 73,
+            "LIST_VARIABLES": 596
         },
-        {},
-        {},
-        {},
         {
-            "EXP": 613,
-            "CODE_BLOCK_EXP": 614,
-            "CONDITION_EXP": 615,
-            "APPLICATION": 616,
-            "CALLER": 617,
-            "ABSTRACTION": 618,
-            "GUARDED_ABSTRACTION": 619,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 620,
-            "OBJECT": 621,
-            "ARRAY": 622
+            "EXP": 597,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 598,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
         {},
         {
-            "EXP": 371,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "EXP_LIST": 630,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 600
         },
-        {
-            "EXP": 631,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 633,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 635,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 360
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
@@ -1700,36 +1558,18 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 645,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 647,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 648,
-            "GUARDED_ABSTRACTION": 427,
-            "ABSTRACTION_BODY": 141
+            "EXP": 604,
+            "CODE_BLOCK_EXP": 489,
+            "CONDITION_EXP": 490,
+            "APPLICATION": 491,
+            "CALLER": 492,
+            "ABSTRACTION": 493,
+            "GUARDED_ABSTRACTION_LIST": 494,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496,
+            "JSON": 497,
+            "OBJECT": 498,
+            "ARRAY": 499
         },
         {},
         {},
@@ -1737,108 +1577,194 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 652,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "EXP": 608,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 654,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 610,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {
-            "ABSTRACTION": 655,
-            "GUARDED_ABSTRACTION": 446,
-            "ABSTRACTION_BODY": 59
+            "GUARDED_ABSTRACTION_LIST": 611,
+            "GUARDED_ABSTRACTION": 332,
+            "ORDINARY_ABSTRACTION": 28
         },
-        {},
-        {},
-        {
-            "EXP": 656,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {},
-        {
-            "EXP": 657,
-            "CODE_BLOCK_EXP": 134,
-            "CONDITION_EXP": 135,
-            "APPLICATION": 136,
-            "CALLER": 137,
-            "ABSTRACTION": 139,
-            "GUARDED_ABSTRACTION": 140,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 142,
-            "OBJECT": 143,
-            "ARRAY": 144
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {
-            "EXP": 664,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "EXP": 612,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
+        },
+        {},
+        {
+            "EXP": 341,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 614,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "LIST_VARIABLES": 340
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 617,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
+        },
+        {},
+        {
+            "EXP": 618,
+            "CODE_BLOCK_EXP": 86,
+            "CONDITION_EXP": 87,
+            "APPLICATION": 88,
+            "CALLER": 89,
+            "ABSTRACTION": 91,
+            "GUARDED_ABSTRACTION_LIST": 92,
+            "GUARDED_ABSTRACTION": 93,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 95,
+            "OBJECT": 96,
+            "ARRAY": 97
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 627,
+            "CODE_BLOCK_EXP": 628,
+            "CONDITION_EXP": 629,
+            "APPLICATION": 630,
+            "CALLER": 631,
+            "ABSTRACTION": 632,
+            "GUARDED_ABSTRACTION_LIST": 633,
+            "GUARDED_ABSTRACTION": 634,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 635,
+            "OBJECT": 636,
+            "ARRAY": 637
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 381,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "EXP_LIST": 645,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
         },
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 666,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 646,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
         {
-            "ABSTRACTION": 668,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 648,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 650,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "LIST_VARIABLES": 370
         },
         {},
         {},
@@ -1847,67 +1773,126 @@ module.exports = {
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 660,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 662,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 663,
+            "GUARDED_ABSTRACTION": 439,
+            "ORDINARY_ABSTRACTION": 146
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 667,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 669,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 670,
+            "GUARDED_ABSTRACTION": 459,
+            "ORDINARY_ABSTRACTION": 61
+        },
         {},
         {},
         {
             "EXP": 671,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
         },
         {},
         {
             "EXP": 672,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 674,
-            "STATEMENT": 49,
-            "IMPORT_EXPRESSION": 50,
-            "LET_EXPRESSION": 51,
-            "EXP": 52,
-            "CODE_BLOCK_EXP": 53,
-            "CONDITION_EXP": 54,
-            "APPLICATION": 55,
-            "CALLER": 56,
-            "ABSTRACTION": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 675,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "JSON": 102,
-            "OBJECT": 103,
-            "ARRAY": 104,
-            "LIST_VALUES": 677
+            "CODE_BLOCK_EXP": 138,
+            "CONDITION_EXP": 139,
+            "APPLICATION": 140,
+            "CALLER": 141,
+            "ABSTRACTION": 143,
+            "GUARDED_ABSTRACTION_LIST": 144,
+            "GUARDED_ABSTRACTION": 145,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 147,
+            "OBJECT": 148,
+            "ARRAY": 149
         },
         {},
         {},
@@ -1919,295 +1904,293 @@ module.exports = {
         {},
         {},
         {},
+        {},
         {
-            "EXP": 681,
-            "CODE_BLOCK_EXP": 614,
-            "CONDITION_EXP": 615,
-            "APPLICATION": 616,
-            "CALLER": 617,
-            "ABSTRACTION": 618,
-            "GUARDED_ABSTRACTION": 619,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 620,
-            "OBJECT": 621,
-            "ARRAY": 622
+            "EXP": 679,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
         },
-        {},
-        {},
         {
-            "EXP": 682,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 681,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
-        {},
         {
-            "EXP": 522,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "EXP_LIST": 684,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "GUARDED_ABSTRACTION_LIST": 683,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496
         },
         {},
         {},
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
         {
-            "LIST_VARIABLES": 521
+            "EXP": 686,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
         },
         {},
         {
             "EXP": 687,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
         },
-        {},
-        {
-            "EXP": 688,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {},
-        {
-            "EXP": 689,
-            "CODE_BLOCK_EXP": 256,
-            "CONDITION_EXP": 257,
-            "APPLICATION": 258,
-            "CALLER": 259,
-            "ABSTRACTION": 260,
-            "GUARDED_ABSTRACTION": 261,
-            "ABSTRACTION_BODY": 90,
-            "JSON": 262,
-            "OBJECT": 263,
-            "ARRAY": 264
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
         {},
         {},
         {
-            "EXP": 694,
-            "CODE_BLOCK_EXP": 476,
-            "CONDITION_EXP": 477,
-            "APPLICATION": 478,
-            "CALLER": 479,
-            "ABSTRACTION": 480,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482,
-            "JSON": 483,
-            "OBJECT": 484,
-            "ARRAY": 485
-        },
-        {},
-        {
-            "EXP": 583,
-            "CODE_BLOCK_EXP": 168,
-            "CONDITION_EXP": 169,
-            "APPLICATION": 170,
-            "CALLER": 171,
-            "EXP_LIST": 696,
-            "ABSTRACTION": 173,
-            "GUARDED_ABSTRACTION": 174,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 176,
-            "OBJECT": 177,
-            "ARRAY": 178
+            "NONE_EMPTY_STATEMENTS": 689,
+            "STATEMENT": 50,
+            "IMPORT_EXPRESSION": 51,
+            "LET_EXPRESSION": 52,
+            "EXP": 53,
+            "CODE_BLOCK_EXP": 54,
+            "CONDITION_EXP": 55,
+            "APPLICATION": 56,
+            "CALLER": 57,
+            "ABSTRACTION": 58,
+            "GUARDED_ABSTRACTION_LIST": 59,
+            "GUARDED_ABSTRACTION": 60,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 62,
+            "OBJECT": 63,
+            "KEY_VALUES": 690,
+            "ARRAY": 65
         },
         {},
         {},
         {},
         {},
         {
-            "LIST_VARIABLES": 582
+            "JSON": 106,
+            "OBJECT": 107,
+            "ARRAY": 108,
+            "LIST_VALUES": 692
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 696,
+            "CODE_BLOCK_EXP": 628,
+            "CONDITION_EXP": 629,
+            "APPLICATION": 630,
+            "CALLER": 631,
+            "ABSTRACTION": 632,
+            "GUARDED_ABSTRACTION_LIST": 633,
+            "GUARDED_ABSTRACTION": 634,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 635,
+            "OBJECT": 636,
+            "ARRAY": 637
+        },
+        {},
+        {},
+        {
+            "EXP": 697,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
         },
         {},
         {
-            "EXP": 699,
-            "CODE_BLOCK_EXP": 317,
-            "CONDITION_EXP": 318,
-            "APPLICATION": 319,
-            "CALLER": 320,
-            "ABSTRACTION": 321,
-            "GUARDED_ABSTRACTION": 322,
-            "ABSTRACTION_BODY": 27,
-            "JSON": 323,
-            "OBJECT": 324,
-            "ARRAY": 325
+            "EXP": 536,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "EXP_LIST": 699,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
         },
         {},
         {},
         {},
         {},
         {},
+        {
+            "LIST_VARIABLES": 535
+        },
         {},
-        {},
+        {
+            "EXP": 702,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
         {},
         {
             "EXP": 703,
-            "CODE_BLOCK_EXP": 214,
-            "CONDITION_EXP": 215,
-            "APPLICATION": 216,
-            "CALLER": 217,
-            "ABSTRACTION": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "EXP_LIST": 705,
-            "ABSTRACTION": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ABSTRACTION_BODY": 175,
-            "JSON": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
-        {
-            "ABSTRACTION": 706,
-            "GUARDED_ABSTRACTION": 619,
-            "ABSTRACTION_BODY": 220
-        },
-        {},
-        {},
-        {
-            "EXP": 707,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
         },
         {},
         {
-            "EXP": 708,
-            "CODE_BLOCK_EXP": 372,
-            "CONDITION_EXP": 373,
-            "APPLICATION": 374,
-            "CALLER": 375,
-            "ABSTRACTION": 377,
-            "GUARDED_ABSTRACTION": 378,
-            "ABSTRACTION_BODY": 379,
-            "JSON": 380,
-            "OBJECT": 381,
-            "ARRAY": 382
+            "EXP": 704,
+            "CODE_BLOCK_EXP": 264,
+            "CONDITION_EXP": 265,
+            "APPLICATION": 266,
+            "CALLER": 267,
+            "ABSTRACTION": 268,
+            "GUARDED_ABSTRACTION_LIST": 269,
+            "GUARDED_ABSTRACTION": 270,
+            "ORDINARY_ABSTRACTION": 94,
+            "JSON": 271,
+            "OBJECT": 272,
+            "ARRAY": 273
         },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {},
         {},
         {},
         {},
         {
             "EXP": 709,
-            "CODE_BLOCK_EXP": 422,
-            "CONDITION_EXP": 423,
-            "APPLICATION": 424,
-            "CALLER": 425,
-            "ABSTRACTION": 426,
-            "GUARDED_ABSTRACTION": 427,
-            "ABSTRACTION_BODY": 141,
-            "JSON": 428,
-            "OBJECT": 429,
-            "ARRAY": 430
+            "CODE_BLOCK_EXP": 489,
+            "CONDITION_EXP": 490,
+            "APPLICATION": 491,
+            "CALLER": 492,
+            "ABSTRACTION": 493,
+            "GUARDED_ABSTRACTION_LIST": 494,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496,
+            "JSON": 497,
+            "OBJECT": 498,
+            "ARRAY": 499
         },
         {},
         {
-            "EXP": 710,
-            "CODE_BLOCK_EXP": 441,
-            "CONDITION_EXP": 442,
-            "APPLICATION": 443,
-            "CALLER": 444,
-            "ABSTRACTION": 445,
-            "GUARDED_ABSTRACTION": 446,
-            "ABSTRACTION_BODY": 59,
-            "JSON": 447,
-            "OBJECT": 448,
-            "ARRAY": 449
+            "EXP": 597,
+            "CODE_BLOCK_EXP": 173,
+            "CONDITION_EXP": 174,
+            "APPLICATION": 175,
+            "CALLER": 176,
+            "EXP_LIST": 711,
+            "ABSTRACTION": 178,
+            "GUARDED_ABSTRACTION_LIST": 179,
+            "GUARDED_ABSTRACTION": 180,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 182,
+            "OBJECT": 183,
+            "ARRAY": 184
         },
         {},
         {},
+        {},
+        {},
         {
-            "EXP": 711,
-            "CODE_BLOCK_EXP": 476,
-            "CONDITION_EXP": 477,
-            "APPLICATION": 478,
-            "CALLER": 479,
-            "ABSTRACTION": 480,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482,
-            "JSON": 483,
-            "OBJECT": 484,
-            "ARRAY": 485
+            "LIST_VARIABLES": 596
         },
         {},
         {
-            "EXP": 712,
-            "CODE_BLOCK_EXP": 476,
-            "CONDITION_EXP": 477,
-            "APPLICATION": 478,
-            "CALLER": 479,
-            "ABSTRACTION": 480,
-            "GUARDED_ABSTRACTION": 481,
-            "ABSTRACTION_BODY": 482,
-            "JSON": 483,
-            "OBJECT": 484,
-            "ARRAY": 485
+            "EXP": 714,
+            "CODE_BLOCK_EXP": 326,
+            "CONDITION_EXP": 327,
+            "APPLICATION": 328,
+            "CALLER": 329,
+            "ABSTRACTION": 330,
+            "GUARDED_ABSTRACTION_LIST": 331,
+            "GUARDED_ABSTRACTION": 332,
+            "ORDINARY_ABSTRACTION": 28,
+            "JSON": 333,
+            "OBJECT": 334,
+            "ARRAY": 335
         },
         {},
         {},
@@ -2217,6 +2200,143 @@ module.exports = {
         {},
         {},
         {},
+        {
+            "EXP": 718,
+            "CODE_BLOCK_EXP": 220,
+            "CONDITION_EXP": 221,
+            "APPLICATION": 222,
+            "CALLER": 223,
+            "ABSTRACTION": 224,
+            "GUARDED_ABSTRACTION_LIST": 225,
+            "GUARDED_ABSTRACTION": 226,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 228,
+            "OBJECT": 229,
+            "ARRAY": 230
+        },
+        {
+            "EXP": 240,
+            "CODE_BLOCK_EXP": 241,
+            "CONDITION_EXP": 242,
+            "APPLICATION": 243,
+            "CALLER": 244,
+            "EXP_LIST": 720,
+            "ABSTRACTION": 246,
+            "GUARDED_ABSTRACTION_LIST": 247,
+            "GUARDED_ABSTRACTION": 248,
+            "ORDINARY_ABSTRACTION": 181,
+            "JSON": 249,
+            "OBJECT": 250,
+            "ARRAY": 251
+        },
+        {
+            "GUARDED_ABSTRACTION_LIST": 721,
+            "GUARDED_ABSTRACTION": 634,
+            "ORDINARY_ABSTRACTION": 227
+        },
+        {},
+        {},
+        {
+            "EXP": 722,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
+        },
+        {},
+        {
+            "EXP": 723,
+            "CODE_BLOCK_EXP": 382,
+            "CONDITION_EXP": 383,
+            "APPLICATION": 384,
+            "CALLER": 385,
+            "ABSTRACTION": 387,
+            "GUARDED_ABSTRACTION_LIST": 388,
+            "GUARDED_ABSTRACTION": 389,
+            "ORDINARY_ABSTRACTION": 390,
+            "JSON": 391,
+            "OBJECT": 392,
+            "ARRAY": 393
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 724,
+            "CODE_BLOCK_EXP": 433,
+            "CONDITION_EXP": 434,
+            "APPLICATION": 435,
+            "CALLER": 436,
+            "ABSTRACTION": 437,
+            "GUARDED_ABSTRACTION_LIST": 438,
+            "GUARDED_ABSTRACTION": 439,
+            "ORDINARY_ABSTRACTION": 146,
+            "JSON": 440,
+            "OBJECT": 441,
+            "ARRAY": 442
+        },
+        {},
+        {
+            "EXP": 725,
+            "CODE_BLOCK_EXP": 453,
+            "CONDITION_EXP": 454,
+            "APPLICATION": 455,
+            "CALLER": 456,
+            "ABSTRACTION": 457,
+            "GUARDED_ABSTRACTION_LIST": 458,
+            "GUARDED_ABSTRACTION": 459,
+            "ORDINARY_ABSTRACTION": 61,
+            "JSON": 460,
+            "OBJECT": 461,
+            "ARRAY": 462
+        },
+        {},
+        {},
+        {
+            "EXP": 726,
+            "CODE_BLOCK_EXP": 489,
+            "CONDITION_EXP": 490,
+            "APPLICATION": 491,
+            "CALLER": 492,
+            "ABSTRACTION": 493,
+            "GUARDED_ABSTRACTION_LIST": 494,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496,
+            "JSON": 497,
+            "OBJECT": 498,
+            "ARRAY": 499
+        },
+        {},
+        {
+            "EXP": 727,
+            "CODE_BLOCK_EXP": 489,
+            "CONDITION_EXP": 490,
+            "APPLICATION": 491,
+            "CALLER": 492,
+            "ABSTRACTION": 493,
+            "GUARDED_ABSTRACTION_LIST": 494,
+            "GUARDED_ABSTRACTION": 495,
+            "ORDINARY_ABSTRACTION": 496,
+            "JSON": 497,
+            "OBJECT": 498,
+            "ARRAY": 499
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {},
         {},
         {},
@@ -2225,17 +2345,18 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 715,
-            "CODE_BLOCK_EXP": 614,
-            "CONDITION_EXP": 615,
-            "APPLICATION": 616,
-            "CALLER": 617,
-            "ABSTRACTION": 618,
-            "GUARDED_ABSTRACTION": 619,
-            "ABSTRACTION_BODY": 220,
-            "JSON": 620,
-            "OBJECT": 621,
-            "ARRAY": 622
+            "EXP": 730,
+            "CODE_BLOCK_EXP": 628,
+            "CONDITION_EXP": 629,
+            "APPLICATION": 630,
+            "CALLER": 631,
+            "ABSTRACTION": 632,
+            "GUARDED_ABSTRACTION_LIST": 633,
+            "GUARDED_ABSTRACTION": 634,
+            "ORDINARY_ABSTRACTION": 227,
+            "JSON": 635,
+            "OBJECT": 636,
+            "ARRAY": 637
         },
         {},
         {}
@@ -2289,19 +2410,19 @@ module.exports = {
                 "type": "shift",
                 "state": 12
             },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
-            },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 31
+                "state": 32
             }
         },
         {
@@ -2374,121 +2495,121 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 32
+                "state": 33
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 40
+                "state": 41
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 66
+                "state": 68
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 67
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 76
             },
             "string": {
                 "type": "shift",
-                "state": 72
+                "state": 75
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 80
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 81
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 82
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 83
             },
             "{": {
                 "type": "shift",
-                "state": 74
+                "state": 77
             },
             "[": {
                 "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
+                "state": 84
             },
             "(": {
                 "type": "shift",
-                "state": 75
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
             }
         },
         {
@@ -2610,35 +2731,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 101
+                "state": 105
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -2691,7 +2812,7 @@ module.exports = {
             },
             ";": {
                 "type": "shift",
-                "state": 106
+                "state": 110
             }
         },
         {
@@ -2755,7 +2876,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 107
+                "state": 111
             }
         },
         {
@@ -2857,7 +2978,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 108
+                "state": 112
             }
         },
         {
@@ -2895,7 +3016,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -2904,7 +3025,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -2912,6 +3033,35 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -2919,7 +3069,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 109
+                "state": 113
             }
         },
         {
@@ -2928,7 +3078,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -2937,7 +3087,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -2946,7 +3096,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -2955,7 +3105,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -3050,7 +3200,7 @@ module.exports = {
         {
             "as": {
                 "type": "shift",
-                "state": 110
+                "state": 114
             }
         },
         {
@@ -3083,7 +3233,7 @@ module.exports = {
             },
             "=": {
                 "type": "shift",
-                "state": 111
+                "state": 115
             }
         },
         {
@@ -3129,19 +3279,19 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 112
+                "state": 116
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 113
+                "state": 117
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 114
+                "state": 118
             },
             ";": {
                 "type": "reduce",
@@ -3212,61 +3362,61 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 115
+                "state": 119
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 118
+                "state": 122
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -3304,61 +3454,61 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 121
+                "state": 125
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 67
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 124
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 123
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 125
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
@@ -3480,41 +3630,41 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 145
+                "state": 150
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 147
+                "state": 152
             }
         },
         {
@@ -3529,7 +3679,7 @@ module.exports = {
             },
             ";": {
                 "type": "shift",
-                "state": 148
+                "state": 153
             }
         },
         {
@@ -3593,7 +3743,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 149
+                "state": 154
             }
         },
         {
@@ -3695,7 +3845,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 150
+                "state": 155
             }
         },
         {
@@ -3733,7 +3883,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -3742,7 +3892,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -3750,6 +3900,35 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -3757,7 +3936,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 151
+                "state": 156
             }
         },
         {
@@ -3766,7 +3945,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -3775,7 +3954,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -3784,7 +3963,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -3793,7 +3972,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -3859,7 +4038,7 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 152
+                "state": 157
             }
         },
         {
@@ -3903,329 +4082,340 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 153
+                "state": 158
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 154
+                "state": 159
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 156
+                "state": 161
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 162
-            },
-            "true": {
                 "type": "shift",
                 "state": 163
             },
-            "false": {
-                "type": "shift",
-                "state": 164
-            },
-            "null": {
-                "type": "shift",
-                "state": 165
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 179
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 180
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 182
-            },
             "string": {
                 "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
+                "state": 162
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 167
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 168
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 169
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 170
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 164
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 171
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
             ")": {
                 "type": "shift",
                 "state": 185
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "shift",
+                "state": 186
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 187
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 188
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 38
             },
-            "ABSTRACTION_BODY,": {
+            "let": {
                 "type": "shift",
-                "state": 67
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 191
+            },
+            "variable": {
+                "type": "shift",
+                "state": 66
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 69
+            },
+            "(": {
+                "type": "shift",
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 76
             },
             "string": {
                 "type": "shift",
-                "state": 72
+                "state": 75
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 80
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 81
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 82
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 83
             },
             "{": {
                 "type": "shift",
-                "state": 74
+                "state": 77
             },
             "[": {
                 "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
+                "state": 84
             },
             "(": {
                 "type": "shift",
-                "state": 75
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
             }
         },
         {
@@ -4419,35 +4609,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 189
+                "state": 195
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -4471,7 +4661,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 192
+                "state": 198
             },
             "verticalBar": {
                 "type": "reduce",
@@ -4484,7 +4674,7 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 191
+                "state": 197
             }
         },
         {
@@ -4640,7 +4830,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 193
+                "state": 199
             }
         },
         {
@@ -4649,7 +4839,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -4659,7 +4849,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -4669,7 +4859,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -4679,7 +4869,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -4738,7 +4928,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -4747,7 +4937,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -4756,7 +4946,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -4764,6 +4954,53 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -4771,7 +5008,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 194
+                "state": 200
             }
         },
         {
@@ -4780,7 +5017,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -4789,7 +5026,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -4798,7 +5035,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -4807,7 +5044,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -4816,7 +5053,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -4985,11 +5222,11 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 196
+                "state": 202
             },
             "string": {
                 "type": "shift",
-                "state": 195
+                "state": 201
             }
         },
         {
@@ -5075,35 +5312,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 198
+                "state": 204
             },
             "string": {
-                "type": "shift",
-                "state": 94
-            },
-            "number": {
-                "type": "shift",
-                "state": 96
-            },
-            "true": {
-                "type": "shift",
-                "state": 97
-            },
-            "false": {
                 "type": "shift",
                 "state": 98
             },
+            "number": {
+                "type": "shift",
+                "state": 100
+            },
+            "true": {
+                "type": "shift",
+                "state": 101
+            },
+            "false": {
+                "type": "shift",
+                "state": 102
+            },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -5150,7 +5387,7 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 200
+                "state": 206
             }
         },
         {
@@ -5196,7 +5433,7 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 201
+                "state": 207
             }
         },
         {
@@ -5247,201 +5484,201 @@ module.exports = {
                 "type": "shift",
                 "state": 12
             },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
-            },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 214
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 215
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 216
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 227
+                "state": 234
             },
             "variable": {
                 "type": "shift",
-                "state": 225
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 224
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 228
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 229
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 230
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 231
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 226
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
                 "state": 7
             },
             "(": {
                 "type": "shift",
-                "state": 244
+                "state": 252
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 246
+                "state": 254
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 248
+                "state": 256
             },
             "string": {
                 "type": "shift",
-                "state": 247
+                "state": 255
             },
             "number": {
                 "type": "shift",
-                "state": 250
+                "state": 258
             },
             "true": {
                 "type": "shift",
-                "state": 251
+                "state": 259
             },
             "false": {
                 "type": "shift",
-                "state": 252
+                "state": 260
             },
             "null": {
                 "type": "shift",
-                "state": 253
+                "state": 261
             },
             "{": {
                 "type": "shift",
-                "state": 249
+                "state": 257
             },
             "[": {
                 "type": "shift",
-                "state": 254
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
+                "state": 262
             },
             "(": {
                 "type": "shift",
-                "state": 75
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 32
+                "state": 33
             }
         },
         {
             "as": {
                 "type": "shift",
-                "state": 266
+                "state": 275
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 267
+                "state": 276
             },
             "number": {
                 "type": "shift",
-                "state": 269
+                "state": 278
             },
             "true": {
                 "type": "shift",
-                "state": 270
+                "state": 279
             },
             "false": {
                 "type": "shift",
-                "state": 271
+                "state": 280
             },
             "null": {
                 "type": "shift",
-                "state": 272
+                "state": 281
             },
             "{": {
                 "type": "shift",
-                "state": 268
+                "state": 277
             },
             "[": {
                 "type": "shift",
-                "state": 273
+                "state": 282
             }
         },
         {
@@ -5474,7 +5711,7 @@ module.exports = {
             },
             "=": {
                 "type": "shift",
-                "state": 277
+                "state": 286
             }
         },
         {
@@ -5520,7 +5757,7 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 278
+                "state": 287
             }
         },
         {
@@ -5558,25 +5795,25 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 279
+                "state": 288
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 280
+                "state": 289
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 281
+                "state": 290
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 282
+                "state": 291
             }
         },
         {
@@ -5685,115 +5922,115 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 283
+                "state": 292
             },
             "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
                 "type": "shift",
                 "state": 37
             },
-            "let": {
+            "variable": {
                 "type": "shift",
                 "state": 38
             },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
+            "let": {
                 "type": "shift",
                 "state": 39
             },
-            "[": {
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
                 "type": "shift",
                 "state": 47
             },
-            "ABSTRACTION_BODY,": {
+            "{": {
                 "type": "shift",
-                "state": 42
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 286
+                "state": 295
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 67
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 124
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 123
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 125
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
@@ -5987,35 +6224,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 290
+                "state": 299
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -6030,7 +6267,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 293
+                "state": 302
             },
             "verticalBar": {
                 "type": "reduce",
@@ -6052,7 +6289,7 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 292
+                "state": 301
             }
         },
         {
@@ -6208,7 +6445,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 294
+                "state": 303
             }
         },
         {
@@ -6217,7 +6454,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -6227,7 +6464,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -6237,7 +6474,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -6247,7 +6484,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -6306,7 +6543,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -6315,7 +6552,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -6323,6 +6560,53 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -6330,12 +6614,12 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 295
+                "state": 304
             },
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -6348,7 +6632,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -6357,7 +6641,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -6366,7 +6650,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -6375,7 +6659,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -6384,7 +6668,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -6565,7 +6849,7 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 296
+                "state": 305
             }
         },
         {
@@ -6613,149 +6897,149 @@ module.exports = {
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "string": {
                 "type": "shift",
-                "state": 297
+                "state": 306
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 214
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 215
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 216
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 301
+                "state": 310
             },
             "variable": {
                 "type": "shift",
-                "state": 225
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 224
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 228
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 229
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 230
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 231
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 226
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 42
+                "state": 43
             },
             "(": {
                 "type": "shift",
-                "state": 303
+                "state": 312
             }
         },
         {
@@ -6796,61 +7080,61 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 306
+                "state": 315
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 307
+                "state": 316
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 309
+                "state": 318
             },
             "string": {
                 "type": "shift",
-                "state": 308
+                "state": 317
             },
             "number": {
                 "type": "shift",
-                "state": 311
+                "state": 320
             },
             "true": {
                 "type": "shift",
-                "state": 312
+                "state": 321
             },
             "false": {
                 "type": "shift",
-                "state": 313
+                "state": 322
             },
             "null": {
                 "type": "shift",
-                "state": 314
+                "state": 323
             },
             "{": {
                 "type": "shift",
-                "state": 310
+                "state": 319
             },
             "[": {
                 "type": "shift",
-                "state": 315
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
+                "state": 324
             },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
             }
         },
         {
@@ -6941,115 +7225,115 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 326
+                "state": 336
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 329
+                "state": 339
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 67
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 163
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 162
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 167
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 168
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 169
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 170
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 164
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 171
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
@@ -7207,35 +7491,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 333
+                "state": 343
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -7259,11 +7543,11 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 335
+                "state": 345
             },
             "?": {
                 "type": "shift",
-                "state": 336
+                "state": 346
             }
         },
         {
@@ -7392,7 +7676,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 337
+                "state": 347
             }
         },
         {
@@ -7401,7 +7685,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -7411,7 +7695,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -7461,7 +7745,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -7470,7 +7754,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -7478,6 +7762,44 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -7485,7 +7807,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 338
+                "state": 348
             }
         },
         {
@@ -7494,7 +7816,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -7503,7 +7825,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -7512,7 +7834,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -7521,7 +7843,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -7654,19 +7976,19 @@ module.exports = {
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 69
+            },
+            "(": {
                 "type": "shift",
                 "state": 67
-            },
-            "(": {
-                "type": "shift",
-                "state": 65
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 340
+                "state": 350
             }
         },
         {
@@ -7723,319 +8045,319 @@ module.exports = {
         },
         {
             "}": {
-                "type": "shift",
-                "state": 341
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 342
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 343
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 344
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 345
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 192
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 346
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 73
-            },
-            "string": {
-                "type": "shift",
-                "state": 72
-            },
-            "number": {
-                "type": "shift",
-                "state": 77
-            },
-            "true": {
-                "type": "shift",
-                "state": 78
-            },
-            "false": {
-                "type": "shift",
-                "state": 79
-            },
-            "null": {
-                "type": "shift",
-                "state": 80
-            },
-            "{": {
-                "type": "shift",
-                "state": 74
-            },
-            "[": {
-                "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
-                "type": "shift",
-                "state": 75
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 349
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
                 "type": "shift",
                 "state": 351
             }
         },
         {
+            "}": {
+                "type": "shift",
+                "state": 352
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 353
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 354
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "shift",
+                "state": 355
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 198
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 356
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 76
+            },
+            "string": {
+                "type": "shift",
+                "state": 75
+            },
+            "number": {
+                "type": "shift",
+                "state": 80
+            },
+            "true": {
+                "type": "shift",
+                "state": 81
+            },
+            "false": {
+                "type": "shift",
+                "state": 82
+            },
+            "null": {
+                "type": "shift",
+                "state": 83
+            },
+            "{": {
+                "type": "shift",
+                "state": 77
+            },
+            "[": {
+                "type": "shift",
+                "state": 84
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 359
+            },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            },
+            "(": {
+                "type": "shift",
+                "state": 361
+            }
+        },
+        {
             ":": {
                 "type": "shift",
-                "state": 114
+                "state": 118
             }
         },
         {
@@ -8063,7 +8385,7 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 353
+                "state": 363
             }
         },
         {
@@ -8091,37 +8413,37 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 354
+                "state": 364
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -8224,115 +8546,115 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 356
+                "state": 366
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 359
+                "state": 369
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 67
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 362
+                "state": 372
             },
             "string": {
                 "type": "shift",
-                "state": 361
+                "state": 371
             },
             "number": {
                 "type": "shift",
-                "state": 366
+                "state": 376
             },
             "true": {
                 "type": "shift",
-                "state": 367
+                "state": 377
             },
             "false": {
                 "type": "shift",
-                "state": 368
+                "state": 378
             },
             "null": {
                 "type": "shift",
-                "state": 369
+                "state": 379
             },
             "{": {
                 "type": "shift",
-                "state": 363
+                "state": 373
             },
             "[": {
                 "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
+                "state": 380
             },
             "(": {
                 "type": "shift",
-                "state": 364
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
             }
         },
         {
@@ -8418,45 +8740,45 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 383
+                "state": 394
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 386
+                "state": 397
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -8531,7 +8853,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 387
+                "state": 398
             }
         },
         {
@@ -8559,6 +8881,26 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -8567,7 +8909,7 @@ module.exports = {
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -8575,7 +8917,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 388
+                "state": 399
             }
         },
         {
@@ -8584,7 +8926,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -8593,7 +8935,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -8602,7 +8944,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -8737,55 +9079,55 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 389
+                "state": 400
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -8953,35 +9295,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 392
+                "state": 403
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -8996,915 +9338,982 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 394
-            },
-            "?": {
-                "type": "shift",
-                "state": 395
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 396
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 397
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 398
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 66
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 399
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 402
-            },
-            "string": {
-                "type": "shift",
-                "state": 94
-            },
-            "number": {
-                "type": "shift",
-                "state": 96
-            },
-            "true": {
-                "type": "shift",
-                "state": 97
-            },
-            "false": {
-                "type": "shift",
-                "state": 98
-            },
-            "null": {
-                "type": "shift",
-                "state": 99
-            },
-            "{": {
-                "type": "shift",
-                "state": 95
-            },
-            "[": {
-                "type": "shift",
-                "state": 100
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 404
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
                 "state": 405
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
             },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
                 "type": "shift",
                 "state": 406
             }
         },
         {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 407
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 408
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "shift",
+                "state": 409
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 68
+            },
+            "variable": {
+                "type": "shift",
+                "state": 66
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 410
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
+                "type": "shift",
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 413
+            },
+            "string": {
+                "type": "shift",
+                "state": 98
+            },
+            "number": {
+                "type": "shift",
+                "state": 100
+            },
+            "true": {
+                "type": "shift",
+                "state": 101
+            },
+            "false": {
+                "type": "shift",
+                "state": 102
+            },
+            "null": {
+                "type": "shift",
+                "state": 103
+            },
+            "{": {
+                "type": "shift",
+                "state": 99
+            },
+            "[": {
+                "type": "shift",
+                "state": 104
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 415
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 416
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "shift",
+                "state": 417
+            }
+        },
+        {
             "$": {
                 "type": "reduce",
                 "production": [
@@ -10045,7 +10454,7 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 407
+                "state": 418
             }
         },
         {
@@ -10071,11 +10480,11 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 408
+                "state": 419
             },
             "string": {
                 "type": "shift",
-                "state": 195
+                "state": 201
             }
         },
         {
@@ -10161,35 +10570,35 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 410
+                "state": 421
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
@@ -10206,7 +10615,7 @@ module.exports = {
             },
             ",": {
                 "type": "shift",
-                "state": 412
+                "state": 423
             }
         },
         {
@@ -10252,49 +10661,49 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 414
+                "state": 425
             },
             "string": {
                 "type": "shift",
-                "state": 413
+                "state": 424
             },
             "number": {
                 "type": "shift",
-                "state": 416
+                "state": 427
             },
             "true": {
                 "type": "shift",
-                "state": 417
+                "state": 428
             },
             "false": {
                 "type": "shift",
-                "state": 418
+                "state": 429
             },
             "null": {
                 "type": "shift",
-                "state": 419
+                "state": 430
             },
             "{": {
                 "type": "shift",
-                "state": 415
+                "state": 426
             },
             "[": {
                 "type": "shift",
-                "state": 420
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 431
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 115
+                "state": 119
             }
         },
         {
@@ -10370,49 +10779,49 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 433
+                "state": 445
             },
             "string": {
                 "type": "shift",
-                "state": 432
+                "state": 444
             },
             "number": {
                 "type": "shift",
-                "state": 435
+                "state": 447
             },
             "true": {
                 "type": "shift",
-                "state": 436
+                "state": 448
             },
             "false": {
                 "type": "shift",
-                "state": 437
+                "state": 449
             },
             "null": {
                 "type": "shift",
-                "state": 438
+                "state": 450
             },
             "{": {
                 "type": "shift",
-                "state": 434
+                "state": 446
             },
             "[": {
                 "type": "shift",
-                "state": 439
+                "state": 451
             },
-            "ABSTRACTION_BODY,": {
+            "(": {
                 "type": "shift",
                 "state": 42
             },
-            "(": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 41
+                "state": 43
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 450
+                "state": 463
             }
         },
         {
@@ -10470,31 +10879,31 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 451
+                "state": 464
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 452
+                "state": 465
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 453
+                "state": 466
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 454
+                "state": 467
             }
         },
         {
             ",": {
                 "type": "shift",
-                "state": 455
+                "state": 468
             },
             ";": {
                 "type": "reduce",
@@ -10507,7 +10916,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 293
+                "state": 302
             },
             "verticalBar": {
                 "type": "reduce",
@@ -10534,7 +10943,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -10544,7 +10953,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -10554,7 +10963,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -10564,7 +10973,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -10574,7 +10983,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -10635,147 +11044,147 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 456
+                "state": 469
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 124
-            },
-            "string": {
-                "type": "shift",
-                "state": 123
-            },
-            "number": {
                 "type": "shift",
                 "state": 128
             },
-            "true": {
-                "type": "shift",
-                "state": 129
-            },
-            "false": {
-                "type": "shift",
-                "state": 130
-            },
-            "null": {
-                "type": "shift",
-                "state": 131
-            },
-            "{": {
-                "type": "shift",
-                "state": 125
-            },
-            "[": {
-                "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
+            "string": {
                 "type": "shift",
                 "state": 127
             },
+            "number": {
+                "type": "shift",
+                "state": 132
+            },
+            "true": {
+                "type": "shift",
+                "state": 133
+            },
+            "false": {
+                "type": "shift",
+                "state": 134
+            },
+            "null": {
+                "type": "shift",
+                "state": 135
+            },
+            "{": {
+                "type": "shift",
+                "state": 129
+            },
+            "[": {
+                "type": "shift",
+                "state": 136
+            },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 214
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 215
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 216
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 459
+                "state": 472
             },
             "variable": {
                 "type": "shift",
-                "state": 225
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 224
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 228
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 229
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 230
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 231
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 226
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 127
+                "state": 131
             },
             "(": {
                 "type": "shift",
-                "state": 461
+                "state": 474
             }
         },
         {
@@ -10869,11 +11278,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 463
+                "state": 476
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -10925,50 +11334,50 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 464
+                "state": 477
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 121
+                "state": 125
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -10989,1164 +11398,619 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 466
+                "state": 479
             },
             "string": {
                 "type": "shift",
-                "state": 465
+                "state": 478
             },
             "number": {
                 "type": "shift",
-                "state": 470
+                "state": 483
             },
             "true": {
                 "type": "shift",
-                "state": 471
+                "state": 484
             },
             "false": {
                 "type": "shift",
-                "state": 472
+                "state": 485
             },
             "null": {
                 "type": "shift",
-                "state": 473
+                "state": 486
             },
             "{": {
                 "type": "shift",
-                "state": 467
+                "state": 480
             },
             "[": {
-                "type": "shift",
-                "state": 474
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 469
-            },
-            "(": {
-                "type": "shift",
-                "state": 468
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 486
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
                 "type": "shift",
                 "state": 487
             },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
             "(": {
                 "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
+                "state": 481
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 490
-            },
-            "string": {
-                "type": "shift",
-                "state": 94
-            },
-            "number": {
-                "type": "shift",
-                "state": 96
-            },
-            "true": {
-                "type": "shift",
-                "state": 97
-            },
-            "false": {
-                "type": "shift",
-                "state": 98
-            },
-            "null": {
-                "type": "shift",
-                "state": 99
-            },
-            "{": {
-                "type": "shift",
-                "state": 95
-            },
-            "[": {
-                "type": "shift",
-                "state": 100
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 492
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 493
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 494
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 495
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 496
+                "state": 482
             }
         },
         {
             "->": {
-                "type": "shift",
-                "state": 497
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 498
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 499
-            },
-            "?": {
-                "type": "shift",
-                "state": 336
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
                 "type": "shift",
                 "state": 500
             }
         },
         {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 162
-            },
-            "true": {
-                "type": "shift",
-                "state": 163
-            },
-            "false": {
-                "type": "shift",
-                "state": 164
-            },
-            "null": {
-                "type": "shift",
-                "state": 165
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 503
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 505
-            }
-        },
-        {
-            ")": {
+            "$": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "JSON",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
+                        "string"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 501
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
+                "type": "shift",
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 504
+            },
+            "string": {
+                "type": "shift",
+                "state": 98
+            },
+            "number": {
+                "type": "shift",
+                "state": 100
+            },
+            "true": {
+                "type": "shift",
+                "state": 101
+            },
+            "false": {
+                "type": "shift",
+                "state": 102
+            },
+            "null": {
+                "type": "shift",
+                "state": 103
+            },
+            "{": {
+                "type": "shift",
+                "state": 99
+            },
+            "[": {
+                "type": "shift",
+                "state": 104
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 506
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 507
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
                         "ABSTRACTION"
                     ]
                 ]
             }
         },
         {
-            "variable": {
-                "type": "shift",
-                "state": 309
-            },
-            "string": {
-                "type": "shift",
-                "state": 308
-            },
-            "number": {
-                "type": "shift",
-                "state": 311
-            },
-            "true": {
-                "type": "shift",
-                "state": 312
-            },
-            "false": {
-                "type": "shift",
-                "state": 313
-            },
-            "null": {
-                "type": "shift",
-                "state": 314
-            },
-            "{": {
-                "type": "shift",
-                "state": 310
-            },
-            "[": {
-                "type": "shift",
-                "state": 315
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
-            }
-        },
-        {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
+                    "ABSTRACTION",
                     [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
+                    "ABSTRACTION",
                     [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
+                    "ABSTRACTION",
                     [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
+                    "ABSTRACTION",
                     [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -12155,10 +12019,156 @@ module.exports = {
             "$": {
                 "type": "reduce",
                 "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "shift",
+                "state": 508
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
                         "}"
                     ]
                 ]
@@ -12169,18 +12179,6 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
                         "}"
                     ]
                 ]
@@ -12191,7 +12189,6 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
                         "}"
                     ]
                 ]
@@ -12202,100 +12199,550 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
                         "}"
                     ]
                 ]
             }
         },
         {
-            "variable": {
-                "type": "shift",
-                "state": 73
-            },
-            "string": {
-                "type": "shift",
-                "state": 72
-            },
-            "number": {
-                "type": "shift",
-                "state": 77
-            },
-            "true": {
-                "type": "shift",
-                "state": 78
-            },
-            "false": {
-                "type": "shift",
-                "state": 79
-            },
-            "null": {
-                "type": "shift",
-                "state": 80
-            },
-            "{": {
-                "type": "shift",
-                "state": 74
-            },
-            "[": {
-                "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
-                "type": "shift",
-                "state": 75
-            }
-        },
-        {
-            "->": {
+            "}": {
                 "type": "shift",
                 "state": 509
             }
         },
         {
+            "}": {
+                "type": "shift",
+                "state": 510
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 511
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 512
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "shift",
+                "state": 513
+            },
+            "?": {
+                "type": "shift",
+                "state": 346
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 514
+            }
+        },
+        {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 163
             },
             "string": {
                 "type": "shift",
-                "state": 72
+                "state": 162
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 167
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 168
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 169
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 170
             },
             "{": {
                 "type": "shift",
-                "state": 74
+                "state": 164
             },
             "[": {
                 "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
+                "state": 171
             },
             "(": {
                 "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 517
+            },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            },
+            "(": {
+                "type": "shift",
+                "state": 519
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 318
+            },
+            "string": {
+                "type": "shift",
+                "state": 317
+            },
+            "number": {
+                "type": "shift",
+                "state": 320
+            },
+            "true": {
+                "type": "shift",
+                "state": 321
+            },
+            "false": {
+                "type": "shift",
+                "state": 322
+            },
+            "null": {
+                "type": "shift",
+                "state": 323
+            },
+            "{": {
+                "type": "shift",
+                "state": 319
+            },
+            "[": {
+                "type": "shift",
+                "state": 324
+            },
+            "(": {
+                "type": "shift",
+                "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 76
+            },
+            "string": {
+                "type": "shift",
                 "state": 75
+            },
+            "number": {
+                "type": "shift",
+                "state": 80
+            },
+            "true": {
+                "type": "shift",
+                "state": 81
+            },
+            "false": {
+                "type": "shift",
+                "state": 82
+            },
+            "null": {
+                "type": "shift",
+                "state": 83
+            },
+            "{": {
+                "type": "shift",
+                "state": 77
+            },
+            "[": {
+                "type": "shift",
+                "state": 84
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 523
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 76
+            },
+            "string": {
+                "type": "shift",
+                "state": 75
+            },
+            "number": {
+                "type": "shift",
+                "state": 80
+            },
+            "true": {
+                "type": "shift",
+                "state": 81
+            },
+            "false": {
+                "type": "shift",
+                "state": 82
+            },
+            "null": {
+                "type": "shift",
+                "state": 83
+            },
+            "{": {
+                "type": "shift",
+                "state": 77
+            },
+            "[": {
+                "type": "shift",
+                "state": 84
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
             }
         },
         {
@@ -12404,11 +12851,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 511
+                "state": 525
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -12482,72 +12929,72 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 512
+                "state": 526
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 185
+                "state": 191
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -12638,576 +13085,576 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 513
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 514
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 515
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 516
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 517
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 520
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 67
-            },
-            "(": {
-                "type": "shift",
-                "state": 65
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 362
-            },
-            "string": {
-                "type": "shift",
-                "state": 361
-            },
-            "number": {
-                "type": "shift",
-                "state": 366
-            },
-            "true": {
-                "type": "shift",
-                "state": 367
-            },
-            "false": {
-                "type": "shift",
-                "state": 368
-            },
-            "null": {
-                "type": "shift",
-                "state": 369
-            },
-            "{": {
-                "type": "shift",
-                "state": 363
-            },
-            "[": {
-                "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
-            },
-            "(": {
-                "type": "shift",
-                "state": 364
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 524
-            },
-            "string": {
-                "type": "shift",
-                "state": 94
-            },
-            "number": {
-                "type": "shift",
-                "state": 96
-            },
-            "true": {
-                "type": "shift",
-                "state": 97
-            },
-            "false": {
-                "type": "shift",
-                "state": 98
-            },
-            "null": {
-                "type": "shift",
-                "state": 99
-            },
-            "{": {
-                "type": "shift",
-                "state": 95
-            },
-            "[": {
-                "type": "shift",
-                "state": 100
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
                 "state": 527
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 526
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
+            "}": {
                 "type": "shift",
                 "state": 528
             }
         },
         {
+            "->": {
+                "type": "shift",
+                "state": 529
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 530
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 531
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
+                "type": "shift",
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 534
+            },
+            "variable": {
+                "type": "shift",
+                "state": 66
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 69
+            },
+            "(": {
+                "type": "shift",
+                "state": 67
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 372
+            },
+            "string": {
+                "type": "shift",
+                "state": 371
+            },
+            "number": {
+                "type": "shift",
+                "state": 376
+            },
+            "true": {
+                "type": "shift",
+                "state": 377
+            },
+            "false": {
+                "type": "shift",
+                "state": 378
+            },
+            "null": {
+                "type": "shift",
+                "state": 379
+            },
+            "{": {
+                "type": "shift",
+                "state": 373
+            },
+            "[": {
+                "type": "shift",
+                "state": 380
+            },
+            "(": {
+                "type": "shift",
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 538
+            },
+            "string": {
+                "type": "shift",
+                "state": 98
+            },
+            "number": {
+                "type": "shift",
+                "state": 100
+            },
+            "true": {
+                "type": "shift",
+                "state": 101
+            },
+            "false": {
+                "type": "shift",
+                "state": 102
+            },
+            "null": {
+                "type": "shift",
+                "state": 103
+            },
+            "{": {
+                "type": "shift",
+                "state": 99
+            },
+            "[": {
+                "type": "shift",
+                "state": 104
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 541
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "shift",
+                "state": 540
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 542
+            }
+        },
+        {
             ":": {
                 "type": "reduce",
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -13217,7 +13664,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -13227,7 +13674,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -13277,7 +13724,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -13286,7 +13733,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -13294,6 +13741,44 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -13301,7 +13786,7 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 529
+                "state": 543
             }
         },
         {
@@ -13310,7 +13795,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -13319,7 +13804,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -13328,7 +13813,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             },
@@ -13337,7 +13822,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
@@ -13481,49 +13966,49 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 530
+                "state": 544
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 214
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 215
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 216
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
@@ -13559,570 +14044,82 @@ module.exports = {
                 "type": "shift",
                 "state": 12
             },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
-            },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
             }
         },
         {
             ")": {
-                "type": "shift",
-                "state": 533
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 535
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 537
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 538
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 539
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 542
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 505
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 545
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 546
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
                 "type": "shift",
                 "state": 547
-            }
-        },
-        {
+            },
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            },
+            "(": {
+                "type": "shift",
+                "state": 549
             }
         },
         {
             ")": {
-                "type": "shift",
-                "state": 549
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
-                "type": "shift",
-                "state": 351
-            }
-        },
-        {
-            ";": {
                 "type": "reduce",
                 "production": [
-                    "IMPORT_EXPRESSION",
+                    "OBJECT",
                     [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
+                        "{",
+                        "}"
                     ]
                 ]
             },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
             ",": {
                 "type": "reduce",
                 "production": [
@@ -14133,7 +14130,7 @@ module.exports = {
                     ]
                 ]
             },
-            "}": {
+            "?": {
                 "type": "reduce",
                 "production": [
                     "OBJECT",
@@ -14142,6 +14139,12 @@ module.exports = {
                         "}"
                     ]
                 ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 551
             }
         },
         {
@@ -14151,6 +14154,16 @@ module.exports = {
             }
         },
         {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
             ",": {
                 "type": "reduce",
                 "production": [
@@ -14161,7 +14174,7 @@ module.exports = {
                     ]
                 ]
             },
-            "}": {
+            "?": {
                 "type": "reduce",
                 "production": [
                     "ARRAY",
@@ -14179,505 +14192,977 @@ module.exports = {
             }
         },
         {
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
             "string": {
                 "type": "shift",
-                "state": 195
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
+                "state": 231
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
+            "number": {
+                "type": "shift",
+                "state": 235
             },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
+            "true": {
+                "type": "shift",
+                "state": 236
             },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
+            "false": {
+                "type": "shift",
+                "state": 237
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
+            "null": {
+                "type": "shift",
+                "state": 238
             },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
+            "{": {
+                "type": "shift",
+                "state": 233
             },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
+            "[": {
+                "type": "shift",
+                "state": 239
             },
             "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "}": {
+            "variable": {
                 "type": "shift",
-                "state": 555
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 556
             },
             "variable": {
                 "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 558
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            ",": {
+            "$": {
                 "type": "reduce",
                 "production": [
-                    "VARIABLE_DEFINITION",
+                    "APPLICATION",
                     [
-                        "variable",
-                        "=",
-                        "EXP"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "VARIABLE_DEFINITION",
+                    "APPLICATION",
                     [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             },
             "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            },
+            "(": {
+                "type": "shift",
+                "state": 519
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 559
+            }
+        },
+        {
+            "}": {
                 "type": "shift",
                 "state": 560
             }
         },
         {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
             ",": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "ARRAY",
                     [
-                        "CODE_BLOCK_EXP"
+                        "[",
+                        "]"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "ARRAY",
                     [
-                        "CODE_BLOCK_EXP"
+                        "[",
+                        "]"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "ARRAY",
                     [
-                        "CODE_BLOCK_EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
+                        "[",
+                        "]"
                     ]
                 ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ]
-                ]
-            }
-        },
-        {
-            "(": {
+            "]": {
                 "type": "shift",
                 "state": 561
             }
         },
         {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 563
+            },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            },
+            "(": {
+                "type": "shift",
+                "state": 361
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 566
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 567
+            }
+        },
+        {
+            "string": {
+                "type": "shift",
+                "state": 201
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 569
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
+                "type": "shift",
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 572
+            },
+            "string": {
+                "type": "shift",
+                "state": 98
+            },
+            "number": {
+                "type": "shift",
+                "state": 100
+            },
+            "true": {
+                "type": "shift",
+                "state": 101
+            },
+            "false": {
+                "type": "shift",
+                "state": 102
+            },
+            "null": {
+                "type": "shift",
+                "state": 103
+            },
+            "{": {
+                "type": "shift",
+                "state": 99
+            },
+            "[": {
+                "type": "shift",
+                "state": 104
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 574
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CODE_BLOCK_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 575
+            }
+        },
+        {
             ",": {
                 "type": "reduce",
                 "production": [
@@ -14721,7 +15206,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -14730,7 +15215,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -14739,7 +15224,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -14748,13 +15233,51 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
                         "GUARDED_ABSTRACTION"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 562
+                "state": 576
             }
         },
         {
@@ -14983,55 +15506,55 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 563
+                "state": 577
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 37
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 38
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 39
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -15189,42 +15712,42 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 566
+                "state": 580
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -15235,12 +15758,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 568
+                "state": 582
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -15252,7 +15775,7 @@ module.exports = {
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -15388,7 +15911,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 569
+                "state": 583
             }
         },
         {
@@ -15435,7 +15958,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -15443,6 +15966,44 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -15450,12 +16011,12 @@ module.exports = {
             },
             "verticalBar": {
                 "type": "shift",
-                "state": 570
+                "state": 584
             },
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -15579,43 +16140,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 433
+                "state": 445
             },
             "string": {
                 "type": "shift",
-                "state": 432
+                "state": 444
             },
             "number": {
                 "type": "shift",
-                "state": 435
+                "state": 447
             },
             "true": {
                 "type": "shift",
-                "state": 436
+                "state": 448
             },
             "false": {
                 "type": "shift",
-                "state": 437
+                "state": 449
             },
             "null": {
                 "type": "shift",
-                "state": 438
+                "state": 450
             },
             "{": {
                 "type": "shift",
-                "state": 434
+                "state": 446
             },
             "[": {
                 "type": "shift",
-                "state": 439
+                "state": 451
             },
-            "ABSTRACTION_BODY,": {
+            "(": {
                 "type": "shift",
                 "state": 42
             },
-            "(": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 41
+                "state": 43
             }
         },
         {
@@ -15735,91 +16296,91 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 124
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 123
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 125
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 573
+                "state": 587
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 124
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 123
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 128
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 129
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 130
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 131
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 125
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
@@ -15928,11 +16489,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 575
+                "state": 589
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -16006,554 +16567,164 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 576
+                "state": 590
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 286
+                "state": 295
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "string": {
-                "type": "shift",
-                "state": 297
-            },
-            "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
-                "type": "shift",
-                "state": 44
-            },
-            "false": {
-                "type": "shift",
-                "state": 45
-            },
-            "null": {
-                "type": "shift",
-                "state": 46
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 578
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
                 "type": "shift",
                 "state": 38
             },
-            "import": {
+            "string": {
                 "type": "shift",
-                "state": 35
+                "state": 306
             },
             "number": {
-                "type": "shift",
-                "state": 43
-            },
-            "true": {
                 "type": "shift",
                 "state": 44
             },
-            "false": {
+            "true": {
                 "type": "shift",
                 "state": 45
             },
-            "null": {
+            "false": {
                 "type": "shift",
                 "state": 46
             },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
+            "null": {
                 "type": "shift",
                 "state": 47
             },
-            "ABSTRACTION_BODY,": {
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
                 "type": "shift",
                 "state": 42
             },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
             "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 581
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 67
-            },
-            "(": {
-                "type": "shift",
-                "state": 65
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 162
-            },
-            "true": {
-                "type": "shift",
-                "state": 163
-            },
-            "false": {
-                "type": "shift",
-                "state": 164
-            },
-            "null": {
-                "type": "shift",
-                "state": 165
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
                 "type": "reduce",
                 "production": [
-                    "JSON",
+                    "APPLICATION",
                     [
-                        "number"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "number"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "true"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "false"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "null"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 585
-            },
-            "string": {
-                "type": "shift",
-                "state": 94
-            },
-            "number": {
-                "type": "shift",
-                "state": 96
-            },
-            "true": {
-                "type": "shift",
-                "state": 97
-            },
-            "false": {
-                "type": "shift",
-                "state": 98
-            },
-            "null": {
-                "type": "shift",
-                "state": 99
-            },
-            "{": {
-                "type": "shift",
-                "state": 95
-            },
-            "[": {
-                "type": "shift",
-                "state": 100
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
+                        "CALLER",
                         "(",
-                        ")",
-                        "->",
-                        "EXP"
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             },
-            "verticalBar": {
+            ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "APPLICATION",
                     [
+                        "CALLER",
                         "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 587
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "APPLICATION",
                     [
-                        "CODE_BLOCK_EXP"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             },
-            "verticalBar": {
+            "}": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "APPLICATION",
                     [
-                        "CODE_BLOCK_EXP"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ]
                 ]
             }
@@ -16562,27 +16733,27 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "JSON",
                     [
-                        "CONDITION_EXP"
+                        "string"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "JSON",
                     [
-                        "CONDITION_EXP"
+                        "string"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "EXP",
+                    "JSON",
                     [
-                        "CONDITION_EXP"
+                        "string"
                     ]
                 ]
             }
@@ -16593,7 +16764,7 @@ module.exports = {
                 "production": [
                     "EXP",
                     [
-                        "APPLICATION"
+                        "variable"
                     ]
                 ]
             },
@@ -16602,7 +16773,7 @@ module.exports = {
                 "production": [
                     "EXP",
                     [
-                        "APPLICATION"
+                        "variable"
                     ]
                 ]
             },
@@ -16611,7 +16782,7 @@ module.exports = {
                 "production": [
                     "EXP",
                     [
-                        "APPLICATION"
+                        "variable"
                     ]
                 ]
             },
@@ -16620,370 +16791,63 @@ module.exports = {
                 "production": [
                     "CALLER",
                     [
-                        "APPLICATION"
+                        "variable"
                     ]
                 ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 588
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 589
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 466
-            },
-            "string": {
-                "type": "shift",
-                "state": 465
-            },
-            "number": {
-                "type": "shift",
-                "state": 470
-            },
-            "true": {
-                "type": "shift",
-                "state": 471
-            },
-            "false": {
-                "type": "shift",
-                "state": 472
-            },
-            "null": {
-                "type": "shift",
-                "state": 473
-            },
-            "{": {
-                "type": "shift",
-                "state": 467
-            },
-            "[": {
-                "type": "shift",
-                "state": 474
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 469
-            },
-            "(": {
-                "type": "shift",
-                "state": 468
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 591
             }
         },
         {
             "}": {
                 "type": "shift",
                 "state": 592
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 593
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
             },
             "number": {
                 "type": "shift",
-                "state": 208
+                "state": 44
             },
             "true": {
                 "type": "shift",
-                "state": 209
+                "state": 45
             },
             "false": {
                 "type": "shift",
-                "state": 210
+                "state": 46
             },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 47
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 40
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 48
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -16993,388 +16857,368 @@ module.exports = {
             },
             "variable": {
                 "type": "shift",
-                "state": 225
+                "state": 66
             },
-            "string": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 69
             },
             "(": {
                 "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
-            },
-            "(": {
-                "type": "shift",
-                "state": 244
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
+                "state": 67
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 163
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 162
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 167
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 168
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 169
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 170
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 164
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 171
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "->": {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "number"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "true"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "false"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "null"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
                 "type": "shift",
                 "state": 599
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
+                "state": 104
             }
         },
         {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ARRAY",
+                    "ORDINARY_ABSTRACTION",
                     [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
                     ]
                 ]
             },
-            ",": {
+            "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ARRAY",
+                    "ORDINARY_ABSTRACTION",
                     [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
                     ]
                 ]
             },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
                 "type": "shift",
                 "state": 601
-            },
-            "?": {
-                "type": "shift",
-                "state": 385
             }
         },
         {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
             ")": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "EXP",
                     [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
+                        "CODE_BLOCK_EXP"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "EXP",
                     [
-                        "CALLER",
-                        "(",
-                        ")"
+                        "CODE_BLOCK_EXP"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "EXP",
                     [
-                        "CALLER",
-                        "(",
-                        ")"
+                        "CODE_BLOCK_EXP"
                     ]
                 ]
             }
         },
         {
             ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ]
+                ]
+            }
+        },
+        {
+            "(": {
                 "type": "shift",
                 "state": 602
             }
         },
         {
             ")": {
-                "type": "shift",
-                "state": 329
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
             },
-            "variable": {
-                "type": "shift",
-                "state": 64
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ]
+                ]
             }
         },
         {
@@ -17383,20 +17227,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -17405,9 +17236,7 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
@@ -17416,108 +17245,147 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
+                        "GUARDED_ABSTRACTION"
                     ]
                 ]
             },
             "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION"
+                    ]
+                ]
+            },
+            "verticalBar": {
                 "type": "shift",
-                "state": 492
+                "state": 603
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION"
+                    ]
+                ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "GUARDED_ABSTRACTION",
                     [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
+                        "ORDINARY_ABSTRACTION"
                     ]
                 ]
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "EXP",
                     [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
+                        "JSON"
                     ]
                 ]
             },
             "?": {
-                "type": "shift",
-                "state": 192
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "EXP",
                     [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
+                        "JSON"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
                     ]
                 ]
             }
@@ -17525,250 +17393,62 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 73
+                "state": 479
             },
             "string": {
                 "type": "shift",
-                "state": 72
+                "state": 478
             },
             "number": {
                 "type": "shift",
-                "state": 77
+                "state": 483
             },
             "true": {
                 "type": "shift",
-                "state": 78
+                "state": 484
             },
             "false": {
                 "type": "shift",
-                "state": 79
+                "state": 485
             },
             "null": {
                 "type": "shift",
-                "state": 80
+                "state": 486
             },
             "{": {
                 "type": "shift",
-                "state": 74
+                "state": 480
             },
             "[": {
                 "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
+                "state": 487
             },
             "(": {
                 "type": "shift",
-                "state": 75
+                "state": 481
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 482
             }
         },
         {
             "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 73
-            },
-            "string": {
-                "type": "shift",
-                "state": 72
-            },
-            "number": {
-                "type": "shift",
-                "state": 77
-            },
-            "true": {
-                "type": "shift",
-                "state": 78
-            },
-            "false": {
-                "type": "shift",
-                "state": 79
-            },
-            "null": {
-                "type": "shift",
-                "state": 80
-            },
-            "{": {
-                "type": "shift",
-                "state": 74
-            },
-            "[": {
-                "type": "shift",
-                "state": 81
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
-                "type": "shift",
-                "state": 75
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
                 "type": "reduce",
                 "production": [
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
                         "}"
                     ]
                 ]
@@ -17779,77 +17459,244 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
                         "}"
                     ]
                 ]
             }
         },
         {
-            "variable": {
-                "type": "shift",
-                "state": 606
-            },
-            "string": {
+            "}": {
                 "type": "shift",
                 "state": 605
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 606
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 607
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 608
+                "state": 214
             },
             "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
                 "type": "shift",
                 "state": 609
             },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
             "false": {
                 "type": "shift",
-                "state": 610
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 611
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 607
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 612
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            "->": {
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 623
+                "state": 166
             }
         },
         {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
+            },
+            "(": {
+                "type": "shift",
+                "state": 252
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
             ",": {
                 "type": "reduce",
                 "production": [
                     "OBJECT",
                     [
                         "{",
-                        "}"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
+                        "KEY_VALUES",
                         "}"
                     ]
                 ]
@@ -17860,6 +17707,7 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
+                        "KEY_VALUES",
                         "}"
                     ]
                 ]
@@ -17870,39 +17718,781 @@ module.exports = {
                     "OBJECT",
                     [
                         "{",
+                        "KEY_VALUES",
                         "}"
                     ]
                 ]
             }
         },
         {
-            "}": {
+            "variable": {
                 "type": "shift",
-                "state": 624
-            }
-        },
-        {
-            "}": {
+                "state": 163
+            },
+            "string": {
                 "type": "shift",
-                "state": 625
+                "state": 162
+            },
+            "number": {
+                "type": "shift",
+                "state": 167
+            },
+            "true": {
+                "type": "shift",
+                "state": 168
+            },
+            "false": {
+                "type": "shift",
+                "state": 169
+            },
+            "null": {
+                "type": "shift",
+                "state": 170
+            },
+            "{": {
+                "type": "shift",
+                "state": 164
+            },
+            "[": {
+                "type": "shift",
+                "state": 171
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 626
+                "state": 613
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 163
+            },
+            "string": {
+                "type": "shift",
+                "state": 162
+            },
+            "number": {
+                "type": "shift",
+                "state": 167
+            },
+            "true": {
+                "type": "shift",
+                "state": 168
+            },
+            "false": {
+                "type": "shift",
+                "state": 169
+            },
+            "null": {
+                "type": "shift",
+                "state": 170
+            },
+            "{": {
+                "type": "shift",
+                "state": 164
+            },
+            "[": {
+                "type": "shift",
+                "state": 171
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 615
+            },
+            "?": {
+                "type": "shift",
+                "state": 396
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 627
+                "state": 616
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 339
+            },
+            "variable": {
+                "type": "shift",
+                "state": 66
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 506
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 198
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 76
+            },
+            "string": {
+                "type": "shift",
+                "state": 75
+            },
+            "number": {
+                "type": "shift",
+                "state": 80
+            },
+            "true": {
+                "type": "shift",
+                "state": 81
+            },
+            "false": {
+                "type": "shift",
+                "state": 82
+            },
+            "null": {
+                "type": "shift",
+                "state": 83
+            },
+            "{": {
+                "type": "shift",
+                "state": 77
+            },
+            "[": {
+                "type": "shift",
+                "state": 84
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 76
+            },
+            "string": {
+                "type": "shift",
+                "state": 75
+            },
+            "number": {
+                "type": "shift",
+                "state": 80
+            },
+            "true": {
+                "type": "shift",
+                "state": 81
+            },
+            "false": {
+                "type": "shift",
+                "state": 82
+            },
+            "null": {
+                "type": "shift",
+                "state": 83
+            },
+            "{": {
+                "type": "shift",
+                "state": 77
+            },
+            "[": {
+                "type": "shift",
+                "state": 84
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 620
+            },
+            "string": {
+                "type": "shift",
+                "state": 619
+            },
+            "number": {
+                "type": "shift",
+                "state": 622
+            },
+            "true": {
+                "type": "shift",
+                "state": 623
+            },
+            "false": {
+                "type": "shift",
+                "state": 624
+            },
+            "null": {
+                "type": "shift",
+                "state": 625
+            },
+            "{": {
+                "type": "shift",
+                "state": 621
+            },
+            "[": {
+                "type": "shift",
+                "state": 626
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 638
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 639
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 640
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 641
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 642
             }
         },
         {
             ",": {
                 "type": "shift",
-                "state": 628
+                "state": 643
             },
             ":": {
                 "type": "reduce",
@@ -17915,7 +18505,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 527
+                "state": 541
             },
             "verticalBar": {
                 "type": "reduce",
@@ -17933,7 +18523,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -17943,7 +18533,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -17953,7 +18543,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -17963,7 +18553,7 @@ module.exports = {
                 "production": [
                     "GUARDED_ABSTRACTION",
                     [
-                        "ABSTRACTION_BODY,",
+                        "ORDINARY_ABSTRACTION,",
                         "EXP_LIST"
                     ]
                 ]
@@ -18014,147 +18604,147 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 629
+                "state": 644
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 362
+                "state": 372
             },
             "string": {
                 "type": "shift",
-                "state": 361
+                "state": 371
             },
             "number": {
                 "type": "shift",
-                "state": 366
+                "state": 376
             },
             "true": {
                 "type": "shift",
-                "state": 367
+                "state": 377
             },
             "false": {
                 "type": "shift",
-                "state": 368
+                "state": 378
             },
             "null": {
                 "type": "shift",
-                "state": 369
+                "state": 379
             },
             "{": {
                 "type": "shift",
-                "state": 363
+                "state": 373
             },
             "[": {
                 "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
+                "state": 380
             },
             "(": {
                 "type": "shift",
-                "state": 364
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
                 "type": "shift",
                 "state": 210
             },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
             "null": {
                 "type": "shift",
-                "state": 211
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 205
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 632
+                "state": 647
             },
             "variable": {
                 "type": "shift",
-                "state": 225
+                "state": 232
             },
             "string": {
                 "type": "shift",
-                "state": 224
+                "state": 231
             },
             "number": {
                 "type": "shift",
-                "state": 228
+                "state": 235
             },
             "true": {
                 "type": "shift",
-                "state": 229
+                "state": 236
             },
             "false": {
                 "type": "shift",
-                "state": 230
+                "state": 237
             },
             "null": {
                 "type": "shift",
-                "state": 231
+                "state": 238
             },
             "{": {
                 "type": "shift",
-                "state": 226
+                "state": 233
             },
             "[": {
                 "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 365
+                "state": 375
             },
             "(": {
                 "type": "shift",
-                "state": 634
+                "state": 649
             }
         },
         {
@@ -18184,11 +18774,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 636
+                "state": 651
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -18220,7 +18810,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 107
+                "state": 111
             }
         },
         {
@@ -18261,39 +18851,39 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 637
+                "state": 652
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 359
+                "state": 369
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -18419,11 +19009,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 638
+                "state": 653
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -18475,40 +19065,40 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 639
+                "state": 654
             }
         },
         {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -18654,11 +19244,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 640
+                "state": 655
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -18721,51 +19311,51 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 641
+                "state": 656
             }
         },
         {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -18878,737 +19468,7 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 642
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 643
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 644
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 646
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
-            },
-            "(": {
-                "type": "shift",
-                "state": 461
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 649
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 650
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 651
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 653
-            },
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
-            },
-            "(": {
-                "type": "shift",
-                "state": 303
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 568
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 293
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 124
-            },
-            "string": {
-                "type": "shift",
-                "state": 123
-            },
-            "number": {
-                "type": "shift",
-                "state": 128
-            },
-            "true": {
-                "type": "shift",
-                "state": 129
-            },
-            "false": {
-                "type": "shift",
-                "state": 130
-            },
-            "null": {
-                "type": "shift",
-                "state": 131
-            },
-            "{": {
-                "type": "shift",
-                "state": 125
-            },
-            "[": {
-                "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
-            },
-            "(": {
-                "type": "shift",
-                "state": 126
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 124
-            },
-            "string": {
-                "type": "shift",
-                "state": 123
-            },
-            "number": {
-                "type": "shift",
-                "state": 128
-            },
-            "true": {
-                "type": "shift",
-                "state": 129
-            },
-            "false": {
-                "type": "shift",
-                "state": 130
-            },
-            "null": {
-                "type": "shift",
-                "state": 131
-            },
-            "{": {
-                "type": "shift",
-                "state": 125
-            },
-            "[": {
-                "type": "shift",
-                "state": 132
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
-            },
-            "(": {
-                "type": "shift",
-                "state": 126
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 149
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ]
-                ]
+                "state": 657
             }
         },
         {
@@ -19618,85 +19478,17 @@ module.exports = {
             }
         },
         {
-            "}": {
-                "type": "shift",
-                "state": 659
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 660
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 661
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 336
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ]
-                ]
-            },
             ",": {
-                "type": "shift",
-                "state": 662
-            }
-        },
-        {
-            ")": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION",
+                    "ARRAY",
                     [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
+                        "[",
+                        "]"
                     ]
                 ]
             },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ABSTRACTION_BODY,",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
+            ";": {
                 "type": "reduce",
                 "production": [
                     "ARRAY",
@@ -19716,7 +19508,7 @@ module.exports = {
                     ]
                 ]
             },
-            "verticalBar": {
+            "}": {
                 "type": "reduce",
                 "production": [
                     "ARRAY",
@@ -19730,112 +19522,312 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 663
+                "state": 659
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
                 "type": "shift",
                 "state": 210
             },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
             "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
                 "type": "shift",
                 "state": 211
             },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
             "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
                 "type": "shift",
                 "state": 212
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 665
+                "state": 661
             },
             "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
                 "type": "shift",
                 "state": 232
             },
-            "ABSTRACTION_BODY,": {
+            "string": {
                 "type": "shift",
-                "state": 161
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 469
+                "state": 131
             },
             "(": {
                 "type": "shift",
-                "state": 667
+                "state": 474
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 664
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 665
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 666
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
             ")": {
+                "type": "shift",
+                "state": 668
+            },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
+            },
+            "(": {
+                "type": "shift",
+                "state": 312
+            }
+        },
+        {
+            ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -19845,10 +19837,14 @@ module.exports = {
                     ]
                 ]
             },
+            "?": {
+                "type": "shift",
+                "state": 582
+            },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -19858,285 +19854,37 @@ module.exports = {
                     ]
                 ]
             },
-            "?": {
-                "type": "shift",
-                "state": 587
-            }
-        },
-        {
-            "$": {
+            "}": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 669
-            },
-            "?": {
-                "type": "shift",
-                "state": 385
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 670
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
+                        "LIST_VARIABLES",
                         ")",
                         "->",
                         "EXP"
                     ]
                 ]
-            },
+            }
+        },
+        {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -20147,12 +19895,24 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 336
+                "state": 302
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -20165,47 +19925,47 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
-            ")": {
+            ",": {
                 "type": "reduce",
                 "production": [
                     "EXP_LIST",
@@ -20216,7 +19976,7 @@ module.exports = {
                     ]
                 ]
             },
-            ",": {
+            ";": {
                 "type": "reduce",
                 "production": [
                     "EXP_LIST",
@@ -20239,6 +19999,17 @@ module.exports = {
                 ]
             },
             "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "}": {
                 "type": "reduce",
                 "production": [
                     "EXP_LIST",
@@ -20253,43 +20024,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 128
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 127
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 132
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 133
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 134
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 135
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 129
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 136
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
@@ -20305,234 +20076,127 @@ module.exports = {
                     ]
                 ]
             },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 154
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "OBJECT",
                     [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
+                        "{",
+                        "}"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "OBJECT",
                     [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
+                        "{",
+                        "}"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "OBJECT",
                     [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 192
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 192
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "string"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
+                        "{",
+                        "}"
                     ]
                 ]
             }
@@ -20541,54 +20205,980 @@ module.exports = {
             "}": {
                 "type": "shift",
                 "state": 673
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 674
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 675
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 676
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 346
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "shift",
+                "state": 677
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION",
+                    [
+                        "ORDINARY_ABSTRACTION,",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 678
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
             },
             "string": {
                 "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
+                "state": 209
             },
             "number": {
                 "type": "shift",
-                "state": 43
+                "state": 214
             },
             "true": {
                 "type": "shift",
-                "state": 44
+                "state": 215
             },
             "false": {
                 "type": "shift",
-                "state": 45
+                "state": 216
             },
             "null": {
                 "type": "shift",
-                "state": 46
+                "state": 217
             },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 211
             },
             "[": {
                 "type": "shift",
-                "state": 47
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 42
+                "state": 218
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 680
+            },
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 482
+            },
+            "(": {
+                "type": "shift",
+                "state": 682
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 601
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 684
+            },
+            "?": {
+                "type": "shift",
+                "state": 396
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 685
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 346
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 163
+            },
+            "string": {
+                "type": "shift",
+                "state": 162
+            },
+            "number": {
+                "type": "shift",
+                "state": 167
+            },
+            "true": {
+                "type": "shift",
+                "state": 168
+            },
+            "false": {
+                "type": "shift",
+                "state": 169
+            },
+            "null": {
+                "type": "shift",
+                "state": 170
+            },
+            "{": {
+                "type": "shift",
+                "state": 164
+            },
+            "[": {
+                "type": "shift",
+                "state": 171
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 163
+            },
+            "string": {
+                "type": "shift",
+                "state": 162
+            },
+            "number": {
+                "type": "shift",
+                "state": 167
+            },
+            "true": {
+                "type": "shift",
+                "state": 168
+            },
+            "false": {
+                "type": "shift",
+                "state": 169
+            },
+            "null": {
+                "type": "shift",
+                "state": 170
+            },
+            "{": {
+                "type": "shift",
+                "state": 164
+            },
+            "[": {
+                "type": "shift",
+                "state": 171
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 198
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 198
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "string"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 688
+            },
+            "string": {
+                "type": "shift",
+                "state": 37
+            },
+            "variable": {
+                "type": "shift",
+                "state": 38
+            },
+            "let": {
+                "type": "shift",
+                "state": 39
+            },
+            "import": {
+                "type": "shift",
+                "state": 36
+            },
+            "number": {
+                "type": "shift",
+                "state": 44
+            },
+            "true": {
+                "type": "shift",
+                "state": 45
+            },
+            "false": {
+                "type": "shift",
+                "state": 46
+            },
+            "null": {
+                "type": "shift",
+                "state": 47
+            },
+            "{": {
+                "type": "shift",
+                "state": 40
+            },
+            "[": {
+                "type": "shift",
+                "state": 48
+            },
+            "(": {
+                "type": "shift",
+                "state": 42
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -20710,42 +21300,42 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 676
+                "state": 691
             },
             "string": {
                 "type": "shift",
-                "state": 94
+                "state": 98
             },
             "number": {
                 "type": "shift",
-                "state": 96
+                "state": 100
             },
             "true": {
                 "type": "shift",
-                "state": 97
+                "state": 101
             },
             "false": {
                 "type": "shift",
-                "state": 98
+                "state": 102
             },
             "null": {
                 "type": "shift",
-                "state": 99
+                "state": 103
             },
             "{": {
                 "type": "shift",
-                "state": 95
+                "state": 99
             },
             "[": {
                 "type": "shift",
-                "state": 100
+                "state": 104
             }
         },
         {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -20756,12 +21346,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 678
+                "state": 693
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -20870,7 +21460,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 679
+                "state": 694
             }
         },
         {
@@ -20907,6 +21497,35 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
@@ -20915,1602 +21534,1602 @@ module.exports = {
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
                     ]
                 ]
             },
             "verticalBar": {
-                "type": "shift",
-                "state": 680
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "JSON"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "OBJECT"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "JSON",
-                    [
-                        "ARRAY"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 606
-            },
-            "string": {
-                "type": "shift",
-                "state": 605
-            },
-            "number": {
-                "type": "shift",
-                "state": 608
-            },
-            "true": {
-                "type": "shift",
-                "state": 609
-            },
-            "false": {
-                "type": "shift",
-                "state": 610
-            },
-            "null": {
-                "type": "shift",
-                "state": 611
-            },
-            "{": {
-                "type": "shift",
-                "state": 607
-            },
-            "[": {
-                "type": "shift",
-                "state": 612
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 362
-            },
-            "string": {
-                "type": "shift",
-                "state": 361
-            },
-            "number": {
-                "type": "shift",
-                "state": 366
-            },
-            "true": {
-                "type": "shift",
-                "state": 367
-            },
-            "false": {
-                "type": "shift",
-                "state": 368
-            },
-            "null": {
-                "type": "shift",
-                "state": 369
-            },
-            "{": {
-                "type": "shift",
-                "state": 363
-            },
-            "[": {
-                "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
-            },
-            "(": {
-                "type": "shift",
-                "state": 364
-            }
-        },
-        {
-            "->": {
-                "type": "shift",
-                "state": 683
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 362
-            },
-            "string": {
-                "type": "shift",
-                "state": 361
-            },
-            "number": {
-                "type": "shift",
-                "state": 366
-            },
-            "true": {
-                "type": "shift",
-                "state": 367
-            },
-            "false": {
-                "type": "shift",
-                "state": 368
-            },
-            "null": {
-                "type": "shift",
-                "state": 369
-            },
-            "{": {
-                "type": "shift",
-                "state": 363
-            },
-            "[": {
-                "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
-            },
-            "(": {
-                "type": "shift",
-                "state": 364
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 685
-            },
-            "?": {
-                "type": "shift",
-                "state": 385
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 686
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 520
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
-                "type": "shift",
-                "state": 210
-            },
-            "null": {
-                "type": "shift",
-                "state": 211
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 212
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 248
-            },
-            "string": {
-                "type": "shift",
-                "state": 247
-            },
-            "number": {
-                "type": "shift",
-                "state": 250
-            },
-            "true": {
-                "type": "shift",
-                "state": 251
-            },
-            "false": {
-                "type": "shift",
-                "state": 252
-            },
-            "null": {
-                "type": "shift",
-                "state": 253
-            },
-            "{": {
-                "type": "shift",
-                "state": 249
-            },
-            "[": {
-                "type": "shift",
-                "state": 254
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 76
-            },
-            "(": {
-                "type": "shift",
-                "state": 75
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 690
-            },
-            "?": {
-                "type": "shift",
-                "state": 385
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 691
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ]
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 692
-            },
-            "?": {
-                "type": "shift",
-                "state": 385
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 693
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "ABSTRACTION"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 293
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION_BODY",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 293
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ]
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 466
-            },
-            "string": {
-                "type": "shift",
-                "state": 465
-            },
-            "number": {
-                "type": "shift",
-                "state": 470
-            },
-            "true": {
-                "type": "shift",
-                "state": 471
-            },
-            "false": {
-                "type": "shift",
-                "state": 472
-            },
-            "null": {
-                "type": "shift",
-                "state": 473
-            },
-            "{": {
-                "type": "shift",
-                "state": 467
-            },
-            "[": {
-                "type": "shift",
-                "state": 474
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 469
-            },
-            "(": {
-                "type": "shift",
-                "state": 468
-            }
-        },
-        {
-            "->": {
                 "type": "shift",
                 "state": 695
             }
         },
         {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "JSON"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "OBJECT"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "JSON",
+                    [
+                        "ARRAY"
+                    ]
+                ]
+            }
+        },
+        {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 620
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 619
             },
             "number": {
                 "type": "shift",
-                "state": 162
+                "state": 622
             },
             "true": {
                 "type": "shift",
-                "state": 163
+                "state": 623
             },
             "false": {
                 "type": "shift",
-                "state": 164
+                "state": 624
             },
             "null": {
                 "type": "shift",
-                "state": 165
+                "state": 625
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 621
             },
             "[": {
                 "type": "shift",
-                "state": 166
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 161
+                "state": 626
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 372
+            },
+            "string": {
+                "type": "shift",
+                "state": 371
+            },
+            "number": {
+                "type": "shift",
+                "state": 376
+            },
+            "true": {
+                "type": "shift",
+                "state": 377
+            },
+            "false": {
+                "type": "shift",
+                "state": 378
+            },
+            "null": {
+                "type": "shift",
+                "state": 379
+            },
+            "{": {
+                "type": "shift",
+                "state": 373
+            },
+            "[": {
+                "type": "shift",
+                "state": 380
+            },
+            "(": {
+                "type": "shift",
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 698
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 372
+            },
+            "string": {
+                "type": "shift",
+                "state": 371
+            },
+            "number": {
+                "type": "shift",
+                "state": 376
+            },
+            "true": {
+                "type": "shift",
+                "state": 377
+            },
+            "false": {
+                "type": "shift",
+                "state": 378
+            },
+            "null": {
+                "type": "shift",
+                "state": 379
+            },
+            "{": {
+                "type": "shift",
+                "state": 373
+            },
+            "[": {
+                "type": "shift",
+                "state": 380
+            },
+            "(": {
+                "type": "shift",
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "EXP_LIST",
+                    [
+                        "EXP",
+                        ",",
+                        "EXP_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 700
+            },
+            "?": {
+                "type": "shift",
+                "state": 396
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 701
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 534
+            },
+            "variable": {
+                "type": "shift",
+                "state": 66
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 210
+            },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
+            "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
+                "type": "shift",
+                "state": 211
+            },
+            "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
+                "type": "shift",
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 232
+            },
+            "string": {
+                "type": "shift",
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 256
+            },
+            "string": {
+                "type": "shift",
+                "state": 255
+            },
+            "number": {
+                "type": "shift",
+                "state": 258
+            },
+            "true": {
+                "type": "shift",
+                "state": 259
+            },
+            "false": {
+                "type": "shift",
+                "state": 260
+            },
+            "null": {
+                "type": "shift",
+                "state": 261
+            },
+            "{": {
+                "type": "shift",
+                "state": 257
+            },
+            "[": {
+                "type": "shift",
+                "state": 262
+            },
+            "(": {
+                "type": "shift",
+                "state": 78
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 79
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 705
+            },
+            "?": {
+                "type": "shift",
+                "state": 396
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 706
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ]
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 707
+            },
+            "?": {
+                "type": "shift",
+                "state": 396
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 708
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "GUARDED_ABSTRACTION_LIST",
+                    [
+                        "GUARDED_ABSTRACTION",
+                        "verticalBar",
+                        "GUARDED_ABSTRACTION_LIST"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 302
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ORDINARY_ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 302
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            },
+            "verticalBar": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ]
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 479
+            },
+            "string": {
+                "type": "shift",
+                "state": 478
+            },
+            "number": {
+                "type": "shift",
+                "state": 483
+            },
+            "true": {
+                "type": "shift",
+                "state": 484
+            },
+            "false": {
+                "type": "shift",
+                "state": 485
+            },
+            "null": {
+                "type": "shift",
+                "state": 486
+            },
+            "{": {
+                "type": "shift",
+                "state": 480
+            },
+            "[": {
+                "type": "shift",
+                "state": 487
+            },
+            "(": {
+                "type": "shift",
+                "state": 481
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 482
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 710
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 163
+            },
+            "string": {
+                "type": "shift",
+                "state": 162
+            },
+            "number": {
+                "type": "shift",
+                "state": 167
+            },
+            "true": {
+                "type": "shift",
+                "state": 168
+            },
+            "false": {
+                "type": "shift",
+                "state": 169
+            },
+            "null": {
+                "type": "shift",
+                "state": 170
+            },
+            "{": {
+                "type": "shift",
+                "state": 164
+            },
+            "[": {
+                "type": "shift",
+                "state": 171
+            },
+            "(": {
+                "type": "shift",
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
@@ -22551,11 +23170,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 697
+                "state": 712
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -22607,50 +23226,50 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 698
+                "state": 713
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 581
+                "state": 595
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 66
             }
         },
         {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -22658,43 +23277,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 309
+                "state": 318
             },
             "string": {
                 "type": "shift",
-                "state": 308
+                "state": 317
             },
             "number": {
                 "type": "shift",
-                "state": 311
+                "state": 320
             },
             "true": {
                 "type": "shift",
-                "state": 312
+                "state": 321
             },
             "false": {
                 "type": "shift",
-                "state": 313
+                "state": 322
             },
             "null": {
                 "type": "shift",
-                "state": 314
+                "state": 323
             },
             "{": {
                 "type": "shift",
-                "state": 310
+                "state": 319
             },
             "[": {
                 "type": "shift",
-                "state": 315
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 7
+                "state": 324
             },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 7
             }
         },
         {
@@ -22763,7 +23382,7 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -22776,7 +23395,7 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -22788,12 +23407,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 336
+                "state": 346
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -22833,7 +23452,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 336
+                "state": 346
             },
             "verticalBar": {
                 "type": "reduce",
@@ -22884,13 +23503,13 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 700
+                "state": 715
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 701
+                "state": 716
             }
         },
         {
@@ -22928,112 +23547,112 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 702
+                "state": 717
             }
         },
         {
             "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 208
-            },
-            "true": {
-                "type": "shift",
-                "state": 209
-            },
-            "false": {
                 "type": "shift",
                 "state": 210
             },
+            "string": {
+                "type": "shift",
+                "state": 209
+            },
+            "number": {
+                "type": "shift",
+                "state": 214
+            },
+            "true": {
+                "type": "shift",
+                "state": 215
+            },
+            "false": {
+                "type": "shift",
+                "state": 216
+            },
             "null": {
+                "type": "shift",
+                "state": 217
+            },
+            "{": {
                 "type": "shift",
                 "state": 211
             },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
             "[": {
+                "type": "shift",
+                "state": 218
+            },
+            "(": {
                 "type": "shift",
                 "state": 212
             },
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 207
-            },
-            "(": {
-                "type": "shift",
-                "state": 206
+                "state": 213
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 704
+                "state": 719
             },
             "variable": {
-                "type": "shift",
-                "state": 225
-            },
-            "string": {
-                "type": "shift",
-                "state": 224
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 226
-            },
-            "[": {
                 "type": "shift",
                 "state": 232
             },
-            "ABSTRACTION_BODY,": {
+            "string": {
                 "type": "shift",
-                "state": 161
+                "state": 231
+            },
+            "number": {
+                "type": "shift",
+                "state": 235
+            },
+            "true": {
+                "type": "shift",
+                "state": 236
+            },
+            "false": {
+                "type": "shift",
+                "state": 237
+            },
+            "null": {
+                "type": "shift",
+                "state": 238
+            },
+            "{": {
+                "type": "shift",
+                "state": 233
+            },
+            "[": {
+                "type": "shift",
+                "state": 239
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 165
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 166
             }
         },
         {
-            "ABSTRACTION_BODY,": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 207
+                "state": 213
             },
             "(": {
                 "type": "shift",
-                "state": 535
+                "state": 549
             }
         },
         {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -23045,12 +23664,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 678
+                "state": 693
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -23065,7 +23684,7 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -23077,7 +23696,7 @@ module.exports = {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -23088,12 +23707,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 527
+                "state": 541
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -23106,43 +23725,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 362
+                "state": 372
             },
             "string": {
                 "type": "shift",
-                "state": 361
+                "state": 371
             },
             "number": {
                 "type": "shift",
-                "state": 366
+                "state": 376
             },
             "true": {
                 "type": "shift",
-                "state": 367
+                "state": 377
             },
             "false": {
                 "type": "shift",
-                "state": 368
+                "state": 378
             },
             "null": {
                 "type": "shift",
-                "state": 369
+                "state": 379
             },
             "{": {
                 "type": "shift",
-                "state": 363
+                "state": 373
             },
             "[": {
                 "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
+                "state": 380
             },
             "(": {
                 "type": "shift",
-                "state": 364
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
             }
         },
         {
@@ -23194,43 +23813,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 362
+                "state": 372
             },
             "string": {
                 "type": "shift",
-                "state": 361
+                "state": 371
             },
             "number": {
                 "type": "shift",
-                "state": 366
+                "state": 376
             },
             "true": {
                 "type": "shift",
-                "state": 367
+                "state": 377
             },
             "false": {
                 "type": "shift",
-                "state": 368
+                "state": 378
             },
             "null": {
                 "type": "shift",
-                "state": 369
+                "state": 379
             },
             "{": {
                 "type": "shift",
-                "state": 363
+                "state": 373
             },
             "[": {
                 "type": "shift",
-                "state": 370
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 365
+                "state": 380
             },
             "(": {
                 "type": "shift",
-                "state": 364
+                "state": 374
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 375
             }
         },
         {
@@ -23311,7 +23930,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -23343,7 +23962,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 395
+                "state": 406
             }
         },
         {
@@ -23388,49 +24007,49 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 404
+                "state": 415
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 414
+                "state": 425
             },
             "string": {
                 "type": "shift",
-                "state": 413
+                "state": 424
             },
             "number": {
                 "type": "shift",
-                "state": 416
+                "state": 427
             },
             "true": {
                 "type": "shift",
-                "state": 417
+                "state": 428
             },
             "false": {
                 "type": "shift",
-                "state": 418
+                "state": 429
             },
             "null": {
                 "type": "shift",
-                "state": 419
+                "state": 430
             },
             "{": {
                 "type": "shift",
-                "state": 415
+                "state": 426
             },
             "[": {
                 "type": "shift",
-                "state": 420
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 127
+                "state": 431
             },
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 130
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 131
             }
         },
         {
@@ -23498,43 +24117,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 433
+                "state": 445
             },
             "string": {
                 "type": "shift",
-                "state": 432
+                "state": 444
             },
             "number": {
                 "type": "shift",
-                "state": 435
+                "state": 447
             },
             "true": {
                 "type": "shift",
-                "state": 436
+                "state": 448
             },
             "false": {
                 "type": "shift",
-                "state": 437
+                "state": 449
             },
             "null": {
                 "type": "shift",
-                "state": 438
+                "state": 450
             },
             "{": {
                 "type": "shift",
-                "state": 434
+                "state": 446
             },
             "[": {
                 "type": "shift",
-                "state": 439
+                "state": 451
             },
-            "ABSTRACTION_BODY,": {
+            "(": {
                 "type": "shift",
                 "state": 42
             },
-            "(": {
+            "ORDINARY_ABSTRACTION,": {
                 "type": "shift",
-                "state": 41
+                "state": 43
             }
         },
         {
@@ -23603,7 +24222,7 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -23614,12 +24233,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 587
+                "state": 601
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         ")",
@@ -23632,43 +24251,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 466
+                "state": 479
             },
             "string": {
                 "type": "shift",
-                "state": 465
+                "state": 478
             },
             "number": {
                 "type": "shift",
-                "state": 470
+                "state": 483
             },
             "true": {
                 "type": "shift",
-                "state": 471
+                "state": 484
             },
             "false": {
                 "type": "shift",
-                "state": 472
+                "state": 485
             },
             "null": {
                 "type": "shift",
-                "state": 473
+                "state": 486
             },
             "{": {
                 "type": "shift",
-                "state": 467
+                "state": 480
             },
             "[": {
                 "type": "shift",
-                "state": 474
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 469
+                "state": 487
             },
             "(": {
                 "type": "shift",
-                "state": 468
+                "state": 481
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 482
             }
         },
         {
@@ -23709,43 +24328,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 466
+                "state": 479
             },
             "string": {
                 "type": "shift",
-                "state": 465
+                "state": 478
             },
             "number": {
                 "type": "shift",
-                "state": 470
+                "state": 483
             },
             "true": {
                 "type": "shift",
-                "state": 471
+                "state": 484
             },
             "false": {
                 "type": "shift",
-                "state": 472
+                "state": 485
             },
             "null": {
                 "type": "shift",
-                "state": 473
+                "state": 486
             },
             "{": {
                 "type": "shift",
-                "state": 467
+                "state": 480
             },
             "[": {
                 "type": "shift",
-                "state": 474
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 469
+                "state": 487
             },
             "(": {
                 "type": "shift",
-                "state": 468
+                "state": 481
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 482
             }
         },
         {
@@ -23827,7 +24446,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 492
+                "state": 506
             },
             "verticalBar": {
                 "type": "reduce",
@@ -23951,11 +24570,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 713
+                "state": 728
             },
             "?": {
                 "type": "shift",
-                "state": 385
+                "state": 396
             }
         },
         {
@@ -24007,40 +24626,40 @@ module.exports = {
         {
             ")": {
                 "type": "shift",
-                "state": 714
+                "state": 729
             }
         },
         {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
+                    "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
-                        "ABSTRACTION"
+                        "GUARDED_ABSTRACTION_LIST"
                     ]
                 ]
             }
@@ -24049,7 +24668,7 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -24062,7 +24681,7 @@ module.exports = {
             ":": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -24074,12 +24693,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 527
+                "state": 541
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -24119,7 +24738,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 527
+                "state": 541
             },
             "verticalBar": {
                 "type": "reduce",
@@ -24164,7 +24783,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 560
+                "state": 574
             },
             "}": {
                 "type": "reduce",
@@ -24196,7 +24815,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 568
+                "state": 582
             },
             "verticalBar": {
                 "type": "reduce",
@@ -24229,7 +24848,7 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -24241,12 +24860,12 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 587
+                "state": 601
             },
             "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION_BODY",
+                    "ORDINARY_ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
@@ -24273,7 +24892,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 587
+                "state": 601
             },
             "verticalBar": {
                 "type": "reduce",
@@ -24292,43 +24911,43 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 606
+                "state": 620
             },
             "string": {
                 "type": "shift",
-                "state": 605
+                "state": 619
             },
             "number": {
                 "type": "shift",
-                "state": 608
+                "state": 622
             },
             "true": {
                 "type": "shift",
-                "state": 609
+                "state": 623
             },
             "false": {
                 "type": "shift",
-                "state": 610
+                "state": 624
             },
             "null": {
                 "type": "shift",
-                "state": 611
+                "state": 625
             },
             "{": {
                 "type": "shift",
-                "state": 607
+                "state": 621
             },
             "[": {
                 "type": "shift",
-                "state": 612
-            },
-            "ABSTRACTION_BODY,": {
-                "type": "shift",
-                "state": 207
+                "state": 626
             },
             "(": {
                 "type": "shift",
-                "state": 206
+                "state": 212
+            },
+            "ORDINARY_ABSTRACTION,": {
+                "type": "shift",
+                "state": 213
             }
         },
         {
@@ -24397,7 +25016,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 678
+                "state": 693
             },
             "verticalBar": {
                 "type": "reduce",
