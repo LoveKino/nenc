@@ -4,6 +4,7 @@
 var sys_void, sys_pair,
     sys_module, sys_import,
     sys_application, sys_statements,
+    sys_guarded_abstraction, sys_guarded_abstraction_line,
     sys_exp, sys_variable, sys_ordinary_abstraction, sys_letBinding, sys_condition,
     sys_runProgram,
     sys_data, sys_object, sys_array, sys_string,
@@ -27,6 +28,9 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         sys_ordinary_abstraction = _.sys_ordinary_abstraction;
         sys_application = _.sys_application;
         sys_condition = _.sys_condition;
+
+        sys_guarded_abstraction = _.sys_guarded_abstraction, 
+        sys_guarded_abstraction_line = _.sys_guarded_abstraction_line,
 
         sys_data = _.sys_data;
         sys_object = _.sys_object; 

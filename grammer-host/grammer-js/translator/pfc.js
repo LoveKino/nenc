@@ -44,13 +44,13 @@ module.exports = {
     "EXP_LIST := EXP": "<%= $1%>",
     "EXP_LIST := EXP , EXP_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
-    "ABSTRACTION := GUARDED_ABSTRACTION_LIST": "<%= $1%>",
+    "ABSTRACTION := GUARDED_ABSTRACTION_LIST": "sys_guarded_abstraction(<%= $1%>)",
 
     "GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION": "<%= $1%>",
-    "GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION verticalBar GUARDED_ABSTRACTION_LIST": "<%= $1%>",
+    "GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION verticalBar GUARDED_ABSTRACTION_LIST": "sys_pair(<%= $1%>, <%= $3%>)",
 
-    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION": "<%= $1%>",
-    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION, EXP_LIST": "<%= $1%>",
+    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION": "sys_guarded_abstraction_line(<%= $1%>, sys_void())",
+    "GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION , EXP_LIST": "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)",
 
     "ORDINARY_ABSTRACTION := ( ) -> EXP": "sys_ordinary_abstraction(sys_void(), <%= $4%>)",
     "ORDINARY_ABSTRACTION := ( LIST_VARIABLES ) -> EXP": "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)",
