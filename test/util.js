@@ -40,7 +40,7 @@ let equalJsApp = (nencCode, result, options) => {
             console,
             require
         }));
-        assert.equal(v, result);
+        assert.deepEqual(v, result);
     } catch (err) {
         log(`[nenc code] ${nencCode}`);
         log(`[js code] ${jsCode}`);

@@ -22,7 +22,7 @@ module.exports = {
     "VARIABLE_DEFINITION := variable": "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())",
     "VARIABLE_DEFINITION := variable = EXP": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",
 
-    "EXP := JSON": "sys_data(<%= $1%>)",
+    "EXP := DATA": "sys_data(<%= $1%>)",
     "EXP := variable": "sys_variable(\"<%= $1%>\")",
     "EXP := ABSTRACTION": "<%= $1%>",
     "EXP := APPLICATION": "<%= $1%>",
@@ -58,19 +58,20 @@ module.exports = {
     "LIST_VARIABLES := variable": "sys_variable(\"<%= $1%>\")",
     "LIST_VARIABLES := variable , LIST_VARIABLES": "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)",
 
-    "JSON := string": "sys_string(<%= $1%>)",
-    "JSON := number": "sys_number(\"<%= $1%>\")",
-    "JSON := true": "sys_true()",
-    "JSON := false": "sys_false()",
-    "JSON := null": "sys_null()",
-    "JSON := OBJECT": "<%= $1%>",
-    "JSON := ARRAY": "<%= $1%>",
+    "DATA := string": "sys_string(<%= $1%>)",
+    "DATA := number": "sys_number(\"<%= $1%>\")",
+    "DATA := true": "sys_true()",
+    "DATA := false": "sys_false()",
+    "DATA := null": "sys_null()",
+    "DATA := OBJECT": "<%= $1%>",
+    "DATA := ARRAY": "<%= $1%>",
+
     "OBJECT := { KEY_VALUES }": "sys_object(<%= $2%>)",
     "OBJECT := { }": "sys_object(sys_void())",
-    "KEY_VALUES := string : JSON": "sys_pair(sys_string(<%= $1%>), <%= $3%>)",
-    "KEY_VALUES := string : JSON , KEY_VALUES": "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)",
+    "KEY_VALUES := string : PROGRAM": "sys_pair(sys_string(<%= $1%>), <%= $3%>)",
+    "KEY_VALUES := string : PROGRAM , KEY_VALUES": "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)",
     "ARRAY := [ ]": "sys_array(sys_void())",
     "ARRAY := [ LIST_VALUES ]": "sys_array(<%= $2%>)",
-    "LIST_VALUES := JSON": "<%= $1%>",
-    "LIST_VALUES := JSON , LIST_VALUES": "sys_pair(<%= $1%>, <%= $3%>)"
+    "LIST_VALUES := PROGRAM": "<%= $1%>",
+    "LIST_VALUES := PROGRAM , LIST_VALUES": "sys_pair(<%= $1%>, <%= $3%>)"
 }

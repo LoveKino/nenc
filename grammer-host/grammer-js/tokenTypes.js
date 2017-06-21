@@ -135,6 +135,10 @@ module.exports = [
         priority: 1,
         match: '|',
         name: 'verticalBar'
+    }, {
+        priority: 1,
+        match: '|->',
+        name: '|->'
     },
 
     {

@@ -26,7 +26,7 @@ VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION
 VARIABLE_DEFINITION := variable 
     | variable = EXP
 
-EXP := JSON 
+EXP := DATA 
     | variable 
     | ABSTRACTION 
     | APPLICATION
@@ -63,7 +63,7 @@ LIST_VARIABLES := variable
     | variable , LIST_VARIABLES
 
 # below is the definition of ordinary json
-JSON := string 
+DATA := string 
     | number 
     | OBJECT 
     | ARRAY 
@@ -74,11 +74,11 @@ JSON := string
 OBJECT := { KEY_VALUES } 
     | { }
 
-KEY_VALUES := string : JSON 
-    | string : JSON , KEY_VALUES
+KEY_VALUES := string : PROGRAM 
+    | string : PROGRAM , KEY_VALUES
 
 ARRAY := [ ] 
     | [ LIST_VALUES ]
 
-LIST_VALUES := JSON 
-    | JSON , LIST_VALUES
+LIST_VALUES := PROGRAM
+    | PROGRAM , LIST_VALUES
