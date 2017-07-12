@@ -1,0 +1,61 @@
+# DSL interfaces
+sys_pair(v1, v2) -> Model
+
+sys_void() -> Model
+
+sys_data(data) -> Model
+
+sys_number(data) -> Model
+
+sys_null() -> Model
+
+sys_true() -> Model
+
+sys_false() -> Model
+
+sys_string(data) -> Model
+
+sys_array(list) -> Model
+
+sys_object(list) -> Model
+
+sys_metaMethod(method) -> Model
+
+sys_application(caller, params) -> Model
+
+sys_ordinary_abstraction(variables, body) -> Model
+
+sys_variable(variableName) -> Model
+
+sys_exp(expression) -> Model
+
+sys_statements(statements) -> Model
+
+sys_letBinding(bindings) -> Model
+
+sys_import(modulePath, variable) -> Model
+
+sys_condition(conditionExp, option1Exp, option2Exp) -> Model
+
+sys_guardedAbstractionLine(ordinaryAbstraction, guards) -> Model
+
+sys_guardedAbstraction(guardLines, context=null) -> Model
+
+# middle, partially apply abstraction
+middle_ordinary_abstraction(variableList, body, context) -> Model
+
+middle_statements_list(statementList) -> Model
+
+middle_identity(value) -> Model
+
+middle_importStatement(module, variable, nextStatements) -> Model
+
+middle_letStatement(letStatement, nextStatements) -> Model
+
+middle_applyGuardedAbstraction() -> Model
+
+middle_applyOrdinaryAbstraction(abstractionMiddle, params) -> Model
+
+middle_applyMetaMethod(metaMethod, params) -> Model
+
+Context(variableMap, parent) -> Model
