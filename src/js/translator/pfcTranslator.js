@@ -4,7 +4,6 @@ let template = require('lodash.template');
 let {
     parse
 } = require('bnfer');
-let jsoneq = require('cl-jsoneq');
 let pfcsource = require('../../../grammer-host/grammer-js/translator/pfc');
 let pfcModuleWrapper = require('../../../grammer-host/grammer-js/translator/pfc_module_wrapper.tpl.js');
 
@@ -23,7 +22,8 @@ let getTranslateFun = (production) => {
     // find production translator
     for (let i = 0; i < pfctarget.length; i++) {
         let tar = pfctarget[i];
-        if (jsoneq(tar[0], production)) {
+        let tarProduction = tar[0];
+        if (sameProduction(tarProduction, production)) {
             productionTranslater = tar[1];
         }
     }
@@ -32,6 +32,19 @@ let getTranslateFun = (production) => {
     }
 
     return productionTranslater;
+};
+
+let sameProduction = (p1, p2) => {
+    if (p1[0] !== p2[0]) return false;
+    let body1 = p1[1],
+        body2 = p2[1];
+    if (body1.length !== body2.length) return false;
+
+    for (let i = 0; i < body1.length; i++) {
+        if (body1[i] !== body2[i]) return false;
+    }
+
+    return true;
 };
 
 let wrapperTplFun = template(pfcModuleWrapper);

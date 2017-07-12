@@ -3,6 +3,7 @@
 let {
     grammerTxtPath,
     grammerPath,
+    pfcTranslatorJsonPath
 } = require('./grammerResource');
 
 let {
@@ -10,5 +11,5 @@ let {
 } = require('./util');
 
 module.exports = () => {
-    return generateGrammer(grammerTxtPath, grammerPath);
+    return generateGrammer(grammerTxtPath, grammerPath, pfcTranslatorJsonPath);
 };

@@ -41,6 +41,7 @@ sys_guardedAbstractionLine(ordinaryAbstraction, guards) -> Model
 
 sys_guardedAbstraction(guardLines, context=null) -> Model
 
+# middle code structure
 # middle, partially apply abstraction
 middle_ordinary_abstraction(variableList, body, context) -> Model
 
@@ -58,4 +59,4 @@ middle_applyOrdinaryAbstraction(abstractionMiddle, params) -> Model
 
 middle_applyMetaMethod(metaMethod, params) -> Model
 
-Context(variableMap, parent) -> Model
+middle_context(variableMap, parent) -> Model

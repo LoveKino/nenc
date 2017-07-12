@@ -2296,7 +2296,8 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -2357,7 +2358,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -2366,7 +2368,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -2375,7 +2378,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -2386,7 +2390,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -2395,7 +2400,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -2404,7 +2410,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -2413,7 +2420,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -2494,7 +2502,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -2503,7 +2512,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -2512,7 +2522,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -2523,7 +2534,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -2532,7 +2544,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -2541,7 +2554,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -2552,7 +2566,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -2561,7 +2576,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -2570,7 +2586,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -2581,7 +2598,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -2590,7 +2608,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -2599,7 +2618,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -2608,14 +2628,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -2675,7 +2697,8 @@ module.exports = {
                     "S",
                     [
                         "PROGRAM"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2686,7 +2709,8 @@ module.exports = {
                     "PROGRAM",
                     [
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_statements(<%= $1%>)"
                 ]
             }
         },
@@ -2697,7 +2721,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2708,7 +2733,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2723,7 +2749,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2732,7 +2759,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2743,7 +2771,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2752,7 +2781,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2763,7 +2793,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             ";": {
@@ -2772,7 +2803,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "?": {
@@ -2787,7 +2819,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2796,7 +2829,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -2805,7 +2839,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2816,7 +2851,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2825,7 +2861,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -2834,7 +2871,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2845,7 +2883,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2854,7 +2893,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -2863,7 +2903,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -2872,7 +2913,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2889,7 +2931,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2898,7 +2941,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -2907,7 +2951,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -2918,7 +2963,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -2927,7 +2973,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -2936,7 +2983,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -2947,7 +2995,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -2956,7 +3005,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -2965,7 +3015,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -2980,7 +3031,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -2989,7 +3041,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -2998,7 +3051,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -3007,7 +3061,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -3022,7 +3077,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -3031,7 +3087,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -3040,7 +3097,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -3051,7 +3109,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -3060,7 +3119,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3069,7 +3129,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3080,7 +3141,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -3089,7 +3151,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3098,7 +3161,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3115,7 +3179,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             ",": {
@@ -3124,7 +3189,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             ";": {
@@ -3133,7 +3199,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             "=": {
@@ -3149,7 +3216,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             ";": {
@@ -3159,7 +3227,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             }
         },
@@ -3170,7 +3239,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -3179,7 +3249,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -3204,7 +3275,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -3213,7 +3285,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "}": {
@@ -3222,7 +3295,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -3233,7 +3307,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -3242,7 +3317,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -3251,7 +3327,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -3260,7 +3337,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -3328,7 +3406,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -3338,7 +3417,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -3348,7 +3428,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -3373,7 +3454,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -3382,7 +3464,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -3391,7 +3474,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -3402,7 +3486,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -3411,7 +3496,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "}": {
@@ -3420,7 +3506,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -3431,7 +3518,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -3440,7 +3528,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "}": {
@@ -3449,7 +3538,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -3460,7 +3550,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -3469,7 +3560,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "}": {
@@ -3478,7 +3570,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -3487,14 +3580,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -3555,7 +3650,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -3570,7 +3666,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3579,7 +3676,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3590,7 +3688,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3599,7 +3698,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3610,7 +3710,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "}": {
@@ -3619,7 +3720,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "?": {
@@ -3634,7 +3736,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3643,7 +3746,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3652,7 +3756,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3663,7 +3768,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3672,7 +3778,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3681,7 +3788,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3692,7 +3800,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3701,7 +3810,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3710,7 +3820,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -3719,7 +3830,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3736,7 +3848,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3745,7 +3858,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3754,7 +3868,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3765,7 +3880,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -3774,7 +3890,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "}": {
@@ -3783,7 +3900,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -3794,7 +3912,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3803,7 +3922,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3812,7 +3932,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -3827,7 +3948,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -3836,7 +3958,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -3845,7 +3968,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "}": {
@@ -3854,7 +3978,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -3869,7 +3994,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -3878,7 +4004,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "}": {
@@ -3887,7 +4014,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -3898,7 +4026,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3907,7 +4036,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3916,7 +4046,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3933,7 +4064,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -3942,7 +4074,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -3951,7 +4084,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -3962,7 +4096,8 @@ module.exports = {
                     "LIST_VARIABLES",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -3999,7 +4134,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -4010,7 +4146,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -4025,7 +4162,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -4034,7 +4172,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -4061,7 +4200,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -4070,7 +4210,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -4079,7 +4220,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "]": {
@@ -4088,7 +4230,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -4099,7 +4242,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -4108,7 +4252,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -4117,7 +4262,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "]": {
@@ -4126,7 +4272,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -4135,7 +4282,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -4216,7 +4364,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -4225,7 +4374,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -4234,7 +4384,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "]": {
@@ -4243,7 +4394,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -4254,7 +4406,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -4263,7 +4416,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -4272,7 +4426,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "]": {
@@ -4281,7 +4436,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -4292,7 +4448,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -4301,7 +4458,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -4310,7 +4468,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "]": {
@@ -4319,7 +4478,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -4330,7 +4490,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -4339,7 +4500,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -4348,7 +4510,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "]": {
@@ -4357,7 +4520,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -4366,14 +4530,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -4429,7 +4595,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -4439,7 +4606,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -4449,7 +4617,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -4460,7 +4629,8 @@ module.exports = {
                     "LIST_VALUES",
                     [
                         "PROGRAM"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -4475,7 +4645,8 @@ module.exports = {
                     "PROGRAM",
                     [
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_statements(<%= $1%>)"
                 ]
             },
             "]": {
@@ -4484,7 +4655,8 @@ module.exports = {
                     "PROGRAM",
                     [
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_statements(<%= $1%>)"
                 ]
             }
         },
@@ -4495,7 +4667,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4504,7 +4677,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4515,7 +4689,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4524,7 +4699,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4539,7 +4715,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4548,7 +4725,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4557,7 +4735,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4568,7 +4747,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4577,7 +4757,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4586,7 +4767,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4597,7 +4779,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             ";": {
@@ -4606,7 +4789,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "]": {
@@ -4615,7 +4799,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "?": {
@@ -4630,7 +4815,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4639,7 +4825,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4648,7 +4835,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4657,7 +4845,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4668,7 +4857,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4677,7 +4867,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4686,7 +4877,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4695,7 +4887,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4706,7 +4899,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4715,7 +4909,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4724,7 +4919,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4733,7 +4929,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -4742,7 +4939,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4759,7 +4957,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4768,7 +4967,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4777,7 +4977,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4786,7 +4987,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4797,7 +4999,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -4806,7 +5009,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -4815,7 +5019,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "]": {
@@ -4824,7 +5029,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -4835,7 +5041,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4844,7 +5051,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4853,7 +5061,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4862,7 +5071,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -4881,7 +5091,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -4890,7 +5101,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "]": {
@@ -4899,7 +5111,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -4908,7 +5121,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -4919,7 +5133,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -4928,7 +5143,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -4937,7 +5153,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "]": {
@@ -4946,7 +5163,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -4957,7 +5175,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -4966,7 +5185,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -4975,7 +5195,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -4984,7 +5205,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -4995,7 +5217,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -5004,7 +5227,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -5013,7 +5237,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -5022,7 +5247,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -5037,7 +5263,8 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -5270,14 +5497,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "}": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -5332,7 +5561,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             ";": {
@@ -5341,7 +5571,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             "}": {
@@ -5350,7 +5581,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             "=": {
@@ -5366,7 +5598,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             "}": {
@@ -5376,7 +5609,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             }
         },
@@ -5387,7 +5621,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -5396,7 +5631,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -5412,7 +5648,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -5422,7 +5659,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "}": {
@@ -5432,7 +5670,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -5468,7 +5707,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -5478,7 +5718,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "}": {
@@ -5488,7 +5729,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -5507,7 +5749,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -5518,7 +5761,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -5529,7 +5773,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -5538,7 +5783,8 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -5719,7 +5965,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -5730,7 +5977,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -5741,7 +5989,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -5810,7 +6059,8 @@ module.exports = {
                         "(",
                         "ABSTRACTION",
                         ")"
-                    ]
+                    ],
+                    "<%= $2%>"
                 ]
             }
         },
@@ -5877,7 +6127,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             ";": {
@@ -5886,7 +6137,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             "]": {
@@ -5895,7 +6147,8 @@ module.exports = {
                     "VARIABLE_DEFINITION",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), sys_void())"
                 ]
             },
             "=": {
@@ -5911,7 +6164,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             ";": {
@@ -5921,7 +6175,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             "]": {
@@ -5931,7 +6186,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             }
         },
@@ -5946,7 +6202,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -5955,7 +6212,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -5967,7 +6225,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -5977,7 +6236,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -5987,7 +6247,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "]": {
@@ -5997,7 +6258,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -6033,7 +6295,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -6043,7 +6306,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -6053,7 +6317,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "]": {
@@ -6063,7 +6328,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -6078,14 +6344,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "]": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -6138,14 +6406,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "]": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -6326,7 +6596,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -6337,7 +6608,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -6348,7 +6620,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -6361,7 +6634,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             }
         },
@@ -6372,7 +6646,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -6381,7 +6656,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -6392,7 +6668,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -6401,7 +6678,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -6410,7 +6688,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -6485,7 +6764,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -6494,7 +6774,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -6505,7 +6786,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -6514,7 +6796,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -6525,7 +6808,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -6534,7 +6818,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -6545,7 +6830,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -6554,7 +6840,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -6563,14 +6850,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -6635,7 +6924,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6644,7 +6934,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6655,7 +6946,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6664,7 +6956,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6675,7 +6968,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6684,7 +6978,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -6693,7 +6988,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6710,7 +7006,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6719,7 +7016,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6730,7 +7028,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -6739,7 +7038,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -6750,7 +7050,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6759,7 +7060,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -6774,7 +7076,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -6783,7 +7086,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -6792,7 +7096,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -6807,7 +7112,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -6816,7 +7122,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -6827,7 +7134,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6836,7 +7144,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6847,7 +7156,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -6856,7 +7166,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -6867,7 +7178,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ",": {
@@ -6876,7 +7188,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -6885,7 +7198,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -6896,7 +7210,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -6905,7 +7220,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -6914,7 +7230,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -6923,7 +7240,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -7000,7 +7318,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "(": {
@@ -7011,7 +7330,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -7022,7 +7342,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -7033,7 +7354,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -7044,7 +7366,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -7053,7 +7376,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -7062,7 +7386,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -7073,7 +7398,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ",": {
@@ -7082,7 +7408,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -7091,7 +7418,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -7102,7 +7430,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ",": {
@@ -7111,7 +7440,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -7120,7 +7450,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -7131,7 +7462,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ",": {
@@ -7140,7 +7472,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -7149,7 +7482,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -7158,14 +7492,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -7220,7 +7556,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7239,7 +7576,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7248,7 +7586,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7257,7 +7596,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7268,7 +7608,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7277,7 +7618,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7286,7 +7628,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7297,7 +7640,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7306,7 +7650,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7315,7 +7660,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -7324,7 +7670,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7347,7 +7694,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7356,7 +7704,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7365,7 +7714,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7376,7 +7726,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ",": {
@@ -7385,7 +7736,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -7394,7 +7746,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -7405,7 +7758,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7414,7 +7768,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7423,7 +7778,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -7438,7 +7794,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -7451,7 +7808,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -7460,7 +7818,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -7471,7 +7830,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ",": {
@@ -7480,7 +7840,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -7489,7 +7850,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -7500,7 +7862,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7509,7 +7872,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7518,7 +7882,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7529,7 +7894,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -7538,7 +7904,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -7547,7 +7914,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -7570,7 +7938,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -7581,7 +7950,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -7592,7 +7962,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -7603,7 +7974,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ",": {
@@ -7612,7 +7984,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -7621,7 +7994,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -7630,7 +8004,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -7639,7 +8014,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -7650,7 +8026,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -7659,7 +8036,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -7668,7 +8046,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -7677,7 +8056,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -7686,7 +8066,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -7695,7 +8076,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -7756,7 +8138,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -7765,7 +8148,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -7774,7 +8158,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -7783,7 +8168,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -7792,7 +8178,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -7803,7 +8190,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ",": {
@@ -7812,7 +8200,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -7821,7 +8210,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -7830,7 +8220,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "verticalBar": {
@@ -7839,7 +8230,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -7850,7 +8242,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ",": {
@@ -7859,7 +8252,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -7868,7 +8262,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -7877,7 +8272,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "verticalBar": {
@@ -7886,7 +8282,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -7897,7 +8294,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ",": {
@@ -7906,7 +8304,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -7915,7 +8314,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -7924,7 +8324,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "verticalBar": {
@@ -7933,7 +8334,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -7942,14 +8344,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -8004,7 +8408,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8013,7 +8418,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8026,7 +8432,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8041,7 +8448,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8050,7 +8458,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8059,7 +8468,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8068,7 +8478,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8077,7 +8488,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8088,7 +8500,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8097,7 +8510,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8106,7 +8520,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8115,7 +8530,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8124,7 +8540,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8135,7 +8552,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8144,7 +8562,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8153,7 +8572,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8162,7 +8582,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8171,7 +8592,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -8180,7 +8602,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8199,7 +8622,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -8210,7 +8634,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -8221,7 +8646,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -8232,7 +8658,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -8243,7 +8670,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8252,7 +8680,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8261,7 +8690,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8270,7 +8700,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8279,7 +8710,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8290,7 +8722,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ",": {
@@ -8299,7 +8732,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -8308,7 +8742,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -8317,7 +8752,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -8326,7 +8762,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -8337,7 +8774,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8346,7 +8784,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8355,7 +8794,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8364,7 +8804,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8379,7 +8820,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -8392,7 +8834,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -8401,7 +8844,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -8410,7 +8854,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -8421,7 +8866,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ",": {
@@ -8430,7 +8876,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -8439,7 +8886,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -8448,7 +8896,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -8457,7 +8906,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -8468,7 +8918,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8477,7 +8928,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8486,7 +8938,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8495,7 +8948,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8504,7 +8958,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8515,7 +8970,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8524,7 +8980,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8533,7 +8990,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -8542,7 +9000,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -8551,7 +9010,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -8565,7 +9025,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             ";": {
@@ -8577,7 +9038,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             }
         },
@@ -8588,7 +9050,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ",": {
@@ -8597,7 +9060,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -8606,7 +9070,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -8615,7 +9080,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -8626,7 +9092,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -8635,7 +9102,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -8644,7 +9112,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -8653,7 +9122,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -8662,7 +9132,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -8723,7 +9194,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -8732,7 +9204,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -8741,7 +9214,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -8750,7 +9224,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -8761,7 +9236,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ",": {
@@ -8770,7 +9246,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -8779,7 +9256,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -8788,7 +9266,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -8799,7 +9278,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ",": {
@@ -8808,7 +9288,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -8817,7 +9298,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -8826,7 +9308,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -8837,7 +9320,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ",": {
@@ -8846,7 +9330,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -8855,7 +9340,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -8864,7 +9350,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -8873,14 +9360,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -8937,7 +9426,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             ",": {
@@ -8948,7 +9438,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             ";": {
@@ -8959,7 +9450,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             "?": {
@@ -8974,7 +9466,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -8983,7 +9476,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -8992,7 +9486,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9001,7 +9496,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9012,7 +9508,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9021,7 +9518,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9030,7 +9528,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9039,7 +9538,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9050,7 +9550,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9059,7 +9560,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9068,7 +9570,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9077,7 +9580,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -9086,7 +9590,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9103,7 +9608,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9112,7 +9618,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9121,7 +9628,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9130,7 +9638,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9141,7 +9650,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ",": {
@@ -9150,7 +9660,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -9159,7 +9670,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -9168,7 +9680,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -9179,7 +9692,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9188,7 +9702,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9197,7 +9712,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9206,7 +9722,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -9221,7 +9738,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ",": {
@@ -9230,7 +9748,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -9239,7 +9758,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -9248,7 +9768,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -9259,7 +9780,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9268,7 +9790,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9277,7 +9800,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9286,7 +9810,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9297,7 +9822,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -9306,7 +9832,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9315,7 +9842,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9324,7 +9852,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9337,7 +9866,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -9348,7 +9878,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -9371,7 +9902,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -9380,7 +9912,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -9389,7 +9922,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "}": {
@@ -9398,7 +9932,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -9409,7 +9944,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -9418,7 +9954,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -9427,7 +9964,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -9436,7 +9974,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -9445,7 +9984,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -9512,7 +10052,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -9521,7 +10062,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -9530,7 +10072,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -9539,7 +10082,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -9550,7 +10094,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -9559,7 +10104,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -9568,7 +10114,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "}": {
@@ -9577,7 +10124,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -9588,7 +10136,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -9597,7 +10146,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -9606,7 +10156,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "}": {
@@ -9615,7 +10166,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -9626,7 +10178,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -9635,7 +10188,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -9644,7 +10198,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "}": {
@@ -9653,7 +10208,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -9662,14 +10218,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -9726,7 +10284,8 @@ module.exports = {
                         "string",
                         ":",
                         "PROGRAM"
-                    ]
+                    ],
+                    "sys_pair(sys_string(<%= $1%>), <%= $3%>)"
                 ]
             },
             ",": {
@@ -9741,7 +10300,8 @@ module.exports = {
                     "PROGRAM",
                     [
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_statements(<%= $1%>)"
                 ]
             },
             "}": {
@@ -9750,7 +10310,8 @@ module.exports = {
                     "PROGRAM",
                     [
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_statements(<%= $1%>)"
                 ]
             }
         },
@@ -9761,7 +10322,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9770,7 +10332,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9781,7 +10344,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9790,7 +10354,8 @@ module.exports = {
                     "NONE_EMPTY_STATEMENTS",
                     [
                         "STATEMENT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9805,7 +10370,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9814,7 +10380,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9823,7 +10390,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "IMPORT_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9834,7 +10402,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9843,7 +10412,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9852,7 +10422,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "LET_EXPRESSION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9863,7 +10434,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             ";": {
@@ -9872,7 +10444,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "}": {
@@ -9881,7 +10454,8 @@ module.exports = {
                     "STATEMENT",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "sys_exp(<%= $1%>)"
                 ]
             },
             "?": {
@@ -9896,7 +10470,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9905,7 +10480,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9914,7 +10490,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9923,7 +10500,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9934,7 +10512,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9943,7 +10522,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9952,7 +10532,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9961,7 +10542,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -9972,7 +10554,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -9981,7 +10564,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -9990,7 +10574,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -9999,7 +10584,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -10008,7 +10594,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -10025,7 +10612,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -10034,7 +10622,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -10043,7 +10632,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -10052,7 +10642,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -10063,7 +10654,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -10072,7 +10664,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -10081,7 +10674,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "}": {
@@ -10090,7 +10684,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -10101,7 +10696,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -10110,7 +10706,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -10119,7 +10716,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -10128,7 +10726,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -10147,7 +10746,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -10156,7 +10756,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -10165,7 +10766,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "}": {
@@ -10174,7 +10776,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -10185,7 +10788,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -10194,7 +10798,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -10203,7 +10808,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "}": {
@@ -10212,7 +10818,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -10223,7 +10830,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -10232,7 +10840,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -10241,7 +10850,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -10250,7 +10860,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -10261,7 +10872,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -10270,7 +10882,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -10279,7 +10892,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -10288,7 +10902,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -10345,7 +10960,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -10356,7 +10972,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "}": {
@@ -10367,7 +10984,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -10380,7 +10998,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -10391,7 +11010,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "}": {
@@ -10402,7 +11022,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -10459,7 +11080,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -10470,7 +11092,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "}": {
@@ -10481,7 +11104,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -10492,7 +11116,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -10501,7 +11126,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "}": {
@@ -10510,7 +11136,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -10523,7 +11150,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             }
         },
@@ -10534,7 +11162,8 @@ module.exports = {
                     "STATEMENTS",
                     [
                         "NONE_EMPTY_STATEMENTS"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -10557,7 +11186,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -10568,7 +11198,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -10579,7 +11210,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "}": {
@@ -10590,7 +11222,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -10619,7 +11252,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -10630,7 +11264,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -10641,7 +11276,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -10652,7 +11288,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -10661,7 +11298,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -10670,7 +11308,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -10679,7 +11318,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "}": {
@@ -10688,7 +11328,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -10699,7 +11340,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -10708,7 +11350,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -10717,7 +11360,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -10726,7 +11370,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -10735,7 +11380,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -10744,7 +11390,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -10805,7 +11452,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -10814,7 +11462,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -10823,7 +11472,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -10832,7 +11482,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "}": {
@@ -10841,7 +11492,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -10852,7 +11504,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -10861,7 +11514,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -10870,7 +11524,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "verticalBar": {
@@ -10879,7 +11534,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "}": {
@@ -10888,7 +11544,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -10899,7 +11556,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -10908,7 +11566,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -10917,7 +11576,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "verticalBar": {
@@ -10926,7 +11586,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "}": {
@@ -10935,7 +11596,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -10946,7 +11608,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -10955,7 +11618,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -10964,7 +11628,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "verticalBar": {
@@ -10973,7 +11638,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "}": {
@@ -10982,7 +11648,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -10991,14 +11658,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -11053,7 +11722,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11066,7 +11736,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11075,7 +11746,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -11090,7 +11762,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11099,7 +11772,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11108,7 +11782,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11117,7 +11792,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11126,7 +11802,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11137,7 +11814,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11146,7 +11824,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11155,7 +11834,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11164,7 +11844,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11173,7 +11854,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11184,7 +11866,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11193,7 +11876,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11202,7 +11886,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11211,7 +11896,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11220,7 +11906,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -11229,7 +11916,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11248,7 +11936,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -11259,7 +11948,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -11270,7 +11960,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -11281,7 +11972,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -11292,7 +11984,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11301,7 +11994,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11310,7 +12004,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11319,7 +12014,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11328,7 +12024,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11339,7 +12036,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -11348,7 +12046,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -11357,7 +12056,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -11366,7 +12066,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "}": {
@@ -11375,7 +12076,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -11386,7 +12088,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11395,7 +12098,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11404,7 +12108,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11417,7 +12122,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11428,7 +12134,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -11437,7 +12144,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -11446,7 +12154,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -11455,7 +12164,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "}": {
@@ -11464,7 +12174,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -11475,7 +12186,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11484,7 +12196,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11493,7 +12206,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11502,7 +12216,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11511,7 +12226,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11522,7 +12238,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -11531,7 +12248,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -11540,7 +12258,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -11549,7 +12268,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -11558,7 +12278,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -11571,7 +12292,8 @@ module.exports = {
                         "variable",
                         ",",
                         "LIST_VARIABLES"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             }
         },
@@ -11629,7 +12351,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ",": {
@@ -11641,7 +12364,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ";": {
@@ -11653,7 +12377,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -11669,7 +12394,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             }
         },
@@ -11682,7 +12408,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -11693,7 +12420,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ",": {
@@ -11702,7 +12430,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -11711,7 +12440,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -11720,7 +12450,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -11731,7 +12462,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -11740,7 +12472,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -11749,7 +12482,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -11758,7 +12492,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -11767,7 +12502,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -11828,7 +12564,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ",": {
@@ -11837,7 +12574,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -11846,7 +12584,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -11855,7 +12594,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -11866,7 +12606,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ",": {
@@ -11875,7 +12616,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -11884,7 +12626,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "verticalBar": {
@@ -11893,7 +12636,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -11904,7 +12648,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ",": {
@@ -11913,7 +12658,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -11922,7 +12668,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "verticalBar": {
@@ -11931,7 +12678,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -11942,7 +12690,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ",": {
@@ -11951,7 +12700,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -11960,7 +12710,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "verticalBar": {
@@ -11969,7 +12720,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -11978,14 +12730,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -12040,7 +12794,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12049,7 +12804,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12068,7 +12824,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12077,7 +12834,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12086,7 +12844,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12095,7 +12854,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12106,7 +12866,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12115,7 +12876,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12124,7 +12886,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12133,7 +12896,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12144,7 +12908,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12153,7 +12918,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12162,7 +12928,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12171,7 +12938,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -12180,7 +12948,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12199,7 +12968,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -12210,7 +12980,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -12221,7 +12992,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12230,7 +13002,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12239,7 +13012,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12248,7 +13022,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12259,7 +13034,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ",": {
@@ -12268,7 +13044,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -12277,7 +13054,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -12286,7 +13064,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -12297,7 +13076,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12306,7 +13086,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12315,7 +13096,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12330,7 +13112,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ",": {
@@ -12339,7 +13122,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -12348,7 +13132,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -12357,7 +13142,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -12368,7 +13154,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12377,7 +13164,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12386,7 +13174,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12395,7 +13184,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12406,7 +13196,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -12415,7 +13206,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -12424,7 +13216,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -12433,7 +13226,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -12534,7 +13328,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -12545,7 +13340,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -12556,7 +13352,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "]": {
@@ -12567,7 +13364,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -12580,7 +13378,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -12591,7 +13390,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -12602,7 +13402,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "]": {
@@ -12613,7 +13414,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -12670,7 +13472,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -12681,7 +13484,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -12692,7 +13496,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "]": {
@@ -12703,7 +13508,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -12716,7 +13522,8 @@ module.exports = {
                         "PROGRAM",
                         ",",
                         "LIST_VALUES"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -12729,7 +13536,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             },
             "]": {
@@ -12740,7 +13548,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             }
         },
@@ -12763,7 +13572,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -12774,7 +13584,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -12785,7 +13596,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -12796,7 +13608,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "]": {
@@ -12807,7 +13620,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -12836,7 +13650,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -12847,7 +13662,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -12858,7 +13674,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -12869,7 +13686,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -12880,7 +13698,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ";": {
@@ -12889,7 +13708,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -12898,7 +13718,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "]": {
@@ -12907,7 +13728,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -12916,7 +13738,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -12927,7 +13750,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -12936,7 +13760,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -12945,7 +13770,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "]": {
@@ -12954,7 +13780,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -12963,7 +13790,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -12972,7 +13800,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -13033,7 +13862,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ";": {
@@ -13042,7 +13872,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -13051,7 +13882,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "]": {
@@ -13060,7 +13892,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -13069,7 +13902,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -13080,7 +13914,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ";": {
@@ -13089,7 +13924,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -13098,7 +13934,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "]": {
@@ -13107,7 +13944,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "verticalBar": {
@@ -13116,7 +13954,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -13127,7 +13966,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ";": {
@@ -13136,7 +13976,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -13145,7 +13986,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "]": {
@@ -13154,7 +13996,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "verticalBar": {
@@ -13163,7 +14006,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -13174,7 +14018,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ";": {
@@ -13183,7 +14028,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -13192,7 +14038,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "]": {
@@ -13201,7 +14048,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "verticalBar": {
@@ -13210,7 +14058,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -13219,14 +14068,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -13285,7 +14136,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13298,7 +14150,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13307,7 +14160,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13318,7 +14172,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13327,7 +14182,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13336,7 +14192,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13345,7 +14202,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13354,7 +14212,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13365,7 +14224,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13374,7 +14234,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13383,7 +14244,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13392,7 +14254,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13401,7 +14264,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13412,7 +14276,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13421,7 +14286,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13430,7 +14296,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13439,7 +14306,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13448,7 +14316,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -13457,7 +14326,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13476,7 +14346,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -13487,7 +14358,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -13498,7 +14370,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -13509,7 +14382,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -13520,7 +14394,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -13531,7 +14406,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13540,7 +14416,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13549,7 +14426,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13558,7 +14436,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13567,7 +14446,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13578,7 +14458,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ";": {
@@ -13587,7 +14468,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -13596,7 +14478,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "]": {
@@ -13605,7 +14488,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -13614,7 +14498,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -13625,7 +14510,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13634,7 +14520,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13643,7 +14530,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13652,7 +14540,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13667,7 +14556,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ";": {
@@ -13676,7 +14566,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -13685,7 +14576,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "]": {
@@ -13694,7 +14586,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -13703,7 +14596,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -13714,7 +14608,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13723,7 +14618,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13732,7 +14628,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13741,7 +14638,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13750,7 +14648,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13761,7 +14660,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ";": {
@@ -13770,7 +14670,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -13779,7 +14680,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "]": {
@@ -13788,7 +14690,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -13797,7 +14700,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -13809,7 +14713,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -13819,7 +14724,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -13855,7 +14761,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -13865,7 +14772,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -14045,7 +14953,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ",": {
@@ -14055,7 +14964,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -14065,7 +14975,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -14101,7 +15012,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ",": {
@@ -14111,7 +15023,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -14121,7 +15034,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -14259,7 +15173,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "(": {
@@ -14271,7 +15186,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -14283,7 +15199,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -14295,7 +15212,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -14351,7 +15269,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ",": {
@@ -14361,7 +15280,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -14371,7 +15291,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -14381,7 +15302,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -14391,7 +15313,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -14415,7 +15338,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ",": {
@@ -14425,7 +15349,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -14435,7 +15360,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -14445,7 +15371,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -14455,7 +15382,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -14635,7 +15563,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ",": {
@@ -14645,7 +15574,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -14655,7 +15585,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -14665,7 +15596,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -14689,7 +15621,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ",": {
@@ -14699,7 +15632,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -14709,7 +15643,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -14719,7 +15654,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -14825,7 +15761,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             "}": {
@@ -14837,7 +15774,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             }
         },
@@ -14855,7 +15793,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             ";": {
@@ -14865,7 +15804,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             },
             "}": {
@@ -14875,7 +15815,8 @@ module.exports = {
                     [
                         "let",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_letBinding(<%= $2%>)"
                 ]
             }
         },
@@ -14890,7 +15831,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -14899,7 +15841,8 @@ module.exports = {
                     "VARIABLE_DEFINITION_LIST",
                     [
                         "VARIABLE_DEFINITION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -14911,7 +15854,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -14921,7 +15865,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -14931,7 +15876,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "}": {
@@ -14941,7 +15887,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -14965,7 +15912,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -14975,7 +15923,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -14985,7 +15934,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "}": {
@@ -14995,7 +15945,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -15016,14 +15967,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "}": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -15204,7 +16157,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             ";": {
@@ -15215,7 +16169,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             "}": {
@@ -15226,7 +16181,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             "?": {
@@ -15243,7 +16199,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -15254,7 +16211,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -15268,7 +16226,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ";": {
@@ -15280,7 +16239,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -15296,7 +16256,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "}": {
@@ -15308,7 +16269,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             }
         },
@@ -15398,7 +16360,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -15410,7 +16373,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -15422,7 +16386,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -15434,7 +16399,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -15446,7 +16412,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -15456,7 +16423,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -15466,7 +16434,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -15476,7 +16445,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "}": {
@@ -15486,7 +16456,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -15510,7 +16481,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -15520,7 +16492,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -15530,7 +16503,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -15540,7 +16514,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "}": {
@@ -15550,7 +16525,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -15694,7 +16670,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ",": {
@@ -15706,7 +16683,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "verticalBar": {
@@ -15718,7 +16696,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -15772,7 +16751,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ",": {
@@ -15782,7 +16762,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -15792,7 +16773,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -15802,7 +16784,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -15826,7 +16809,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ",": {
@@ -15836,7 +16820,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -15846,7 +16831,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -15856,7 +16842,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -16001,7 +16988,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -16014,7 +17002,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -16027,7 +17016,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -16044,7 +17034,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             }
         },
@@ -16058,7 +17049,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             ";": {
@@ -16070,7 +17062,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             "]": {
@@ -16082,7 +17075,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             }
         },
@@ -16095,7 +17089,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             ";": {
@@ -16106,7 +17101,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             "]": {
@@ -16117,7 +17113,8 @@ module.exports = {
                         "variable",
                         "=",
                         "EXP"
-                    ]
+                    ],
+                    "sys_pair(sys_variable(\"<%= $1%>\"), <%= $3%>)"
                 ]
             },
             "?": {
@@ -16134,7 +17131,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -16145,7 +17143,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -16156,7 +17155,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -16170,7 +17170,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ";": {
@@ -16182,7 +17183,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -16198,7 +17200,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "verticalBar": {
@@ -16210,7 +17213,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             }
         },
@@ -16300,7 +17304,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -16312,7 +17317,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -16324,7 +17330,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -16336,7 +17343,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -16348,7 +17356,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -16360,7 +17369,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ";": {
@@ -16370,7 +17380,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -16380,7 +17391,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "]": {
@@ -16390,7 +17402,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -16400,7 +17413,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -16424,7 +17438,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ";": {
@@ -16434,7 +17449,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -16444,7 +17460,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "]": {
@@ -16454,7 +17471,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -16464,7 +17482,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -16607,7 +17626,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -16618,7 +17638,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -16631,7 +17652,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -16642,7 +17664,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -16699,7 +17722,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -16710,7 +17734,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -16735,7 +17760,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -16748,7 +17774,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -16765,7 +17792,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ":": {
@@ -16776,7 +17804,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -16787,7 +17816,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -16816,7 +17846,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -16827,7 +17858,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -16838,7 +17870,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             ":": {
@@ -16847,7 +17880,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "?": {
@@ -16856,7 +17890,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -16865,7 +17900,8 @@ module.exports = {
                     "DATA",
                     [
                         "string"
-                    ]
+                    ],
+                    "sys_string(<%= $1%>)"
                 ]
             }
         },
@@ -16876,7 +17912,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             ":": {
@@ -16885,7 +17922,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -16894,7 +17932,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -16903,7 +17942,8 @@ module.exports = {
                     "EXP",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             },
             "(": {
@@ -16912,7 +17952,8 @@ module.exports = {
                     "CALLER",
                     [
                         "variable"
-                    ]
+                    ],
+                    "sys_variable(\"<%= $1%>\")"
                 ]
             }
         },
@@ -16973,7 +18014,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             ":": {
@@ -16982,7 +18024,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "?": {
@@ -16991,7 +18034,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             },
             "verticalBar": {
@@ -17000,7 +18044,8 @@ module.exports = {
                     "DATA",
                     [
                         "number"
-                    ]
+                    ],
+                    "sys_number(\"<%= $1%>\")"
                 ]
             }
         },
@@ -17011,7 +18056,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             ":": {
@@ -17020,7 +18066,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "?": {
@@ -17029,7 +18076,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             },
             "verticalBar": {
@@ -17038,7 +18086,8 @@ module.exports = {
                     "DATA",
                     [
                         "true"
-                    ]
+                    ],
+                    "sys_true()"
                 ]
             }
         },
@@ -17049,7 +18098,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             ":": {
@@ -17058,7 +18108,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "?": {
@@ -17067,7 +18118,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             },
             "verticalBar": {
@@ -17076,7 +18128,8 @@ module.exports = {
                     "DATA",
                     [
                         "false"
-                    ]
+                    ],
+                    "sys_false()"
                 ]
             }
         },
@@ -17087,7 +18140,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             ":": {
@@ -17096,7 +18150,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "?": {
@@ -17105,7 +18160,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             },
             "verticalBar": {
@@ -17114,7 +18170,8 @@ module.exports = {
                     "DATA",
                     [
                         "null"
-                    ]
+                    ],
+                    "sys_null()"
                 ]
             }
         },
@@ -17123,14 +18180,16 @@ module.exports = {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
                     "STATEMENTS",
-                    []
+                    [],
+                    "sys_void()"
                 ]
             },
             "variable": {
@@ -17185,7 +18244,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17198,7 +18258,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -17213,7 +18274,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17222,7 +18284,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17231,7 +18294,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17240,7 +18304,8 @@ module.exports = {
                     "EXP",
                     [
                         "CODE_BLOCK_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17251,7 +18316,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17260,7 +18326,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17269,7 +18336,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17278,7 +18346,8 @@ module.exports = {
                     "EXP",
                     [
                         "CONDITION_EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17289,7 +18358,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17298,7 +18368,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17307,7 +18378,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17316,7 +18388,8 @@ module.exports = {
                     "EXP",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "(": {
@@ -17325,7 +18398,8 @@ module.exports = {
                     "CALLER",
                     [
                         "APPLICATION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17344,7 +18418,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -17355,7 +18430,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -17366,7 +18442,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -17377,7 +18454,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17386,7 +18464,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17395,7 +18474,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17404,7 +18484,8 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17415,7 +18496,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             ":": {
@@ -17424,7 +18506,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "?": {
@@ -17433,7 +18516,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -17442,7 +18526,8 @@ module.exports = {
                     "ABSTRACTION",
                     [
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction(<%= $1%>)"
                 ]
             }
         },
@@ -17453,7 +18538,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17462,7 +18548,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17471,7 +18558,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION_LIST",
                     [
                         "GUARDED_ABSTRACTION"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17490,7 +18578,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -17499,7 +18588,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -17508,7 +18598,8 @@ module.exports = {
                     "GUARDED_ABSTRACTION",
                     [
                         "ORDINARY_ABSTRACTION"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -17519,7 +18610,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             ":": {
@@ -17528,7 +18620,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "?": {
@@ -17537,7 +18630,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             },
             "verticalBar": {
@@ -17546,7 +18640,8 @@ module.exports = {
                     "EXP",
                     [
                         "DATA"
-                    ]
+                    ],
+                    "sys_data(<%= $1%>)"
                 ]
             }
         },
@@ -17557,7 +18652,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17566,7 +18662,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17575,7 +18672,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17584,7 +18682,8 @@ module.exports = {
                     "DATA",
                     [
                         "OBJECT"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17595,7 +18694,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ":": {
@@ -17604,7 +18704,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -17613,7 +18714,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "verticalBar": {
@@ -17622,7 +18724,8 @@ module.exports = {
                     "DATA",
                     [
                         "ARRAY"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17635,7 +18738,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ",": {
@@ -17646,7 +18750,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -17657,7 +18762,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -17670,7 +18776,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ",": {
@@ -17681,7 +18788,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -17692,7 +18800,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -17749,7 +18858,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ",": {
@@ -17760,7 +18870,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -17771,7 +18882,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -17784,7 +18896,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -17807,7 +18920,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ")": {
@@ -17818,7 +18932,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -17829,7 +18944,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -17840,7 +18956,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -17869,7 +18986,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -17880,7 +18998,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -17891,7 +19010,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -17902,7 +19022,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -17919,7 +19040,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -17932,7 +19054,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -17943,7 +19066,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -17954,7 +19078,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -17965,7 +19090,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -17978,7 +19104,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ",": {
@@ -17989,7 +19116,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -18000,7 +19128,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -18011,7 +19140,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "verticalBar": {
@@ -18022,7 +19152,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -18035,7 +19166,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ",": {
@@ -18046,7 +19178,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18057,7 +19190,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18068,7 +19202,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -18079,7 +19214,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -18092,7 +19228,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ",": {
@@ -18103,7 +19240,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18114,7 +19252,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18125,7 +19264,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -18136,7 +19276,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -18149,7 +19290,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -18160,7 +19302,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -18171,7 +19314,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -18182,7 +19326,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -18205,7 +19350,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "(": {
@@ -18216,7 +19362,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -18227,7 +19374,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -18238,7 +19386,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -18249,7 +19398,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -18260,7 +19410,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -18279,7 +19430,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -18290,7 +19442,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -18301,7 +19454,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -18312,7 +19466,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -18323,7 +19478,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -18334,7 +19490,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             ",": {
@@ -18347,7 +19504,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -18360,7 +19518,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -18373,7 +19532,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -18384,7 +19544,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -18395,7 +19556,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -18406,7 +19568,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -18417,7 +19580,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -18430,7 +19594,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ",": {
@@ -18441,7 +19606,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -18452,7 +19618,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -18463,7 +19630,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -18476,7 +19644,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ",": {
@@ -18487,7 +19656,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18498,7 +19668,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18509,7 +19680,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -18522,7 +19694,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ",": {
@@ -18533,7 +19706,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18544,7 +19718,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18555,7 +19730,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -18578,7 +19754,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "(": {
@@ -18589,7 +19766,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -18600,7 +19778,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -18611,7 +19790,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -18622,7 +19802,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -18641,7 +19822,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -18652,7 +19834,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -18663,7 +19846,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -18674,7 +19858,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -18699,7 +19884,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -18710,7 +19896,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -18721,7 +19908,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "}": {
@@ -18732,7 +19920,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -18745,7 +19934,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18756,7 +19946,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18767,7 +19958,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "}": {
@@ -18778,7 +19970,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -18791,7 +19984,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -18802,7 +19996,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -18813,7 +20008,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "}": {
@@ -18824,7 +20020,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -18845,7 +20042,8 @@ module.exports = {
                         "PROGRAM",
                         ",",
                         "KEY_VALUES"
-                    ]
+                    ],
+                    "sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)"
                 ]
             }
         },
@@ -18858,7 +20056,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             },
             "}": {
@@ -18869,7 +20068,8 @@ module.exports = {
                         "STATEMENT",
                         ";",
                         "STATEMENTS"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3 %>)"
                 ]
             }
         },
@@ -18892,7 +20092,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -18903,7 +20104,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -18914,7 +20116,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -18925,7 +20128,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "}": {
@@ -18936,7 +20140,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -18955,7 +20160,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -18966,7 +20172,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -18977,7 +20184,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -18988,7 +20196,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19003,7 +20212,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -19016,7 +20226,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "}": {
@@ -19025,7 +20236,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -19038,7 +20250,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -19049,7 +20262,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -19060,7 +20274,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -19071,7 +20286,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -19082,7 +20298,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19097,7 +20314,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -19110,7 +20328,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -19127,7 +20346,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "}": {
@@ -19140,7 +20360,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             }
         },
@@ -19155,7 +20376,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -19172,7 +20394,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -19185,7 +20408,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -19196,7 +20420,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -19207,7 +20432,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "verticalBar": {
@@ -19218,7 +20444,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "}": {
@@ -19229,7 +20456,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -19242,7 +20470,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -19253,7 +20482,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -19264,7 +20494,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -19275,7 +20506,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "}": {
@@ -19286,7 +20518,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -19299,7 +20532,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -19310,7 +20544,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -19321,7 +20556,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -19332,7 +20568,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "}": {
@@ -19343,7 +20580,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -19356,7 +20594,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -19367,7 +20606,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -19378,7 +20618,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -19389,7 +20630,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19412,7 +20654,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -19423,7 +20666,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -19434,7 +20678,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -19445,7 +20690,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -19456,7 +20702,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "}": {
@@ -19467,7 +20714,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -19486,7 +20734,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -19497,7 +20746,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -19508,7 +20758,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -19519,7 +20770,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -19530,7 +20782,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19545,7 +20798,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -19558,7 +20812,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "verticalBar": {
@@ -19571,7 +20826,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -19588,7 +20844,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ",": {
@@ -19599,7 +20856,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -19610,7 +20868,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "verticalBar": {
@@ -19621,7 +20880,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -19634,7 +20894,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ",": {
@@ -19645,7 +20906,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -19656,7 +20918,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -19667,7 +20930,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -19680,7 +20944,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ",": {
@@ -19691,7 +20956,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -19702,7 +20968,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -19713,7 +20980,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -19726,7 +20994,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -19737,7 +21006,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19760,7 +21030,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ")": {
@@ -19771,7 +21042,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -19782,7 +21054,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -19793,7 +21066,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -19804,7 +21078,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -19823,7 +21098,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -19834,7 +21110,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -19845,7 +21122,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -19856,7 +21134,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -19871,7 +21150,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -19884,7 +21164,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -19901,7 +21182,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "verticalBar": {
@@ -19914,7 +21196,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             }
         },
@@ -19929,7 +21212,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -19942,7 +21226,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -19959,7 +21244,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -19972,7 +21258,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ";": {
@@ -19983,7 +21270,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -19994,7 +21282,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "]": {
@@ -20005,7 +21294,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "verticalBar": {
@@ -20016,7 +21306,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -20029,7 +21320,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ";": {
@@ -20040,7 +21332,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -20051,7 +21344,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "]": {
@@ -20062,7 +21356,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -20073,7 +21368,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -20086,7 +21382,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ";": {
@@ -20097,7 +21394,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -20108,7 +21406,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "]": {
@@ -20119,7 +21418,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -20130,7 +21430,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -20143,7 +21444,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -20154,7 +21456,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -20165,7 +21468,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -20176,7 +21480,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -20187,7 +21492,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -20210,7 +21516,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -20221,7 +21528,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ";": {
@@ -20232,7 +21540,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -20243,7 +21552,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "]": {
@@ -20254,7 +21564,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -20265,7 +21576,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -20284,7 +21596,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -20295,7 +21608,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -20306,7 +21620,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -20317,7 +21632,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -20328,7 +21644,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -20342,7 +21659,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ":": {
@@ -20354,7 +21672,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -20370,7 +21689,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             }
         },
@@ -20460,7 +21780,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ":": {
@@ -20472,7 +21793,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -20484,7 +21806,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -20496,7 +21819,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             ":": {
@@ -20506,7 +21830,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "?": {
@@ -20516,7 +21841,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -20526,7 +21852,8 @@ module.exports = {
                     [
                         "{",
                         "}"
-                    ]
+                    ],
+                    "sys_object(sys_void())"
                 ]
             }
         },
@@ -20550,7 +21877,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             ":": {
@@ -20560,7 +21888,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "?": {
@@ -20570,7 +21899,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             },
             "verticalBar": {
@@ -20580,7 +21910,8 @@ module.exports = {
                     [
                         "[",
                         "]"
-                    ]
+                    ],
+                    "sys_array(sys_void())"
                 ]
             }
         },
@@ -20762,7 +22093,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             ",": {
@@ -20774,7 +22106,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             },
             "?": {
@@ -20790,7 +22123,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(sys_void(), <%= $4%>)"
                 ]
             }
         },
@@ -20880,7 +22214,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ")": {
@@ -20892,7 +22227,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -20904,7 +22240,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -20916,7 +22253,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21006,7 +22344,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "(": {
@@ -21018,7 +22357,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21030,7 +22370,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21042,7 +22383,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21054,7 +22396,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -21066,7 +22409,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21156,7 +22500,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "(": {
@@ -21168,7 +22513,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21180,7 +22526,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21192,7 +22539,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21204,7 +22552,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21218,7 +22567,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             ";": {
@@ -21230,7 +22580,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             },
             "}": {
@@ -21242,7 +22593,8 @@ module.exports = {
                         "string",
                         "as",
                         "variable"
-                    ]
+                    ],
+                    "sys_import(<%= $2%>, sys_variable(\"<%= $4%>\"))"
                 ]
             }
         },
@@ -21255,7 +22607,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21266,7 +22619,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -21277,7 +22631,8 @@ module.exports = {
                         "VARIABLE_DEFINITION",
                         ",",
                         "VARIABLE_DEFINITION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21329,7 +22684,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21341,7 +22697,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21353,7 +22710,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21365,7 +22723,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -21377,7 +22736,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21467,7 +22827,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21479,7 +22840,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21491,7 +22853,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21503,7 +22866,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -21515,7 +22879,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -21527,7 +22892,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21579,7 +22945,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ")": {
@@ -21591,7 +22958,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21603,7 +22971,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21615,7 +22984,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -21627,7 +22997,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21679,7 +23050,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -21691,7 +23063,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -21703,7 +23076,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21715,7 +23089,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "]": {
@@ -21727,7 +23102,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -21739,7 +23115,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21754,7 +23131,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ":": {
@@ -21767,7 +23145,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -21784,7 +23163,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             }
         },
@@ -21799,7 +23179,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -21816,7 +23197,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             ":": {
@@ -21827,7 +23209,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "?": {
@@ -21838,7 +23221,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             },
             "verticalBar": {
@@ -21849,7 +23233,8 @@ module.exports = {
                         "{",
                         "NONE_EMPTY_STATEMENTS",
                         "}"
-                    ]
+                    ],
+                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())"
                 ]
             }
         },
@@ -21862,7 +23247,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             ":": {
@@ -21873,7 +23259,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "?": {
@@ -21884,7 +23271,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -21895,7 +23283,8 @@ module.exports = {
                         "{",
                         "KEY_VALUES",
                         "}"
-                    ]
+                    ],
+                    "sys_object(<%= $2%>)"
                 ]
             }
         },
@@ -21908,7 +23297,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             ":": {
@@ -21919,7 +23309,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "?": {
@@ -21930,7 +23321,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             },
             "verticalBar": {
@@ -21941,7 +23333,8 @@ module.exports = {
                         "[",
                         "LIST_VALUES",
                         "]"
-                    ]
+                    ],
+                    "sys_array(<%= $2%>)"
                 ]
             }
         },
@@ -21954,7 +23347,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -21965,7 +23359,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -21976,7 +23371,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -21999,7 +23395,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ",": {
@@ -22010,7 +23407,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             ":": {
@@ -22021,7 +23419,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "?": {
@@ -22032,7 +23431,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             },
             "verticalBar": {
@@ -22043,7 +23443,8 @@ module.exports = {
                         "CALLER",
                         "(",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, sys_void())"
                 ]
             }
         },
@@ -22062,7 +23463,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ":": {
@@ -22073,7 +23475,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22084,7 +23487,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22095,7 +23499,8 @@ module.exports = {
                         "GUARDED_ABSTRACTION",
                         "verticalBar",
                         "GUARDED_ABSTRACTION_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22110,7 +23515,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             },
             "?": {
@@ -22123,7 +23529,8 @@ module.exports = {
                     "EXP_LIST",
                     [
                         "EXP"
-                    ]
+                    ],
+                    "<%= $1%>"
                 ]
             }
         },
@@ -22136,7 +23543,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             ":": {
@@ -22147,7 +23555,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22158,7 +23567,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22169,7 +23579,8 @@ module.exports = {
                         "ORDINARY_ABSTRACTION",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22184,7 +23595,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -22197,7 +23609,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22214,7 +23627,8 @@ module.exports = {
                         ")",
                         "->",
                         "EXP"
-                    ]
+                    ],
+                    "sys_ordinary_abstraction(<%= $2%>, <%= $5%>)"
                 ]
             }
         },
@@ -22229,7 +23643,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -22242,7 +23657,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22259,7 +23675,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -22270,7 +23687,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22281,7 +23699,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22292,7 +23711,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22307,7 +23727,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -22320,7 +23741,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -22333,7 +23755,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22350,7 +23773,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22363,7 +23787,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -22374,7 +23799,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -22385,7 +23811,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22396,7 +23823,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22407,7 +23835,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22422,7 +23851,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -22435,7 +23865,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -22448,7 +23879,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22467,7 +23899,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -22480,7 +23913,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22497,7 +23931,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22510,7 +23945,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ";": {
@@ -22521,7 +23957,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22532,7 +23969,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22543,7 +23981,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "}": {
@@ -22554,7 +23993,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22569,7 +24009,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -22582,7 +24023,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22599,7 +24041,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "}": {
@@ -22612,7 +24055,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22627,7 +24071,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ",": {
@@ -22640,7 +24085,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22657,7 +24103,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22672,7 +24119,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ";": {
@@ -22685,7 +24133,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22702,7 +24151,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "verticalBar": {
@@ -22715,7 +24165,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22767,7 +24218,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ",": {
@@ -22779,7 +24231,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             ":": {
@@ -22791,7 +24244,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22803,7 +24257,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22815,7 +24270,8 @@ module.exports = {
                         "(",
                         "EXP_LIST",
                         ")"
-                    ]
+                    ],
+                    "sys_application(<%= $1%>, <%= $3%>)"
                 ]
             }
         },
@@ -22868,7 +24324,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             ":": {
@@ -22881,7 +24338,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             },
             "?": {
@@ -22898,7 +24356,8 @@ module.exports = {
                         "EXP",
                         ":",
                         "EXP"
-                    ]
+                    ],
+                    "sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)"
                 ]
             }
         },
@@ -22911,7 +24370,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             ":": {
@@ -22922,7 +24382,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "?": {
@@ -22933,7 +24394,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             },
             "verticalBar": {
@@ -22944,7 +24406,8 @@ module.exports = {
                         "EXP",
                         ",",
                         "EXP_LIST"
-                    ]
+                    ],
+                    "sys_pair(<%= $1%>, <%= $3%>)"
                 ]
             }
         }

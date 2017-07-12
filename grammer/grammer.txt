@@ -1,84 +1,86 @@
 # be careful: space between symbols
 
-S := PROGRAM
+S := PROGRAM @<%= $1%>
 
-PROGRAM := STATEMENTS
+PROGRAM := STATEMENTS @sys_statements(<%= $1%>)
 
-STATEMENTS := NONE_EMPTY_STATEMENTS 
-    | EPSILON
+STATEMENTS := NONE_EMPTY_STATEMENTS @<%= $1%>
+    | EPSILON @sys_void()
 
-NONE_EMPTY_STATEMENTS := STATEMENT 
-    | STATEMENT ; STATEMENTS
+NONE_EMPTY_STATEMENTS := STATEMENT @<%= $1%>
+    | STATEMENT ; STATEMENTS @sys_pair(<%= $1%>, <%= $3 %>)
 
-STATEMENT := EXP 
-    | LET_EXPRESSION 
-    | IMPORT_EXPRESSION
+STATEMENT := EXP @sys_exp(<%= $1%>)
+    | LET_EXPRESSION @<%= $1%>
+    | IMPORT_EXPRESSION @<%= $1%>
 
 # import module
-IMPORT_EXPRESSION := import string as variable
+IMPORT_EXPRESSION := import string as variable @sys_import(<%= $2%>, sys_variable("<%= $4%>"))
 
 # let statement
-LET_EXPRESSION := let VARIABLE_DEFINITION_LIST
+LET_EXPRESSION := let VARIABLE_DEFINITION_LIST @sys_letBinding(<%= $2%>)
 
-VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION 
-    |  VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST
+VARIABLE_DEFINITION_LIST := VARIABLE_DEFINITION @<%= $1%>
+    |  VARIABLE_DEFINITION , VARIABLE_DEFINITION_LIST @sys_pair(<%= $1%>, <%= $3%>)
 
-VARIABLE_DEFINITION := variable 
-    | variable = EXP
+VARIABLE_DEFINITION := variable @sys_pair(sys_variable("<%= $1%>"), sys_void())
+    | variable = EXP @sys_pair(sys_variable("<%= $1%>"), <%= $3%>)
 
-EXP := DATA 
-    | variable 
-    | ABSTRACTION 
-    | APPLICATION
-    | CODE_BLOCK_EXP
-    | CONDITION_EXP
+EXP := DATA @sys_data(<%= $1%>)
+    | variable @sys_variable("<%= $1%>")
+    | ABSTRACTION @<%= $1%>
+    | APPLICATION @<%= $1%>
+    | CODE_BLOCK_EXP @<%= $1%>
+    | CONDITION_EXP @<%= $1%>
 
-CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS }
+CODE_BLOCK_EXP := { NONE_EMPTY_STATEMENTS } @sys_application(sys_ordinary_abstraction(sys_void(), sys_statements(<%= $2%>)), sys_void())
 
-CONDITION_EXP := EXP ? EXP : EXP
+CONDITION_EXP := EXP ? EXP : EXP @sys_condition(<%= $1%>, <%= $3%>, <%= $5%>)
 
 # standard math style function calling, eg: f(1, 2)
-APPLICATION := CALLER ( ) 
-    | CALLER ( EXP_LIST )
+APPLICATION := CALLER ( ) @sys_application(<%= $1%>, sys_void())
+    | CALLER ( EXP_LIST ) @sys_application(<%= $1%>, <%= $3%>)
 
 # CALLER stands for any thing which can used directly as a function
-CALLER := variable 
-    | APPLICATION 
-    | ( ABSTRACTION )
+CALLER := variable @sys_variable("<%= $1%>")
+    | APPLICATION @<%= $1%>
+    | ( ABSTRACTION ) @<%= $2%>
 
-EXP_LIST := EXP 
-    | EXP , EXP_LIST
+EXP_LIST := EXP @<%= $1%>
+    | EXP , EXP_LIST @sys_pair(<%= $1%>, <%= $3%>)
 
 # define abstraction
-ABSTRACTION := GUARDED_ABSTRACTION_LIST
+ABSTRACTION := GUARDED_ABSTRACTION_LIST @sys_guarded_abstraction(<%= $1%>)
 
-GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION | GUARDED_ABSTRACTION verticalBar GUARDED_ABSTRACTION_LIST
+GUARDED_ABSTRACTION_LIST := GUARDED_ABSTRACTION @<%= $1%>
+    | GUARDED_ABSTRACTION verticalBar GUARDED_ABSTRACTION_LIST @sys_pair(<%= $1%>, <%= $3%>)
 
-GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION | ORDINARY_ABSTRACTION , EXP_LIST
+GUARDED_ABSTRACTION := ORDINARY_ABSTRACTION  @sys_guarded_abstraction_line(<%= $1%>, sys_void())
+    | ORDINARY_ABSTRACTION , EXP_LIST        @sys_guarded_abstraction_line(<%= $1%>, <%= $3%>)
 
-ORDINARY_ABSTRACTION := ( ) -> EXP
-    | ( LIST_VARIABLES ) -> EXP
+ORDINARY_ABSTRACTION := ( ) -> EXP  @sys_ordinary_abstraction(sys_void(), <%= $4%>)
+    | ( LIST_VARIABLES ) -> EXP     @sys_ordinary_abstraction(<%= $2%>, <%= $5%>)
 
-LIST_VARIABLES := variable 
-    | variable , LIST_VARIABLES
+LIST_VARIABLES := variable       @sys_variable("<%= $1%>")
+    | variable , LIST_VARIABLES  @sys_pair(sys_variable("<%= $1%>"), <%= $3%>)
 
 # below is the definition of ordinary json
-DATA := string 
-    | number 
-    | OBJECT 
-    | ARRAY 
-    | true 
-    | false 
-    | null
+DATA := string  @sys_string(<%= $1%>)
+    | number    @sys_number("<%= $1%>")
+    | OBJECT    @<%= $1%> 
+    | ARRAY     @<%= $1%>
+    | true      @sys_true()
+    | false     @sys_false()
+    | null      @sys_null()
 
-OBJECT := { KEY_VALUES } 
-    | { }
+OBJECT := { KEY_VALUES } @sys_object(<%= $2%>)
+    | { } @sys_object(sys_void())
 
-KEY_VALUES := string : PROGRAM 
-    | string : PROGRAM , KEY_VALUES
+KEY_VALUES := string : PROGRAM @sys_pair(sys_string(<%= $1%>), <%= $3%>)
+    | string : PROGRAM , KEY_VALUES @sys_pair(sys_pair(sys_string(<%= $1%>), <%= $3%>), <%=$5%>)
 
-ARRAY := [ ] 
-    | [ LIST_VALUES ]
+ARRAY := [ ] @sys_array(sys_void())
+    | [ LIST_VALUES ] @sys_array(<%= $2%>)
 
-LIST_VALUES := PROGRAM
-    | PROGRAM , LIST_VALUES
+LIST_VALUES := PROGRAM @<%= $1%>
+    | PROGRAM , LIST_VALUES @sys_pair(<%= $1%>, <%= $3%>)
