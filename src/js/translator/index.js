@@ -1,8 +1,9 @@
 'use strict';
 
 let template = require('lodash.template');
+let translateProdcution = require('./translateProduction');
 let {
-    getTranslateFun, wrapModule
+    wrapModule
 } = require('./pfcTranslator');
 let libraryMap = require('./library');
 let path = require('path');
@@ -37,8 +38,8 @@ module.exports = (target, opts = {}, {
             loadModule && loadModule(modulePath);
         }
 
-        let productionTranslater = getTranslateFun(production);
-        let code = translateProdcution(productionTranslater, midNode, target, optTranslator);
+        // translate current node
+        let code = translateProdcution(production, midNode, target, optTranslator);
         midNode.values = midNode.values || [];
         midNode.values[target] = code;
     };
@@ -75,29 +76,4 @@ module.exports = (target, opts = {}, {
         getCode,
         assembleWithTpl
     };
-};
-
-let translateProdcution = (productionTranslater, midNode, target, optTranslator) => {
-    let params = {};
-    let children = midNode.children;
-
-    for (let i = 0; i < children.length; i++) {
-        let child = children[i];
-        let childValue = '';
-        if (child.type === 'terminal') {
-            childValue = child.token.text;
-        } else {
-            childValue = child.values[target];
-        }
-        params[`$${i + 1}`] = childValue;
-    }
-
-    // TODO replace productionTranslater for specific optimazation to target language
-
-    let translator = productionTranslater;
-    if (optTranslator && optTranslator[translator]) {
-        translator = optTranslator[translator];
-    }
-
-    return template(translator)(params);
 };

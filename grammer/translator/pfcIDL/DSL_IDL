@@ -40,23 +40,3 @@ sys_condition(conditionExp, option1Exp, option2Exp) -> Model
 sys_guardedAbstractionLine(ordinaryAbstraction, guards) -> Model
 
 sys_guardedAbstraction(guardLines, context=null) -> Model
-
-# middle code structure
-# middle, partially apply abstraction
-middle_ordinary_abstraction(variableList, body, context) -> Model
-
-middle_statements_list(statementList) -> Model
-
-middle_identity(value) -> Model
-
-middle_importStatement(module, variable, nextStatements) -> Model
-
-middle_letStatement(letStatement, nextStatements) -> Model
-
-middle_applyGuardedAbstraction() -> Model
-
-middle_applyOrdinaryAbstraction(abstractionMiddle, params) -> Model
-
-middle_applyMetaMethod(metaMethod, params) -> Model
-
-middle_context(variableMap, parent) -> Model

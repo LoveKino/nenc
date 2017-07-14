@@ -14,16 +14,23 @@ let {
 } = require('pfc-idl-model-translator');
 
 let {
-    PFC_MODEL_IDL_PATH
+    PFC_DSL_IDL_PATH,
+    PFC_MIDDLE_IDL_PATH
 } = require('./constant');
 
-const PFC_MODLE_IDL_JS_PATH = path.join(__dirname, '../../grammer/library/js/nenc-js-interpreter/res/models.js');
+const PFC_DSL_IDL_JS_PATH = path.join(__dirname, '../../grammer/library/js/nenc-js-interpreter/res/dslModel.js');
+const PFC_MIDDLE_IDL_JS_PATH = path.join(__dirname, '../../grammer/library/js/nenc-js-interpreter/res/middleModel.js');
 
 module.exports = async() => {
-    let str = await readFile(PFC_MODEL_IDL_PATH, 'utf-8');
+    await toJsModel(PFC_DSL_IDL_PATH, PFC_DSL_IDL_JS_PATH);
+    await toJsModel(PFC_MIDDLE_IDL_PATH, PFC_MIDDLE_IDL_JS_PATH);
+};
+
+let toJsModel = async(filePath, targetPath) => {
+    let str = await readFile(filePath, 'utf-8');
     let ast = parse(str);
     let names = getModelNames(ast);
-    await writeFile(PFC_MODLE_IDL_JS_PATH, `${translator(ast)}\nmodule.exports = {${names.join(', ')}};`, 'utf-8');
+    await writeFile(targetPath, `${translator(ast)}\nmodule.exports = {${names.join(', ')}};`, 'utf-8');
 };
 
 let getModelNames = (ast) => {
