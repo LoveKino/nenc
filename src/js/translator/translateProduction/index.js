@@ -221,7 +221,6 @@ module.exports = (production, midNode, optTranslator) => {
     // get translate function
     let productionTranslater = getTranslateFun(production);
 
-    // TODO rearrange them
     let params = {};
     let children = midNode.children;
 
