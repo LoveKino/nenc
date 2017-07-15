@@ -14,70 +14,58 @@ module.exports = {
             "APPLICATION": 22,
             "CALLER": 23,
             "ABSTRACTION": 24,
-            "GUARDED_ABSTRACTION_LIST": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ORDINARY_ABSTRACTION": 27,
-            "DATA": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
+            "DATA": 25,
+            "OBJECT": 26,
+            "ARRAY": 27
         },
         {},
         {},
         {},
         {
-            "VARIABLE_DEFINITION_LIST": 33,
-            "VARIABLE_DEFINITION": 34
+            "VARIABLE_DEFINITION_LIST": 30,
+            "VARIABLE_DEFINITION": 31
         },
         {
-            "NONE_EMPTY_STATEMENTS": 47,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 62,
-            "ARRAY": 63
+            "NONE_EMPTY_STATEMENTS": 44,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 56,
+            "ARRAY": 57
         },
         {
-            "ABSTRACTION": 67,
-            "GUARDED_ABSTRACTION_LIST": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70,
-            "LIST_VARIABLES": 71
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 62
         },
         {},
         {},
         {},
         {},
         {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 102
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 90
         },
         {},
         {},
@@ -102,64 +90,52 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
         {
-            "VARIABLE_DEFINITION_LIST": 114,
-            "VARIABLE_DEFINITION": 115
+            "VARIABLE_DEFINITION_LIST": 100,
+            "VARIABLE_DEFINITION": 101
         },
         {
-            "NONE_EMPTY_STATEMENTS": 117,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 118,
-            "ARRAY": 63
+            "NONE_EMPTY_STATEMENTS": 103,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 104,
+            "ARRAY": 57
         },
         {},
         {
-            "ABSTRACTION": 67,
-            "GUARDED_ABSTRACTION_LIST": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70,
-            "LIST_VARIABLES": 120
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 106
         },
         {},
         {},
         {},
         {},
         {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 122
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 108
         },
         {},
         {},
@@ -176,11 +152,8 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
         {
-            "LIST_VARIABLES": 132
+            "LIST_VARIABLES": 116
         },
         {},
         {},
@@ -188,63 +161,51 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
         {
-            "VARIABLE_DEFINITION_LIST": 140,
-            "VARIABLE_DEFINITION": 141
+            "VARIABLE_DEFINITION_LIST": 122,
+            "VARIABLE_DEFINITION": 123
         },
         {
-            "NONE_EMPTY_STATEMENTS": 143,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 144,
-            "ARRAY": 63
+            "NONE_EMPTY_STATEMENTS": 125,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 126,
+            "ARRAY": 57
         },
         {
-            "ABSTRACTION": 67,
-            "GUARDED_ABSTRACTION_LIST": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70,
-            "LIST_VARIABLES": 146
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 128
         },
         {},
         {},
         {},
         {},
         {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 148
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 130
         },
         {},
         {},
@@ -263,11 +224,8 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
         {
-            "STATEMENTS": 156,
+            "STATEMENTS": 136,
             "NONE_EMPTY_STATEMENTS": 15,
             "STATEMENT": 16,
             "IMPORT_EXPRESSION": 17,
@@ -278,101 +236,66 @@ module.exports = {
             "APPLICATION": 22,
             "CALLER": 23,
             "ABSTRACTION": 24,
-            "GUARDED_ABSTRACTION_LIST": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ORDINARY_ABSTRACTION": 27,
-            "DATA": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
+            "DATA": 25,
+            "OBJECT": 26,
+            "ARRAY": 27
         },
         {
-            "EXP": 166,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 146,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 170,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 193,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 202,
-            "GUARDED_ABSTRACTION": 26,
-            "ORDINARY_ABSTRACTION": 27
-        },
-        {
-            "EXP": 211,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "EXP_LIST": 216,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {
-            "EXP": 233,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "ABSTRACTION": 238,
-            "GUARDED_ABSTRACTION_LIST": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
+            "EXP": 185,
+            "CODE_BLOCK_EXP": 186,
+            "CONDITION_EXP": 187,
+            "APPLICATION": 188,
+            "CALLER": 189,
+            "ABSTRACTION": 190,
+            "DATA": 191,
+            "OBJECT": 192,
+            "ARRAY": 193
         },
         {
-            "VARIABLE_DEFINITION_LIST": 244,
-            "VARIABLE_DEFINITION": 34
+            "VARIABLE_DEFINITION_LIST": 194,
+            "VARIABLE_DEFINITION": 31
         },
         {},
         {
-            "PROGRAM": 256,
-            "STATEMENTS": 257,
-            "NONE_EMPTY_STATEMENTS": 258,
-            "STATEMENT": 259,
-            "IMPORT_EXPRESSION": 260,
-            "LET_EXPRESSION": 261,
-            "EXP": 262,
-            "CODE_BLOCK_EXP": 263,
-            "CONDITION_EXP": 264,
-            "APPLICATION": 265,
-            "CALLER": 266,
-            "ABSTRACTION": 267,
-            "GUARDED_ABSTRACTION_LIST": 268,
-            "GUARDED_ABSTRACTION": 269,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 271,
-            "OBJECT": 272,
-            "ARRAY": 273
+            "PROGRAM": 207,
+            "STATEMENTS": 208,
+            "NONE_EMPTY_STATEMENTS": 209,
+            "STATEMENT": 210,
+            "IMPORT_EXPRESSION": 211,
+            "LET_EXPRESSION": 212,
+            "EXP": 213,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
         },
         {},
         {},
@@ -386,908 +309,61 @@ module.exports = {
         {},
         {},
         {
-            "STATEMENTS": 282,
-            "NONE_EMPTY_STATEMENTS": 283,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "ARRAY": 63
+            "STATEMENTS": 230,
+            "NONE_EMPTY_STATEMENTS": 231,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "ARRAY": 57
         },
         {
-            "EXP": 284,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 232,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 234,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 286,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 288,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59
-        },
-        {
-            "EXP": 297,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "EXP_LIST": 302,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {
-            "LIST_VARIABLES": 309
+            "LIST_VARIABLES": 235
         },
         {},
         {},
         {
-            "EXP": 312,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {},
-        {
-            "GUARDED_ABSTRACTION_LIST": 313,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70
-        },
-        {
-            "EXP": 322,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "EXP_LIST": 327,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 343
-        },
-        {
-            "STATEMENTS": 344,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
-        },
-        {
-            "EXP": 345,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
-            "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 347,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 349,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98
-        },
-        {
-            "EXP": 358,
-            "CODE_BLOCK_EXP": 359,
-            "CONDITION_EXP": 360,
-            "APPLICATION": 361,
-            "CALLER": 362,
-            "EXP_LIST": 363,
-            "ABSTRACTION": 364,
-            "GUARDED_ABSTRACTION_LIST": 365,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 367,
-            "OBJECT": 368,
-            "ARRAY": 369
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 371,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 372,
-            "ARRAY": 63
-        },
-        {
-            "ABSTRACTION": 67,
-            "GUARDED_ABSTRACTION_LIST": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70,
-            "LIST_VARIABLES": 374
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 376
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 383,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 384,
-            "ARRAY": 63
-        },
-        {
-            "ABSTRACTION": 67,
-            "GUARDED_ABSTRACTION_LIST": 68,
-            "GUARDED_ABSTRACTION": 69,
-            "ORDINARY_ABSTRACTION": 70,
-            "LIST_VARIABLES": 386
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 388
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 71
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 396,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 397,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 399
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 406,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 407,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 409
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "VARIABLE_DEFINITION_LIST": 415,
-            "VARIABLE_DEFINITION": 416
-        },
-        {
-            "NONE_EMPTY_STATEMENTS": 418,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 419,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 421
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 428,
-            "CODE_BLOCK_EXP": 263,
-            "CONDITION_EXP": 264,
-            "APPLICATION": 265,
-            "CALLER": 266,
-            "ABSTRACTION": 267,
-            "GUARDED_ABSTRACTION_LIST": 268,
-            "GUARDED_ABSTRACTION": 269,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 271,
-            "OBJECT": 272,
-            "ARRAY": 273
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 429,
-            "VARIABLE_DEFINITION": 115
-        },
-        {},
-        {},
-        {
-            "EXP": 430,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 120
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 435,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 436,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 438
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 443,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 446,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 447,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 449
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 454,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {},
-        {
-            "EXP": 456,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
-        },
-        {
-            "VARIABLE_DEFINITION_LIST": 457,
-            "VARIABLE_DEFINITION": 141
-        },
-        {},
-        {},
-        {
-            "EXP": 458,
-            "CODE_BLOCK_EXP": 359,
-            "CONDITION_EXP": 360,
-            "APPLICATION": 361,
-            "CALLER": 362,
-            "ABSTRACTION": 364,
-            "GUARDED_ABSTRACTION_LIST": 365,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 367,
-            "OBJECT": 368,
-            "ARRAY": 369
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 146
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 463,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 464,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 466
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 476,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
-            "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 477,
+            "EXP": 238,
             "CODE_BLOCK_EXP": 20,
             "CONDITION_EXP": 21,
             "APPLICATION": 22,
             "CALLER": 23,
             "ABSTRACTION": 24,
-            "GUARDED_ABSTRACTION_LIST": 25,
-            "GUARDED_ABSTRACTION": 26,
-            "ORDINARY_ABSTRACTION": 27,
-            "DATA": 28,
-            "OBJECT": 29,
-            "ARRAY": 30
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 479,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 481,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174
-        },
-        {
-            "EXP": 490,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "EXP_LIST": 495,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "ABSTRACTION_BODY": 239,
+            "DATA": 25,
+            "OBJECT": 26,
+            "ARRAY": 27
         },
         {},
         {},
@@ -1296,447 +372,486 @@ module.exports = {
         {},
         {},
         {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 508,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 249
         },
         {
-            "EXP": 509,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "STATEMENTS": 250,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
+        },
+        {
+            "EXP": 251,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 253,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 511,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {},
-        {
-            "GUARDED_ABSTRACTION_LIST": 513,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197
-        },
-        {
-            "EXP": 514,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "EXP_LIST": 515,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {},
         {},
         {},
-        {},
         {
-            "EXP": 211,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "EXP_LIST": 519,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "NONE_EMPTY_STATEMENTS": 255,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 256,
+            "ARRAY": 57
         },
         {
-            "EXP": 520,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 258
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 260
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 265,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 266,
+            "ARRAY": 57
+        },
+        {
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 268
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 270
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 276,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 277,
+            "ARRAY": 57
+        },
+        {
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 279
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 281
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "VARIABLE_DEFINITION_LIST": 286,
+            "VARIABLE_DEFINITION": 287
+        },
+        {
+            "NONE_EMPTY_STATEMENTS": 289,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 290,
+            "ARRAY": 57
+        },
+        {
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 292
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 294
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 299,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
+        },
+        {
+            "VARIABLE_DEFINITION_LIST": 300,
+            "VARIABLE_DEFINITION": 101
+        },
+        {},
+        {},
+        {
+            "EXP": 301,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "ABSTRACTION_BODY": 302,
+            "DATA": 54,
+            "OBJECT": 55,
+            "ARRAY": 57
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 315,
+            "CODE_BLOCK_EXP": 316,
+            "CONDITION_EXP": 317,
+            "APPLICATION": 318,
+            "CALLER": 319,
+            "ABSTRACTION": 320,
+            "ABSTRACTION_BODY": 321,
+            "DATA": 322,
+            "OBJECT": 323,
+            "ARRAY": 324
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 238,
+            "CODE_BLOCK_EXP": 20,
+            "CONDITION_EXP": 21,
+            "APPLICATION": 22,
+            "CALLER": 23,
+            "ABSTRACTION": 24,
+            "ABSTRACTION_BODY": 326,
+            "DATA": 25,
+            "OBJECT": 26,
+            "ARRAY": 27
+        },
+        {},
+        {
+            "EXP": 328,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
+        },
+        {
+            "VARIABLE_DEFINITION_LIST": 329,
+            "VARIABLE_DEFINITION": 123
+        },
+        {},
+        {},
+        {
+            "EXP": 330,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "ABSTRACTION_BODY": 331,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 340,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 341,
+            "CODE_BLOCK_EXP": 20,
+            "CONDITION_EXP": 21,
+            "APPLICATION": 22,
+            "CALLER": 23,
+            "ABSTRACTION": 24,
+            "DATA": 25,
+            "OBJECT": 26,
+            "ARRAY": 27
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 343,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 522,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 523,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220
-        },
-        {
-            "EXP": 524,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "EXP_LIST": 525,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {},
         {},
         {},
         {},
+        {},
+        {},
         {
-            "EXP": 529,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 349,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 531,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
+            "EXP": 350,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
         },
         {
-            "GUARDED_ABSTRACTION_LIST": 532,
-            "GUARDED_ABSTRACTION": 240,
-            "ORDINARY_ABSTRACTION": 220
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "KEY_VALUES": 539
-        },
-        {
-            "STATEMENTS": 540,
-            "NONE_EMPTY_STATEMENTS": 258,
-            "STATEMENT": 259,
-            "IMPORT_EXPRESSION": 260,
-            "LET_EXPRESSION": 261,
-            "EXP": 262,
-            "CODE_BLOCK_EXP": 263,
-            "CONDITION_EXP": 264,
-            "APPLICATION": 265,
-            "CALLER": 266,
-            "ABSTRACTION": 267,
-            "GUARDED_ABSTRACTION_LIST": 268,
-            "GUARDED_ABSTRACTION": 269,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 271,
-            "OBJECT": 272,
-            "ARRAY": 273
-        },
-        {
-            "EXP": 541,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 352,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 543,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 544,
-            "GUARDED_ABSTRACTION": 269,
-            "ORDINARY_ABSTRACTION": 270
-        },
-        {
-            "EXP": 545,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "EXP_LIST": 546,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {},
-        {},
-        {
-            "EXP": 547,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
-        },
-        {
-            "EXP": 548,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 297,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "EXP_LIST": 552,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
-        },
-        {
-            "EXP": 553,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
-            "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 555,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 556,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270
-        },
-        {},
-        {
-            "EXP": 557,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 322,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "EXP_LIST": 561,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {
-            "EXP": 562,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
-            "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 564,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 565,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 566,
-            "CODE_BLOCK_EXP": 359,
-            "CONDITION_EXP": 360,
-            "APPLICATION": 361,
-            "CALLER": 362,
-            "ABSTRACTION": 364,
-            "GUARDED_ABSTRACTION_LIST": 365,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 367,
-            "OBJECT": 368,
-            "ARRAY": 369
-        },
-        {
-            "EXP": 567,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101
-        },
         {},
         {},
         {},
@@ -1745,124 +860,26 @@ module.exports = {
         {},
         {
             "EXP": 358,
-            "CODE_BLOCK_EXP": 359,
-            "CONDITION_EXP": 360,
-            "APPLICATION": 361,
-            "CALLER": 362,
-            "EXP_LIST": 571,
-            "ABSTRACTION": 364,
-            "GUARDED_ABSTRACTION_LIST": 365,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 367,
-            "OBJECT": 368,
-            "ARRAY": 369
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
         },
         {
-            "EXP": 572,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 360,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 574,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 575,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98
-        },
-        {},
-        {},
-        {
-            "EXP": 576,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 374
-        },
-        {},
-        {},
-        {},
-        {
-            "NONE_EMPTY_STATEMENTS": 581,
-            "STATEMENT": 48,
-            "IMPORT_EXPRESSION": 49,
-            "LET_EXPRESSION": 50,
-            "EXP": 51,
-            "CODE_BLOCK_EXP": 52,
-            "CONDITION_EXP": 53,
-            "APPLICATION": 54,
-            "CALLER": 55,
-            "ABSTRACTION": 56,
-            "GUARDED_ABSTRACTION_LIST": 57,
-            "GUARDED_ABSTRACTION": 58,
-            "ORDINARY_ABSTRACTION": 59,
-            "DATA": 60,
-            "OBJECT": 61,
-            "KEY_VALUES": 582,
-            "ARRAY": 63
-        },
-        {},
-        {},
-        {},
-        {},
-        {
-            "PROGRAM": 84,
-            "STATEMENTS": 85,
-            "NONE_EMPTY_STATEMENTS": 86,
-            "STATEMENT": 87,
-            "IMPORT_EXPRESSION": 88,
-            "LET_EXPRESSION": 89,
-            "EXP": 90,
-            "CODE_BLOCK_EXP": 91,
-            "CONDITION_EXP": 92,
-            "APPLICATION": 93,
-            "CALLER": 94,
-            "ABSTRACTION": 95,
-            "GUARDED_ABSTRACTION_LIST": 96,
-            "GUARDED_ABSTRACTION": 97,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 99,
-            "OBJECT": 100,
-            "ARRAY": 101,
-            "LIST_VALUES": 584
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
         {},
@@ -1875,127 +892,141 @@ module.exports = {
         {},
         {},
         {},
-        {},
-        {},
-        {},
-        {},
         {
-            "EXP": 590,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "LIST_VARIABLES": 386
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "VARIABLE_DEFINITION_LIST": 601,
-            "VARIABLE_DEFINITION": 416
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {
-            "EXP": 611,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "KEY_VALUES": 369
         },
         {
-            "EXP": 612,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "STATEMENTS": 370,
+            "NONE_EMPTY_STATEMENTS": 209,
+            "STATEMENT": 210,
+            "IMPORT_EXPRESSION": 211,
+            "LET_EXPRESSION": 212,
+            "EXP": 213,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
+        },
+        {
+            "EXP": 371,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 373,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 301,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "ABSTRACTION_BODY": 374,
+            "DATA": 54,
+            "OBJECT": 55,
+            "ARRAY": 57
+        },
+        {
+            "EXP": 375,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "ARRAY": 57
+        },
+        {},
+        {},
+        {},
+        {
+            "NONE_EMPTY_STATEMENTS": 377,
+            "STATEMENT": 45,
+            "IMPORT_EXPRESSION": 46,
+            "LET_EXPRESSION": 47,
+            "EXP": 48,
+            "CODE_BLOCK_EXP": 49,
+            "CONDITION_EXP": 50,
+            "APPLICATION": 51,
+            "CALLER": 52,
+            "ABSTRACTION": 53,
+            "DATA": 54,
+            "OBJECT": 55,
+            "KEY_VALUES": 378,
+            "ARRAY": 57
+        },
+        {
+            "ABSTRACTION": 61,
+            "LIST_VARIABLES": 380
+        },
+        {},
+        {},
+        {},
+        {},
+        {
+            "PROGRAM": 75,
+            "STATEMENTS": 76,
+            "NONE_EMPTY_STATEMENTS": 77,
+            "STATEMENT": 78,
+            "IMPORT_EXPRESSION": 79,
+            "LET_EXPRESSION": 80,
+            "EXP": 81,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89,
+            "LIST_VALUES": 382
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 315,
+            "CODE_BLOCK_EXP": 316,
+            "CONDITION_EXP": 317,
+            "APPLICATION": 318,
+            "CALLER": 319,
+            "ABSTRACTION": 320,
+            "ABSTRACTION_BODY": 385,
+            "DATA": 322,
+            "OBJECT": 323,
+            "ARRAY": 324
         },
         {},
         {},
@@ -2004,242 +1035,107 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 490,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "EXP_LIST": 616,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "EXP": 330,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "ABSTRACTION_BODY": 386,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
         },
         {
-            "EXP": 617,
-            "CODE_BLOCK_EXP": 167,
-            "CONDITION_EXP": 168,
-            "APPLICATION": 169,
-            "CALLER": 170,
+            "EXP": 387,
+            "CODE_BLOCK_EXP": 82,
+            "CONDITION_EXP": 83,
+            "APPLICATION": 84,
+            "CALLER": 85,
+            "ABSTRACTION": 86,
+            "DATA": 87,
+            "OBJECT": 88,
+            "ARRAY": 89
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 388,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "ABSTRACTION_BODY": 389,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 393,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
             "ABSTRACTION": 171,
-            "GUARDED_ABSTRACTION_LIST": 172,
-            "GUARDED_ABSTRACTION": 173,
-            "ORDINARY_ABSTRACTION": 174,
-            "DATA": 175,
-            "OBJECT": 176,
-            "ARRAY": 177
-        },
-        {
-            "EXP": 188,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "EXP_LIST": 619,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
-        {
-            "GUARDED_ABSTRACTION_LIST": 620,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499
-        },
-        {
-            "EXP": 621,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "EXP_LIST": 622,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "ABSTRACTION_BODY": 394,
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
-        {
-            "EXP": 623,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {
-            "EXP": 624,
-            "CODE_BLOCK_EXP": 189,
-            "CONDITION_EXP": 190,
-            "APPLICATION": 191,
-            "CALLER": 192,
-            "ABSTRACTION": 194,
-            "GUARDED_ABSTRACTION_LIST": 195,
-            "GUARDED_ABSTRACTION": 196,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 198,
-            "OBJECT": 199,
-            "ARRAY": 200
-        },
         {},
-        {
-            "EXP": 514,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "EXP_LIST": 625,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
-        },
-        {
-            "EXP": 626,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
         {},
-        {
-            "EXP": 524,
-            "CODE_BLOCK_EXP": 212,
-            "CONDITION_EXP": 213,
-            "APPLICATION": 214,
-            "CALLER": 215,
-            "EXP_LIST": 627,
-            "ABSTRACTION": 217,
-            "GUARDED_ABSTRACTION_LIST": 218,
-            "GUARDED_ABSTRACTION": 219,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 221,
-            "OBJECT": 222,
-            "ARRAY": 223
-        },
-        {
-            "EXP": 628,
-            "CODE_BLOCK_EXP": 234,
-            "CONDITION_EXP": 235,
-            "APPLICATION": 236,
-            "CALLER": 237,
-            "ABSTRACTION": 238,
-            "GUARDED_ABSTRACTION_LIST": 239,
-            "GUARDED_ABSTRACTION": 240,
-            "ORDINARY_ABSTRACTION": 220,
-            "DATA": 241,
-            "OBJECT": 242,
-            "ARRAY": 243
-        },
+        {},
+        {},
         {},
         {},
         {},
         {
-            "EXP": 629,
-            "CODE_BLOCK_EXP": 263,
-            "CONDITION_EXP": 264,
-            "APPLICATION": 265,
-            "CALLER": 266,
-            "ABSTRACTION": 267,
-            "GUARDED_ABSTRACTION_LIST": 268,
-            "GUARDED_ABSTRACTION": 269,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 271,
-            "OBJECT": 272,
-            "ARRAY": 273
+            "EXP": 398,
+            "CODE_BLOCK_EXP": 186,
+            "CONDITION_EXP": 187,
+            "APPLICATION": 188,
+            "CALLER": 189,
+            "ABSTRACTION": 190,
+            "ABSTRACTION_BODY": 399,
+            "DATA": 191,
+            "OBJECT": 192,
+            "ARRAY": 193
         },
+        {},
+        {},
+        {},
+        {},
+        {},
         {},
         {
-            "EXP": 545,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "EXP_LIST": 630,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
+            "VARIABLE_DEFINITION_LIST": 404,
+            "VARIABLE_DEFINITION": 287
         },
-        {
-            "EXP": 631,
-            "CODE_BLOCK_EXP": 298,
-            "CONDITION_EXP": 299,
-            "APPLICATION": 300,
-            "CALLER": 301,
-            "ABSTRACTION": 303,
-            "GUARDED_ABSTRACTION_LIST": 304,
-            "GUARDED_ABSTRACTION": 305,
-            "ORDINARY_ABSTRACTION": 270,
-            "DATA": 306,
-            "OBJECT": 307,
-            "ARRAY": 308
-        },
+        {},
         {},
         {
-            "EXP": 632,
-            "CODE_BLOCK_EXP": 323,
-            "CONDITION_EXP": 324,
-            "APPLICATION": 325,
-            "CALLER": 326,
-            "ABSTRACTION": 328,
-            "GUARDED_ABSTRACTION_LIST": 329,
-            "GUARDED_ABSTRACTION": 330,
-            "ORDINARY_ABSTRACTION": 197,
-            "DATA": 331,
-            "OBJECT": 332,
-            "ARRAY": 333
+            "EXP": 405,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "ABSTRACTION_BODY": 406,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
         },
-        {},
-        {
-            "EXP": 633,
-            "CODE_BLOCK_EXP": 359,
-            "CONDITION_EXP": 360,
-            "APPLICATION": 361,
-            "CALLER": 362,
-            "ABSTRACTION": 364,
-            "GUARDED_ABSTRACTION_LIST": 365,
-            "GUARDED_ABSTRACTION": 366,
-            "ORDINARY_ABSTRACTION": 98,
-            "DATA": 367,
-            "OBJECT": 368,
-            "ARRAY": 369
-        },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {},
         {},
         {},
@@ -2258,35 +1154,190 @@ module.exports = {
         {},
         {},
         {
-            "EXP": 637,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "EXP": 415,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {
+            "EXP": 165,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "EXP_LIST": 417,
+            "ABSTRACTION": 171,
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
         },
         {},
+        {},
+        {},
+        {},
+        {},
         {
-            "EXP": 621,
-            "CODE_BLOCK_EXP": 491,
-            "CONDITION_EXP": 492,
-            "APPLICATION": 493,
-            "CALLER": 494,
-            "EXP_LIST": 638,
-            "ABSTRACTION": 496,
-            "GUARDED_ABSTRACTION_LIST": 497,
-            "GUARDED_ABSTRACTION": 498,
-            "ORDINARY_ABSTRACTION": 499,
-            "DATA": 500,
-            "OBJECT": 501,
-            "ARRAY": 502
+            "EXP": 388,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "ABSTRACTION_BODY": 418,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
         },
+        {
+            "EXP": 419,
+            "CODE_BLOCK_EXP": 147,
+            "CONDITION_EXP": 148,
+            "APPLICATION": 149,
+            "CALLER": 150,
+            "ABSTRACTION": 151,
+            "DATA": 152,
+            "OBJECT": 153,
+            "ARRAY": 154
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 393,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "ABSTRACTION": 171,
+            "ABSTRACTION_BODY": 420,
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
+        },
+        {
+            "EXP": 421,
+            "CODE_BLOCK_EXP": 166,
+            "CONDITION_EXP": 167,
+            "APPLICATION": 168,
+            "CALLER": 169,
+            "ABSTRACTION": 171,
+            "DATA": 172,
+            "OBJECT": 173,
+            "ARRAY": 174
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 398,
+            "CODE_BLOCK_EXP": 186,
+            "CONDITION_EXP": 187,
+            "APPLICATION": 188,
+            "CALLER": 189,
+            "ABSTRACTION": 190,
+            "ABSTRACTION_BODY": 422,
+            "DATA": 191,
+            "OBJECT": 192,
+            "ARRAY": 193
+        },
+        {
+            "EXP": 423,
+            "CODE_BLOCK_EXP": 186,
+            "CONDITION_EXP": 187,
+            "APPLICATION": 188,
+            "CALLER": 189,
+            "ABSTRACTION": 190,
+            "DATA": 191,
+            "OBJECT": 192,
+            "ARRAY": 193
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 405,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "ABSTRACTION_BODY": 424,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
+        },
+        {
+            "EXP": 425,
+            "CODE_BLOCK_EXP": 214,
+            "CONDITION_EXP": 215,
+            "APPLICATION": 216,
+            "CALLER": 217,
+            "ABSTRACTION": 218,
+            "DATA": 219,
+            "OBJECT": 220,
+            "ARRAY": 221
+        },
+        {},
+        {},
+        {},
+        {
+            "EXP": 426,
+            "CODE_BLOCK_EXP": 316,
+            "CONDITION_EXP": 317,
+            "APPLICATION": 318,
+            "CALLER": 319,
+            "ABSTRACTION": 320,
+            "ABSTRACTION_BODY": 427,
+            "DATA": 322,
+            "OBJECT": 323,
+            "ARRAY": 324
+        },
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+            "EXP": 426,
+            "CODE_BLOCK_EXP": 316,
+            "CONDITION_EXP": 317,
+            "APPLICATION": 318,
+            "CALLER": 319,
+            "ABSTRACTION": 320,
+            "ABSTRACTION_BODY": 431,
+            "DATA": 322,
+            "OBJECT": 323,
+            "ARRAY": 324
+        },
+        {
+            "EXP": 432,
+            "CODE_BLOCK_EXP": 316,
+            "CONDITION_EXP": 317,
+            "APPLICATION": 318,
+            "CALLER": 319,
+            "ABSTRACTION": 320,
+            "DATA": 322,
+            "OBJECT": 323,
+            "ARRAY": 324
+        },
+        {},
         {},
         {}
     ],
@@ -2297,7 +1348,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
@@ -2332,6 +1383,10 @@ module.exports = {
                 "type": "shift",
                 "state": 10
             },
+            "(": {
+                "type": "shift",
+                "state": 6
+            },
             "{": {
                 "type": "shift",
                 "state": 5
@@ -2339,16 +1394,12 @@ module.exports = {
             "[": {
                 "type": "shift",
                 "state": 11
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 31
+                "state": 28
             }
         },
         {
@@ -2359,7 +1410,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ";": {
@@ -2369,7 +1420,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -2379,7 +1430,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -2428,71 +1479,71 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 32
+                "state": 29
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 40
+                "state": 37
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 66
+                "state": 60
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 59
             }
         },
         {
@@ -2629,7 +1680,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -2637,52 +1688,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
@@ -2734,12 +1785,12 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ";": {
                 "type": "shift",
-                "state": 103
+                "state": 91
             }
         },
         {
@@ -2809,7 +1860,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 104
+                "state": 92
             }
         },
         {
@@ -2921,7 +1972,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 105
+                "state": 93
             }
         },
         {
@@ -2960,125 +2011,11 @@ module.exports = {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 106
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 107
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ";": {
@@ -3088,7 +2025,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -3098,7 +2035,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
@@ -3169,7 +2106,7 @@ module.exports = {
         {
             "as": {
                 "type": "shift",
-                "state": 108
+                "state": 94
             }
         },
         {
@@ -3180,7 +2117,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             ",": {
@@ -3190,7 +2127,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             ";": {
@@ -3200,12 +2137,12 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             "=": {
                 "type": "shift",
-                "state": 109
+                "state": 95
             }
         },
         {
@@ -3240,7 +2177,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ";": {
@@ -3250,24 +2187,24 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 110
+                "state": 96
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 111
+                "state": 97
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 112
+                "state": 98
             },
             ";": {
                 "type": "reduce",
@@ -3276,7 +2213,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -3286,7 +2223,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "}": {
@@ -3296,7 +2233,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -3345,57 +2282,57 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 113
+                "state": 99
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 116
+                "state": 102
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
@@ -3407,7 +2344,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ";": {
@@ -3418,7 +2355,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -3429,22 +2366,22 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 119
+                "state": 105
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 59
             }
         },
         {
@@ -3581,7 +2518,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -3589,58 +2526,58 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 123
+                "state": 109
             }
         },
         {
@@ -3651,12 +2588,12 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ";": {
                 "type": "shift",
-                "state": 124
+                "state": 110
             }
         },
         {
@@ -3726,7 +2663,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 125
+                "state": 111
             }
         },
         {
@@ -3838,7 +2775,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 126
+                "state": 112
             }
         },
         {
@@ -3877,125 +2814,11 @@ module.exports = {
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 127
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 128
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -4005,7 +2828,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "}": {
@@ -4015,7 +2838,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
@@ -4054,7 +2877,7 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 129
+                "state": 113
             }
         },
         {
@@ -4097,100 +2920,46 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_variable($1)"
+                    "single(sys_variable($1))"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 130
+                "state": 114
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 131
+                "state": 115
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 133
+                "state": 117
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 134
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 135
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 136
+                "state": 118
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 137
+                "state": 119
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 138
+                "state": 120
             }
         },
         {
@@ -4201,7 +2970,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ";": {
@@ -4211,7 +2980,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -4221,7 +2990,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "]": {
@@ -4231,7 +3000,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -4290,71 +3059,71 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 139
+                "state": 121
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 142
+                "state": 124
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 145
+                "state": 127
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 59
             }
         },
         {
@@ -4531,7 +3300,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -4539,52 +3308,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
@@ -4596,7 +3365,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             ";": {
@@ -4607,7 +3376,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -4618,7 +3387,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
@@ -4630,12 +3399,12 @@ module.exports = {
                     [
                         "PROGRAM"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 149
+                "state": 131
             }
         },
         {
@@ -4690,7 +3459,7 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             "]": {
@@ -4700,12 +3469,12 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ";": {
                 "type": "shift",
-                "state": 150
+                "state": 132
             }
         },
         {
@@ -4805,7 +3574,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 151
+                "state": 133
             }
         },
         {
@@ -4947,7 +3716,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 152
+                "state": 134
             }
         },
         {
@@ -4996,145 +3765,11 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 153
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 154
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ";": {
@@ -5144,7 +3779,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -5154,7 +3789,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "]": {
@@ -5164,7 +3799,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
@@ -5255,7 +3890,7 @@ module.exports = {
         {
             "]": {
                 "type": "shift",
-                "state": 155
+                "state": 135
             }
         },
         {
@@ -5264,7 +3899,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
@@ -5299,6 +3934,10 @@ module.exports = {
                 "type": "shift",
                 "state": 10
             },
+            "(": {
+                "type": "shift",
+                "state": 6
+            },
             "{": {
                 "type": "shift",
                 "state": 5
@@ -5306,190 +3945,142 @@ module.exports = {
             "[": {
                 "type": "shift",
                 "state": 11
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 182
+                "state": 159
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
                 "type": "shift",
-                "state": 184
+                "state": 161
             },
             "false": {
                 "type": "shift",
-                "state": 185
+                "state": 162
             },
             "null": {
                 "type": "shift",
-                "state": 186
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
             },
             "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 175
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 177
+            },
+            "string": {
+                "type": "shift",
+                "state": 176
+            },
+            "number": {
                 "type": "shift",
                 "state": 180
             },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
+            "true": {
                 "type": "shift",
                 "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 201
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 206
-            },
-            "true": {
-                "type": "shift",
-                "state": 207
             },
             "false": {
                 "type": "shift",
-                "state": 208
+                "state": 182
             },
             "null": {
                 "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
+                "state": 183
             },
             "(": {
                 "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 224
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 226
-            },
-            "string": {
-                "type": "shift",
-                "state": 225
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
+                "state": 179
             },
             "{": {
                 "type": "shift",
-                "state": 227
+                "state": 178
             },
             "[": {
                 "type": "shift",
-                "state": 232
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
+                "state": 184
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 32
+                "state": 29
             }
         },
         {
             "as": {
                 "type": "shift",
-                "state": 245
+                "state": 195
             }
         },
         {
@@ -5498,7 +4089,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "}": {
@@ -5506,52 +4097,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 248
+                "state": 198
             },
             "let": {
                 "type": "shift",
-                "state": 249
+                "state": 199
             },
             "import": {
                 "type": "shift",
-                "state": 246
+                "state": 196
             },
             "string": {
                 "type": "shift",
-                "state": 247
+                "state": 197
             },
             "number": {
                 "type": "shift",
-                "state": 251
+                "state": 202
             },
             "true": {
                 "type": "shift",
-                "state": 252
+                "state": 203
             },
             "false": {
                 "type": "shift",
-                "state": 253
+                "state": 204
             },
             "null": {
                 "type": "shift",
-                "state": 254
-            },
-            "{": {
-                "type": "shift",
-                "state": 250
-            },
-            "[": {
-                "type": "shift",
-                "state": 255
+                "state": 205
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
             }
         },
         {
@@ -5562,7 +4153,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             ";": {
@@ -5572,7 +4163,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             "}": {
@@ -5582,12 +4173,12 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             "=": {
                 "type": "shift",
-                "state": 274
+                "state": 222
             }
         },
         {
@@ -5622,7 +4213,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             "}": {
@@ -5632,12 +4223,12 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 275
+                "state": 223
             }
         },
         {
@@ -5649,7 +4240,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -5660,7 +4251,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "}": {
@@ -5671,32 +4262,32 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 276
+                "state": 224
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 277
+                "state": 225
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 278
+                "state": 226
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 279
+                "state": 227
             }
         },
         {
@@ -5708,7 +4299,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -5719,7 +4310,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "}": {
@@ -5730,14 +4321,14 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
         {
             "]": {
                 "type": "shift",
-                "state": 280
+                "state": 228
             }
         },
         {
@@ -5750,7 +4341,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             ";": {
@@ -5762,7 +4353,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
@@ -5774,7 +4365,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
@@ -5784,176 +4375,132 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "string": {
                 "type": "shift",
-                "state": 281
+                "state": 229
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 285
+                "state": 233
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
                 "type": "shift",
-                "state": 184
+                "state": 161
             },
             "false": {
                 "type": "shift",
-                "state": 185
+                "state": 162
             },
             "null": {
                 "type": "shift",
-                "state": 186
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
             },
             "{": {
                 "type": "shift",
-                "state": 180
+                "state": 157
             },
             "[": {
                 "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 287
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
+                "state": 164
             }
         },
         {
@@ -5997,57 +4544,57 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 310
+                "state": 236
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 311
+                "state": 237
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 3
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 2
             },
             "number": {
                 "type": "shift",
-                "state": 206
+                "state": 7
             },
             "true": {
                 "type": "shift",
-                "state": 207
+                "state": 8
             },
             "false": {
                 "type": "shift",
-                "state": 208
+                "state": 9
             },
             "null": {
                 "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
+                "state": 10
             },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "{": {
+                "type": "shift",
+                "state": 5
+            },
+            "[": {
+                "type": "shift",
+                "state": 11
             }
         },
         {
@@ -6065,59 +4612,15 @@ module.exports = {
             }
         },
         {
-            "(": {
-                "type": "shift",
-                "state": 65
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
             "->": {
                 "type": "shift",
-                "state": 334
+                "state": 240
             }
         },
         {
             "as": {
                 "type": "shift",
-                "state": 335
+                "state": 241
             }
         },
         {
@@ -6128,7 +4631,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             ";": {
@@ -6138,7 +4641,7 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             "]": {
@@ -6148,12 +4651,12 @@ module.exports = {
                     [
                         "variable"
                     ],
-                    "sys_pair(sys_variable($1), sys_void())"
+                    "single($1)"
                 ]
             },
             "=": {
                 "type": "shift",
-                "state": 336
+                "state": 242
             }
         },
         {
@@ -6194,7 +4697,7 @@ module.exports = {
         {
             ",": {
                 "type": "shift",
-                "state": 337
+                "state": 243
             },
             ";": {
                 "type": "reduce",
@@ -6203,7 +4706,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             "]": {
@@ -6213,7 +4716,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             }
         },
@@ -6226,7 +4729,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ";": {
@@ -6237,7 +4740,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -6248,7 +4751,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "]": {
@@ -6259,32 +4762,32 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 338
+                "state": 244
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 339
+                "state": 245
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 340
+                "state": 246
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 341
+                "state": 247
             }
         },
         {
@@ -6296,7 +4799,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             ";": {
@@ -6307,7 +4810,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -6318,7 +4821,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "]": {
@@ -6329,14 +4832,14 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
         {
             "]": {
                 "type": "shift",
-                "state": 342
+                "state": 248
             }
         },
         {
@@ -6345,7 +4848,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "]": {
@@ -6353,52 +4856,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
@@ -6407,7 +4910,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "]": {
@@ -6415,176 +4918,132 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 346
+                "state": 252
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
                 "type": "shift",
-                "state": 184
+                "state": 161
             },
             "false": {
                 "type": "shift",
-                "state": 185
+                "state": 162
             },
             "null": {
                 "type": "shift",
-                "state": 186
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
             },
             "{": {
                 "type": "shift",
-                "state": 180
+                "state": 157
             },
             "[": {
                 "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 348
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 351
-            },
-            "string": {
-                "type": "shift",
-                "state": 350
-            },
-            "number": {
-                "type": "shift",
-                "state": 353
-            },
-            "true": {
-                "type": "shift",
-                "state": 354
-            },
-            "false": {
-                "type": "shift",
-                "state": 355
-            },
-            "null": {
-                "type": "shift",
-                "state": 356
-            },
-            "{": {
-                "type": "shift",
-                "state": 352
-            },
-            "[": {
-                "type": "shift",
-                "state": 357
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
+                "state": 164
             }
         },
         {
@@ -6635,7 +5094,7 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
@@ -6647,7 +5106,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -6657,7 +5116,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -6696,65 +5155,65 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 370
+                "state": 254
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 373
+                "state": 257
             },
             "variable": {
                 "type": "shift",
-                "state": 64
+                "state": 58
             },
             "(": {
                 "type": "shift",
-                "state": 65
+                "state": 59
             }
         },
         {
@@ -6851,7 +5310,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -6859,1123 +5318,243 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
-                "type": "shift",
-                "state": 74
-            },
-            "let": {
-                "type": "shift",
-                "state": 75
-            },
-            "import": {
-                "type": "shift",
-                "state": 72
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 378
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 379
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 380
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 381
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 382
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 385
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            },
-            "(": {
                 "type": "shift",
                 "state": 65
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 74
             },
             "let": {
-                "type": "shift",
-                "state": 75
-            },
-            "import": {
-                "type": "shift",
-                "state": 72
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 389
-            },
-            "?": {
-                "type": "shift",
-                "state": 390
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 391
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 392
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 393
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 394
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
                 "type": "shift",
                 "state": 66
             },
-            "variable": {
+            "import": {
+                "type": "shift",
+                "state": 63
+            },
+            "string": {
                 "type": "shift",
                 "state": 64
+            },
+            "number": {
+                "type": "shift",
+                "state": 69
+            },
+            "true": {
+                "type": "shift",
+                "state": 70
+            },
+            "false": {
+                "type": "shift",
+                "state": 71
+            },
+            "null": {
+                "type": "shift",
+                "state": 72
+            },
+            "(": {
+                "type": "shift",
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
+            ":": {
+                "type": "shift",
+                "state": 262
             },
-            ";": {
+            "?": {
+                "type": "shift",
+                "state": 261
+            }
+        },
+        {
+            ":": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "CODE_BLOCK_EXP"
                     ],
-                    "sys_pair($1, $3)"
+                    "$1"
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "CODE_BLOCK_EXP"
                     ],
-                    "sys_pair($1, $3)"
+                    "$1"
                 ]
             }
         },
         {
-            "$": {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "CONDITION_EXP"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "APPLICATION"
+                    ],
+                    "$1"
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "APPLICATION"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            "(": {
+                "type": "shift",
+                "state": 263
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "ABSTRACTION"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "DATA"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "DATA"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "OBJECT"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "OBJECT"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "ARRAY"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "ARRAY"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ",": {
@@ -7985,17 +5564,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -8005,22 +5574,12 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8040,27 +5599,7 @@ module.exports = {
                     "sys_variable($1)"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8084,55 +5623,119 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 395
+                "state": 264
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 267
+            },
+            "variable": {
+                "type": "shift",
+                "state": 58
+            },
+            "(": {
+                "type": "shift",
+                "state": 59
             }
         },
         {
             "$": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8152,27 +5755,7 @@ module.exports = {
                     "sys_number($1)"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8184,7 +5767,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8204,27 +5787,7 @@ module.exports = {
                     "sys_true()"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8236,7 +5799,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8256,27 +5819,7 @@ module.exports = {
                     "sys_false()"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8288,7 +5831,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8308,27 +5851,7 @@ module.exports = {
                     "sys_null()"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8345,7 +5868,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -8353,96 +5876,76 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP_LIST",
                     [
                         "EXP"
                     ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 401
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 400
+                "state": 271
+            },
+            "?": {
+                "type": "shift",
+                "state": 272
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8462,27 +5965,7 @@ module.exports = {
                     "$1"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8494,7 +5977,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8514,27 +5997,7 @@ module.exports = {
                     "$1"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8546,7 +6009,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8566,27 +6029,7 @@ module.exports = {
                     "$1"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -8610,264 +6053,56 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 402
+                "state": 273
             }
         },
         {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
+            ")": {
                 "type": "shift",
-                "state": 403
+                "state": 274
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION",
+                    "EXP",
                     [
-                        "ORDINARY_ABSTRACTION"
+                        "ABSTRACTION"
                     ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
+                    "$1"
                 ]
             },
             ",": {
-                "type": "shift",
-                "state": 404
-            },
-            ";": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION",
+                    "EXP",
                     [
-                        "ORDINARY_ABSTRACTION"
+                        "ABSTRACTION"
                     ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
+                    "$1"
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION",
+                    "EXP",
                     [
-                        "ORDINARY_ABSTRACTION"
+                        "ABSTRACTION"
                     ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
+                    "$1"
                 ]
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ",": {
@@ -8877,17 +6112,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -8897,22 +6122,12 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8932,27 +6147,7 @@ module.exports = {
                     "$1"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8964,7 +6159,7 @@ module.exports = {
             }
         },
         {
-            "$": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -8984,27 +6179,7 @@ module.exports = {
                     "$1"
                 ]
             },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -9051,7 +6226,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ",": {
@@ -9061,7 +6236,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ";": {
@@ -9071,7 +6246,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -9081,7 +6256,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -9140,51 +6315,65 @@ module.exports = {
         {
             "}": {
                 "type": "shift",
-                "state": 405
+                "state": 275
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 278
+            },
+            "variable": {
+                "type": "shift",
+                "state": 58
+            },
+            "(": {
+                "type": "shift",
+                "state": 59
             }
         },
         {
@@ -9361,7 +6550,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -9369,52 +6558,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
@@ -9427,7 +6616,7 @@ module.exports = {
                         "=",
                         "EXP"
                     ],
-                    "sys_pair(sys_variable($1), $3)"
+                    "concat(single($1), single($3))"
                 ]
             },
             ",": {
@@ -9439,7 +6628,7 @@ module.exports = {
                         "=",
                         "EXP"
                     ],
-                    "sys_pair(sys_variable($1), $3)"
+                    "concat(single($1), single($3))"
                 ]
             },
             ";": {
@@ -9451,12 +6640,12 @@ module.exports = {
                         "=",
                         "EXP"
                     ],
-                    "sys_pair(sys_variable($1), $3)"
+                    "concat(single($1), single($3))"
                 ]
             },
             "?": {
                 "type": "shift",
-                "state": 410
+                "state": 282
             }
         },
         {
@@ -9598,7 +6787,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 411
+                "state": 283
             }
         },
         {
@@ -9647,99 +6836,11 @@ module.exports = {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 412
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ",": {
@@ -9749,7 +6850,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ";": {
@@ -9759,7 +6860,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -9769,7 +6870,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
@@ -9867,7 +6968,7 @@ module.exports = {
                         ",",
                         "VARIABLE_DEFINITION_LIST"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             },
             ";": {
@@ -9879,20 +6980,20 @@ module.exports = {
                         ",",
                         "VARIABLE_DEFINITION_LIST"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 413
+                "state": 284
             }
         },
         {
             "string": {
                 "type": "shift",
-                "state": 414
+                "state": 285
             }
         },
         {
@@ -9903,7 +7004,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             ";": {
@@ -9913,7 +7014,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -9923,7 +7024,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "}": {
@@ -9933,7 +7034,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -9992,57 +7093,71 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 113
+                "state": 99
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 417
+                "state": 288
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 33
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 34
             },
             "let": {
                 "type": "shift",
-                "state": 38
+                "state": 35
             },
             "import": {
                 "type": "shift",
-                "state": 35
+                "state": 32
             },
             "number": {
                 "type": "shift",
-                "state": 42
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 43
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 44
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 291
+            },
+            "variable": {
+                "type": "shift",
+                "state": 58
+            },
+            "(": {
+                "type": "shift",
+                "state": 59
             }
         },
         {
@@ -10219,7 +7334,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -10227,52 +7342,52 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
@@ -10285,12 +7400,12 @@ module.exports = {
                         ":",
                         "PROGRAM"
                     ],
-                    "sys_pair(sys_string($1), $3)"
+                    "concat(single(stringContent($1)), single($3))"
                 ]
             },
             ",": {
                 "type": "shift",
-                "state": 422
+                "state": 295
             }
         },
         {
@@ -10345,7 +7460,7 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             "}": {
@@ -10355,12 +7470,12 @@ module.exports = {
                     [
                         "STATEMENT"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             ";": {
                 "type": "shift",
-                "state": 423
+                "state": 296
             }
         },
         {
@@ -10460,7 +7575,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 424
+                "state": 297
             }
         },
         {
@@ -10602,7 +7717,7 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 425
+                "state": 298
             }
         },
         {
@@ -10651,145 +7766,11 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 426
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 427
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
                     "EXP",
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             ";": {
@@ -10799,7 +7780,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "?": {
@@ -10809,7 +7790,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             },
             "}": {
@@ -10819,7 +7800,7 @@ module.exports = {
                     [
                         "DATA"
                     ],
-                    "sys_data($1)"
+                    "$1"
                 ]
             }
         },
@@ -10910,45 +7891,45 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 248
+                "state": 198
             },
             "string": {
                 "type": "shift",
-                "state": 247
+                "state": 197
             },
             "number": {
                 "type": "shift",
-                "state": 251
+                "state": 202
             },
             "true": {
                 "type": "shift",
-                "state": 252
+                "state": 203
             },
             "false": {
                 "type": "shift",
-                "state": 253
+                "state": 204
             },
             "null": {
                 "type": "shift",
-                "state": 254
-            },
-            "{": {
-                "type": "shift",
-                "state": 250
-            },
-            "[": {
-                "type": "shift",
-                "state": 255
+                "state": 205
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 113
+                "state": 99
             }
         },
         {
@@ -10961,7 +7942,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
@@ -10973,7 +7954,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "}": {
@@ -10985,7 +7966,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
@@ -11030,45 +8011,45 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 290
+                "state": 34
             },
             "string": {
                 "type": "shift",
-                "state": 289
+                "state": 229
             },
             "number": {
                 "type": "shift",
-                "state": 292
+                "state": 39
             },
             "true": {
                 "type": "shift",
-                "state": 293
+                "state": 40
             },
             "false": {
                 "type": "shift",
-                "state": 294
+                "state": 41
             },
             "null": {
                 "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
+                "state": 42
             },
             "(": {
                 "type": "shift",
-                "state": 41
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 431
+                "state": 303
             }
         },
         {
@@ -11117,7 +8098,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "?": {
@@ -11127,7 +8108,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             },
             "}": {
@@ -11137,7 +8118,7 @@ module.exports = {
                     [
                         "string"
                     ],
-                    "sys_string($1)"
+                    "sys_string(stringContent($1))"
                 ]
             }
         },
@@ -11151,7 +8132,7 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
@@ -11170,11 +8151,11 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 432
+                "state": 304
             },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
             }
         },
         {
@@ -11187,7 +8168,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ";": {
@@ -11199,7 +8180,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -11211,7 +8192,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "}": {
@@ -11223,1064 +8204,14 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 433
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 119
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 434
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 74
-            },
-            "let": {
-                "type": "shift",
-                "state": 75
-            },
-            "import": {
-                "type": "shift",
-                "state": 72
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 440
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 439
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 441
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 442
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
+                "state": 305
             }
         },
         {
@@ -12293,759 +8224,105 @@ module.exports = {
                         ",",
                         "LIST_VARIABLES"
                     ],
-                    "sys_pair(sys_variable($1), $3)"
+                    "concat(single(sys_variable($1)), $3)"
                 ]
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 315
+                "state": 307
             },
             "string": {
                 "type": "shift",
-                "state": 314
+                "state": 306
             },
             "number": {
                 "type": "shift",
-                "state": 317
+                "state": 310
             },
             "true": {
                 "type": "shift",
-                "state": 318
+                "state": 311
             },
             "false": {
                 "type": "shift",
-                "state": 319
+                "state": 312
             },
             "null": {
                 "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
+                "state": 313
             },
             "(": {
                 "type": "shift",
-                "state": 181
+                "state": 309
+            },
+            "{": {
+                "type": "shift",
+                "state": 308
+            },
+            "[": {
+                "type": "shift",
+                "state": 314
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 444
+                "state": 325
             }
         },
         {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION_BODY",
                     [
-                        "(",
-                        ")",
-                        "->",
                         "EXP"
                     ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
+                    "$1"
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 92
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
                     [
                         "(",
                         ")",
                         "->",
-                        "EXP"
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
+                    "sys_abstraction(empty(), $4)"
                 ]
             },
-            "?": {
-                "type": "shift",
-                "state": 401
-            },
-            "verticalBar": {
+            ";": {
                 "type": "reduce",
                 "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION",
                     [
                         "(",
                         ")",
                         "->",
-                        "EXP"
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 445
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 74
-            },
-            "let": {
-                "type": "shift",
-                "state": 75
-            },
-            "import": {
-                "type": "shift",
-                "state": 72
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 450
-            },
-            "?": {
-                "type": "shift",
-                "state": 451
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 452
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
+                    "sys_abstraction(empty(), $4)"
                 ]
             },
             "?": {
@@ -13053,270 +8330,101 @@ module.exports = {
                 "production": [
                     "ABSTRACTION",
                     [
-                        "GUARDED_ABSTRACTION_LIST"
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 453
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
+                    "sys_abstraction(empty(), $4)"
                 ]
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 3
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 2
             },
             "number": {
                 "type": "shift",
-                "state": 206
+                "state": 7
             },
             "true": {
                 "type": "shift",
-                "state": 207
+                "state": 8
             },
             "false": {
                 "type": "shift",
-                "state": 208
+                "state": 9
             },
             "null": {
                 "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
+                "state": 10
             },
             "(": {
                 "type": "shift",
                 "state": 6
+            },
+            "{": {
+                "type": "shift",
+                "state": 5
+            },
+            "[": {
+                "type": "shift",
+                "state": 11
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 455
+                "state": 327
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "string": {
+                "type": "shift",
+                "state": 64
+            },
+            "number": {
+                "type": "shift",
+                "state": 69
+            },
+            "true": {
+                "type": "shift",
+                "state": 70
+            },
+            "false": {
+                "type": "shift",
+                "state": 71
+            },
+            "null": {
+                "type": "shift",
+                "state": 72
+            },
+            "(": {
+                "type": "shift",
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
                 "type": "shift",
                 "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 139
+                "state": 121
             }
         },
         {
@@ -13329,7 +8437,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             ";": {
@@ -13341,7 +8449,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
@@ -13353,7 +8461,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "]": {
@@ -13365,7 +8473,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
@@ -13422,45 +8530,45 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 351
+                "state": 65
             },
             "string": {
                 "type": "shift",
-                "state": 350
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 353
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 354
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 355
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 356
-            },
-            "{": {
-                "type": "shift",
-                "state": 352
-            },
-            "[": {
-                "type": "shift",
-                "state": 357
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 459
+                "state": 332
             }
         },
         {
@@ -13523,7 +8631,7 @@ module.exports = {
                         ",",
                         "LIST_VALUES"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
@@ -13537,7 +8645,7 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             },
             "]": {
@@ -13549,18 +8657,18 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 460
+                "state": 333
             },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
             }
         },
         {
@@ -13573,7 +8681,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ",": {
@@ -13585,7 +8693,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ";": {
@@ -13597,7 +8705,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -13609,7 +8717,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "]": {
@@ -13621,1088 +8729,14 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 461
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 145
-            },
-            "variable": {
-                "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 462
-            },
-            "string": {
-                "type": "shift",
-                "state": 36
-            },
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "let": {
-                "type": "shift",
-                "state": 38
-            },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 74
-            },
-            "let": {
-                "type": "shift",
-                "state": 75
-            },
-            "import": {
-                "type": "shift",
-                "state": 72
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 467
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 468
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 469
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 470
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
+                "state": 334
             }
         },
         {
@@ -14714,7 +8748,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -14725,32 +8759,32 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 471
+                "state": 335
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 472
+                "state": 336
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 473
+                "state": 337
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 474
+                "state": 338
             }
         },
         {
@@ -14762,7 +8796,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -14773,52 +8807,52 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
         {
             "]": {
                 "type": "shift",
-                "state": 475
+                "state": 339
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 158
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 157
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 161
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 162
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 163
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
@@ -14846,6 +8880,10 @@ module.exports = {
                 "type": "shift",
                 "state": 10
             },
+            "(": {
+                "type": "shift",
+                "state": 6
+            },
             "{": {
                 "type": "shift",
                 "state": 5
@@ -14853,96 +8891,48 @@ module.exports = {
             "[": {
                 "type": "shift",
                 "state": 11
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 478
+                "state": 342
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 480
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 483
-            },
-            "string": {
-                "type": "shift",
-                "state": 482
-            },
-            "number": {
-                "type": "shift",
-                "state": 485
-            },
-            "true": {
-                "type": "shift",
-                "state": 486
-            },
-            "false": {
-                "type": "shift",
-                "state": 487
-            },
-            "null": {
-                "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
-            },
-            "(": {
                 "type": "shift",
                 "state": 160
+            },
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
             }
         },
         {
@@ -14954,7 +8944,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ",": {
@@ -14965,7 +8955,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -14976,32 +8966,32 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 503
+                "state": 344
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 504
+                "state": 345
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 505
+                "state": 346
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 506
+                "state": 347
             }
         },
         {
@@ -15013,7 +9003,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             ",": {
@@ -15024,7 +9014,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -15035,132 +9025,132 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
         {
             "]": {
                 "type": "shift",
-                "state": 507
+                "state": 348
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
                 "type": "shift",
                 "state": 161
             },
-            "true": {
+            "false": {
                 "type": "shift",
                 "state": 162
             },
-            "false": {
+            "null": {
                 "type": "shift",
                 "state": 163
             },
-            "null": {
+            "(": {
                 "type": "shift",
-                "state": 164
+                "state": 158
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 157
             },
             "[": {
                 "type": "shift",
-                "state": 165
+                "state": 164
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 138
+            },
+            "string": {
+                "type": "shift",
+                "state": 137
+            },
+            "number": {
+                "type": "shift",
+                "state": 141
+            },
+            "true": {
+                "type": "shift",
+                "state": 142
+            },
+            "false": {
+                "type": "shift",
+                "state": 143
+            },
+            "null": {
+                "type": "shift",
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 510
+                "state": 351
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
                 "type": "shift",
-                "state": 184
+                "state": 161
             },
             "false": {
                 "type": "shift",
-                "state": 185
+                "state": 162
             },
             "null": {
                 "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
+                "state": 163
             },
             "(": {
                 "type": "shift",
-                "state": 181
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
             }
         },
         {
@@ -15218,50 +9208,6 @@ module.exports = {
             }
         },
         {
-            "(": {
-                "type": "shift",
-                "state": 512
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
             "$": {
                 "type": "reduce",
                 "production": [
@@ -15270,7 +9216,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ",": {
@@ -15281,7 +9227,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ";": {
@@ -15292,7 +9238,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -15303,31 +9249,32 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 516
+                "state": 353
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 517
+                "state": 354
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 355
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 356
             }
         },
         {
@@ -15339,7 +9286,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             ",": {
@@ -15350,7 +9297,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             ";": {
@@ -15361,7 +9308,7 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
@@ -15372,383 +9319,94 @@ module.exports = {
                         "[",
                         "]"
                     ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
+                    "sys_array(empty())"
                 ]
             }
         },
         {
             "]": {
                 "type": "shift",
-                "state": 518
+                "state": 357
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 204
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 203
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 206
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 207
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 208
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
+                "state": 140
             },
             "{": {
                 "type": "shift",
-                "state": 159
+                "state": 139
             },
             "[": {
                 "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
+                "state": 145
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 521
+                "state": 359
             },
             "variable": {
                 "type": "shift",
-                "state": 179
+                "state": 156
             },
             "string": {
                 "type": "shift",
-                "state": 178
+                "state": 155
             },
             "number": {
                 "type": "shift",
-                "state": 183
+                "state": 160
             },
             "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 201
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 206
-            },
-            "true": {
-                "type": "shift",
-                "state": 207
-            },
-            "false": {
-                "type": "shift",
-                "state": 208
-            },
-            "null": {
-                "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 526
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 527
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 528
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
                 "type": "shift",
                 "state": 161
             },
-            "true": {
+            "false": {
                 "type": "shift",
                 "state": 162
             },
-            "false": {
+            "null": {
                 "type": "shift",
                 "state": 163
             },
-            "null": {
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
                 "type": "shift",
                 "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 530
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 201
             }
         },
         {
@@ -15782,7 +9440,7 @@ module.exports = {
         {
             "as": {
                 "type": "shift",
-                "state": 533
+                "state": 361
             }
         },
         {
@@ -15823,7 +9481,7 @@ module.exports = {
         {
             ",": {
                 "type": "shift",
-                "state": 534
+                "state": 362
             },
             ";": {
                 "type": "reduce",
@@ -15832,7 +9490,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             },
             "}": {
@@ -15842,7 +9500,7 @@ module.exports = {
                     [
                         "VARIABLE_DEFINITION"
                     ],
-                    "$1"
+                    "single($1)"
                 ]
             }
         },
@@ -15855,7 +9513,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             ";": {
@@ -15866,7 +9524,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -15877,7 +9535,7 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "}": {
@@ -15888,2137 +9546,619 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 535
+                "state": 363
             }
         },
         {
             "}": {
                 "type": "shift",
-                "state": 536
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 537
-            }
-        },
-        {
-            "string": {
-                "type": "shift",
-                "state": 538
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "STATEMENTS",
-                    [],
-                    "sys_void()"
-                ]
-            },
-            "variable": {
-                "type": "shift",
-                "state": 248
-            },
-            "let": {
-                "type": "shift",
-                "state": 249
-            },
-            "import": {
-                "type": "shift",
-                "state": 246
-            },
-            "string": {
-                "type": "shift",
-                "state": 247
-            },
-            "number": {
-                "type": "shift",
-                "state": 251
-            },
-            "true": {
-                "type": "shift",
-                "state": 252
-            },
-            "false": {
-                "type": "shift",
-                "state": 253
-            },
-            "null": {
-                "type": "shift",
-                "state": 254
-            },
-            "{": {
-                "type": "shift",
-                "state": 250
-            },
-            "[": {
-                "type": "shift",
-                "state": 255
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 542
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 287
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 424
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 440
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 37
-            },
-            "string": {
-                "type": "shift",
-                "state": 281
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
-            "{": {
-                "type": "shift",
-                "state": 39
-            },
-            "[": {
-                "type": "shift",
-                "state": 46
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 549
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 550
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 551
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 554
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 287
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 451
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 558
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 559
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 560
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 563
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 512
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 401
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION",
-                    [
-                        "variable",
-                        "=",
-                        "EXP"
-                    ],
-                    "sys_pair(sys_variable($1), $3)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 151
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 468
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 351
-            },
-            "string": {
-                "type": "shift",
-                "state": 350
-            },
-            "number": {
-                "type": "shift",
-                "state": 353
-            },
-            "true": {
-                "type": "shift",
-                "state": 354
-            },
-            "false": {
-                "type": "shift",
-                "state": 355
-            },
-            "null": {
-                "type": "shift",
-                "state": 356
-            },
-            "{": {
-                "type": "shift",
-                "state": 352
-            },
-            "[": {
-                "type": "shift",
-                "state": 357
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 74
-            },
-            "string": {
-                "type": "shift",
-                "state": 73
-            },
-            "number": {
-                "type": "shift",
-                "state": 78
-            },
-            "true": {
-                "type": "shift",
-                "state": 79
-            },
-            "false": {
-                "type": "shift",
-                "state": 80
-            },
-            "null": {
-                "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 568
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 569
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 570
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 351
-            },
-            "string": {
-                "type": "shift",
-                "state": 350
-            },
-            "number": {
-                "type": "shift",
-                "state": 353
-            },
-            "true": {
-                "type": "shift",
-                "state": 354
-            },
-            "false": {
-                "type": "shift",
-                "state": 355
-            },
-            "null": {
-                "type": "shift",
-                "state": 356
-            },
-            "{": {
-                "type": "shift",
-                "state": 352
-            },
-            "[": {
-                "type": "shift",
-                "state": 357
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 573
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 348
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 483
-            },
-            "string": {
-                "type": "shift",
-                "state": 482
-            },
-            "number": {
-                "type": "shift",
-                "state": 485
-            },
-            "true": {
-                "type": "shift",
-                "state": 486
-            },
-            "false": {
-                "type": "shift",
-                "state": 487
-            },
-            "null": {
-                "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
+                "state": 364
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 577
+                "state": 365
             }
         },
         {
-            ":": {
+            ")": {
+                "type": "shift",
+                "state": 366
+            }
+        },
+        {
+            ",": {
                 "type": "reduce",
                 "production": [
                     "ARRAY",
                     [
                         "[",
-                        "LIST_VALUES",
                         "]"
                     ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 578
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
+                    "sys_array(empty())"
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "ARRAY",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
+                        "[",
+                        "]"
                     ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 104
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
+                    "sys_array(empty())"
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "APPLICATION",
+                    "ARRAY",
                     [
-                        "CALLER",
-                        "(",
-                        ")"
+                        "[",
+                        "]"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_array(empty())"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ],
+                    "sys_array(empty())"
                 ]
             }
         },
         {
-            ")": {
+            "]": {
                 "type": "shift",
-                "state": 579
+                "state": 367
             }
         },
         {
-            ")": {
+            "string": {
                 "type": "shift",
-                "state": 373
+                "state": 368
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "STATEMENTS",
+                    [],
+                    "empty()"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "STATEMENTS",
+                    [],
+                    "empty()"
+                ]
             },
             "variable": {
                 "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
+                "state": 198
             },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "string"
-                    ],
-                    "sys_string($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "CALLER",
-                    [
-                        "variable"
-                    ],
-                    "sys_variable($1)"
-                ]
-            }
-        },
-        {
-            "}": {
+            "let": {
                 "type": "shift",
-                "state": 580
+                "state": 199
+            },
+            "import": {
+                "type": "shift",
+                "state": 196
             },
             "string": {
                 "type": "shift",
-                "state": 36
+                "state": 197
+            },
+            "number": {
+                "type": "shift",
+                "state": 202
+            },
+            "true": {
+                "type": "shift",
+                "state": 203
+            },
+            "false": {
+                "type": "shift",
+                "state": 204
+            },
+            "null": {
+                "type": "shift",
+                "state": 205
+            },
+            "(": {
+                "type": "shift",
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 138
+            },
+            "string": {
+                "type": "shift",
+                "state": 137
+            },
+            "number": {
+                "type": "shift",
+                "state": 141
+            },
+            "true": {
+                "type": "shift",
+                "state": 142
+            },
+            "false": {
+                "type": "shift",
+                "state": 143
+            },
+            "null": {
+                "type": "shift",
+                "state": 144
+            },
+            "(": {
+                "type": "shift",
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 372
             },
             "variable": {
                 "type": "shift",
-                "state": 37
+                "state": 156
             },
-            "let": {
+            "string": {
+                "type": "shift",
+                "state": 155
+            },
+            "number": {
+                "type": "shift",
+                "state": 160
+            },
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 297
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 111
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 34
+            },
+            "string": {
+                "type": "shift",
+                "state": 229
+            },
+            "number": {
+                "type": "shift",
+                "state": 39
+            },
+            "true": {
+                "type": "shift",
+                "state": 40
+            },
+            "false": {
+                "type": "shift",
+                "state": 41
+            },
+            "null": {
+                "type": "shift",
+                "state": 42
+            },
+            "(": {
                 "type": "shift",
                 "state": 38
             },
-            "import": {
-                "type": "shift",
-                "state": 35
-            },
-            "number": {
-                "type": "shift",
-                "state": 42
-            },
-            "true": {
-                "type": "shift",
-                "state": 43
-            },
-            "false": {
-                "type": "shift",
-                "state": 44
-            },
-            "null": {
-                "type": "shift",
-                "state": 45
-            },
             "{": {
                 "type": "shift",
-                "state": 39
+                "state": 36
             },
             "[": {
                 "type": "shift",
-                "state": 46
+                "state": 43
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 34
+            },
+            "string": {
+                "type": "shift",
+                "state": 229
+            },
+            "number": {
+                "type": "shift",
+                "state": 39
+            },
+            "true": {
+                "type": "shift",
+                "state": 40
+            },
+            "false": {
+                "type": "shift",
+                "state": 41
+            },
+            "null": {
+                "type": "shift",
+                "state": 42
             },
             "(": {
                 "type": "shift",
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "string"
+                    ],
+                    "sys_string(stringContent($1))"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "string"
+                    ],
+                    "sys_string(stringContent($1))"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ],
+                    "sys_variable($1)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "variable"
+                    ],
+                    "sys_variable($1)"
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "CALLER",
+                    [
+                        "variable"
+                    ],
+                    "sys_variable($1)"
+                ]
+            }
+        },
+        {
+            "}": {
+                "type": "shift",
+                "state": 376
+            },
+            "string": {
+                "type": "shift",
+                "state": 33
+            },
+            "variable": {
+                "type": "shift",
+                "state": 34
+            },
+            "let": {
+                "type": "shift",
+                "state": 35
+            },
+            "import": {
+                "type": "shift",
+                "state": 32
+            },
+            "number": {
+                "type": "shift",
+                "state": 39
+            },
+            "true": {
+                "type": "shift",
+                "state": 40
+            },
+            "false": {
+                "type": "shift",
                 "state": 41
+            },
+            "null": {
+                "type": "shift",
+                "state": 42
+            },
+            "(": {
+                "type": "shift",
+                "state": 38
+            },
+            "{": {
+                "type": "shift",
+                "state": 36
+            },
+            "[": {
+                "type": "shift",
+                "state": 43
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
+            ")": {
+                "type": "shift",
+                "state": 379
             },
-            ":": {
+            "variable": {
+                "type": "shift",
+                "state": 58
+            },
+            "(": {
+                "type": "shift",
+                "state": 59
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -18037,30 +10177,10 @@ module.exports = {
                     ],
                     "sys_number($1)"
                 ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "number"
-                    ],
-                    "sys_number($1)"
-                ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -18079,30 +10199,10 @@ module.exports = {
                     ],
                     "sys_true()"
                 ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "true"
-                    ],
-                    "sys_true()"
-                ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -18121,30 +10221,10 @@ module.exports = {
                     ],
                     "sys_false()"
                 ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "false"
-                    ],
-                    "sys_false()"
-                ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -18155,16 +10235,6 @@ module.exports = {
                 ]
             },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "null"
-                    ],
-                    "sys_null()"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "DATA",
@@ -18181,7 +10251,7 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             ",": {
@@ -18189,59 +10259,59 @@ module.exports = {
                 "production": [
                     "STATEMENTS",
                     [],
-                    "sys_void()"
+                    "empty()"
                 ]
             },
             "variable": {
                 "type": "shift",
-                "state": 74
+                "state": 65
             },
             "let": {
                 "type": "shift",
-                "state": 75
+                "state": 66
             },
             "import": {
                 "type": "shift",
-                "state": 72
+                "state": 63
             },
             "string": {
                 "type": "shift",
-                "state": 73
+                "state": 64
             },
             "number": {
                 "type": "shift",
-                "state": 78
+                "state": 69
             },
             "true": {
                 "type": "shift",
-                "state": 79
+                "state": 70
             },
             "false": {
                 "type": "shift",
-                "state": 80
+                "state": 71
             },
             "null": {
                 "type": "shift",
-                "state": 81
-            },
-            "{": {
-                "type": "shift",
-                "state": 76
-            },
-            "[": {
-                "type": "shift",
-                "state": 82
+                "state": 72
             },
             "(": {
                 "type": "shift",
-                "state": 77
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
             }
         },
         {
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ABSTRACTION_BODY",
                     [
                         "EXP"
                     ],
@@ -18250,35 +10320,11 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 586
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
-                "type": "shift",
-                "state": 585
+                "state": 383
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -18297,30 +10343,10 @@ module.exports = {
                     ],
                     "$1"
                 ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CODE_BLOCK_EXP"
-                    ],
-                    "$1"
-                ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -18339,30 +10365,10 @@ module.exports = {
                     ],
                     "$1"
                 ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "CONDITION_EXP"
-                    ],
-                    "$1"
-                ]
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -18373,16 +10379,6 @@ module.exports = {
                 ]
             },
             "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "APPLICATION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -18406,59 +10402,11 @@ module.exports = {
         {
             "(": {
                 "type": "shift",
-                "state": 587
+                "state": 384
             }
         },
         {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "EXP",
@@ -18474,256 +10422,6 @@ module.exports = {
                     "EXP",
                     [
                         "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ABSTRACTION",
-                    [
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_guarded_abstraction($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "shift",
-                "state": 588
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 589
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION"
-                    ],
-                    "sys_guarded_abstraction_line($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP",
-                    [
-                        "DATA"
-                    ],
-                    "sys_data($1)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "OBJECT"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
-                    ],
-                    "$1"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "DATA",
-                    [
-                        "ARRAY"
                     ],
                     "$1"
                 ]
@@ -18733,16 +10431,521 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "CODE_BLOCK_EXP",
+                    "ABSTRACTION",
                     [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "DATA"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "EXP",
+                    [
+                        "DATA"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "OBJECT"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "OBJECT"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "ARRAY"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "DATA",
+                    [
+                        "ARRAY"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 307
+            },
+            "string": {
+                "type": "shift",
+                "state": 306
+            },
+            "number": {
+                "type": "shift",
+                "state": 310
+            },
+            "true": {
+                "type": "shift",
+                "state": 311
+            },
+            "false": {
+                "type": "shift",
+                "state": 312
+            },
+            "null": {
+                "type": "shift",
+                "state": 313
+            },
+            "(": {
+                "type": "shift",
+                "state": 309
+            },
+            "{": {
+                "type": "shift",
+                "state": 308
+            },
+            "[": {
+                "type": "shift",
+                "state": 314
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ],
+                    "sys_import($2, sys_variable($4))"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ],
+                    "sys_import($2, sys_variable($4))"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ],
+                    "sys_import($2, sys_variable($4))"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION",
+                    [
+                        "variable",
+                        "=",
+                        "EXP"
+                    ],
+                    "concat(single($1), single($3))"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 133
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 133
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 65
+            },
+            "string": {
+                "type": "shift",
+                "state": 64
+            },
+            "number": {
+                "type": "shift",
+                "state": 69
+            },
+            "true": {
+                "type": "shift",
+                "state": 70
+            },
+            "false": {
+                "type": "shift",
+                "state": 71
+            },
+            "null": {
+                "type": "shift",
+                "state": 72
+            },
+            "(": {
+                "type": "shift",
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 65
+            },
+            "string": {
+                "type": "shift",
+                "state": 64
+            },
+            "number": {
+                "type": "shift",
+                "state": 69
+            },
+            "true": {
+                "type": "shift",
+                "state": 70
+            },
+            "false": {
+                "type": "shift",
+                "state": 71
+            },
+            "null": {
+                "type": "shift",
+                "state": 72
+            },
+            "(": {
+                "type": "shift",
+                "state": 68
+            },
+            "{": {
+                "type": "shift",
+                "state": 67
+            },
+            "[": {
+                "type": "shift",
+                "state": 73
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
                 ]
             },
             ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            ":": {
                 "type": "reduce",
                 "production": [
                     "CODE_BLOCK_EXP",
@@ -18751,7 +10954,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
@@ -18763,24 +10966,12 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
         {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ",": {
+            ":": {
                 "type": "reduce",
                 "production": [
                     "OBJECT",
@@ -18808,61 +10999,49 @@ module.exports = {
         {
             "variable": {
                 "type": "shift",
-                "state": 315
+                "state": 138
             },
             "string": {
                 "type": "shift",
-                "state": 314
+                "state": 137
             },
             "number": {
                 "type": "shift",
-                "state": 317
+                "state": 141
             },
             "true": {
                 "type": "shift",
-                "state": 318
+                "state": 142
             },
             "false": {
                 "type": "shift",
-                "state": 319
+                "state": 143
             },
             "null": {
                 "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
+                "state": 144
             },
             "(": {
                 "type": "shift",
-                "state": 181
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
             }
         },
         {
             "->": {
                 "type": "shift",
-                "state": 591
+                "state": 390
             }
         },
         {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ",": {
+            ":": {
                 "type": "reduce",
                 "production": [
                     "ARRAY",
@@ -18884,31 +11063,51 @@ module.exports = {
                         "]"
                     ],
                     "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
                 ]
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 592
+                "state": 391
             },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ],
+                    "sys_condition($1, $3, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ],
+                    "sys_condition($1, $3, $5)"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 92
             }
         },
         {
@@ -18921,10 +11120,10 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
-            ")": {
+            ":": {
                 "type": "reduce",
                 "production": [
                     "APPLICATION",
@@ -18933,19 +11132,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -18957,91 +11144,171 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 593
+                "state": 392
             }
         },
         {
             ")": {
-                "type": "shift",
-                "state": 385
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ],
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
+                ]
             },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ],
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ],
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            }
+        },
+        {
             "variable": {
                 "type": "shift",
-                "state": 64
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
+                "state": 156
             },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            ",": {
+            "string": {
                 "type": "shift",
-                "state": 594
+                "state": 155
             },
-            "?": {
+            "number": {
                 "type": "shift",
-                "state": 451
+                "state": 160
             },
-            "verticalBar": {
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 395
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ARRAY",
                     [
-                        "EXP"
+                        "[",
+                        "LIST_VALUES",
+                        "]"
                     ],
-                    "$1"
+                    "sys_array($2)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
                 ]
             }
         },
@@ -19049,311 +11316,27 @@ module.exports = {
             ")": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
                     "EXP_LIST",
                     [
                         "EXP",
                         ",",
                         "EXP_LIST"
                     ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 595
+                "state": 396
             },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
             }
         },
         {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
             "(": {
                 "type": "reduce",
                 "production": [
@@ -19363,7 +11346,19 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
                 ]
             },
             ",": {
@@ -19375,19 +11370,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -19399,87 +11382,63 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 596
+                "state": 397
             }
         },
         {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "CODE_BLOCK_EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             ",": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "CODE_BLOCK_EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "CODE_BLOCK_EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
+                    "CODE_BLOCK_EXP",
                     [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
                     ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
@@ -19487,262 +11446,154 @@ module.exports = {
             "$": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "OBJECT",
                     [
-                        "EXP"
+                        "{",
+                        "KEY_VALUES",
+                        "}"
                     ],
-                    "$1"
+                    "sys_object($2)"
                 ]
             },
             ",": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            }
+        },
+        {
+            "variable": {
                 "type": "shift",
-                "state": 597
+                "state": 177
+            },
+            "string": {
+                "type": "shift",
+                "state": 176
+            },
+            "number": {
+                "type": "shift",
+                "state": 180
+            },
+            "true": {
+                "type": "shift",
+                "state": 181
+            },
+            "false": {
+                "type": "shift",
+                "state": 182
+            },
+            "null": {
+                "type": "shift",
+                "state": 183
+            },
+            "(": {
+                "type": "shift",
+                "state": 179
+            },
+            "{": {
+                "type": "shift",
+                "state": 178
+            },
+            "[": {
+                "type": "shift",
+                "state": 184
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 400
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
             },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ARRAY",
                     [
-                        "EXP"
+                        "[",
+                        "LIST_VALUES",
+                        "]"
                     ],
-                    "$1"
+                    "sys_array($2)"
                 ]
             },
             "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
+            }
+        },
+        {
+            ":": {
                 "type": "shift",
                 "state": 401
             },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 598
-            },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
             }
         },
         {
@@ -19755,7 +11606,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "(": {
@@ -19767,7 +11618,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ",": {
@@ -19779,7 +11630,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ";": {
@@ -19791,7 +11642,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -19803,76 +11654,26 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 599
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
+                "state": 402
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 600
+                "state": 403
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 113
+                "state": 99
             }
         },
         {
@@ -19885,7 +11686,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             ";": {
@@ -19897,7 +11698,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "?": {
@@ -19909,7 +11710,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             },
             "}": {
@@ -19921,7 +11722,7 @@ module.exports = {
                         "NONE_EMPTY_STATEMENTS",
                         "}"
                     ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
                 ]
             }
         },
@@ -19973,6 +11774,50 @@ module.exports = {
                     ],
                     "sys_object($2)"
                 ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 198
+            },
+            "string": {
+                "type": "shift",
+                "state": 197
+            },
+            "number": {
+                "type": "shift",
+                "state": 202
+            },
+            "true": {
+                "type": "shift",
+                "state": 203
+            },
+            "false": {
+                "type": "shift",
+                "state": 204
+            },
+            "null": {
+                "type": "shift",
+                "state": 205
+            },
+            "(": {
+                "type": "shift",
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 407
             }
         },
         {
@@ -20028,7 +11873,7 @@ module.exports = {
         {
             ":": {
                 "type": "shift",
-                "state": 112
+                "state": 98
             }
         },
         {
@@ -20043,7 +11888,7 @@ module.exports = {
                         ",",
                         "KEY_VALUES"
                     ],
-                    "sys_pair(sys_pair(sys_string($1), $3), $5)"
+                    "concat(concat(single(stringContent($1)), single($3)), $5)"
                 ]
             }
         },
@@ -20057,7 +11902,7 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             },
             "}": {
@@ -20069,18 +11914,18 @@ module.exports = {
                         ";",
                         "STATEMENTS"
                     ],
-                    "sys_pair($1, $3)"
+                    "concat(single($1), $3)"
                 ]
             }
         },
         {
             ":": {
                 "type": "shift",
-                "state": 602
+                "state": 408
             },
             "?": {
                 "type": "shift",
-                "state": 377
+                "state": 261
             }
         },
         {
@@ -20093,7 +11938,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ",": {
@@ -20105,7 +11950,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             ";": {
@@ -20117,7 +11962,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "?": {
@@ -20129,7 +11974,7 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             },
             "}": {
@@ -20141,227 +11986,57 @@ module.exports = {
                         "(",
                         ")"
                     ],
-                    "sys_application($1, sys_void())"
+                    "sys_application($1, empty())"
                 ]
             }
         },
         {
             ")": {
                 "type": "shift",
-                "state": 603
+                "state": 409
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
             ";": {
                 "type": "reduce",
                 "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 604
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 440
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
                         ")",
                         "->",
-                        "EXP"
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
+                    "sys_abstraction($2, $5)"
                 ]
             },
             "?": {
-                "type": "shift",
-                "state": 440
-            },
-            "verticalBar": {
                 "type": "reduce",
                 "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
                         ")",
                         "->",
-                        "EXP"
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_ordinary_abstraction($2, $5)"
+                    "sys_abstraction($2, $5)"
                 ]
             },
             "}": {
                 "type": "reduce",
                 "production": [
-                    "ORDINARY_ABSTRACTION",
+                    "ABSTRACTION",
                     [
                         "(",
                         "LIST_VARIABLES",
                         ")",
                         "->",
-                        "EXP"
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_ordinary_abstraction($2, $5)"
+                    "sys_abstraction($2, $5)"
                 ]
             }
         },
@@ -20382,7 +12057,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 125
+                "state": 111
             },
             "}": {
                 "type": "reduce",
@@ -20400,1438 +12075,15 @@ module.exports = {
             }
         },
         {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 605
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 606
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 451
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
             ")": {
                 "type": "reduce",
                 "production": [
                     "OBJECT",
                     [
                         "{",
-                        "KEY_VALUES",
                         "}"
                     ],
-                    "sys_object($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 607
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 608
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 468
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 151
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 609
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 610
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 586
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 483
-            },
-            "string": {
-                "type": "shift",
-                "state": 482
-            },
-            "number": {
-                "type": "shift",
-                "state": 485
-            },
-            "true": {
-                "type": "shift",
-                "state": 486
-            },
-            "false": {
-                "type": "shift",
-                "state": 487
-            },
-            "null": {
-                "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             },
             "?": {
@@ -21842,2053 +12094,219 @@ module.exports = {
                         "{",
                         "}"
                     ],
-                    "sys_object(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "}"
-                    ],
-                    "sys_object(sys_void())"
+                    "sys_object(empty())"
                 ]
             }
         },
         {
             "}": {
-                "type": "shift",
-                "state": 613
-            }
-        },
-        {
-            "}": {
-                "type": "shift",
-                "state": 614
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "]"
-                    ],
-                    "sys_array(sys_void())"
-                ]
-            }
-        },
-        {
-            "]": {
-                "type": "shift",
-                "state": 615
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 483
-            },
-            "string": {
-                "type": "shift",
-                "state": 482
-            },
-            "number": {
-                "type": "shift",
-                "state": 485
-            },
-            "true": {
-                "type": "shift",
-                "state": 486
-            },
-            "false": {
-                "type": "shift",
-                "state": 487
-            },
-            "null": {
-                "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 158
-            },
-            "string": {
-                "type": "shift",
-                "state": 157
-            },
-            "number": {
-                "type": "shift",
-                "state": 161
-            },
-            "true": {
-                "type": "shift",
-                "state": 162
-            },
-            "false": {
-                "type": "shift",
-                "state": 163
-            },
-            "null": {
-                "type": "shift",
-                "state": 164
-            },
-            "{": {
-                "type": "shift",
-                "state": 159
-            },
-            "[": {
-                "type": "shift",
-                "state": 165
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 618
-            },
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "shift",
-                "state": 480
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 483
-            },
-            "string": {
-                "type": "shift",
-                "state": 482
-            },
-            "number": {
-                "type": "shift",
-                "state": 485
-            },
-            "true": {
-                "type": "shift",
-                "state": 486
-            },
-            "false": {
-                "type": "shift",
-                "state": 487
-            },
-            "null": {
-                "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 451
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction(sys_void(), $4)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 179
-            },
-            "string": {
-                "type": "shift",
-                "state": 178
-            },
-            "number": {
-                "type": "shift",
-                "state": 183
-            },
-            "true": {
-                "type": "shift",
-                "state": 184
-            },
-            "false": {
-                "type": "shift",
-                "state": 185
-            },
-            "null": {
-                "type": "shift",
-                "state": 186
-            },
-            "{": {
-                "type": "shift",
-                "state": 180
-            },
-            "[": {
-                "type": "shift",
-                "state": 187
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 206
-            },
-            "true": {
-                "type": "shift",
-                "state": 207
-            },
-            "false": {
-                "type": "shift",
-                "state": 208
-            },
-            "null": {
-                "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 204
-            },
-            "string": {
-                "type": "shift",
-                "state": 203
-            },
-            "number": {
-                "type": "shift",
-                "state": 206
-            },
-            "true": {
-                "type": "shift",
-                "state": 207
-            },
-            "false": {
-                "type": "shift",
-                "state": 208
-            },
-            "null": {
-                "type": "shift",
-                "state": 209
-            },
-            "{": {
-                "type": "shift",
-                "state": 205
-            },
-            "[": {
-                "type": "shift",
-                "state": 210
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 226
-            },
-            "string": {
-                "type": "shift",
-                "state": 225
-            },
-            "number": {
-                "type": "shift",
-                "state": 228
-            },
-            "true": {
-                "type": "shift",
-                "state": 229
-            },
-            "false": {
-                "type": "shift",
-                "state": 230
-            },
-            "null": {
-                "type": "shift",
-                "state": 231
-            },
-            "{": {
-                "type": "shift",
-                "state": 227
-            },
-            "[": {
-                "type": "shift",
-                "state": 232
-            },
-            "(": {
-                "type": "shift",
-                "state": 6
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "IMPORT_EXPRESSION",
-                    [
-                        "import",
-                        "string",
-                        "as",
-                        "variable"
-                    ],
-                    "sys_import($2, sys_variable($4))"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "VARIABLE_DEFINITION_LIST",
-                    [
-                        "VARIABLE_DEFINITION",
-                        ",",
-                        "VARIABLE_DEFINITION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 248
-            },
-            "string": {
-                "type": "shift",
-                "state": 247
-            },
-            "number": {
-                "type": "shift",
-                "state": 251
-            },
-            "true": {
-                "type": "shift",
-                "state": 252
-            },
-            "false": {
-                "type": "shift",
-                "state": 253
-            },
-            "null": {
-                "type": "shift",
-                "state": 254
-            },
-            "{": {
-                "type": "shift",
-                "state": 250
-            },
-            "[": {
-                "type": "shift",
-                "state": 255
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 290
-            },
-            "string": {
-                "type": "shift",
-                "state": 289
-            },
-            "number": {
-                "type": "shift",
-                "state": 292
-            },
-            "true": {
-                "type": "shift",
-                "state": 293
-            },
-            "false": {
-                "type": "shift",
-                "state": 294
-            },
-            "null": {
-                "type": "shift",
-                "state": 295
-            },
-            "{": {
-                "type": "shift",
-                "state": 291
-            },
-            "[": {
-                "type": "shift",
-                "state": 296
-            },
-            "(": {
-                "type": "shift",
-                "state": 41
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "}": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 315
-            },
-            "string": {
-                "type": "shift",
-                "state": 314
-            },
-            "number": {
-                "type": "shift",
-                "state": 317
-            },
-            "true": {
-                "type": "shift",
-                "state": 318
-            },
-            "false": {
-                "type": "shift",
-                "state": 319
-            },
-            "null": {
-                "type": "shift",
-                "state": 320
-            },
-            "{": {
-                "type": "shift",
-                "state": 316
-            },
-            "[": {
-                "type": "shift",
-                "state": 321
-            },
-            "(": {
-                "type": "shift",
-                "state": 181
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            "variable": {
-                "type": "shift",
-                "state": 351
-            },
-            "string": {
-                "type": "shift",
-                "state": 350
-            },
-            "number": {
-                "type": "shift",
-                "state": 353
-            },
-            "true": {
-                "type": "shift",
-                "state": 354
-            },
-            "false": {
-                "type": "shift",
-                "state": 355
-            },
-            "null": {
-                "type": "shift",
-                "state": 356
-            },
-            "{": {
-                "type": "shift",
-                "state": 352
-            },
-            "[": {
-                "type": "shift",
-                "state": 357
-            },
-            "(": {
-                "type": "shift",
-                "state": 77
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "]": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 586
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CODE_BLOCK_EXP",
-                    [
-                        "{",
-                        "NONE_EMPTY_STATEMENTS",
-                        "}"
-                    ],
-                    "sys_application(sys_ordinary_abstraction(sys_void(), sys_statements($2)), sys_void())"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "OBJECT",
-                    [
-                        "{",
-                        "KEY_VALUES",
-                        "}"
-                    ],
-                    "sys_object($2)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ARRAY",
-                    [
-                        "[",
-                        "LIST_VALUES",
-                        "]"
-                    ],
-                    "sys_array($2)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ":": {
-                "type": "shift",
-                "state": 634
-            },
-            "?": {
-                "type": "shift",
-                "state": 377
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        ")"
-                    ],
-                    "sys_application($1, sys_void())"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "shift",
-                "state": 635
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION_LIST",
-                    [
-                        "GUARDED_ABSTRACTION",
-                        "verticalBar",
-                        "GUARDED_ABSTRACTION_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "shift",
-                "state": 636
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 586
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP"
-                    ],
-                    "$1"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "GUARDED_ABSTRACTION",
-                    [
-                        "ORDINARY_ABSTRACTION",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_guarded_abstraction_line($1, $3)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 451
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "ORDINARY_ABSTRACTION",
-                    [
-                        "(",
-                        "LIST_VARIABLES",
-                        ")",
-                        "->",
-                        "EXP"
-                    ],
-                    "sys_ordinary_abstraction($2, $5)"
-                ]
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 390
-            }
-        },
-        {
-            ")": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
-                "type": "shift",
-                "state": 401
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            }
-        },
-        {
-            "$": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            ";": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            },
-            "?": {
                 "type": "shift",
                 "state": 410
             }
         },
         {
+            "}": {
+                "type": "shift",
+                "state": 411
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 412
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 413
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ],
+                    "sys_array(empty())"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "]"
+                    ],
+                    "sys_array(empty())"
+                ]
+            }
+        },
+        {
+            "]": {
+                "type": "shift",
+                "state": 414
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 138
+            },
+            "string": {
+                "type": "shift",
+                "state": 137
+            },
+            "number": {
+                "type": "shift",
+                "state": 141
+            },
+            "true": {
+                "type": "shift",
+                "state": 142
+            },
+            "false": {
+                "type": "shift",
+                "state": 143
+            },
+            "null": {
+                "type": "shift",
+                "state": 144
+            },
+            "(": {
+                "type": "shift",
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 416
+            },
+            "variable": {
+                "type": "shift",
+                "state": 156
+            },
+            "string": {
+                "type": "shift",
+                "state": 155
+            },
+            "number": {
+                "type": "shift",
+                "state": 160
+            },
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "]": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
             ",": {
                 "type": "reduce",
                 "production": [
@@ -23919,9 +12337,9 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 424
+                "state": 133
             },
-            "}": {
+            "]": {
                 "type": "reduce",
                 "production": [
                     "CONDITION_EXP",
@@ -23937,64 +12355,593 @@ module.exports = {
             }
         },
         {
-            ",": {
+            ":": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ABSTRACTION_BODY",
                     [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
+                        "EXP"
                     ],
-                    "sys_pair($1, $3)"
+                    "$1"
                 ]
             },
-            ";": {
+            "?": {
+                "type": "shift",
+                "state": 261
+            }
+        },
+        {
+            ":": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ABSTRACTION",
                     [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_abstraction(empty(), $4)"
                 ]
             },
             "?": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "ABSTRACTION",
                     [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_abstraction(empty(), $4)"
                 ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 138
             },
-            "verticalBar": {
+            "string": {
+                "type": "shift",
+                "state": 137
+            },
+            "number": {
+                "type": "shift",
+                "state": 141
+            },
+            "true": {
+                "type": "shift",
+                "state": 142
+            },
+            "false": {
+                "type": "shift",
+                "state": 143
+            },
+            "null": {
+                "type": "shift",
+                "state": 144
+            },
+            "(": {
+                "type": "shift",
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 138
+            },
+            "string": {
+                "type": "shift",
+                "state": 137
+            },
+            "number": {
+                "type": "shift",
+                "state": 141
+            },
+            "true": {
+                "type": "shift",
+                "state": 142
+            },
+            "false": {
+                "type": "shift",
+                "state": 143
+            },
+            "null": {
+                "type": "shift",
+                "state": 144
+            },
+            "(": {
+                "type": "shift",
+                "state": 140
+            },
+            "{": {
+                "type": "shift",
+                "state": 139
+            },
+            "[": {
+                "type": "shift",
+                "state": 145
+            }
+        },
+        {
+            "(": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "APPLICATION",
                     [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_application($1, $3)"
                 ]
             },
-            "}": {
+            ":": {
                 "type": "reduce",
                 "production": [
-                    "EXP_LIST",
+                    "APPLICATION",
                     [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ],
-                    "sys_pair($1, $3)"
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 272
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 156
+            },
+            "string": {
+                "type": "shift",
+                "state": 155
+            },
+            "number": {
+                "type": "shift",
+                "state": 160
+            },
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 156
+            },
+            "string": {
+                "type": "shift",
+                "state": 155
+            },
+            "number": {
+                "type": "shift",
+                "state": 160
+            },
+            "true": {
+                "type": "shift",
+                "state": 161
+            },
+            "false": {
+                "type": "shift",
+                "state": 162
+            },
+            "null": {
+                "type": "shift",
+                "state": 163
+            },
+            "(": {
+                "type": "shift",
+                "state": 158
+            },
+            "{": {
+                "type": "shift",
+                "state": 157
+            },
+            "[": {
+                "type": "shift",
+                "state": 164
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 282
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 177
+            },
+            "string": {
+                "type": "shift",
+                "state": 176
+            },
+            "number": {
+                "type": "shift",
+                "state": 180
+            },
+            "true": {
+                "type": "shift",
+                "state": 181
+            },
+            "false": {
+                "type": "shift",
+                "state": 182
+            },
+            "null": {
+                "type": "shift",
+                "state": 183
+            },
+            "(": {
+                "type": "shift",
+                "state": 179
+            },
+            "{": {
+                "type": "shift",
+                "state": 178
+            },
+            "[": {
+                "type": "shift",
+                "state": 184
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 177
+            },
+            "string": {
+                "type": "shift",
+                "state": 176
+            },
+            "number": {
+                "type": "shift",
+                "state": 180
+            },
+            "true": {
+                "type": "shift",
+                "state": 181
+            },
+            "false": {
+                "type": "shift",
+                "state": 182
+            },
+            "null": {
+                "type": "shift",
+                "state": 183
+            },
+            "(": {
+                "type": "shift",
+                "state": 179
+            },
+            "{": {
+                "type": "shift",
+                "state": 178
+            },
+            "[": {
+                "type": "shift",
+                "state": 184
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
                 ]
             }
         },
@@ -24002,18 +12949,522 @@ module.exports = {
             ",": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "IMPORT_EXPRESSION",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
                     ],
-                    "sys_condition($1, $3, $5)"
+                    "sys_import($2, sys_variable($4))"
                 ]
             },
             ";": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ],
+                    "sys_import($2, sys_variable($4))"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "IMPORT_EXPRESSION",
+                    [
+                        "import",
+                        "string",
+                        "as",
+                        "variable"
+                    ],
+                    "sys_import($2, sys_variable($4))"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "VARIABLE_DEFINITION_LIST",
+                    [
+                        "VARIABLE_DEFINITION",
+                        ",",
+                        "VARIABLE_DEFINITION_LIST"
+                    ],
+                    "concat(single($1), $3)"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 297
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION_BODY",
+                    [
+                        "EXP"
+                    ],
+                    "$1"
+                ]
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 198
+            },
+            "string": {
+                "type": "shift",
+                "state": 197
+            },
+            "number": {
+                "type": "shift",
+                "state": 202
+            },
+            "true": {
+                "type": "shift",
+                "state": 203
+            },
+            "false": {
+                "type": "shift",
+                "state": 204
+            },
+            "null": {
+                "type": "shift",
+                "state": 205
+            },
+            "(": {
+                "type": "shift",
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 198
+            },
+            "string": {
+                "type": "shift",
+                "state": 197
+            },
+            "number": {
+                "type": "shift",
+                "state": 202
+            },
+            "true": {
+                "type": "shift",
+                "state": 203
+            },
+            "false": {
+                "type": "shift",
+                "state": 204
+            },
+            "null": {
+                "type": "shift",
+                "state": 205
+            },
+            "(": {
+                "type": "shift",
+                "state": 201
+            },
+            "{": {
+                "type": "shift",
+                "state": 200
+            },
+            "[": {
+                "type": "shift",
+                "state": 206
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ],
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "CODE_BLOCK_EXP",
+                    [
+                        "{",
+                        "NONE_EMPTY_STATEMENTS",
+                        "}"
+                    ],
+                    "sys_application(sys_abstraction(empty(), sys_statements($2)), empty())"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "OBJECT",
+                    [
+                        "{",
+                        "KEY_VALUES",
+                        "}"
+                    ],
+                    "sys_object($2)"
+                ]
+            }
+        },
+        {
+            "variable": {
+                "type": "shift",
+                "state": 307
+            },
+            "string": {
+                "type": "shift",
+                "state": 306
+            },
+            "number": {
+                "type": "shift",
+                "state": 310
+            },
+            "true": {
+                "type": "shift",
+                "state": 311
+            },
+            "false": {
+                "type": "shift",
+                "state": 312
+            },
+            "null": {
+                "type": "shift",
+                "state": 313
+            },
+            "(": {
+                "type": "shift",
+                "state": 309
+            },
+            "{": {
+                "type": "shift",
+                "state": 308
+            },
+            "[": {
+                "type": "shift",
+                "state": 314
+            }
+        },
+        {
+            "->": {
+                "type": "shift",
+                "state": 428
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ARRAY",
+                    [
+                        "[",
+                        "LIST_VALUES",
+                        "]"
+                    ],
+                    "sys_array($2)"
+                ]
+            }
+        },
+        {
+            ":": {
+                "type": "shift",
+                "state": 429
+            },
+            "?": {
+                "type": "shift",
+                "state": 261
+            }
+        },
+        {
+            "(": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            },
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        ")"
+                    ],
+                    "sys_application($1, empty())"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "shift",
+                "state": 430
+            }
+        },
+        {
+            ":": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
+            ":": {
                 "type": "reduce",
                 "production": [
                     "CONDITION_EXP",
@@ -24029,34 +13480,50 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 440
-            },
-            "verticalBar": {
+                "state": 261
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "ABSTRACTION",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_condition($1, $3, $5)"
+                    "sys_abstraction($2, $5)"
                 ]
             },
-            "}": {
+            ",": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "ABSTRACTION",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
                     ],
-                    "sys_condition($1, $3, $5)"
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
                 ]
             }
         },
@@ -24091,9 +13558,69 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 451
+                "state": 272
+            }
+        },
+        {
+            "$": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
             },
-            "verticalBar": {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
+            "$": {
                 "type": "reduce",
                 "production": [
                     "CONDITION_EXP",
@@ -24105,6 +13632,96 @@ module.exports = {
                         "EXP"
                     ],
                     "sys_condition($1, $3, $5)"
+                ]
+            },
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ],
+                    "sys_condition($1, $3, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "CONDITION_EXP",
+                    [
+                        "EXP",
+                        "?",
+                        "EXP",
+                        ":",
+                        "EXP"
+                    ],
+                    "sys_condition($1, $3, $5)"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 282
+            }
+        },
+        {
+            ",": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            ";": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "}": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
                 ]
             }
         },
@@ -24139,9 +13756,9 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 468
+                "state": 297
             },
-            "]": {
+            "}": {
                 "type": "reduce",
                 "production": [
                     "CONDITION_EXP",
@@ -24154,181 +13771,201 @@ module.exports = {
                     ],
                     "sys_condition($1, $3, $5)"
                 ]
-            },
-            "verticalBar": {
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "ABSTRACTION_BODY",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
                         "EXP"
                     ],
-                    "sys_condition($1, $3, $5)"
+                    "$1"
+                ]
+            },
+            "?": {
+                "type": "shift",
+                "state": 383
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction(empty(), $4)"
                 ]
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 483
+                "state": 307
             },
             "string": {
                 "type": "shift",
-                "state": 482
+                "state": 306
             },
             "number": {
                 "type": "shift",
-                "state": 485
+                "state": 310
             },
             "true": {
                 "type": "shift",
-                "state": 486
+                "state": 311
             },
             "false": {
                 "type": "shift",
-                "state": 487
+                "state": 312
             },
             "null": {
                 "type": "shift",
-                "state": 488
+                "state": 313
+            },
+            "(": {
+                "type": "shift",
+                "state": 309
             },
             "{": {
                 "type": "shift",
-                "state": 484
+                "state": 308
             },
             "[": {
                 "type": "shift",
-                "state": 489
-            },
-            "(": {
-                "type": "shift",
-                "state": 160
-            }
-        },
-        {
-            "(": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "APPLICATION",
-                    [
-                        "CALLER",
-                        "(",
-                        "EXP_LIST",
-                        ")"
-                    ],
-                    "sys_application($1, $3)"
-                ]
+                "state": 314
             }
         },
         {
             "variable": {
                 "type": "shift",
-                "state": 483
+                "state": 307
             },
             "string": {
                 "type": "shift",
-                "state": 482
+                "state": 306
             },
             "number": {
                 "type": "shift",
-                "state": 485
+                "state": 310
             },
             "true": {
                 "type": "shift",
-                "state": 486
+                "state": 311
             },
             "false": {
                 "type": "shift",
-                "state": 487
+                "state": 312
             },
             "null": {
                 "type": "shift",
-                "state": 488
-            },
-            "{": {
-                "type": "shift",
-                "state": 484
-            },
-            "[": {
-                "type": "shift",
-                "state": 489
+                "state": 313
             },
             "(": {
                 "type": "shift",
-                "state": 160
+                "state": 309
+            },
+            "{": {
+                "type": "shift",
+                "state": 308
+            },
+            "[": {
+                "type": "shift",
+                "state": 314
             }
         },
         {
-            ",": {
+            "(": {
                 "type": "reduce",
                 "production": [
-                    "CONDITION_EXP",
+                    "APPLICATION",
                     [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
                     ],
-                    "sys_condition($1, $3, $5)"
+                    "sys_application($1, $3)"
                 ]
             },
-            ":": {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "APPLICATION",
+                    [
+                        "CALLER",
+                        "(",
+                        "EXP_LIST",
+                        ")"
+                    ],
+                    "sys_application($1, $3)"
+                ]
+            }
+        },
+        {
+            ")": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            },
+            "?": {
+                "type": "reduce",
+                "production": [
+                    "ABSTRACTION",
+                    [
+                        "(",
+                        "LIST_VARIABLES",
+                        ")",
+                        "->",
+                        "ABSTRACTION_BODY"
+                    ],
+                    "sys_abstraction($2, $5)"
+                ]
+            }
+        },
+        {
+            ")": {
                 "type": "reduce",
                 "production": [
                     "CONDITION_EXP",
@@ -24344,71 +13981,7 @@ module.exports = {
             },
             "?": {
                 "type": "shift",
-                "state": 586
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "CONDITION_EXP",
-                    [
-                        "EXP",
-                        "?",
-                        "EXP",
-                        ":",
-                        "EXP"
-                    ],
-                    "sys_condition($1, $3, $5)"
-                ]
-            }
-        },
-        {
-            ",": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            ":": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "?": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
-            },
-            "verticalBar": {
-                "type": "reduce",
-                "production": [
-                    "EXP_LIST",
-                    [
-                        "EXP",
-                        ",",
-                        "EXP_LIST"
-                    ],
-                    "sys_pair($1, $3)"
-                ]
+                "state": 383
             }
         }
     ]

@@ -5,11 +5,144 @@ let {
     getTranslateFun
 } = require('../pfcTranslator');
 
-module.exports = (production, midNode, target, optTranslator) => {
+let translatorMap = {
+    sys_statements: (statements) => {
+        for (let i = 0; i < statements.length; i++) {
+            let statement = statements[i];
+
+            // rewrite let binding
+            if (statement.type === 'letBinding') {
+                let {
+                    variableDefList
+                } = statement;
+
+                let restStatements = translatorMap.sys_statements(statements.slice(i + 1));
+
+                for (let j = 0; j < variableDefList.length; j++) {
+                    let [variableName, definition] = variableDefList[j];
+
+                    restStatements = {
+                        type: 'application',
+                        fun: {
+                            type: 'abstraction',
+                            variables: [{
+                                variableName
+                            }],
+                            body: restStatements
+                        },
+                        params: [definition]
+                    };
+                }
+
+                return {
+                    type: 'statements',
+                    statements: statements.slice(0, i).concat([restStatements])
+                };
+            }
+        }
+
+        return {
+            type: 'statements',
+            statements
+        };
+    },
+    sys_exp: (expression) => {
+        return {
+            type: 'expression',
+            expression
+        };
+    },
+    sys_import: (modulePath, variable) => {
+        return {
+            type: 'import',
+            modulePath,
+            variable
+        };
+    },
+    sys_variable: (variableName) => {
+        return {
+            type: 'variable',
+            variableName
+        };
+    },
+    sys_letBinding: (variableDefList) => {
+        return {
+            type: 'letBinding',
+            variableDefList
+        };
+    },
+    sys_application: (fun, params) => {
+        return {
+            type: 'application',
+            fun,
+            params
+        };
+    },
+    sys_abstraction: (variables, body) => {
+        return {
+            type: 'abstraction',
+            variables,
+            body
+        };
+    },
+
+    sys_condition: (c, p1, p2) => {
+        return {
+            type: 'application',
+            fun: {
+                type: 'variable',
+                variableName: 'std::if'
+            },
+            params: [c, p1, p2]
+        };
+    },
+
+    // data
+    sys_string: (value) => {
+        return {
+            type: 'string',
+            value
+        };
+    },
+    sys_number: (value) => {
+        return {
+            type: 'number',
+            value
+        };
+    },
+    sys_object: (value) => {
+        return {
+            type: 'object',
+            value
+        };
+    },
+    sys_array: (value) => {
+        return {
+            type: 'array',
+            value
+        };
+    },
+    sys_null: () => {
+        return {
+            type: 'null'
+        };
+    },
+    sys_true: () => {
+        return {
+            type: 'true'
+        };
+    },
+    sys_false: () => {
+        return {
+            type: 'false'
+        };
+    }
+};
+
+module.exports = (production, midNode, optTranslator) => {
     // get translate function
     let productionTranslater = getTranslateFun(production);
 
-    // collect child's target codes as params
     // TODO rearrange them
     let params = {};
     let children = midNode.children;
@@ -20,42 +153,23 @@ module.exports = (production, midNode, target, optTranslator) => {
         if (child.type === 'terminal') {
             childValue = child.token.text;
         } else {
-            childValue = child.values[target];
+            childValue = child.value;
         }
 
         params[`$${i + 1}`] = childValue;
     }
-
-    // TODO replace productionTranslater for specific optimazation to target language
 
     let translator = productionTranslater;
     if (optTranslator && optTranslator[translator]) {
         translator = optTranslator[translator];
     }
 
-    let code = pfcCompiler.compile(productionTranslater)(Object.assign(params, {
-        sys_statements: (statements) => `sys_statements(${statements})`,
-        sys_void: () => 'sys_void()',
-        sys_pair: (v1, v2) => `sys_pair(${v1}, ${v2})`,
-        sys_exp: (v) => `sys_exp(${v})`,
-        sys_import: (v1, v2) => `sys_import(${v1}, ${v2})`,
-        sys_variable: (v) => `sys_variable("${v}")`,
-        sys_letBinding: (v) => `sys_letBinding(${v})`,
-        sys_data: (v) => `sys_data(${v})`,
-        sys_application: (fun, params) => `sys_application(${fun}, ${params})`,
-        sys_ordinary_abstraction: (variables, body) => `sys_ordinary_abstraction(${variables}, ${body})`,
-        sys_condition: (c, p1, p2) => `sys_condition(${c}, ${p1}, ${p2})`,
-        sys_guarded_abstraction: (v) => `sys_guarded_abstraction(${v})`,
-        sys_guarded_abstraction_line: (v1, v2) => `sys_guarded_abstraction_line(${v1}, ${v2})`,
-        sys_string: (v) => `sys_string(${v})`,
-        sys_number: (v) => `sys_number("${v}")`,
-        sys_object: (v) => `sys_object(${v})`,
-        sys_null: () => 'sys_null()',
-        sys_true: () => 'sys_true()',
-        sys_false: () => 'sys_false()',
-        sys_array: (v) => `sys_array(${v})`
-    }));
+    let obj = pfcCompiler.compile(productionTranslater)(Object.assign(params, {
+        empty: () => [],
+        single: (v) => [v],
+        concat: (list1, list2) => list1.concat(list2),
+        stringContent: (str) => str.substring(1, str.length - 1)
+    }, translatorMap));
 
-    midNode.values = midNode.values || [];
-    midNode.values[target] = code;
+    midNode.value = obj;
 };

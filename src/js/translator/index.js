@@ -39,11 +39,11 @@ module.exports = (target, opts = {}, {
         }
 
         // translate current node
-        translateProdcution(production, midNode, target, optTranslator);
+        translateProdcution(production, midNode, optTranslator);
     };
 
     let getCode = (ast) => {
-        let middleCode = ast.children[0].values[target];
+        let middleCode = JSON.stringify(ast.children[0].value);
         if (opts.pureMiddleCode) return middleCode;
 
         // module wrapper

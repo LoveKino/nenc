@@ -1,11 +1,8 @@
 'use strict';
 
 let {
-    equalJsApp,
-    equalJsJson
+    equalJsApp
 } = require('../../util');
-
-let path = require('path');
 
 let testData = {
     '[1, +(1, 1)]': [1, 2],
