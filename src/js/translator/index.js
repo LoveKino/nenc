@@ -39,9 +39,7 @@ module.exports = (target, opts = {}, {
         }
 
         // translate current node
-        let code = translateProdcution(production, midNode, target, optTranslator);
-        midNode.values = midNode.values || [];
-        midNode.values[target] = code;
+        translateProdcution(production, midNode, target, optTranslator);
     };
 
     let getCode = (ast) => {

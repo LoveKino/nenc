@@ -25,6 +25,7 @@
     "cl-fsm": "0.0.2",
     "cl-jsoneq": "0.0.3",
     "lodash.template": "^4.4.0",
+    "pfc-compiler": "0.0.1",
     "stream-token-parser": "0.0.3",
     "syntaxer": "0.0.11"
   },
