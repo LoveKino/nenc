@@ -38,6 +38,35 @@ let translatorMap = {
                     type: 'statements',
                     statements: statements.slice(0, i).concat([restStatements])
                 };
+            } else if (statement.type === 'import') {
+                let {
+                    modulePath,
+                    variable
+                } = statement;
+
+                let restStatements = translatorMap.sys_statements(statements.slice(i + 1));
+
+                let importWrapperStatement = {
+                    type: 'application',
+                    fun: {
+                        type: 'abstraction',
+                        body: restStatements,
+                        variables: [variable]
+                    },
+                    params: [{
+                        type: 'application',
+                        fun: {
+                            type: 'variable',
+                            variableName: 'std::getModule'
+                        },
+                        params: [modulePath]
+                    }]
+                };
+
+                return {
+                    type: 'statements',
+                    statements: statements.slice(0, i).concat([importWrapperStatement])
+                };
             }
         }
 
@@ -59,6 +88,7 @@ let translatorMap = {
             variable
         };
     },
+
     sys_variable: (variableName) => {
         return {
             type: 'variable',
@@ -78,7 +108,39 @@ let translatorMap = {
             params
         };
     },
-    sys_abstraction: (variables, body) => {
+
+    sys_abstraction: (variables, lines) => {
+        let body = { // when no match, throw expception
+            type: 'application',
+            fun: {
+                type: 'variable',
+                variableName: 'std::error'
+            },
+            params: ['Fail to match function.']
+        };
+
+        for (let i = lines.length - 1; i >= 0; i--) {
+            let expList = lines[i];
+            let expBody = expList[0];
+            let expBodyConditionsExp;
+            if (expList.length > 1) {
+                expBodyConditionsExp = andExps(expList.slice(1));
+            } else {
+                expBodyConditionsExp = {
+                    type: 'true'
+                };
+            }
+
+            body = {
+                type: 'application',
+                fun: {
+                    type: 'variable',
+                    variableName: 'std::if',
+                },
+                params: [expBodyConditionsExp, expBody, body]
+            };
+        }
+
         return {
             type: 'abstraction',
             variables,
@@ -137,6 +199,22 @@ let translatorMap = {
             type: 'false'
         };
     }
+};
+
+let andExps = (exps) => {
+    let prev = exps[0];
+    for (let i = 1; i < exps.length; i++) {
+        prev = {
+            type: 'application',
+            fun: {
+                type: 'variable',
+                variableName: '&&'
+            },
+            params: [prev, exps[i]]
+        };
+    }
+
+    return prev;
 };
 
 module.exports = (production, midNode, optTranslator) => {
