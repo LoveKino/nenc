@@ -24,9 +24,11 @@ for (let name in testData) {
     readFile(testData[name], 'utf-8').then((str) => {
         let part = JSON.parse(str);
         describe(name, () => {
+            let index = 0;
             for (let code in part) {
                 let target = part[code];
-                it(name, () => {
+                index++;
+                it(`${index}. ${code}`, () => {
                     equalJsApp(code, target);
                 });
             }
