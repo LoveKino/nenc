@@ -18,19 +18,13 @@ let generateGrammer = async(txtFile, jsonFile, pfcTranslatorJsonPath) => {
 
     let pfcMap = {};
 
-    productions.map(([head, body, annotation]) => {
-        let bodyStr = body.join(' ');
-        if (!body.length) {
-            bodyStr = 'EPSILON';
-        }
-        let key = `${head} := ${bodyStr}`;
-        pfcMap[key] = annotation;
+    productions.map((production) => {
+        pfcMap[bnfer.generateProductionId(production)] = production[2];
     });
 
     await writeFile(pfcTranslatorJsonPath, JSON.stringify(pfcMap), 'utf-8');
     await writeFile(jsonFile, JSON.stringify(grammer), 'utf-8');
 };
-
 
 module.exports = () => {
     return generateGrammer(grammerTxtPath, grammerPath, pfcTranslatorJsonPath);

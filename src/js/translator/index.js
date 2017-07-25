@@ -1,12 +1,10 @@
 'use strict';
 
-let template = require('lodash.template');
+let textFlowPFCCompiler = require('text-flow-pfc-compiler');
 let translateProdcution = require('./translateProduction');
-let {
-    wrapModule
-} = require('./pfcTranslator');
 let libraryMap = require('./library');
 let path = require('path');
+let translateData = require('./translateData');
 
 let defaultExportNameMap = {
     'c': 'main'
@@ -19,10 +17,10 @@ module.exports = (target, opts = {}, {
     loadModule, currentFile
 } = {}) => {
     let {
-        systemSource, joinTpl, optTranslator, importLibrary
+        systemSource, joinTpl, optTranslator
     } = libraryMap[target] || {};
 
-    let tplFun = template(joinTpl);
+    let linkerAst = textFlowPFCCompiler.parseStrToAst(joinTpl);
 
     /**
      * This will be called everytime when reduce production
@@ -43,30 +41,51 @@ module.exports = (target, opts = {}, {
     };
 
     let getCode = (ast) => {
-        let middleCode = JSON.stringify(ast.children[0].value);
-        if (opts.pureMiddleCode) return middleCode;
-
-        // module wrapper
-        return wrapModule(currentFile, middleCode);
+        return translateData(ast.children[0].value, target);
     };
 
-    let assembleWithTpl = (middleCode, indexPath) => {
-        if (opts.pureMiddleCode) return middleCode;
+    let assembleWithTpl = (moduleSources, indexPath) => {
+        let sandboxer = () => {
+            return {
+                system_code: opts.system_code || systemSource,
+                custom_code: opts.custom_code || '',
+                libraries: opts.library || [], // array
+                indexPath,
+                moduleSources,
+                concatModuleSources: (moduleSources, tpl) => {
+                    let middleCodes = [];
+                    for (let i = 0; i < moduleSources.length; i++) {
+                        let {
+                            code, filePath
+                        } = moduleSources[i];
+                        middleCodes.push(template({
+                            filePath, code
+                        })(tpl));
+                    }
 
-        let libraryImportCode = '';
+                    return middleCodes;
+                },
+                concatLibraries: (libraries, tpl) => {
+                    let list = [];
+                    for (let i = 0; i < libraries.length; i++) {
+                        let library = libraries[i];
+                        list.push(template({
+                            library
+                        })(tpl));
+                    }
 
-        if (opts.library && importLibrary) {
-            libraryImportCode = importLibrary(opts.library);
-        }
+                    return list;
+                },
+                join: (list, str) => list.join(str),
+                exportName: opts.exportName || defaultExportNameMap[target]
+            };
+        };
 
-        return tplFun({
-            system_code: opts.system_code || systemSource,
-            custom_code: opts.custom_code || '',
-            middle_code: middleCode,
-            libraryImportCode,
-            indexPath,
-            exportName: opts.exportName || defaultExportNameMap[target]
-        });
+        textFlowPFCCompiler.checkASTWithContext(linkerAst, sandboxer);
+
+        let arr = textFlowPFCCompiler.executeAST(linkerAst, sandboxer);
+
+        return pfcArrayToText(arr);
     };
 
     return {
@@ -74,4 +93,28 @@ module.exports = (target, opts = {}, {
         getCode,
         assembleWithTpl
     };
+};
+
+let pfcArrayToText = (arr) => {
+    let result = '';
+    for (let i = 0; i < arr.length; i++) {
+        let item = arr[i];
+        if (item.type === 'text') {
+            result += item.text;
+        } else if (item.type === 'pfc') {
+            result += item.value;
+        }
+    }
+
+    return result;
+};
+
+let template = (context) => (tpl) => {
+    let ast = textFlowPFCCompiler.parseStrToAst(tpl, {
+        startDelimiter: '${',
+        endDelimiter: '}'
+    });
+    textFlowPFCCompiler.checkASTWithContext(ast, () => context);
+    let arr = textFlowPFCCompiler.executeAST(ast, () => context);
+    return pfcArrayToText(arr);
 };

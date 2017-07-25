@@ -2,8 +2,19 @@
 
 let pfcCompiler = require('pfc-compiler');
 let {
-    getTranslateFun
-} = require('../pfcTranslator');
+    generateProductionId
+} = require('bnfer');
+let pfcsource = require('../../../../grammer-host/grammer-js/translator/pfc');
+
+let getTranslateFun = (production) => {
+    let productionTranslater = pfcsource[generateProductionId(production)];
+
+    if (productionTranslater === null) {
+        throw new Error(`missing production translator for ${JSON.stringify(production)}`);
+    }
+
+    return productionTranslater;
+};
 
 let translatorMap = {
     sys_statements: (statements) => {
@@ -241,12 +252,20 @@ module.exports = (production, midNode, optTranslator) => {
         translator = optTranslator[translator];
     }
 
-    let obj = pfcCompiler.compile(productionTranslater)(Object.assign(params, {
-        empty: () => [],
-        single: (v) => [v],
-        concat: (list1, list2) => list1.concat(list2),
-        stringContent: (str) => str.substring(1, str.length - 1)
-    }, translatorMap));
+    let ast = pfcCompiler.parseStrToAst(productionTranslater);
+
+    let context = Object.assign(params, utilSandbox, translatorMap);
+
+    pfcCompiler.checkASTWithContext(ast, context);
+
+    let obj = pfcCompiler.executeAST(ast, context);
 
     midNode.value = obj;
+};
+
+let utilSandbox = {
+    empty: () => [],
+    single: (v) => [v],
+    concat: (list1, list2) => list1.concat(list2),
+    stringContent: (str) => str.substring(1, str.length - 1)
 };

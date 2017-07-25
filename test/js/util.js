@@ -2,7 +2,7 @@
 
 let {
     compile, compileFile
-} = require('..');
+} = require('../..');
 let vm = require('vm');
 let assert = require('assert');
 

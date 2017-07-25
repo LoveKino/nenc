@@ -4,12 +4,10 @@ let {
     grammerPath,
     LR1TablePath,
     pfcTranslatorJsonPath,
-    pfcModuleWrapperTplPath,
-    jsOptTranslatorJsonPath,
-    cOptTranslatorJsonPath,
     jsJoinTplPath,
     cSystemCodePath,
-    cJoinTplPath
+    cJoinTplPath,
+    javaJoinTplPath
 } = require('./grammerResource');
 
 let {
@@ -26,11 +24,6 @@ let grammerJsDir = path.join(__dirname, '../grammer-host/grammer-js');
 const LR1TableJsPath = path.join(grammerJsDir, 'LR1Table.js');
 
 const pfcTranslatorJsPath = path.join(grammerJsDir, 'translator/pfc.js');
-const pfcModuleWrapperTplJsPath = path.join(grammerJsDir, 'translator/pfc_module_wrapper.tpl.js');
-
-// opt translator
-const jsOptTranslatorJsPath = path.join(grammerJsDir, 'library/js/optTranslator.js');
-const cOptTranslatorJsPath = path.join(grammerJsDir, 'library/c/optTranslator.js');
 
 // system library
 const jsTargetJsJoinTplPath = path.join(grammerJsDir, 'library/js/join.js.tpl.js');
@@ -38,11 +31,14 @@ const jsTargetJsJoinTplPath = path.join(grammerJsDir, 'library/js/join.js.tpl.js
 const jsTargetCSystemCodePath = path.join(grammerJsDir, 'library/c/system.c.js');
 const jsTargetCJoinTplPath = path.join(grammerJsDir, 'library/c/join.c.tpl.js');
 
+const jsTargetJavaJoinTplPath = path.join(grammerJsDir, 'library/java/join.java.tpl.js');
+
 let systemLibJsModule = () => {
     return Promise.all([
         textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
         textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
-        textToJsModule(cJoinTplPath, jsTargetCJoinTplPath)
+        textToJsModule(cJoinTplPath, jsTargetCJoinTplPath),
+        textToJsModule(javaJoinTplPath, jsTargetJavaJoinTplPath)
     ]);
 };
 
@@ -52,12 +48,6 @@ module.exports = () => {
 
         jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
 
-        textToJsModule(pfcModuleWrapperTplPath, pfcModuleWrapperTplJsPath),
-
-        systemLibJsModule(),
-
-        jsonToJsModule(jsOptTranslatorJsonPath, jsOptTranslatorJsPath),
-
-        jsonToJsModule(cOptTranslatorJsonPath, cOptTranslatorJsPath)
+        systemLibJsModule()
     ]);
 };

@@ -1,6 +1,5 @@
 'use strict';
 
-// support to es3
 var sys_module, sys_runProgram, addMetaMethod;
 
 // require system library
@@ -12,8 +11,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         sys_module = _.sys_module;
         sys_runProgram = _.sys_runProgram;
         addMetaMethod = _.addMetaMethod;
-    }
-    catch(err) {
+    } catch(err) {
         if(typeof console !== 'undefined') {
             console.log('error happend when try to import system code.');
         }
@@ -22,18 +20,19 @@ var nencJsInterpreter = require('nenc-js-interpreter');
 })();
 
 try {
-<%= libraryImportCode %>
+// require libraries
+{: join(concatLibraries(libraries, "require('${library}')(addMetaMethod);"), "") :}
 } catch(err) {
     console.log('error happened when try to import library code.');
     throw err;
 }
 
-<%= custom_code %>
+{: custom_code :}
 
 (function() {
-<%= middle_code %>
+{: join(concatModuleSources(moduleSources, "sys_module('${filePath}', ${code});"), "") :}
 
-    var __program__result__ = sys_runProgram("<%= indexPath %>");
+    var __program__result__ = sys_runProgram("{: indexPath :}");
 
     // exports result
     if(typeof module === 'object' && module) {

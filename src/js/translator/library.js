@@ -1,32 +1,23 @@
 'use strict';
 
 let jsLinkTpl = require('../../../grammer-host/grammer-js/library/js/join.js.tpl.js');
-let jsOptTranslator = require('../../../grammer-host/grammer-js/library/js/optTranslator.js');
 
 let cSystemCode = require('../../../grammer-host/grammer-js/library/c/system.c.js');
 let cLinkTpl = require('../../../grammer-host/grammer-js/library/c/join.c.tpl.js');
-let cOptTransltor = require('../../../grammer-host/grammer-js/library/c/optTranslator.js');
 
-let importJsLibrary = (libraries) => {
-    let code = '';
-    for (let i = 0; i < libraries.length; i++) {
-        let library = libraries[i];
-        code += `require("${library}")(addMetaMethod);\n`;
-    }
-
-    return code;
-};
+let javaLinkTpl = require('../../../grammer-host/grammer-js/library/java/join.java.tpl.js');
 
 module.exports = {
     js: {
-        joinTpl: jsLinkTpl,
-        optTranslator: jsOptTranslator,
-        importLibrary: importJsLibrary
+        joinTpl: jsLinkTpl
     },
 
     c: {
         systemSource: cSystemCode,
-        joinTpl: cLinkTpl,
-        optTranslator: cOptTransltor
+        joinTpl: cLinkTpl
+    },
+
+    java: {
+        joinTpl: javaLinkTpl
     }
 };

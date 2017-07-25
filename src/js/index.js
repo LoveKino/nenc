@@ -12,7 +12,11 @@ let compile = (str, target, opts) => {
         currentFile: virtualFilePath
     });
     handleChunk(str);
-    return assembleWithTpl(handleChunk(null), virtualFilePath);
+
+    return assembleWithTpl([{
+        filePath: virtualFilePath,
+        code: handleChunk(null)
+    }], virtualFilePath);
 };
 
 /**
@@ -21,7 +25,7 @@ let compile = (str, target, opts) => {
 let compileFile = (indexPath, target, opts) => {
     let tasks = {},
         count = 0,
-        code = '';
+        moduleSources = [];
 
     let errored = false;
     let cwd = process.cwd();
@@ -41,12 +45,15 @@ let compileFile = (indexPath, target, opts) => {
             count++;
 
             tasks[modulePath].then((moduleCode) => {
-                code += moduleCode;
+                moduleSources.push({
+                    code: moduleCode,
+                    filePath: modulePath
+                });
                 count--;
                 delete tasks[modulePath];
 
                 if (count === 0) {
-                    resolve(assembleWithTpl(code, indexPath));
+                    resolve(assembleWithTpl(moduleSources, indexPath));
                 }
             }).catch(err => {
                 count--;

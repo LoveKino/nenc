@@ -2,7 +2,7 @@
 
 let {
     equalJsApp
-} = require('../../util');
+} = require('../util');
 
 let path = require('path');
 let fs = require('fs');

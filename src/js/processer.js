@@ -17,17 +17,10 @@ let tokenTypes = require('../../grammer-host/grammer-js/tokenTypes');
 let processTokens = (rawTokens) => {
     let tokens = [];
     for (let i = 0; i < rawTokens.length; i++) {
-        let {
-            text, tokenType
-        } = rawTokens[i];
+        let token = rawTokens[i];
 
-        let name = tokenType.name;
-
-        if (name !== 'whitespace') { // ignore white space
-            tokens.push({
-                text,
-                name
-            });
+        if (token.name !== 'whitespace') { // ignore white space
+            tokens.push(token);
         }
     }
 
