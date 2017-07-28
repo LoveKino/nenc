@@ -1,1 +1,1 @@
-module.exports = "<%= middle_code%>\n"
+module.exports = "package {:packageName:};\nimport java.util.HashMap;\nimport com.nenc.interpreter.*;\n\npublic class {:className:} {\n    public Object run() {\n        Interpreter interpreter = new Interpreter();\n\n        {: join(concatModuleSources(moduleSources, \"{${{code}}interpreter.defineModule(${{encodeString(filePath)}}, t0);}\"), \"\\n\") :}\n\n        return interpreter.runProgram(\"{: indexPath :}\");\n    }\n}\n"

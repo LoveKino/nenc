@@ -1,16 +1,18 @@
 'use strict';
 
 // TODO stream it
-module.exports = (value, target) => {
+module.exports = (value, target, {
+    baseName
+} = {}) => {
     if (target === 'js') return JSON.stringify(value);
 
-    if (target === 'java') return translateDataToJava(value);
+    if (target === 'java') return translateDataToJava(value, baseName);
 };
 
 /**
  * translate json object to java code
  */
-let translateDataToJava = (value) => {
+let translateDataToJava = (value, baseName = 't') => {
     let stack = [{
         valueNode: value
     }];
@@ -22,7 +24,7 @@ let translateDataToJava = (value) => {
             valueNode, parentType, parentVarName, index
         } = stack.pop();
         count++;
-        let varName = `t${count}`;
+        let varName = `${baseName}${count}`;
 
         if (Array.isArray(valueNode)) {
             codeLines.push(`Object[] ${varName} = new Object[${valueNode.length}];`);
@@ -35,7 +37,7 @@ let translateDataToJava = (value) => {
                 });
             }
         } else if (isObject(valueNode)) {
-            codeLines.push(`HashMap<String, Object> ${varName} = new HashMap<String, Object>()`);
+            codeLines.push(`HashMap<String, Object> ${varName} = new HashMap<String, Object>();`);
             for (let name in valueNode) {
                 stack.push({
                     valueNode: valueNode[name],

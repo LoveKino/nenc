@@ -21,7 +21,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
 
 try {
 // require libraries
-{: join(concatLibraries(libraries, "require('${library}')(addMetaMethod);"), "") :}
+{: join(concatLibraries(libraries, "require('${{library}}')(addMetaMethod);"), "") :}
 } catch(err) {
     console.log('error happened when try to import library code.');
     throw err;
@@ -30,7 +30,7 @@ try {
 {: custom_code :}
 
 (function() {
-{: join(concatModuleSources(moduleSources, "sys_module('${filePath}', ${code});"), "") :}
+{: join(concatModuleSources(moduleSources, "sys_module(${{encodeString(filePath)}}, ${{code}});"), "") :}
 
     var __program__result__ = sys_runProgram("{: indexPath :}");
 

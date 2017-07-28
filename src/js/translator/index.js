@@ -47,6 +47,10 @@ module.exports = (target, opts = {}, {
     let assembleWithTpl = (moduleSources, indexPath) => {
         let sandboxer = () => {
             return {
+                // java package
+                packageName: opts.packageName || 'com.nenc.auto.test',
+                className: opts.className || 'Test',
+
                 system_code: opts.system_code || systemSource,
                 custom_code: opts.custom_code || '',
                 libraries: opts.library || [], // array
@@ -59,7 +63,8 @@ module.exports = (target, opts = {}, {
                             code, filePath
                         } = moduleSources[i];
                         middleCodes.push(template({
-                            filePath, code
+                            filePath, code,
+                            encodeString: (str) => `"${str}"`
                         })(tpl));
                     }
 
@@ -70,7 +75,8 @@ module.exports = (target, opts = {}, {
                     for (let i = 0; i < libraries.length; i++) {
                         let library = libraries[i];
                         list.push(template({
-                            library
+                            library,
+                            encodeString: (str) => `"${str}"`
                         })(tpl));
                     }
 
@@ -111,8 +117,8 @@ let pfcArrayToText = (arr) => {
 
 let template = (context) => (tpl) => {
     let ast = textFlowPFCCompiler.parseStrToAst(tpl, {
-        startDelimiter: '${',
-        endDelimiter: '}'
+        startDelimiter: '${{',
+        endDelimiter: '}}'
     });
     textFlowPFCCompiler.checkASTWithContext(ast, () => context);
     let arr = textFlowPFCCompiler.executeAST(ast, () => context);
