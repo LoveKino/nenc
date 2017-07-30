@@ -4,7 +4,7 @@
   "description": "A Simple Language Which Used to Compile To Other Platform Languages.",
   "main": "index.js",
   "scripts": {
-    "test": "npm link ./grammer/library/js/nenc-js-interpreter && mocha \"test/**/*.js\"",
+    "test": "npm link ./grammer/library/js/nenc-js-interpreter && mocha \"test/**/*.js\" -t 1000000",
     "build": "node task/buildGrammer.js"
   },
   "repository": {
@@ -37,6 +37,7 @@
     "mocha": "^3.3.0",
     "pfc-idl": "0.0.2",
     "pfc-idl-model-translator": "0.0.5",
+    "spawnp": "^0.1.2",
     "uuid": "^3.1.0",
     "webpack": "^2.6.1"
   }

@@ -5,6 +5,9 @@ let translateProdcution = require('./translateProduction');
 let libraryMap = require('./library');
 let path = require('path');
 let translateData = require('./translateData');
+let {
+    template, pfcArrayToText
+} = require('../util');
 
 let defaultExportNameMap = {
     'c': 'main'
@@ -99,28 +102,4 @@ module.exports = (target, opts = {}, {
         getCode,
         assembleWithTpl
     };
-};
-
-let pfcArrayToText = (arr) => {
-    let result = '';
-    for (let i = 0; i < arr.length; i++) {
-        let item = arr[i];
-        if (item.type === 'text') {
-            result += item.text;
-        } else if (item.type === 'pfc') {
-            result += item.value;
-        }
-    }
-
-    return result;
-};
-
-let template = (context) => (tpl) => {
-    let ast = textFlowPFCCompiler.parseStrToAst(tpl, {
-        startDelimiter: '${{',
-        endDelimiter: '}}'
-    });
-    textFlowPFCCompiler.checkASTWithContext(ast, () => context);
-    let arr = textFlowPFCCompiler.executeAST(ast, () => context);
-    return pfcArrayToText(arr);
 };

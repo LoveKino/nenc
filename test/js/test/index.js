@@ -12,6 +12,7 @@ let testDataDir = path.join(__dirname, '../../testData');
 
 let testData = {
     'base': path.join(testDataDir, 'base.json'),
+    'json': path.join(testDataDir, 'json.json'),
     'abstraction': path.join(testDataDir, 'abstraction.json'),
     'codeBlock': path.join(testDataDir, 'codeBlock.json'),
     'condition': path.join(testDataDir, 'condition.json'),
@@ -23,7 +24,7 @@ let testData = {
 for (let name in testData) {
     readFile(testData[name], 'utf-8').then((str) => {
         let part = JSON.parse(str);
-        describe(name, () => {
+        describe(`js: ${name}`, () => {
             let index = 0;
             for (let code in part) {
                 let target = part[code];

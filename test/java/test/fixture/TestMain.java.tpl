@@ -6,19 +6,7 @@ public class TestMain {
         Test test = new Test();
         Object result = test.run();
         // expected json
-        HashMap<String, Object> t0 = new HashMap<String, Object>();
-HashMap<String, Object> t1 = new HashMap<String, Object>();
-t0.put("a", t1);
-HashMap<String, Object> t2 = new HashMap<String, Object>();
-t1.put("b", t2);
-Object[] t3 = new Object[3];
-t2.put("c", t3);
-double t4 = 3;
-t3[2] = t4;
-double t5 = 2;
-t3[1] = t5;
-double t6 = 1;
-t3[0] = t6;
+        ${{expect}}
         // compare result and expectation
         assertJsonEqual(result, t0);
     }

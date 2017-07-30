@@ -49,7 +49,7 @@ let translateDataToJava = (value, baseName = 't') => {
         } else if (typeof valueNode === 'number') {
             codeLines.push(`double ${varName} = ${valueNode};`);
         } else if (typeof valueNode === 'boolean') {
-            codeLines.push(`bool ${varName} = ${valueNode};`);
+            codeLines.push(`Boolean ${varName} = ${valueNode};`);
         } else if (typeof valueNode === 'string') {
             codeLines.push(`String ${varName} = "${valueNode}";`);
         } else if (valueNode === null) {
