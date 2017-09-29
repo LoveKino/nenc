@@ -32,9 +32,17 @@ let translatorMap = {
                 for (let j = 0; j < variableDefList.length; j++) {
                     let [variableName, definition] = variableDefList[j];
 
-                    restStatements = translatorMap.sys_application(translatorMap.sys_abstraction([{
-                        variableName
-                    }], restStatements), [definition]);
+                    restStatements = translatorMap.sys_application(translatorMap.sys_abstraction(
+                        //variables
+                        [{
+                            variableName
+                        }],
+
+                        // bodyExps
+                        [
+                            [restStatements]
+                        ]
+                    ), [definition]);
                 }
                 // re-arrage statements
                 statements = statements.slice(0, i).concat([restStatements]);
@@ -49,8 +57,12 @@ let translatorMap = {
 
                 let importWrapperStatement = translatorMap.sys_application(
                     translatorMap.sys_abstraction(
+                        //variables
                         [variable],
-                        restStatements
+                        //bodyExps
+                        [
+                            [restStatements]
+                        ]
                     ),
                     callNencStdMethod('std::getModule', modulePath)
                 );
@@ -95,6 +107,7 @@ let translatorMap = {
         };
     },
 
+    // lines = [[expBody...]]
     sys_abstraction: (variables, lines) => {
         // when no match, throw expception
         let body = callNencStdMethod('std::error', translatorMap.sys_string('Fail to match function.'));

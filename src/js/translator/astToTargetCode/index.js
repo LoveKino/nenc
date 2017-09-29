@@ -13,7 +13,6 @@ module.exports = (value, target, {
 
 let translateASTToJs = (value) => {
     let str = astToJs(value);
-    console.log(str);
     return str;
 };
 
@@ -27,10 +26,13 @@ let astToJs = (value) => {
             return `new Sys_Abstraction([${value.variables.map(({variableName}) => JSON.stringify(variableName)).join(',')}], ${astToJs(value.body)})`;
         case 'variable':
             return `new Sys_Variable(${JSON.stringify(value.variableName)})`;
-        case 'raw':
-            return JSON.stringify(value.value);
         case 'array':
             return `new Sys_Array([${value.value.map(astToJs).join(',')}])`;
+
+            // virtual mid data structure
+        case 'raw':
+            return JSON.stringify(value.value);
+
         default:
             throw new Error(`Unexpected type ${type}, value is ${JSON.stringify(value)}.`);
     }
