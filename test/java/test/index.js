@@ -9,7 +9,7 @@ let path = require('path');
 let {
     template
 } = require('../../../src/js/util');
-let translateData = require('../../../src/js/translator/translateData');
+let astToTargetCode = require('../../../src/js/translator/astToTargetCode');
 let spawnp = require('spawnp');
 
 let writeFile = promisify(fs.writeFile);
@@ -46,7 +46,7 @@ let testJava = async(source, expect) => {
     let tplStr = await readFile(testMainTpl, 'utf-8');
     // write test main java file
     let testMainJava = template({
-        expect: translateData(expect, 'java')
+        expect: astToTargetCode(expect, 'java')
     })(tplStr);
     await writeFile(TEST_MAIN, testMainJava, 'utf-8');
     await runNencJavaFile(javaFilePath);

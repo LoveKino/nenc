@@ -4,15 +4,43 @@
 module.exports = (value, target, {
     baseName
 } = {}) => {
-    if (target === 'js') return JSON.stringify(value);
+    if (target === 'js') {
+        return translateASTToJs(value);
+    };
 
-    if (target === 'java') return translateDataToJava(value, baseName);
+    if (target === 'java') return translateASTToJava(value, baseName);
 };
+
+let translateASTToJs = (value) => {
+    let str = astToJs(value);
+    console.log(str);
+    return str;
+};
+
+let astToJs = (value) => {
+    let type = value.type;
+
+    switch (type) {
+        case 'application':
+            return `new Sys_Application(${astToJs(value.fun)}, [${value.params.map(astToJs).join(',')}])`
+        case 'abstraction':
+            return `new Sys_Abstraction([${value.variables.map(({variableName}) => JSON.stringify(variableName)).join(',')}], ${astToJs(value.body)})`;
+        case 'variable':
+            return `new Sys_Variable(${JSON.stringify(value.variableName)})`;
+        case 'raw':
+            return JSON.stringify(value.value);
+        case 'array':
+            return `new Sys_Array([${value.value.map(astToJs).join(',')}])`;
+        default:
+            throw new Error(`Unexpected type ${type}, value is ${JSON.stringify(value)}.`);
+    }
+};
+
 
 /**
  * translate json object to java code
  */
-let translateDataToJava = (value, baseName = 't') => {
+let translateASTToJava = (value, baseName = 't') => {
     let stack = [{
         valueNode: value
     }];
@@ -21,7 +49,10 @@ let translateDataToJava = (value, baseName = 't') => {
 
     while (stack.length) {
         let {
-            valueNode, parentType, parentVarName, index
+            valueNode,
+            parentType,
+            parentVarName,
+            index
         } = stack.pop();
         count++;
         let varName = `${baseName}${count}`;

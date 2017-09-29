@@ -4,8 +4,9 @@
   "description": "A Simple Language Which Used to Compile To Other Platform Languages.",
   "main": "index.js",
   "scripts": {
-    "test": "npm link ./grammer/library/js/nenc-js-interpreter && mocha \"test/**/*.js\" -t 1000000",
-    "build": "node task/buildGrammer.js"
+    "test": "npm run build && npm link ./grammer/library/js/nenc-js-interpreter && mocha \"test/**/*.js\" -t 1000000",
+    "build": "node task/buildGrammer.js",
+    "test-js": "npm run build && npm link ./grammer/library/js/nenc-js-interpreter && mocha \"test/js/**/*.js\" -t 1000000"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "del": "^2.2.2",
     "es6-promisify": "^5.0.0",
+    "kabanery-lumine": "0.0.44",
     "mocha": "^3.3.0",
     "pfc-idl": "0.0.2",
     "pfc-idl-model-translator": "0.0.5",

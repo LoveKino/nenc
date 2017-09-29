@@ -8250,7 +8250,7 @@ module.exports = {
                         ":",
                         "PROGRAM"
                     ],
-                    "concat(single(stringContent($1)), single($3))"
+                    "concat(single(sys_string(stringContent($1))), single($3))"
                 ]
             },
             ",": {
@@ -15962,7 +15962,7 @@ module.exports = {
                         ",",
                         "KEY_VALUES"
                     ],
-                    "concat(concat(single(stringContent($1)), single($3)), $5)"
+                    "concat(concat(single(sys_string(stringContent($1))), single($3)), $5)"
                 ]
             }
         },

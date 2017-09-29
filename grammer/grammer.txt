@@ -71,8 +71,8 @@ DATA := string    @sys_string(stringContent($1))
 OBJECT := { KEY_VALUES }    @sys_object($2)
     | { }                   @sys_object(empty())
 
-KEY_VALUES := string : PROGRAM         @concat(single(stringContent($1)), single($3))
-    | string : PROGRAM , KEY_VALUES    @concat(concat(single(stringContent($1)), single($3)), $5)
+KEY_VALUES := string : PROGRAM         @concat(single(sys_string(stringContent($1))), single($3))
+    | string : PROGRAM , KEY_VALUES    @concat(concat(single(sys_string(stringContent($1))), single($3)), $5)
 
 ARRAY := [ ]             @sys_array(empty())
     | [ LIST_VALUES ]    @sys_array($2)

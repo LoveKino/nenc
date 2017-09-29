@@ -4,10 +4,10 @@ let pfcCompiler = require('pfc-compiler');
 let {
     generateProductionId
 } = require('bnfer');
-let pfcsource = require('../../../../grammer-host/grammer-js/translator/pfc');
+let pfcstatements = require('../../../../grammer-host/grammer-js/translator/pfc');
 
 let getTranslateFun = (production) => {
-    let productionTranslater = pfcsource[generateProductionId(production)];
+    let productionTranslater = pfcstatements[generateProductionId(production)];
 
     if (productionTranslater === null) {
         throw new Error(`missing production translator for ${JSON.stringify(production)}`);
@@ -32,23 +32,13 @@ let translatorMap = {
                 for (let j = 0; j < variableDefList.length; j++) {
                     let [variableName, definition] = variableDefList[j];
 
-                    restStatements = {
-                        type: 'application',
-                        fun: {
-                            type: 'abstraction',
-                            variables: [{
-                                variableName
-                            }],
-                            body: restStatements
-                        },
-                        params: [definition]
-                    };
+                    restStatements = translatorMap.sys_application(translatorMap.sys_abstraction([{
+                        variableName
+                    }], restStatements), [definition]);
                 }
-
-                return {
-                    type: 'statements',
-                    statements: statements.slice(0, i).concat([restStatements])
-                };
+                // re-arrage statements
+                statements = statements.slice(0, i).concat([restStatements]);
+                break;
             } else if (statement.type === 'import') {
                 let {
                     modulePath,
@@ -57,40 +47,25 @@ let translatorMap = {
 
                 let restStatements = translatorMap.sys_statements(statements.slice(i + 1));
 
-                let importWrapperStatement = {
-                    type: 'application',
-                    fun: {
-                        type: 'abstraction',
-                        body: restStatements,
-                        variables: [variable]
-                    },
-                    params: [{
-                        type: 'application',
-                        fun: {
-                            type: 'variable',
-                            variableName: 'std::getModule'
-                        },
-                        params: [modulePath]
-                    }]
-                };
+                let importWrapperStatement = translatorMap.sys_application(
+                    translatorMap.sys_abstraction(
+                        [variable],
+                        restStatements
+                    ),
+                    callNencStdMethod('std::getModule', modulePath)
+                );
 
-                return {
-                    type: 'statements',
-                    statements: statements.slice(0, i).concat([importWrapperStatement])
-                };
+                // re-arrange statements
+                statements = statements.slice(0, i).concat([importWrapperStatement]);
+                break;
             }
         }
 
-        return {
-            type: 'statements',
-            statements
-        };
+        return callNencStdMethod('std::statements', translatorMap.sys_array(statements));
     },
+
     sys_exp: (expression) => {
-        return {
-            type: 'expression',
-            expression
-        };
+        return expression;
     },
     sys_import: (modulePath, variable) => {
         return {
@@ -121,14 +96,8 @@ let translatorMap = {
     },
 
     sys_abstraction: (variables, lines) => {
-        let body = { // when no match, throw expception
-            type: 'application',
-            fun: {
-                type: 'variable',
-                variableName: 'std::error'
-            },
-            params: ['Fail to match function.']
-        };
+        // when no match, throw expception
+        let body = callNencStdMethod('std::error', translatorMap.sys_string('Fail to match function.'));
 
         for (let i = lines.length - 1; i >= 0; i--) {
             let expList = lines[i];
@@ -137,19 +106,10 @@ let translatorMap = {
             if (expList.length > 1) {
                 expBodyConditionsExp = andExps(expList.slice(1));
             } else {
-                expBodyConditionsExp = {
-                    type: 'true'
-                };
+                expBodyConditionsExp = translatorMap.sys_true();
             }
 
-            body = {
-                type: 'application',
-                fun: {
-                    type: 'variable',
-                    variableName: 'std::if',
-                },
-                params: [expBodyConditionsExp, expBody, body]
-            };
+            body = translatorMap.sys_application(translatorMap.sys_variable('std::if'), [expBodyConditionsExp, expBody, body]);
         }
 
         return {
@@ -160,34 +120,27 @@ let translatorMap = {
     },
 
     sys_condition: (c, p1, p2) => {
-        return {
-            type: 'application',
-            fun: {
-                type: 'variable',
-                variableName: 'std::if'
-            },
-            params: [c, p1, p2]
-        };
+        return callNencStdMethod('std::if', c, p1, p2);
     },
 
     // data
-    sys_string: (value) => {
+
+    // raw data
+    sys_raw: (value) => {
         return {
-            type: 'string',
+            type: 'raw',
             value
         };
+    },
+
+    sys_string: (value) => {
+        return callNencStdMethod('std::string', translatorMap.sys_raw(value));
     },
     sys_number: (value) => {
-        return {
-            type: 'number',
-            value
-        };
+        return callNencStdMethod('std::number', translatorMap.sys_raw(value));
     },
     sys_object: (value) => {
-        return {
-            type: 'object',
-            value
-        };
+        return callNencStdMethod('std::object', translatorMap.sys_array(value));
     },
     sys_array: (value) => {
         return {
@@ -196,33 +149,24 @@ let translatorMap = {
         };
     },
     sys_null: () => {
-        return {
-            type: 'null'
-        };
+        return translatorMap.sys_variable('std::null');
     },
     sys_true: () => {
-        return {
-            type: 'true'
-        };
+        return translatorMap.sys_variable('std::true');
     },
     sys_false: () => {
-        return {
-            type: 'false'
-        };
+        return translatorMap.sys_variable('std::false');
     }
+};
+
+let callNencStdMethod = (name, ...params) => {
+    return translatorMap.sys_application(translatorMap.sys_variable(name), params);
 };
 
 let andExps = (exps) => {
     let prev = exps[0];
     for (let i = 1; i < exps.length; i++) {
-        prev = {
-            type: 'application',
-            fun: {
-                type: 'variable',
-                variableName: '&&'
-            },
-            params: [prev, exps[i]]
-        };
+        translatorMap.sys_application(translatorMap.sys_variable('&&'), [prev, exps[i]]);
     }
 
     return prev;

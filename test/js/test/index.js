@@ -5,9 +5,7 @@ let {
 } = require('../util');
 let path = require('path');
 let fs = require('fs');
-let promisify = require('es6-promisify');
 
-let readFile = promisify(fs.readFile);
 let testDataDir = path.join(__dirname, '../../testData');
 
 let testData = {
@@ -22,17 +20,16 @@ let testData = {
 };
 
 for (let name in testData) {
-    readFile(testData[name], 'utf-8').then((str) => {
-        let part = JSON.parse(str);
-        describe(`js: ${name}`, () => {
-            let index = 0;
-            for (let code in part) {
-                let target = part[code];
-                index++;
-                it(`${index}. ${code}`, () => {
-                    equalJsApp(code, target);
-                });
-            }
-        });
+    let str = fs.readFileSync(testData[name], 'utf-8')
+    let part = JSON.parse(str);
+    describe(`js: ${name}`, () => {
+        let index = 0;
+        for (let code in part) {
+            let target = part[code];
+            index++;
+            it(`${index}. ${code}`, () => {
+                equalJsApp(code, target);
+            });
+        }
     });
 }

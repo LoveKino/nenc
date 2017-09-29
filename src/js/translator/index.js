@@ -4,7 +4,7 @@ let textFlowPFCCompiler = require('text-flow-pfc-compiler');
 let translateProdcution = require('./translateProduction');
 let libraryMap = require('./library');
 let path = require('path');
-let translateData = require('./translateData');
+let astToTargetCode = require('./astToTargetCode');
 let {
     template, pfcArrayToText
 } = require('../util');
@@ -44,7 +44,7 @@ module.exports = (target, opts = {}, {
     };
 
     let getCode = (ast) => {
-        return translateData(ast.children[0].value, target);
+        return astToTargetCode(ast.children[0].value, target);
     };
 
     let assembleWithTpl = (moduleSources, indexPath) => {
