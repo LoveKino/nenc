@@ -61,8 +61,7 @@ let translatorMap = {
                         [
                             [restStatements]
                         ]
-                    ),
-                    callNencStdMethod('std::getModule', modulePath)
+                    ), [callNencStdMethod('std::getModule', modulePath)]
                 );
 
                 // re-arrange statements
@@ -221,6 +220,7 @@ module.exports = (production, midNode, optTranslator) => {
 let utilSandbox = {
     empty: () => [],
     single: (v) => [v],
+    trim: (v) => v.trim(),
     concat: (list1, list2) => list1.concat(list2),
-    stringContent: (str) => str.substring(1, str.length - 1)
+    stringContent: (str) => JSON.parse(str) // wipe ""
 };

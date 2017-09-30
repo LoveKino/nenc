@@ -7051,7 +7051,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             ";": {
@@ -7064,7 +7064,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             }
         },
@@ -11148,7 +11148,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             "}": {
@@ -11161,7 +11161,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             }
         },
@@ -13797,7 +13797,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             ";": {
@@ -13810,7 +13810,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             "]": {
@@ -13823,7 +13823,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             }
         },
@@ -18986,7 +18986,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             ";": {
@@ -18999,7 +18999,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             },
             "}": {
@@ -19012,7 +19012,7 @@
                         "as",
                         "variable"
                     ],
-                    "sys_import(sys_variable($2), sys_variable($4))"
+                    "sys_import(sys_string(stringContent($2)), sys_variable($4))"
                 ]
             }
         },

@@ -6,7 +6,8 @@ let libraryMap = require('./library');
 let path = require('path');
 let astToTargetCode = require('./astToTargetCode');
 let {
-    template, pfcArrayToText
+    template,
+    pfcArrayToText
 } = require('../util');
 
 let defaultExportNameMap = {
@@ -17,10 +18,13 @@ let defaultExportNameMap = {
  * translate ast to target middle code
  */
 module.exports = (target, opts = {}, {
-    loadModule, currentFile
+    loadModule,
+    currentFile
 } = {}) => {
     let {
-        systemSource, joinTpl, optTranslator
+        systemSource,
+        joinTpl,
+        optTranslator
     } = libraryMap[target] || {};
 
     let linkerAst = textFlowPFCCompiler.parseStrToAst(joinTpl);
@@ -56,37 +60,35 @@ module.exports = (target, opts = {}, {
 
                 system_code: opts.system_code || systemSource,
                 custom_code: opts.custom_code || '',
-                libraries: opts.library || [], // array
+                library: opts.library, // string
                 indexPath,
                 moduleSources,
                 concatModuleSources: (moduleSources, tpl) => {
                     let middleCodes = [];
                     for (let i = 0; i < moduleSources.length; i++) {
                         let {
-                            code, filePath
+                            code,
+                            filePath
                         } = moduleSources[i];
                         middleCodes.push(template({
-                            filePath, code,
+                            filePath,
+                            code,
                             encodeString: (str) => `"${str}"`
                         })(tpl));
                     }
 
                     return middleCodes;
                 },
-                concatLibraries: (libraries, tpl) => {
-                    let list = [];
-                    for (let i = 0; i < libraries.length; i++) {
-                        let library = libraries[i];
-                        list.push(template({
-                            library,
-                            encodeString: (str) => `"${str}"`
-                        })(tpl));
-                    }
-
-                    return list;
+                useLibrary: (library, tpl, def) => {
+                    if(!library) return def;
+                    return template({
+                        library,
+                        stringify: (str) => JSON.stringify(str)
+                    })(tpl);
                 },
                 join: (list, str) => list.join(str),
-                exportName: opts.exportName || defaultExportNameMap[target]
+                exportName: opts.exportName || defaultExportNameMap[target],
+                stringify: (str) => JSON.stringify(str)
             };
         };
 

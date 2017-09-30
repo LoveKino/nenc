@@ -2,13 +2,13 @@ package com.nenc.interpreter;
 
 import java.util.HashMap;
 
-public class SystemContext {
-    private static Context systemContext = initSystemContext();
+public class SystemContextMap {
+    private static HashMap<String, IValue>  systemContextMap = initSystemContext();
 
-    private SystemContext() {
+    private SystemContextMap() {
     }
 
-    private static Context initSystemContext() {
+    private static HashMap<String, IValue>  initSystemContext() {
         HashMap<String, IValue> variableMap = new HashMap<>();
 
         // true
@@ -23,7 +23,7 @@ public class SystemContext {
         variableMap.put("false", new Sys_Abstraction(new Sys_Variable[]{}, new ProgramTypes() {
             @Override
             public Object getValue(Context ctx) {
-                return true;
+                return false;
             }
         }));
 
@@ -31,7 +31,7 @@ public class SystemContext {
         variableMap.put("null", new Sys_Abstraction(new Sys_Variable[]{}, new ProgramTypes() {
             @Override
             public Object getValue(Context ctx) {
-                return true;
+                return null;
             }
         }));
 
@@ -227,10 +227,10 @@ public class SystemContext {
             }
         }));
 
-        return new Context(variableMap, null);
+        return variableMap;
     }
 
-    public static Context getSystemContext() {
-        return systemContext;
+    public static HashMap<String, IValue> getSystemContextMap() {
+        return systemContextMap;
     }
 }

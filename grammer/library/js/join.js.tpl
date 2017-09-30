@@ -16,7 +16,17 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         Sys_Abstraction = _.Sys_Abstraction;
         Sys_Variable = _.Sys_Variable;
         Sys_Array = _.Sys_Array;
-        nencModuleFactory = new _.Sys_ModuleFactory();
+
+        var _custom_context_map = undefined;
+        try {
+            // require libraries
+            _custom_context_map = {: useLibrary(library, "require(${{stringify(library)}})(nencJsInterpreter);", null) :}
+        } catch(err) {
+            console.log('error happened when try to import library code.');
+            throw err;
+        }        
+
+        nencModuleFactory = new _.Sys_ModuleFactory(_custom_context_map);
     } catch(err) {
         if(typeof console !== 'undefined') {
             console.log('error happend when try to import system code.');
@@ -24,14 +34,6 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         throw err;
     }
 })();
-
-try {
-// require libraries
-{: join(concatLibraries(libraries, "require('${{library}}')(addMetaMethod);"), "") :}
-} catch(err) {
-    console.log('error happened when try to import library code.');
-    throw err;
-}
 
 {: custom_code :}
 
