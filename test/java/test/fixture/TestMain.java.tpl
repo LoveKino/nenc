@@ -5,10 +5,20 @@ public class TestMain {
     public static void main(String[] argv) throws Exception {
         Test test = new Test();
         Object result = test.run();
-        // expected json
-        ${{expect}}
         // compare result and expectation
-        assertJsonEqual(result, t0);
+        assertJsonEqual(result, ${{expect}});
+    }
+
+    public static HashMap<String, Object> listToObject(Object[] list) {
+        HashMap<String, Object> result = new HashMap<String, Object> ();
+        int i = 0;
+        while(i < list.length - 1) {
+            String key = (String)list[i];
+            i++;
+            Object value = list[i];
+            result.put(key, value);
+        }
+        return result;
     }
 
     public static void assertJsonEqual(Object real, Object expect) throws Exception {
@@ -21,14 +31,14 @@ public class TestMain {
             if(!(expect instanceof Double)) {
                 throw new Exception(notEqualString(real, expect));
             }
-            if(real != expect) {
+            if(!expect.equals(real)) {
                 throw new Exception(notEqualString(real, expect));
             }
         } else if(real instanceof String) {
             if(!(expect instanceof String)) {
                 throw new Exception(notEqualString(real, expect));
             }
-            if(real != expect) {
+            if(!expect.equals(real)) {
                 throw new Exception(notEqualString(real, expect));
             }
         } else if(real instanceof Object[]) {

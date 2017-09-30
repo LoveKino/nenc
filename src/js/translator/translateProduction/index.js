@@ -34,9 +34,7 @@ let translatorMap = {
 
                     restStatements = translatorMap.sys_application(translatorMap.sys_abstraction(
                         //variables
-                        [{
-                            variableName
-                        }],
+                        [translatorMap.sys_variable(variableName)],
 
                         // bodyExps
                         [
@@ -162,13 +160,13 @@ let translatorMap = {
         };
     },
     sys_null: () => {
-        return translatorMap.sys_variable('std::null');
+        return callNencStdMethod('null');
     },
     sys_true: () => {
-        return translatorMap.sys_variable('std::true');
+        return callNencStdMethod('true');
     },
     sys_false: () => {
-        return translatorMap.sys_variable('std::false');
+        return callNencStdMethod('false');
     }
 };
 

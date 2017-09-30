@@ -2,43 +2,232 @@ package com.nenc.interpreter;
 
 import java.util.HashMap;
 
-/**
- * define system context
- */
 public class SystemContext {
-    // default context
-    private static Context systemContext;
-    static {
-        HashMap<String, Variable> systemContextMap =  new HashMap<String, Variable>();
-        systemContextMap.put("+", new Method() {
-            public Object run(Object[] params) throws Exception {
-                Object t1 = params[0];
-                Object t2 = params[1];
-                if(t1 instanceof Double && t2 instanceof Double) {
-                    return (Double) t1 + (Double) t2;
-                }
+    private static Context systemContext = initSystemContext();
 
-                if(t1 instanceof String && t2 instanceof String) {
-                    return (String) t1 + (String) t2;
-                }
+    private SystemContext() {
+    }
 
-                throw new Exception("unmatching param types for function +.");
+    private static Context initSystemContext() {
+        HashMap<String, IValue> variableMap = new HashMap<>();
+
+        // true
+        variableMap.put("true", new Sys_Abstraction(new Sys_Variable[]{}, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                return true;
             }
-        });
+        }));
 
-        systemContextMap.put("-", new Method() {
-            public Object run(Object[] params) throws Exception {
-                Object t1 = params[0];
-                Object t2 = params[1];
-                if(t1 instanceof Double && t2 instanceof Double) {
-                    return (Double) t1 - (Double) t2;
-                }
-
-                throw new Exception("unmatching param types for function -.");
+        // false
+        variableMap.put("false", new Sys_Abstraction(new Sys_Variable[]{}, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                return true;
             }
-        });
+        }));
 
-        systemContext = new Context(systemContextMap, null);
+        // null
+        variableMap.put("null", new Sys_Abstraction(new Sys_Variable[]{}, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                return true;
+            }
+        }));
+
+        // +
+        variableMap.put("+", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 + v2;
+            }
+        }));
+
+        // -
+        variableMap.put("-", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 - v2;
+            }
+        }));
+
+        // *
+        variableMap.put("*", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 * v2;
+            }
+        }));
+
+        // /
+        variableMap.put("*", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 / v2;
+            }
+        }));
+
+        // >
+        variableMap.put(">", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 > v2;
+            }
+        }));
+
+        // >
+        variableMap.put("<", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                double v1 = (double) ctx.getVariable("v1").value.getValue(ctx);
+                double v2 = (double) ctx.getVariable("v2").value.getValue(ctx);
+
+                return v1 < v2;
+            }
+        }));
+
+        // &&
+        variableMap.put("&&", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                boolean v1 = (boolean) ctx.getVariable("v1").value.getValue(ctx);
+                if (!v1) return false;
+                return (boolean) ctx.getVariable("v2").value.getValue(ctx);
+            }
+        }));
+
+        // ||
+        variableMap.put("||", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("v1"),
+                new Sys_Variable("v2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                boolean v1 = (boolean) ctx.getVariable("v1").value.getValue(ctx);
+                if (v1) return true;
+                return (boolean) ctx.getVariable("v2").value.getValue(ctx);
+            }
+        }));
+
+        // std::if
+        variableMap.put("std::if", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("c"),
+                new Sys_Variable("p1"),
+                new Sys_Variable("p2")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                boolean c = (boolean) ctx.getVariable("c").value.getValue(ctx);
+                if (c) {
+                    return ctx.getVariable("p1").value.getValue(ctx);
+                } else {
+                    return ctx.getVariable("p2").value.getValue(ctx);
+                }
+            }
+        }));
+
+        // std::error
+        variableMap.put("std::error", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("error")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                throw new Error((String) ctx.getVariable("error").value.getValue(ctx));
+            }
+        }));
+
+        // std::number
+        variableMap.put("std::number", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("num")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                String numStr = (String) ctx.getVariable("num").value.getValue(ctx);
+                return Double.parseDouble(numStr);
+            }
+        }));
+
+        // std::string
+        variableMap.put("std::string", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("str")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                return (String) ctx.getVariable("str").value.getValue(ctx);
+            }
+        }));
+
+        // std::object
+        variableMap.put("std::object", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("list")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                Object[] list = (Object[]) ctx.getVariable("list").value.getValue(ctx);
+                HashMap<String, Object> result = new<String, Object> HashMap();
+                int i = 0;
+                while (i < list.length - 1) {
+                    String key = (String) list[i];
+                    i++;
+                    Object value = list[i];
+                    result.put(key, value);
+                }
+                return result;
+            }
+        }));
+
+        // std::object
+        variableMap.put("std::statements", new Sys_Abstraction(new Sys_Variable[]{
+                new Sys_Variable("statements")
+        }, new ProgramTypes() {
+            @Override
+            public Object getValue(Context ctx) {
+                Object[] statements = (Object[]) ctx.getVariable("statements").value.getValue(ctx);
+                Object result = null;
+                for (int i = 0; i < statements.length; i++) {
+                    result = statements[i];
+                }
+                return result;
+            }
+        }));
+
+        return new Context(variableMap, null);
     }
 
     public static Context getSystemContext() {

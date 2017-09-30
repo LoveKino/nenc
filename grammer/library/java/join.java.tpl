@@ -4,10 +4,10 @@ import com.nenc.interpreter.*;
 
 public class {:className:} {
     public Object run() {
-        Interpreter interpreter = new Interpreter();
+        Sys_ModuleFactory moduleFactory = new Sys_ModuleFactory();
 
-        {: join(concatModuleSources(moduleSources, "{${{code}}interpreter.defineModule(${{encodeString(filePath)}}, t0);}"), "\n") :}
+        {: join(concatModuleSources(moduleSources, "moduleFactory.defineModule(${{encodeString(filePath)}}, ${{code}});"), "\n") :}
 
-        return interpreter.runProgram("{: indexPath :}");
+        return moduleFactory.importModule("{: indexPath :}");
     }
 }

@@ -5,22 +5,20 @@ public class TestMain {
     public static void main(String[] argv) throws Exception {
         Test test = new Test();
         Object result = test.run();
-        // expected json
-        HashMap<String, Object> t0 = new HashMap<String, Object>();
-HashMap<String, Object> t1 = new HashMap<String, Object>();
-t0.put("a", t1);
-HashMap<String, Object> t2 = new HashMap<String, Object>();
-t1.put("b", t2);
-Object[] t3 = new Object[3];
-t2.put("c", t3);
-double t4 = 3;
-t3[2] = t4;
-double t5 = 2;
-t3[1] = t5;
-double t6 = 1;
-t3[0] = t6;
         // compare result and expectation
-        assertJsonEqual(result, t0);
+        assertJsonEqual(result, listToObject(new Object[] { "a", listToObject(new Object[] { "b", listToObject(new Object[] { "c", new Object [] { new Double(1), new Double(2), new Double(3) } }) }) }));
+    }
+
+    public static HashMap<String, Object> listToObject(Object[] list) {
+        HashMap<String, Object> result = new HashMap<String, Object> ();
+        int i = 0;
+        while(i < list.length - 1) {
+            String key = (String)list[i];
+            i++;
+            Object value = list[i];
+            result.put(key, value);
+        }
+        return result;
     }
 
     public static void assertJsonEqual(Object real, Object expect) throws Exception {
@@ -33,14 +31,14 @@ t3[0] = t6;
             if(!(expect instanceof Double)) {
                 throw new Exception(notEqualString(real, expect));
             }
-            if(real != expect) {
+            if(!expect.equals(real)) {
                 throw new Exception(notEqualString(real, expect));
             }
         } else if(real instanceof String) {
             if(!(expect instanceof String)) {
                 throw new Exception(notEqualString(real, expect));
             }
-            if(real != expect) {
+            if(!expect.equals(real)) {
                 throw new Exception(notEqualString(real, expect));
             }
         } else if(real instanceof Object[]) {

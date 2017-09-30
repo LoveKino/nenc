@@ -16,7 +16,7 @@ var nencJsInterpreter = require('nenc-js-interpreter');
         Sys_Abstraction = _.Sys_Abstraction;
         Sys_Variable = _.Sys_Variable;
         Sys_Array = _.Sys_Array;
-        nencModuleFactory = new _.NencModuleFactory();
+        nencModuleFactory = new _.Sys_ModuleFactory();
     } catch(err) {
         if(typeof console !== 'undefined') {
             console.log('error happend when try to import system code.');

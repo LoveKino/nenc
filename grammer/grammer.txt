@@ -15,7 +15,7 @@ STATEMENT := EXP           @sys_exp($1)
     | IMPORT_EXPRESSION    @$1
 
 # import module
-IMPORT_EXPRESSION := import string as variable    @sys_import(stringContent($2), sys_variable($4))
+IMPORT_EXPRESSION := import string as variable    @sys_import(sys_variable($2), sys_variable($4))
 
 # let statement
 LET_EXPRESSION := let VARIABLE_DEFINITION_LIST    @sys_letBinding($2)
