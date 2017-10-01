@@ -18,8 +18,8 @@ let {
 let FunctionBar = require('kabanery-lumine/lib/view/header/FunctionBar');
 let Vn = require('kabanery-lumine/lib/view/layout/vn');
 let Hn = require('kabanery-lumine/lib/view/layout/hn');
-let Block = require('kabanery-lumine/lib/view/block/block');
 let Full = require('kabanery-lumine/lib/view/layout/full');
+let Block = require('kabanery-lumine/lib/view/block/block');
 
 let tutorialData = require('../tutorial');
 
@@ -59,10 +59,18 @@ module.exports = SimplePager(lumineView(({}, ctx) => {
             style: {
                 display: 'block',
                 margin: '30 auto 0 auto',
+                padding: 12,
                 width: 500,
                 fontSize: 20,
             }
         }, 'A Simple Cross-Platform Easy-Hybrid Functional Language Which Compiled To Other Platform Languages, like javascript, java ...'),
+
+        n('img src="./img/nenc_function.jpg"', {
+            style: {
+                margin: 'auto',
+                display: 'block'
+            }
+        }),
 
         n('div', {
             style: {

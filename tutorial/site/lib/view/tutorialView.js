@@ -15,6 +15,7 @@ module.exports = lumineView(({
     props
 }, ctx) => {
     let tutorial = props.tutorials[props.curIndex];
+    console.log(tutorial);
 
     return n(Vn, [
         n(Block, [tutorial.goal]),

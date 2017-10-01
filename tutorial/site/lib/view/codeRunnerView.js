@@ -15,6 +15,7 @@ module.exports = lumineView(({
     props
 }, ctx) => {
     let result = '';
+    console.log(props.code);
     try {
         let jsCode = props.code && compile(props.code, 'js');
         result = eval(jsCode);
@@ -25,15 +26,18 @@ module.exports = lumineView(({
     }
 
     return n(Hn, [n(TextArea, syncBindWithKeyMap(ctx, {
-        'code': 'value'
-    }, {
-        autoUpdate: true
-    })), n('div', {
-        style: {
-            padding: 8,
-            width: 300
-        }
-    }, [result])]);
+            'code': 'value'
+        }, {
+            autoUpdate: true
+        })),
+
+        n('div', {
+            style: {
+                padding: 8,
+                width: 300
+            }
+        }, [result])
+    ]);
 }, {
     defaultProps: {
         code: ''

@@ -7,3 +7,7 @@ Nenc project starts from a simple idea, I don't want to write almost the same lo
 ## features
 
 - It's easy to hybrid nenc code with host code. You can use config host files as libraries, and you also can embed nenc code to host code.
+
+## goal
+
+![nenc_function](doc/nenc_function.jpg)
