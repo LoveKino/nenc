@@ -17,12 +17,11 @@ let {
 // views
 let FunctionBar = require('kabanery-lumine/lib/view/header/FunctionBar');
 let Vn = require('kabanery-lumine/lib/view/layout/vn');
+let Hn = require('kabanery-lumine/lib/view/layout/hn');
 let Block = require('kabanery-lumine/lib/view/block/block');
-let TextArea = require('kabanery-lumine/lib/view/input/textarea');
+let Full = require('kabanery-lumine/lib/view/layout/full');
 
-let {
-    compile
-} = require('../../../../src/js');
+let tutorialData = require('../tutorial');
 
 /**
  * // some common signals
@@ -48,17 +47,7 @@ let {
  *     demo: n(Button, {onsignal: onSignalType('click', deliver(ctx, SIGNAL_TYPE))}, 'save')
  */
 
-let CodeRunnerView = lumineView(({
-    props
-}) => {
-    let jsCode = compile(props.code, 'js');
-    console.log(eval(jsCode));
-    return n(TextArea);
-}, {
-    defaultProps: {
-        code: ''
-    }
-});
+let TutorialView = require('../view/tutorialView');
 
 module.exports = SimplePager(lumineView(({}, ctx) => {
     return n(Vn, {}, [
@@ -79,7 +68,9 @@ module.exports = SimplePager(lumineView(({}, ctx) => {
             style: {
                 padding: 20
             }
-        }, [n(CodeRunnerView)])
+        }, [n(TutorialView, {
+            tutorials: tutorialData
+        })])
     ]);
 }, {
     defaultProps: {}
