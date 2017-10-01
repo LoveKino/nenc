@@ -2,8 +2,8 @@
 
 var sys_module, sys_runProgram, addMetaMethod, Sys_Application, Sys_Abstraction, Sys_Variable, Sys_Array, nencModuleFactory;
 
-// require system library
-var nencJsInterpreter = require('nenc-js-interpreter');
+// import nenc library
+{: interpreterSource :};
     
 !(function(module) {
     try {

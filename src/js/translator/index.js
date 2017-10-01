@@ -24,7 +24,8 @@ module.exports = (target, opts = {}, {
     let {
         systemSource,
         joinTpl,
-        optTranslator
+        optTranslator,
+        interpreterSource
     } = libraryMap[target] || {};
 
     let linkerAst = textFlowPFCCompiler.parseStrToAst(joinTpl);
@@ -60,7 +61,11 @@ module.exports = (target, opts = {}, {
 
                 system_code: opts.system_code || systemSource,
                 custom_code: opts.custom_code || '',
+
+                interpreterSource: interpreterSource || '',
+
                 library: opts.library, // string
+
                 indexPath,
                 moduleSources,
                 concatModuleSources: (moduleSources, tpl) => {
@@ -80,7 +85,7 @@ module.exports = (target, opts = {}, {
                     return middleCodes;
                 },
                 useLibrary: (library, tpl, def) => {
-                    if(!library) return def;
+                    if (!library) return def;
                     return template({
                         library,
                         stringify: (str) => JSON.stringify(str)

@@ -2,21 +2,21 @@ THIS_FILE := $(lastword $(MAKEFILE_LIST))
 
 test: 
 	@echo $@
-	@$(MAKE) -f $(THIS_FILE) build-grammer
+	@$(MAKE) -f $(THIS_FILE) build-js
 	@$(MAKE) -f $(THIS_FILE) build-java
-	@$(MAKE) -f $(THIS_FILE) link-js
+	@$(MAKE) -f $(THIS_FILE) build-grammer
 	@$(MAKE) -f $(THIS_FILE) test-all
 
 test-java:
 	@echo $@
-	@$(MAKE) -f $(THIS_FILE) build-grammer
 	@$(MAKE) -f $(THIS_FILE) build-java
+	@$(MAKE) -f $(THIS_FILE) build-grammer
 	mocha "test/java/test/**/*.js" -t 1000000 -g "${GREP}"
 
 test-js:
 	@echo $@
+	@$(MAKE) -f $(THIS_FILE) build-js
 	@$(MAKE) -f $(THIS_FILE) build-grammer
-	@$(MAKE) -f $(THIS_FILE) link-js
 	mocha "test/js/test/**/*.js" -t 1000000 -g "${GREP}"
 
 build-grammer:
@@ -27,12 +27,12 @@ build-java:
 	@echo $@
 	pushd ./grammer/library/java/nenc-java-interpreter && ./gradlew build && popd
 
-link-js:
+build-js:
 	@echo $@
-	npm link ./grammer/library/js/nenc-js-interpreter
+	pushd ./grammer/library/js/nenc-js-interpreter && ./node_modules/.bin/webpack && popd
 
 test-all:
 	@echo $@
 	mocha "test/**/*.js" -t 1000000 -g "${GREP}"
 
-.PHONY: test build-grammer build-java link-js test-all test-java
+.PHONY: test build-grammer build-java test-all test-java

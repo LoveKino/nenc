@@ -5,8 +5,6 @@ let {
     LR1TablePath,
     pfcTranslatorJsonPath,
     jsJoinTplPath,
-    cSystemCodePath,
-    cJoinTplPath,
     javaJoinTplPath
 } = require('./grammerResource');
 
@@ -36,8 +34,6 @@ const jsTargetJavaJoinTplPath = path.join(grammerJsDir, 'library/java/join.java.
 let systemLibJsModule = () => {
     return Promise.all([
         textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
-        textToJsModule(cSystemCodePath, jsTargetCSystemCodePath),
-        textToJsModule(cJoinTplPath, jsTargetCJoinTplPath),
         textToJsModule(javaJoinTplPath, jsTargetJavaJoinTplPath)
     ]);
 };

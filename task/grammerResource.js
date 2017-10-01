@@ -9,8 +9,6 @@ const pfcTranslatorJsonPath = path.join(__dirname, '../grammer/translator/pfc.js
 
 // system library
 const jsJoinTplPath = path.join(__dirname, '../grammer/library/js/join.js.tpl');
-const cSystemCodePath = path.join(__dirname, '../grammer/library/c/system.c');
-const cJoinTplPath = path.join(__dirname, '../grammer/library/c/join.c.tpl');
 const javaJoinTplPath = path.join(__dirname, '../grammer/library/java/join.java.tpl');
 
 module.exports = {
@@ -19,7 +17,5 @@ module.exports = {
     LR1TablePath,
     pfcTranslatorJsonPath,
     jsJoinTplPath,
-    cSystemCodePath,
-    cJoinTplPath,
     javaJoinTplPath
 };
