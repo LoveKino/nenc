@@ -1,6 +1,7 @@
 package com.nenc.interpreter;
 
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class Context {
     // variable Name to value
@@ -23,15 +24,48 @@ public class Context {
     }
 
     public VariableNameContextPair getVariable(String name) {
+        return this.findVariable(name, this);
+    }
+
+    private VariableNameContextPair findVariable(String name, Context source) {
         IValue m = this.contextMap.get(name);
-        if(m != null) {
-           return new VariableNameContextPair(m, this);
+        if (m != null) {
+            return new VariableNameContextPair(m, this);
         } else {
-            if(this.parent == null) {
-                throw new Error("Missing definition for variable " + name);
+            if (this.parent == null) {
+                throw new Error("Missing definition for variable " + name + ". Context Chain is: " + source.getContextChainInfo());
             }
-            return this.parent.getVariable(name);
+            return this.parent.findVariable(name, source);
         }
+    }
+
+    public String getContextChainInfo() {
+        String parentInfo = "";
+        if (this.parent != null) {
+            parentInfo = this.parent.getContextChainInfo();
+        }
+
+        return parentInfo + "->" + this.getContextInfo();
+    }
+
+    public String getContextInfo() {
+        Iterator it = this.contextMap.entrySet().iterator();
+
+        String cur = "[  ";
+
+        while (it.hasNext()) {
+            HashMap.Entry pair = (HashMap.Entry) it.next();
+            String key = (String) pair.getKey();
+            cur += key + "  ";
+        }
+        cur += "]";
+
+        return cur;
+    }
+
+    @Override
+    public String toString() {
+        return "[Context]" + this.getContextChainInfo();
     }
 
     public void cacheValue(String key, IValue value) {

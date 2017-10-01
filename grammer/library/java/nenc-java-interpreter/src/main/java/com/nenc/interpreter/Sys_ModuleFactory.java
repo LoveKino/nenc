@@ -17,7 +17,7 @@ public class Sys_ModuleFactory {
         public Object getValue(Sys_ModuleFactory moduleFactory) {
             if (this.resolve) return this.value;
 
-            this.value = ProgramRunner.runProgram(this.code, moduleFactory.moduleContext);
+            this.value = ProgramRunner.runProgram(this.code, moduleFactory.moduleContextMap);
             this.resolve = true;
 
             return this.value;
@@ -25,7 +25,7 @@ public class Sys_ModuleFactory {
     }
 
     private HashMap<String, ModuleCache> modules;
-    private Context moduleContext;
+    private HashMap<String, IValue> moduleContextMap;
 
     public Sys_ModuleFactory() {
         this.modules = new HashMap<String, ModuleCache>();
@@ -40,7 +40,7 @@ public class Sys_ModuleFactory {
             }
         }));
 
-        this.moduleContext = new Context(moduleContextMap, null);
+        this.moduleContextMap = moduleContextMap;
     }
 
     public void defineModule(String name, ProgramTypes code) {

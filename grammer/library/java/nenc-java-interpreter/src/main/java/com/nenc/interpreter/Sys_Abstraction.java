@@ -13,6 +13,15 @@ public class Sys_Abstraction implements ProgramTypes {
     }
 
     @Override
+    public String toString() {
+        String variables = "";
+        for (int i = 0; i < this.variables.length; i++) {
+            variables += this.variables[i].toString();
+        }
+        return "[Sys_Abstraction]" + "variables:[" + variables + "]" + "body:" + body.toString();
+    }
+
+    @Override
     public Object getValue(Context ctx) {
         return new Abstraction(this.variables, this.body, ctx);
     }
@@ -29,9 +38,25 @@ public class Sys_Abstraction implements ProgramTypes {
         }
 
         @Override
+        public String toString() {
+            String variables = "[  ";
+            for (int i = 0; i < this.variables.length; i++) {
+                variables += this.variables[i].toString() + "  ";
+            }
+            variables += "]";
+
+            return "variables" + variables;
+        }
+
+        @Override
         public Object run(ProgramTypes[] params, Context runtimeCtx) {
+            /**
+             * resolve params by runtime context
+             * fill params values to variables
+             * add new variables as new definition context as abstraction
+             */
             HashMap<String, IValue> curVarMap = new HashMap<String, IValue>();
-            int argLen = params.length, varLen = params.length;
+            int argLen = params.length, varLen = this.variables.length;
             int minLen = Math.min(argLen, varLen);
 
             for (int i = 0; i < minLen; i++) {
@@ -39,6 +64,7 @@ public class Sys_Abstraction implements ProgramTypes {
             }
 
             Context newCtx = new Context(curVarMap, this.definitionCtx);
+
             if (argLen >= varLen) {
                 return this.body.getValue(newCtx);
             } else {

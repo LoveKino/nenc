@@ -3,12 +3,21 @@ package com.nenc.interpreter;
 import java.util.HashMap;
 
 public class SystemContextMap {
-    private static HashMap<String, IValue>  systemContextMap = initSystemContext();
+    private static HashMap<String, IValue> systemContextMap = initSystemContext();
 
     private SystemContextMap() {
     }
 
-    private static HashMap<String, IValue>  initSystemContext() {
+    public static boolean toBool(Object obj) {
+        if (obj instanceof Boolean) return (boolean) obj;
+        if (obj instanceof Integer) return !((Integer) obj).equals(0);
+        if (obj instanceof String) return !((String) obj).equals("");
+        if (obj instanceof Double) return !((Double) obj).equals(0.0);
+        if (obj instanceof Float) return !((Float) obj).equals(0);
+        return !obj.equals(null);
+    }
+
+    private static HashMap<String, IValue> initSystemContext() {
         HashMap<String, IValue> variableMap = new HashMap<>();
 
         // true
@@ -78,7 +87,7 @@ public class SystemContextMap {
         }));
 
         // /
-        variableMap.put("*", new Sys_Abstraction(new Sys_Variable[]{
+        variableMap.put("/", new Sys_Abstraction(new Sys_Variable[]{
                 new Sys_Variable("v1"),
                 new Sys_Variable("v2")
         }, new ProgramTypes() {
@@ -126,9 +135,9 @@ public class SystemContextMap {
         }, new ProgramTypes() {
             @Override
             public Object getValue(Context ctx) {
-                boolean v1 = (boolean) ctx.getVariable("v1").value.getValue(ctx);
+                boolean v1 = toBool(ctx.getVariable("v1").value.getValue(ctx));
                 if (!v1) return false;
-                return (boolean) ctx.getVariable("v2").value.getValue(ctx);
+                return toBool(ctx.getVariable("v2").value.getValue(ctx));
             }
         }));
 
@@ -139,9 +148,9 @@ public class SystemContextMap {
         }, new ProgramTypes() {
             @Override
             public Object getValue(Context ctx) {
-                boolean v1 = (boolean) ctx.getVariable("v1").value.getValue(ctx);
+                boolean v1 = toBool(ctx.getVariable("v1").value.getValue(ctx));
                 if (v1) return true;
-                return (boolean) ctx.getVariable("v2").value.getValue(ctx);
+                return toBool(ctx.getVariable("v2").value.getValue(ctx));
             }
         }));
 
@@ -153,7 +162,7 @@ public class SystemContextMap {
         }, new ProgramTypes() {
             @Override
             public Object getValue(Context ctx) {
-                boolean c = (boolean) ctx.getVariable("c").value.getValue(ctx);
+                boolean c = toBool(ctx.getVariable("c").value.getValue(ctx));
                 if (c) {
                     return ctx.getVariable("p1").value.getValue(ctx);
                 } else {
@@ -200,7 +209,7 @@ public class SystemContextMap {
             @Override
             public Object getValue(Context ctx) {
                 Object[] list = (Object[]) ctx.getVariable("list").value.getValue(ctx);
-                HashMap<String, Object> result = new<String, Object> HashMap();
+                HashMap<String, Object> result = new <String, Object>HashMap();
                 int i = 0;
                 while (i < list.length - 1) {
                     String key = (String) list[i];

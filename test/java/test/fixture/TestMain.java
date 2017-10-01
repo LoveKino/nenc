@@ -6,7 +6,7 @@ public class TestMain {
         Test test = new Test();
         Object result = test.run();
         // compare result and expectation
-        assertJsonEqual(result, listToObject(new Object[] { "a", listToObject(new Object[] { "b", listToObject(new Object[] { "c", new Object [] { new Double(1), new Double(2), new Double(3) } }) }) }));
+        assertJsonEqual(result, new Double(32));
     }
 
     public static HashMap<String, Object> listToObject(Object[] list) {

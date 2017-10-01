@@ -10,4 +10,9 @@ public class PrimitiveValue implements IValue {
     public Object getValue(Context ctx) {
         return this.value;
     }
+
+    @Override
+    public String toString() {
+        return "[PrimitiveValue]" + value.toString();
+    };
 }

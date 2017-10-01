@@ -12,6 +12,11 @@ public class LazyCode implements ProgramTypes{
 
     @Override
     public Object getValue(Context ctx) {
-        return this.code.getValue(ctx);
+        return this.code.getValue(this.context);
+    }
+
+    @Override
+    public String toString() {
+        return "[LazyCode]" + "context: " + context.toString() + ", code" + code.toString();
     }
 }
