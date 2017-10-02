@@ -1,14 +1,6 @@
 'use strict';
 
 let {
-    grammerPath,
-    LR1TablePath,
-    pfcTranslatorJsonPath,
-    jsJoinTplPath,
-    javaJoinTplPath
-} = require('./grammerResource');
-
-let {
     generateLR1Table,
     jsonToJsModule,
     textToJsModule
@@ -16,33 +8,39 @@ let {
 
 let path = require('path');
 
-let grammerJsDir = path.join(__dirname, '../grammer-host/grammer-js');
-
-//
-const LR1TableJsPath = path.join(grammerJsDir, 'LR1Table.js');
-
-const pfcTranslatorJsPath = path.join(grammerJsDir, 'translator/pfc.js');
-
-// system library
-const jsTargetJsJoinTplPath = path.join(grammerJsDir, 'library/js/join.js.tpl.js');
-
-const jsTargetCSystemCodePath = path.join(grammerJsDir, 'library/c/system.c.js');
-const jsTargetCJoinTplPath = path.join(grammerJsDir, 'library/c/join.c.tpl.js');
-
-const jsTargetJavaJoinTplPath = path.join(grammerJsDir, 'library/java/join.java.tpl.js');
-
 let systemLibJsModule = () => {
     return Promise.all([
-        textToJsModule(jsJoinTplPath, jsTargetJsJoinTplPath),
-        textToJsModule(javaJoinTplPath, jsTargetJavaJoinTplPath)
+        textToJsModule(
+            path.join(__dirname, '../grammer/library/js/module.js.tpl'),
+            path.join(__dirname, '../grammer-host/grammer-js/library/js/module.js.tpl.js')
+        ),
+
+        textToJsModule(
+            path.join(__dirname, '../grammer/library/java/module.java.tpl'),
+            path.join(__dirname, '../grammer-host/grammer-js/library/java/module.java.tpl.js')
+        ),
+
+        textToJsModule(
+            path.join(__dirname, '../grammer/library/java/main.java.tpl'),
+            path.join(__dirname, '../grammer-host/grammer-js/library/java/main.java.tpl.js')
+        ),
+
+        textToJsModule(
+            path.join(__dirname, '../grammer/library/java/test.java.tpl'),
+            path.join(__dirname, '../grammer-host/grammer-js/library/java/test.java.tpl.js')
+        )
     ]);
 };
 
 module.exports = () => {
     return Promise.all([
-        generateLR1Table(grammerPath, LR1TablePath, LR1TableJsPath),
+        generateLR1Table(
+            path.join(__dirname, '../grammer/grammer.json'),
+            path.join(__dirname, '../grammer/LR1Table.json'),
+            path.join(__dirname, '../grammer-host/grammer-js/LR1Table.js')),
 
-        jsonToJsModule(pfcTranslatorJsonPath, pfcTranslatorJsPath),
+        jsonToJsModule(path.join(__dirname, '../grammer/translator/pfc.json'),
+            path.join(__dirname, '../grammer-host/grammer-js/translator/pfc.js')),
 
         systemLibJsModule()
     ]);

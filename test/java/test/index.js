@@ -15,14 +15,15 @@ let writeFile = promisify(fs.writeFile);
 let readFile = promisify(fs.readFile);
 
 const INTERPETER_JAR = path.join(__dirname, '../../../grammer/library/java/nenc-java-interpreter/build/libs/nenc-java-interpreter.jar');
-const TEST_MAIN = path.join(__dirname, './fixture/TestMain.java');
-const MAIN_DIR = path.join(__dirname, './fixture');
+// source java file
+const javaFilePath = path.join(__dirname, './fixture/com/nenc/auto/test/TestMain.java');
 
 let runNencJavaFile = async(file) => {
     try {
         // compile java file
+        // cp grammer: join with ':', like .:${INTERPETER_JAR}
         await spawnp(`javac -cp ${INTERPETER_JAR} ${file}`, [], {
-            cwd: MAIN_DIR,
+            cwd: path.join(__dirname, './fixture/com/nenc/auto/test'),
             stdio: 'inherit'
         });
     } catch (err) {
@@ -31,6 +32,7 @@ let runNencJavaFile = async(file) => {
         throw err;
     }
 
+    /*
     try {
         // TODO compile test file
         await spawnp(`javac -cp .:${INTERPETER_JAR} ${TEST_MAIN}`, [], {
@@ -43,30 +45,24 @@ let runNencJavaFile = async(file) => {
         console.log(`fail to compile java test file ${TEST_MAIN}`);
         throw err;
     }
+    */
 
-    // run
-    await spawnp(`java -cp .:${INTERPETER_JAR} TestMain`, [], {
-        cwd: MAIN_DIR,
+    // run java file
+    await spawnp(`java -cp .:${INTERPETER_JAR} com.nenc.auto.test.TestMain`, [], {
+        cwd: path.join(__dirname, './fixture'),
         stdio: 'inherit'
     });
 };
 
 let testJava = async(source, expect) => {
-    let code = compile(source, 'java');
+    let code = compile(source, 'java', {
+        packageName: 'com.nenc.auto.test',
+        className: 'TestMain',
+        expect: jsonToJavaPlainCode(expect),
+        link: 'test'
+    });
 
-    // source java file
-    let javaFilePath = path.join(__dirname, './fixture/com/nenc/auto/test/Test.java');
     await writeFile(javaFilePath, code, 'utf-8');
-
-    let testMainTpl = path.join(__dirname, './fixture/TestMain.java.tpl');
-    let tplStr = await readFile(testMainTpl, 'utf-8');
-
-    // write test main java file
-    let testMainJava = template({
-        expect: jsonToJavaPlainCode(expect)
-    })(tplStr);
-
-    await writeFile(TEST_MAIN, testMainJava, 'utf-8');
     await runNencJavaFile(javaFilePath);
 };
 

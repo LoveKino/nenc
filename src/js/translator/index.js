@@ -23,12 +23,13 @@ module.exports = (target, opts = {}, {
 } = {}) => {
     let {
         systemSource,
-        joinTpl,
+        linkTpl,
+        defaultLink,
         optTranslator,
         interpreterSource
     } = libraryMap[target] || {};
 
-    let linkerAst = textFlowPFCCompiler.parseStrToAst(joinTpl);
+    let linkerAst = textFlowPFCCompiler.parseStrToAst(linkTpl[opts.link || defaultLink]);
 
     /**
      * This will be called everytime when reduce production
@@ -65,6 +66,7 @@ module.exports = (target, opts = {}, {
                 interpreterSource: interpreterSource || '',
 
                 library: opts.library, // string
+                expect: opts.expect, // used for testing
 
                 indexPath,
                 moduleSources,
