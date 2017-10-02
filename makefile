@@ -35,4 +35,7 @@ test-all:
 	@echo $@
 	mocha "test/**/*.js" -t 1000000 -g "${GREP}"
 
-.PHONY: test build-grammer build-java test-all test-java
+build-release:
+	@echo $@
+
+.PHONY: test build-grammer build-java test-all test-java build-release
