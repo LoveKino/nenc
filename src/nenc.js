@@ -1,8 +1,5 @@
 'use strict';
 
-console.log('--------------------');
-console.log(__dirname);
-
 let {
     compile
 } = require('./js');
@@ -20,6 +17,6 @@ let {
     argv
 } = yargs;
 
-let jsCode = compile(argv.code, 'js');
+let jsCode = compile(argv.code || '', 'js');
 
 console.log(eval(jsCode));

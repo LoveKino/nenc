@@ -10,9 +10,9 @@ let translator = require('./translator');
 
 let {
     ACTION, GOTO
-} = require('../../grammer-host/grammer-js/LR1Table');
+} = require('../grammer-host/grammer-js/LR1Table');
 
-let tokenTypes = require('../../grammer-host/grammer-js/tokenTypes');
+let tokenTypes = require('../grammer-host/grammer-js/tokenTypes');
 
 let processTokens = (rawTokens) => {
     let tokens = [];

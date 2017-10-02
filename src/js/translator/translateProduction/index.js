@@ -4,7 +4,7 @@ let pfcCompiler = require('pfc-compiler');
 let {
     generateProductionId
 } = require('bnfer');
-let pfcstatements = require('../../../../grammer-host/grammer-js/translator/pfc');
+let pfcstatements = require('../../../grammer-host/grammer-js/translator/pfc');
 
 let getTranslateFun = (production) => {
     let productionTranslater = pfcstatements[generateProductionId(production)];

@@ -37,5 +37,9 @@ test-all:
 
 build-release:
 	@echo $@
+	@$(MAKE) -f $(THIS_FILE) build-js
+	@$(MAKE) -f $(THIS_FILE) build-java
+	cp ./grammer/library/js/nenc-js-interpreter/lib/nenc-js-interpreter.js ./release/dev/interpreter/
+	cp ./grammer/library/java/nenc-java-interpreter/build/libs/nenc-java-interpreter.jar ./release/dev/interpreter
 
 .PHONY: test build-grammer build-java test-all test-java build-release

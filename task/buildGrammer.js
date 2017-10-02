@@ -7,7 +7,7 @@ let promisify = require('es6-promisify');
 let path = require('path');
 
 const interpreterJsCodeFile = path.join(__dirname, '../grammer/library/js/nenc-js-interpreter/lib/nenc-js-interpreter.js');
-const interpreterJsTargetCodeFile = path.join(__dirname, '../grammer-host/grammer-js/library/js/interpreterCode.js');
+const interpreterJsTargetCodeFile = path.join(__dirname, '../src/grammer-host/grammer-js/library/js/interpreterCode.js');
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
