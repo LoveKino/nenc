@@ -12,6 +12,8 @@ Nenc project starts from a simple idea, I don't want to write almost the same lo
 
 - It's easy to hybrid nenc code with host code. You can use config host files as libraries, and you also can embed nenc code to host code.
 
+- Lazy evaluation, Magic bottom-up re-evaluation mechanism, ...
+
 ## goal
 
 ![nenc_function](doc/nenc_function.jpg)
